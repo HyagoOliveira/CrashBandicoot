@@ -5,7 +5,7 @@ namespace CrashBandicoot
         public struct Path
         {
             public const string Base = "Crash Bandicoot/";
-            public const string Settings = Base + "Settings/";
+            public const string Player = Base + "Player/";
         }
     }
 }
