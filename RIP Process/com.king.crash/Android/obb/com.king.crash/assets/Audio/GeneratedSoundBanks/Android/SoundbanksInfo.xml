@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Repos\milo-client\milo-client_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Repos\milo-client\milo-client_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Repos\milo-client\milo-client_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles>
+		<File Id="65153703" Language="SFX">
+			<ShortName>Amb_ProdMachine_Frosty.wav</ShortName>
+			<Path>SFX\Amb_ProdMachine_Frosty_18FF27E2.wem</Path>
+		</File>
+		<File Id="71589504" Language="SFX">
+			<ShortName>ENV_Hazard_BigBoulder_Loop_01.wav</ShortName>
+			<Path>SFX\ENV_Hazard_BigBoulder_Loop_01_18FF27E2.wem</Path>
+		</File>
+		<File Id="118916957" Language="SFX">
+			<ShortName>Mus_CocosIsland_BaseLayer_141bpm.wav</ShortName>
+			<Path>SFX\Mus_CocosIsland_BaseLayer_141bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="130908067" Language="SFX">
+			<ShortName>Amb_ProdMachine_Oxide.wav</ShortName>
+			<Path>SFX\Amb_ProdMachine_Oxide_18FF27E2.wem</Path>
+		</File>
+		<File Id="150247609" Language="SFX">
+			<ShortName>Amb_ProdMachine_Nitro.wav</ShortName>
+			<Path>SFX\Amb_ProdMachine_Nitro_18FF27E2.wem</Path>
+		</File>
+		<File Id="158107319" Language="SFX">
+			<ShortName>Turtle_Woods_Jungle_1_155BPM_4_4.wav</ShortName>
+			<Path>SFX\Turtle_Woods_Jungle_1_155BPM_4_4_18FF27E2.wem</Path>
+		</File>
+		<File Id="179421260" Language="SFX">
+			<ShortName>Music_MiniBoss_Music_4_4_144bpm.wav</ShortName>
+			<Path>SFX\Music_MiniBoss_Music_4_4_144bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="190912929" Language="SFX">
+			<ShortName>Mus_AllLevels_ChallengeGemRun_171BPM_4_4.wav</ShortName>
+			<Path>SFX\Mus_AllLevels_ChallengeGemRun_171BPM_4_4_18FF27E2.wem</Path>
+		</File>
+		<File Id="212507729" Language="SFX">
+			<ShortName>Player_Crash_Def_Celebrate.wav</ShortName>
+			<Path>SFX\Player_Crash_Def_Celebrate_B473A318.wem</Path>
+		</File>
+		<File Id="223556618" Language="SFX">
+			<ShortName>fx_enemy_patrol_turtle_saw_loop_01.wav</ShortName>
+			<Path>SFX\fx_enemy_patrol_turtle_saw_loop_01_18FF27E2.wem</Path>
+		</File>
+		<File Id="230518688" Language="SFX">
+			<ShortName>amb_jungle_loop.wav</ShortName>
+			<Path>SFX\amb_jungle_loop_18FF27E2.wem</Path>
+		</File>
+		<File Id="275412263" Language="SFX">
+			<ShortName>Amb_TempleRuins.wav</ShortName>
+			<Path>SFX\Amb_TempleRuins_18FF27E2.wem</Path>
+		</File>
+		<File Id="290126592" Language="SFX">
+			<ShortName>Boss_Platform_Idle.wav</ShortName>
+			<Path>SFX\Boss_Platform_Idle_18FF27E2.wem</Path>
+		</File>
+		<File Id="305550346" Language="SFX">
+			<ShortName>Dingodill_Boss_Loop.wav</ShortName>
+			<Path>SFX\Dingodill_Boss_Loop_18FF27E2.wem</Path>
+		</File>
+		<File Id="308808066" Language="SFX">
+			<ShortName>intro_crash_fullmix_2020-03-25.wav</ShortName>
+			<Path>SFX\intro_crash_fullmix_2020-03-25_B473A318.wem</Path>
+		</File>
+		<File Id="330730970" Language="SFX">
+			<ShortName>Mus_TempleRuins_BattleRun_130bpm.wav</ShortName>
+			<Path>SFX\Mus_TempleRuins_BattleRun_130bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="422221473" Language="SFX">
+			<ShortName>Amb_CocosIsland.wav</ShortName>
+			<Path>SFX\Amb_CocosIsland_18FF27E2.wem</Path>
+		</File>
+		<File Id="468134155" Language="SFX">
+			<ShortName>Amb_Caves.wav</ShortName>
+			<Path>SFX\Amb_Caves_18FF27E2.wem</Path>
+		</File>
+		<File Id="526441603" Language="SFX">
+			<ShortName>Mus_TempleRuins_ForageRun_123bpm.wav</ShortName>
+			<Path>SFX\Mus_TempleRuins_ForageRun_123bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="593841170" Language="SFX">
+			<ShortName>Mus_CocosIsland_TikiLayer_141bpm.wav</ShortName>
+			<Path>SFX\Mus_CocosIsland_TikiLayer_141bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="647250345" Language="SFX">
+			<ShortName>Mus_CocosIsland_WorkshopLayer_141bpm.wav</ShortName>
+			<Path>SFX\Mus_CocosIsland_WorkshopLayer_141bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="680763191" Language="SFX">
+			<ShortName>Amb_LostCity.wav</ShortName>
+			<Path>SFX\Amb_LostCity_18FF27E2.wem</Path>
+		</File>
+		<File Id="765138719" Language="SFX">
+			<ShortName>Amb_Missionscreen.wav</ShortName>
+			<Path>SFX\Amb_Missionscreen_18FF27E2.wem</Path>
+		</File>
+		<File Id="768763346" Language="SFX">
+			<ShortName>Scorporilla_Boss_Loop.wav</ShortName>
+			<Path>SFX\Scorporilla_Boss_Loop_18FF27E2.wem</Path>
+		</File>
+		<File Id="782333408" Language="SFX">
+			<ShortName>Music_Boss_MutantNitrusBrio_4_4_146bpm.wav</ShortName>
+			<Path>SFX\Music_Boss_MutantNitrusBrio_4_4_146bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="859595803" Language="SFX">
+			<ShortName>Mus_LostCity_BattleRun_124bpm.wav</ShortName>
+			<Path>SFX\Mus_LostCity_BattleRun_124bpm_18FF27E2.wem</Path>
+		</File>
+		<File Id="901664494" Language="SFX">
+			<ShortName>Turtle_Woods_Jungle_ForageRun_118BPM_4_4.wav</ShortName>
+			<Path>SFX\Turtle_Woods_Jungle_ForageRun_118BPM_4_4_18FF27E2.wem</Path>
+		</File>
+		<File Id="931191246" Language="SFX">
+			<ShortName>Amb_ProdMachine_Inferno.wav</ShortName>
+			<Path>SFX\Amb_ProdMachine_Inferno_18FF27E2.wem</Path>
+		</File>
+		<File Id="1034027503" Language="SFX">
+			<ShortName>Mus_CocosIsland_Caves_141bpm.wav</ShortName>
+			<Path>SFX\Mus_CocosIsland_Caves_141bpm_18FF27E2.wem</Path>
+		</File>
+	</StreamedFiles>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="907578286" Name="Cave_FX_Disable" ObjectPath="\Events\Environment\Generic\Cave_FX_Disable" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4152225563" Name="Cave_FX_Enable" ObjectPath="\Events\Environment\Generic\Cave_FX_Enable" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2495070883" Name="Mute_Master" ObjectPath="\Events\UI\UI_General\Mute_Master" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2741649490" Name="Mute_Music" ObjectPath="\Events\UI\UI_General\Mute_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1305760402" Name="Mute_SFX" ObjectPath="\Events\UI\UI_General\Mute_SFX" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1363119964" Name="Play_Aku_Despawn" ObjectPath="\Events\Player\Play_Aku_Despawn" DurationType="OneShot" DurationMin="2.211604" DurationMax="2.211604"/>
+				<Event Id="49808135" Name="Play_Aku_Spawn" ObjectPath="\Events\Player\Play_Aku_Spawn" DurationType="OneShot" DurationMin="1.584127" DurationMax="1.584127"/>
+				<Event Id="1400782189" Name="Play_Amb_Caves" ObjectPath="\Events\Ambience\Amb_Caves\Play_Amb_Caves" DurationType="Infinite"/>
+				<Event Id="463889379" Name="Play_Amb_CocosIsland" ObjectPath="\Events\Ambience\Amb_CocosIsland\Play_Amb_CocosIsland" DurationType="Infinite"/>
+				<Event Id="3930320082" Name="Play_Amb_DinoMight" ObjectPath="\Events\Ambience\Amb_DinoMight\Play_Amb_DinoMight" DurationType="Infinite"/>
+				<Event Id="417976306" Name="Play_Amb_LostCity" ObjectPath="\Events\Ambience\Amb_LostCity\Play_Amb_LostCity" DurationType="Infinite"/>
+				<Event Id="1481123359" Name="Play_Amb_TempleRuins" ObjectPath="\Events\Ambience\Amb_TempleRuins\Play_Amb_TempleRuins" DurationType="Infinite"/>
+				<Event Id="733222023" Name="Play_Amb_TurtleWoods" ObjectPath="\Events\Ambience\Amb_TurtleWoods\Play_Amb_TurtleWoods" DurationType="Infinite"/>
+				<Event Id="1861931408" Name="Play_Boomberry_Bounce" ObjectPath="\Events\Player\Play_Boomberry_Bounce" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.273662" DurationMax="0.353896"/>
+				<Event Id="1466871228" Name="Play_Boomberry_Pickup" ObjectPath="\Events\Player\Play_Boomberry_Pickup" DurationType="OneShot" DurationMin="0.861250" DurationMax="0.861250"/>
+				<Event Id="2144754082" Name="Play_Boss_Ant_Attack" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Attack" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="1.220349" DurationMax="1.372171"/>
+				<Event Id="2054961544" Name="Play_Boss_Ant_Death" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Death" DurationType="Infinite"/>
+				<Event Id="3236930213" Name="Play_Boss_Ant_Shot_Bounce_Large" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Bounce_Large" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.608729" DurationMax="0.622625"/>
+				<Event Id="3597159933" Name="Play_Boss_Ant_Shot_Bounce_Small" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Bounce_Small" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.376887" DurationMax="0.385491"/>
+				<Event Id="2677074642" Name="Play_Boss_Ant_Shot_Wall_Spawn_Frost" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Wall_Spawn_Frost" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="1.826104" DurationMax="1.826104"/>
+				<Event Id="1520600372" Name="Play_Boss_Ant_Shot_Wall_Spawn_Nitro" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Wall_Spawn_Nitro" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="1.342979" DurationMax="1.342979"/>
+				<Event Id="1623686859" Name="Play_Boss_Araknid_Attack_Venom" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="1.996021" DurationMax="1.996021"/>
+				<Event Id="4006506062" Name="Play_Boss_Araknid_Attack_Venom_Bounce" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom_Bounce" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="0.227458" DurationMax="0.227458"/>
+				<Event Id="1346053680" Name="Play_Boss_Araknid_Attack_Venom_Burst" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom_Burst" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="0.697604" DurationMax="0.697604"/>
+				<Event Id="3613007085" Name="Play_Boss_Araknid_Death" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Death" DurationType="Infinite"/>
+				<Event Id="2397023900" Name="Play_Boss_Araknid_Minion_Footstep" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Minion_Footstep" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.019453" DurationMax="0.072424"/>
+				<Event Id="2511890340" Name="Play_Boss_Araknid_Summon" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Summon" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="3.373917" DurationMax="3.373917"/>
+				<Event Id="506955182" Name="Play_Boss_Camera_Intro" ObjectPath="\Events\Bosses\Bosses_General\Play_Boss_Camera_Intro" DurationType="OneShot" DurationMin="2.808792" DurationMax="2.808792"/>
+				<Event Id="988941641" Name="Play_Boss_Crab_Attack" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Crab\Play_Boss_Crab_Attack" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="2.012583" DurationMax="2.012583"/>
+				<Event Id="1268914877" Name="Play_Boss_Crab_Death" ObjectPath="\Events\Bosses\MiniBosses\MiniBoss_Crab\Play_Boss_Crab_Death" DurationType="Infinite"/>
+				<Event Id="3498722770" Name="Play_Boss_Dingodile_Attack_Fireball" ObjectPath="\Events\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Attack_Fireball" DurationType="OneShot" DurationMin="2.787958" DurationMax="2.787958"/>
+				<Event Id="4030310079" Name="Play_Boss_Dingodile_Attack_Flamethrower" ObjectPath="\Events\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Attack_Flamethrower" DurationType="OneShot" DurationMin="3.554708" DurationMax="3.554708"/>
+				<Event Id="474080892" Name="Play_Boss_Dingodile_Death" ObjectPath="\Events\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Death" DurationType="Infinite"/>
+				<Event Id="1070769037" Name="Play_Boss_Dingodile_Hit" ObjectPath="\Events\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Hit" DurationType="OneShot" DurationMin="1.187083" DurationMax="1.187083"/>
+				<Event Id="3346296032" Name="Play_Boss_Dingodile_Intro" ObjectPath="\Events\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Intro" DurationType="Infinite"/>
+				<Event Id="545968515" Name="Play_Boss_MutantNitrusBrio_Stone_Fall_Impact" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_MutantNitrusBrio_Stone_Fall_Impact" DurationType="OneShot" DurationMin="0.482354" DurationMax="0.703167"/>
+				<Event Id="2121821739" Name="Play_Boss_MutantNitrusBrio_Stone_Fall_Start" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_MutantNitrusBrio_Stone_Fall_Start" DurationType="OneShot" DurationMin="0.887854" DurationMax="1.029312"/>
+				<Event Id="3523725627" Name="Play_Boss_NitrusBrio_AttackChest" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_AttackChest" DurationType="OneShot" DurationMin="2.853625" DurationMax="2.853625"/>
+				<Event Id="1726014132" Name="Play_Boss_NitrusBrio_AttackThrow" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_AttackThrow" DurationType="OneShot" DurationMin="3.917625" DurationMax="3.917625"/>
+				<Event Id="217016942" Name="Play_Boss_NitrusBrio_Death" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Death" DurationType="Infinite"/>
+				<Event Id="4165140063" Name="Play_Boss_NitrusBrio_Hit" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Hit" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.152623" DurationMax="2.159586"/>
+				<Event Id="1752238254" Name="Play_Boss_NitrusBrio_Intro" ObjectPath="\Events\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Intro" DurationType="Infinite"/>
+				<Event Id="1487151413" Name="Play_Boss_Scorporilla_Death" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Death" DurationType="Infinite"/>
+				<Event Id="1076548275" Name="Play_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="2045173468" Name="Play_Boss_Scorporilla_GroundPunch" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_GroundPunch" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.274042" DurationMax="1.274042"/>
+				<Event Id="3762652308" Name="Play_Boss_Scorporilla_Hit" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Hit" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.152623" DurationMax="2.159586"/>
+				<Event Id="3491765213" Name="Play_Boss_Scorporilla_Intro" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Intro" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="1921345084" Name="Play_Boss_Scorporilla_PlatformPunch" ObjectPath="\Events\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_PlatformPunch" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="2.590938" DurationMax="2.590938"/>
+				<Event Id="1231406482" Name="Play_Boss_SerumFinisher_Idle_Loop" ObjectPath="\Events\Bosses\Bosses_General\Play_Boss_SerumFinisher_Idle_Loop" DurationType="Infinite"/>
+				<Event Id="1165626265" Name="Play_Boss_SerumFinisher_Score_Good" ObjectPath="\Events\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Good" DurationType="OneShot" DurationMin="1.565500" DurationMax="1.565500"/>
+				<Event Id="2792400172" Name="Play_Boss_SerumFinisher_Score_Ok" ObjectPath="\Events\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Ok" DurationType="OneShot" DurationMin="1.012708" DurationMax="1.012708"/>
+				<Event Id="827924637" Name="Play_Boss_SerumFinisher_Score_Perfect" ObjectPath="\Events\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Perfect" DurationType="OneShot" DurationMin="1.704729" DurationMax="1.704729"/>
+				<Event Id="862780658" Name="Play_Cinematic_Intro" ObjectPath="\Events\Intro\Play_Cinematic_Intro" DurationType="OneShot" DurationMin="28.223688" DurationMax="28.223688"/>
+				<Event Id="3376380013" Name="Play_Enemy_Spider_Descend" ObjectPath="\Events\Enemies\Enemy_Spider\Play_Enemy_Spider_Descend" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.586413" DurationMax="0.649539"/>
+				<Event Id="3359017887" Name="Play_Enemy_Spider_Grab" ObjectPath="\Events\Enemies\Enemy_Spider\Play_Enemy_Spider_Grab" DurationType="OneShot" DurationMin="0.090159" DurationMax="0.090159"/>
+				<Event Id="2543680328" Name="Play_Env_Boulder_Large_Impact_Ground" ObjectPath="\Events\Environment\Rolling_Boulders\Play_Env_Boulder_Large_Impact_Ground" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.925771" DurationMax="1.969146"/>
+				<Event Id="2662197353" Name="Play_Env_Boulder_Large_Roll" ObjectPath="\Events\Environment\Rolling_Boulders\Play_Env_Boulder_Large_Roll" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="3734369312" Name="Play_Env_Boulder_Small_Impact_Ground" ObjectPath="\Events\Environment\Rolling_Boulders\Play_Env_Boulder_Small_Impact_Ground" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.277895" DurationMax="1.306678"/>
+				<Event Id="1831668145" Name="Play_Env_Boulder_Small_Roll" ObjectPath="\Events\Environment\Rolling_Boulders\Play_Env_Boulder_Small_Roll" MaxAttenuation="30.000000" DurationType="Infinite"/>
+				<Event Id="3277012162" Name="Play_Env_Cave_Enter" ObjectPath="\Events\Environment\Generic\Play_Env_Cave_Enter" DurationType="Infinite"/>
+				<Event Id="3249199248" Name="Play_Env_Cave_Exit" ObjectPath="\Events\Environment\Generic\Play_Env_Cave_Exit" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="748380531" Name="Play_Env_Crate_Checkpoint_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Checkpoint_Destroy" DurationType="OneShot" DurationMin="1.271979" DurationMax="1.279458"/>
+				<Event Id="3935940948" Name="Play_Env_Crate_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Destroy" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="1.175479" DurationMax="1.279458"/>
+				<Event Id="4032966500" Name="Play_Env_Crate_Ingredient_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Ingredient_Destroy" DurationType="OneShot" DurationMin="1.175479" DurationMax="1.279458"/>
+				<Event Id="2743686194" Name="Play_Env_Crate_Nitro_Explosion" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Nitro_Explosion" DurationType="OneShot" DurationMin="1.822312" DurationMax="2.110208"/>
+				<Event Id="4023190287" Name="Play_Env_Crate_Parts_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Parts_Destroy" DurationType="OneShot" DurationMin="1.175479" DurationMax="1.479563"/>
+				<Event Id="1349066653" Name="Play_Env_Crate_Secret_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Secret_Destroy" DurationType="OneShot" DurationMin="1.371063" DurationMax="1.371063"/>
+				<Event Id="1498985433" Name="Play_Env_Crate_Wumpa_Destroy" ObjectPath="\Events\Environment\Crates\Play_Env_Crate_Wumpa_Destroy" DurationType="OneShot" DurationMin="1.387542" DurationMax="1.387542"/>
+				<Event Id="2752609876" Name="Play_Env_Firetrap_Burst" ObjectPath="\Events\Environment\Traps\Play_Env_Firetrap_Burst" DurationType="OneShot" DurationMin="0.874937" DurationMax="1.455333"/>
+				<Event Id="715182504" Name="Play_Env_Floorswitch" ObjectPath="\Events\Environment\Traps\Play_Env_Floorswitch" DurationType="OneShot" DurationMin="0.416083" DurationMax="0.416083"/>
+				<Event Id="2712357127" Name="Play_Env_Gate_Locked_Alarm_Loop" ObjectPath="\Events\Environment\Gates\Play_Env_Gate_Locked_Alarm_Loop" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="3767040642" Name="Play_Env_Gate_Open" ObjectPath="\Events\Environment\Gates\Play_Env_Gate_Open" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="5.407042" DurationMax="5.407042"/>
+				<Event Id="3586602673" Name="Play_Env_Generic_Explosion" ObjectPath="\Events\Environment\Generic\Play_Env_Generic_Explosion" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.822312" DurationMax="2.110208"/>
+				<Event Id="2183198893" Name="Play_Env_MovingWall_Loop" ObjectPath="\Events\Environment\Moving_Walls_and_Platforms\Play_Env_MovingWall_Loop" DurationType="Infinite"/>
+				<Event Id="2104102148" Name="Play_Env_Pillar_Stone_Fall" ObjectPath="\Events\Environment\Traps\Play_Env_Pillar_Stone_Fall" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="1.816636" DurationMax="2.149851"/>
+				<Event Id="3004747408" Name="Play_Env_Platform_Loop" ObjectPath="\Events\Environment\Moving_Walls_and_Platforms\Play_Env_Platform_Loop" DurationType="Infinite"/>
+				<Event Id="3753394904" Name="Play_Env_RollingDisc_Roll" ObjectPath="\Events\Environment\Rolling_Disc\Play_Env_RollingDisc_Roll" DurationType="OneShot" DurationMin="1.571292" DurationMax="1.571292"/>
+				<Event Id="3263289007" Name="Play_Env_Smasher" ObjectPath="\Events\Environment\Traps\Play_Env_Smasher" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="756510077" Name="Play_Env_Spiketrap" ObjectPath="\Events\Environment\Traps\Play_Env_Spiketrap" DurationType="OneShot" DurationMin="1.103979" DurationMax="1.175979"/>
+				<Event Id="2386816907" Name="Play_Music_Boss_Ant" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_NitroAnt\Play_Music_Boss_Ant" DurationType="Infinite"/>
+				<Event Id="1611476650" Name="Play_Music_Boss_Crab" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Crab\Play_Music_Boss_Crab" DurationType="Infinite"/>
+				<Event Id="245510991" Name="Play_Music_Boss_DingoDile" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_DingoDile\Play_Music_Boss_DingoDile" DurationType="Infinite"/>
+				<Event Id="98365066" Name="Play_Music_Boss_MutagenNitrusBrio" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_MutagenNitrusBrio\Play_Music_Boss_MutagenNitrusBrio" DurationType="Infinite"/>
+				<Event Id="1834645378" Name="Play_Music_Boss_Scorporilla" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_Scorporilla\Play_Music_Boss_Scorporilla" DurationType="Infinite"/>
+				<Event Id="730780803" Name="Play_Music_Boss_Spider" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Spider\Play_Music_Boss_Spider" DurationType="Infinite"/>
+				<Event Id="1907658867" Name="Play_Music_Cocos_Island" ObjectPath="\Events\Music\Mus_CocosIsland\Play_Music_Cocos_Island" DurationType="Infinite"/>
+				<Event Id="1827339811" Name="Play_Music_DinoMight_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Play_Music_DinoMight_BattleRun" DurationType="Infinite"/>
+				<Event Id="666101771" Name="Play_Music_DinoMight_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Play_Music_DinoMight_ForageRun" DurationType="Infinite"/>
+				<Event Id="369849837" Name="Play_Music_LostCity_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_BattleRun" DurationType="Infinite"/>
+				<Event Id="1275554094" Name="Play_Music_LostCity_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_ChallengeRun" DurationType="Infinite"/>
+				<Event Id="1584006905" Name="Play_Music_LostCity_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_ForageRun" DurationType="Infinite"/>
+				<Event Id="632450980" Name="Play_Music_LostCity_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_GemRun" DurationType="Infinite"/>
+				<Event Id="2367130114" Name="Play_Music_TempleRuins_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_BattleRun" DurationType="Infinite"/>
+				<Event Id="1621813195" Name="Play_Music_TempleRuins_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_ChallengeRun" DurationType="Infinite"/>
+				<Event Id="384032698" Name="Play_Music_TempleRuins_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_ForageRun" DurationType="Infinite"/>
+				<Event Id="2255405673" Name="Play_Music_TempleRuins_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_GemRun" DurationType="Infinite"/>
+				<Event Id="2983650887" Name="Play_Music_Turtle_Woods" ObjectPath="\Events\Music\Mus_Runner\Temporary_Remove\Play_Music_Turtle_Woods" DurationType="Infinite"/>
+				<Event Id="4031477642" Name="Play_Music_TurtleWoods_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_BattleRun" DurationType="Infinite"/>
+				<Event Id="3601889523" Name="Play_Music_TurtleWoods_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_ChallengeRun" DurationType="Infinite"/>
+				<Event Id="1557024898" Name="Play_Music_TurtleWoods_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_ForageRun" DurationType="Infinite"/>
+				<Event Id="3881416801" Name="Play_Music_TurtleWoods_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_GemRun" DurationType="Infinite"/>
+				<Event Id="370310901" Name="Play_Pickup_Fruit" ObjectPath="\Events\Player\Play_Pickup_Fruit" DurationType="OneShot" DurationMin="0.218000" DurationMax="0.265979"/>
+				<Event Id="1383134146" Name="Play_Player_Boomberry_Throw" ObjectPath="\Events\Player\Play_Player_Boomberry_Throw" DurationType="OneShot" DurationMin="0.537655" DurationMax="0.690533"/>
+				<Event Id="4251547580" Name="Play_Player_Crash_Death_Angel" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Angel" DurationType="OneShot" DurationMin="3.259771" DurationMax="3.259771"/>
+				<Event Id="2817777387" Name="Play_Player_Crash_Death_Ashes" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Ashes" DurationType="OneShot" DurationMin="1.089542" DurationMax="1.089542"/>
+				<Event Id="1880358329" Name="Play_Player_Crash_Death_Dazed" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Dazed" DurationType="OneShot" DurationMin="2.852437" DurationMax="2.852437"/>
+				<Event Id="3596631069" Name="Play_Player_Crash_Death_Faceplant" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Faceplant" DurationType="OneShot" DurationMin="1.662792" DurationMax="1.662792"/>
+				<Event Id="644891156" Name="Play_Player_Crash_Death_Freeze" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Freeze" DurationType="OneShot" DurationMin="3.635542" DurationMax="3.635542"/>
+				<Event Id="3257044218" Name="Play_Player_Crash_Death_Hithead" ObjectPath="\Events\Player\Player_Death_Animations\Play_Player_Crash_Death_Hithead" DurationType="OneShot" DurationMin="2.084583" DurationMax="2.084583"/>
+				<Event Id="4138868219" Name="Play_Player_Crash_Def_Celebrate" ObjectPath="\Events\Player\Player_Idle_Animations\Play_Player_Crash_Def_Celebrate" DurationType="OneShot" DurationMin="6.833333" DurationMax="6.833333"/>
+				<Event Id="1835085974" Name="Play_Player_Death" ObjectPath="\Events\Player\Play_Player_Death" DurationType="OneShot" DurationMin="0.381333" DurationMax="1.131979"/>
+				<Event Id="1724675634" Name="Play_Player_Footstep" ObjectPath="\Events\Player\Play_Player_Footstep" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.184435" DurationMax="0.726961"/>
+				<Event Id="562256996" Name="Play_Player_Jump" ObjectPath="\Events\Player\Play_Player_Jump" DurationType="OneShot" DurationMin="0.414250" DurationMax="0.425354"/>
+				<Event Id="1227350083" Name="Play_Player_Jump_High" ObjectPath="\Events\Player\Play_Player_Jump_High" DurationType="OneShot" DurationMin="1.497664" DurationMax="1.497664"/>
+				<Event Id="351014040" Name="Play_Player_Jump_Land" ObjectPath="\Events\Player\Play_Player_Jump_Land" DurationType="OneShot" DurationMin="0.326042" DurationMax="0.414250"/>
+				<Event Id="40203751" Name="Play_Player_Jump_Spin" ObjectPath="\Events\Player\Play_Player_Jump_Spin" DurationType="OneShot" DurationMin="0.655396" DurationMax="0.655396"/>
+				<Event Id="3018159669" Name="Play_Player_Portal_Enter" ObjectPath="\Events\Player\Play_Player_Portal_Enter" DurationType="OneShot" DurationMin="2.139773" DurationMax="2.139773"/>
+				<Event Id="1403036453" Name="Play_Player_Push_Enemy" ObjectPath="\Events\Player\Play_Player_Push_Enemy" DurationType="OneShot" DurationMin="0.862458" DurationMax="0.998172"/>
+				<Event Id="2980057950" Name="Play_Player_RunEnd" ObjectPath="\Events\Player\Play_Player_RunEnd" DurationType="OneShot" DurationMin="0.928563" DurationMax="0.928563"/>
+				<Event Id="76044183" Name="Play_Player_Slam" ObjectPath="\Events\Player\Play_Player_Slam" DurationType="OneShot" DurationMin="0.816021" DurationMax="0.816021"/>
+				<Event Id="2425231895" Name="Play_Player_Slide" ObjectPath="\Events\Player\Play_Player_Slide" DurationType="OneShot" DurationMin="0.715042" DurationMax="0.844688"/>
+				<Event Id="833143925" Name="Play_Player_Spawn" ObjectPath="\Events\Player\Play_Player_Spawn" DurationType="OneShot" DurationMin="2.119771" DurationMax="2.119771"/>
+				<Event Id="3229663033" Name="Play_Player_Switch_Lane" ObjectPath="\Events\Player\Play_Player_Switch_Lane" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.276354" DurationMax="0.336167"/>
+				<Event Id="1819487143" Name="Play_Player_Weapon_Bomb_Ready" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Bomb_Ready" DurationType="OneShot" DurationMin="1.257958" DurationMax="1.257958"/>
+				<Event Id="4115183042" Name="Play_Player_Weapon_Bomb_Throw" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Bomb_Throw" DurationType="OneShot" DurationMin="1.118917" DurationMax="1.118917"/>
+				<Event Id="378571997" Name="Play_Player_Weapon_Raygun_Ready" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Raygun_Ready" DurationType="OneShot" DurationMin="1.170479" DurationMax="1.170479"/>
+				<Event Id="2863969317" Name="Play_Player_Weapon_Raygun_Shoot" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Raygun_Shoot" DurationType="OneShot" DurationMin="1.425875" DurationMax="1.425875"/>
+				<Event Id="1704647809" Name="Play_Player_Weapon_Serum_Ready" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Serum_Ready" DurationType="OneShot" DurationMin="1.554646" DurationMax="1.554646"/>
+				<Event Id="1269964068" Name="Play_Player_Weapon_Serum_Throw" ObjectPath="\Events\Bosses\Bosses_General\Play_Player_Weapon_Serum_Throw" DurationType="OneShot" DurationMin="1.219250" DurationMax="1.219250"/>
+				<Event Id="1371599375" Name="Play_RewardScreen_Gem" ObjectPath="\Events\UI\UI_Runner\Play_RewardScreen_Gem" DurationType="OneShot" DurationMin="4.261292" DurationMax="4.261292"/>
+				<Event Id="2499787892" Name="Play_RewardScreen_HardCurrency" ObjectPath="\Events\UI\UI_Runner\Play_RewardScreen_HardCurrency" DurationType="OneShot" DurationMin="4.261292" DurationMax="4.261292"/>
+				<Event Id="1865961282" Name="Play_RewardScreen_Powergem" ObjectPath="\Events\UI\UI_Runner\Play_RewardScreen_Powergem" DurationType="OneShot" DurationMin="4.261292" DurationMax="4.261292"/>
+				<Event Id="373344915" Name="Play_Turtle_Death" ObjectPath="\Events\Enemies\Enemy_Turtle\Play_Turtle_Death" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="0.405208" DurationMax="0.405208"/>
+				<Event Id="1847669309" Name="Play_Turtle_Idle" ObjectPath="\Events\Enemies\Enemy_Turtle\Play_Turtle_Idle" MaxAttenuation="25.000000" DurationType="Infinite"/>
+				<Event Id="3101500744" Name="Play_Tutorial_Meta_Coco_Dialogue" ObjectPath="\Events\UI\UI_Meta_Tutorial\Play_Tutorial_Meta_Coco_Dialogue" DurationType="OneShot" DurationMin="0.166294" DurationMax="0.176182"/>
+				<Event Id="2207709228" Name="Play_Tutorial_Runner_Boss_Banner" ObjectPath="\Events\Tutorial_Runner\Play_Tutorial_Runner_Boss_Banner" DurationType="OneShot" DurationMin="4.215271" DurationMax="4.215271"/>
+				<Event Id="450367630" Name="Play_Tutorial_Runner_Boss_Camera_Pullback" ObjectPath="\Events\Tutorial_Runner\Play_Tutorial_Runner_Boss_Camera_Pullback" DurationType="OneShot" DurationMin="4.879521" DurationMax="4.879521"/>
+				<Event Id="107482849" Name="Play_Tutorial_Runner_Coco_Dialogue" ObjectPath="\Events\Tutorial_Runner\Play_Tutorial_Runner_Coco_Dialogue" DurationType="OneShot" DurationMin="0.166294" DurationMax="0.176182"/>
+				<Event Id="798123665" Name="Play_Tutorial_Runner_Obstacle_Slowdown" ObjectPath="\Events\Tutorial_Runner\Play_Tutorial_Runner_Obstacle_Slowdown" DurationType="OneShot" DurationMin="0.561063" DurationMax="0.711375"/>
+				<Event Id="3918800004" Name="Play_UI_BossTallyScreen_Gem_Reward" ObjectPath="\Events\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Gem_Reward" DurationType="OneShot" DurationMin="1.318688" DurationMax="1.318688"/>
+				<Event Id="3561312058" Name="Play_UI_BossTallyScreen_Result" ObjectPath="\Events\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Result" DurationType="OneShot" DurationMin="1.415792" DurationMax="1.415792"/>
+				<Event Id="3357408885" Name="Play_UI_BossTallyScreen_Stage_1" ObjectPath="\Events\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Stage_1" DurationType="OneShot" DurationMin="0.903687" DurationMax="0.903687"/>
+				<Event Id="4113676111" Name="Play_UI_BossTallyScreen_Start" ObjectPath="\Events\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Start" DurationType="OneShot" DurationMin="2.071667" DurationMax="2.071667"/>
+				<Event Id="3615599381" Name="Play_UI_BossTallyScreen_Unlock" ObjectPath="\Events\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Unlock" DurationType="OneShot" DurationMin="0.912604" DurationMax="0.912604"/>
+				<Event Id="2464326587" Name="Play_UI_Button_Press" ObjectPath="\Events\UI\UI_General\Play_UI_Button_Press" DurationType="OneShot" DurationMin="0.191979" DurationMax="0.191979"/>
+				<Event Id="3050066457" Name="Play_UI_CloseButton_Press" ObjectPath="\Events\UI\UI_General\Play_UI_CloseButton_Press" DurationType="OneShot" DurationMin="0.298646" DurationMax="0.298646"/>
+				<Event Id="3877197671" Name="Play_UI_Dialog_In" ObjectPath="\Events\UI\UI_General\Play_UI_Dialog_In" DurationType="OneShot" DurationMin="0.450917" DurationMax="0.450917"/>
+				<Event Id="1105555314" Name="Play_UI_Dialog_Item_Tooltip_Close" ObjectPath="\Events\UI\UI_General\Play_UI_Dialog_Item_Tooltip_Close" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.150000"/>
+				<Event Id="3189294502" Name="Play_UI_Dialog_Item_Tooltip_Open" ObjectPath="\Events\UI\UI_General\Play_UI_Dialog_Item_Tooltip_Open" DurationType="OneShot" DurationMin="0.150000" DurationMax="0.150000"/>
+				<Event Id="1290353626" Name="Play_UI_Dialog_Out" ObjectPath="\Events\UI\UI_General\Play_UI_Dialog_Out" DurationType="OneShot" DurationMin="0.270396" DurationMax="0.270396"/>
+				<Event Id="973986035" Name="Play_UI_Error" ObjectPath="\Events\UI\UI_General\Play_UI_Error" DurationType="OneShot" DurationMin="0.330333" DurationMax="0.330333"/>
+				<Event Id="367861354" Name="Play_UI_ForageTallyScreen_Collect" ObjectPath="\Events\UI\UI_ForageRunTallyScreen\Play_UI_ForageTallyScreen_Collect" DurationType="OneShot" DurationMin="0.090159" DurationMax="0.090159"/>
+				<Event Id="715386380" Name="Play_UI_LevelUp_ContinueButton_Press" ObjectPath="\Events\UI\UI_Levelup\Play_UI_LevelUp_ContinueButton_Press" DurationType="OneShot" DurationMin="0.810125" DurationMax="0.810125"/>
+				<Event Id="2726739661" Name="Play_UI_LevelUp_Start" ObjectPath="\Events\UI\UI_Levelup\Play_UI_LevelUp_Start" DurationType="OneShot" DurationMin="3.504771" DurationMax="3.504771"/>
+				<Event Id="1571514051" Name="Play_UI_MissionScreen_BattleButton_Error" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_BattleButton_Error" DurationType="OneShot" DurationMin="0.198771" DurationMax="0.198771"/>
+				<Event Id="1862023140" Name="Play_UI_MissionScreen_BattleButton_Press" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_BattleButton_Press" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
+				<Event Id="2450743229" Name="Play_UI_MissionScreen_BossUnlock" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_BossUnlock" DurationType="OneShot" DurationMin="0.499813" DurationMax="0.499813"/>
+				<Event Id="2484423838" Name="Play_UI_MissionScreen_Button_Press" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_Button_Press" DurationType="OneShot" DurationMin="0.341333" DurationMax="0.341333"/>
+				<Event Id="2473622206" Name="Play_UI_MissionScreen_Close" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_Close" DurationType="OneShot" DurationMin="0.684375" DurationMax="0.684375"/>
+				<Event Id="3158970632" Name="Play_UI_MissionScreen_Error" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_Error" DurationType="OneShot" DurationMin="0.198771" DurationMax="0.198771"/>
+				<Event Id="1324102933" Name="Play_UI_MissionScreen_MiniBoss_Defeated" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_MiniBoss_Defeated" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="1687205594" Name="Play_UI_MissionScreen_Open" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_Open" DurationType="Infinite"/>
+				<Event Id="220070639" Name="Play_UI_MissionScreen_Pan" ObjectPath="\Events\UI\UI_MissionComputer\Play_UI_MissionScreen_Pan" DurationType="OneShot" DurationMin="0.965437" DurationMax="0.965437"/>
+				<Event Id="1763776574" Name="Play_UI_Notification_Icon_Show" ObjectPath="\Events\UI\UI_General\Play_UI_Notification_Icon_Show" DurationType="OneShot" DurationMin="1.128042" DurationMax="1.128042"/>
+				<Event Id="2243436401" Name="Play_UI_Overlay_In" ObjectPath="\Events\UI\UI_General\Play_UI_Overlay_In" DurationType="OneShot" DurationMin="0.697354" DurationMax="0.697354"/>
+				<Event Id="3872611600" Name="Play_UI_Overlay_Out" ObjectPath="\Events\UI\UI_General\Play_UI_Overlay_Out" DurationType="OneShot" DurationMin="0.776583" DurationMax="0.776583"/>
+				<Event Id="1772782408" Name="Play_UI_ProductionMachine_Building_Press" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Building_Press" DurationType="OneShot" DurationMin="0.528167" DurationMax="0.528167"/>
+				<Event Id="2245437846" Name="Play_UI_ProductionMachine_Frosty_Close" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Close" DurationType="OneShot" DurationMin="0.990646" DurationMax="0.990646"/>
+				<Event Id="3410316264" Name="Play_UI_ProductionMachine_Frosty_Collect" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Collect" DurationType="OneShot" DurationMin="0.660521" DurationMax="0.660521"/>
+				<Event Id="2777773008" Name="Play_UI_ProductionMachine_Frosty_Fill_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Fill_Start" DurationType="OneShot" DurationMin="0.679396" DurationMax="0.679396"/>
+				<Event Id="1062450424" Name="Play_UI_ProductionMachine_Frosty_Locked" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Locked" DurationType="OneShot" DurationMin="0.362479" DurationMax="0.362479"/>
+				<Event Id="2544912066" Name="Play_UI_ProductionMachine_Frosty_Open" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Open" DurationType="Infinite"/>
+				<Event Id="1105805330" Name="Play_UI_ProductionMachine_Frosty_Upgrade" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Upgrade" DurationType="OneShot" DurationMin="3.709625" DurationMax="3.709625"/>
+				<Event Id="2754066088" Name="Play_UI_ProductionMachine_Inferno_Close" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Close" DurationType="OneShot" DurationMin="1.073896" DurationMax="1.073896"/>
+				<Event Id="1364307906" Name="Play_UI_ProductionMachine_Inferno_Collect" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Collect" DurationType="OneShot" DurationMin="0.660521" DurationMax="0.660521"/>
+				<Event Id="832215618" Name="Play_UI_ProductionMachine_Inferno_Fill_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Fill_Start" DurationType="OneShot" DurationMin="0.871542" DurationMax="0.871542"/>
+				<Event Id="386254" Name="Play_UI_ProductionMachine_Inferno_Locked" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Locked" DurationType="OneShot" DurationMin="0.362479" DurationMax="0.362479"/>
+				<Event Id="2502704780" Name="Play_UI_ProductionMachine_Inferno_Open" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Open" DurationType="Infinite"/>
+				<Event Id="3786664344" Name="Play_UI_ProductionMachine_Inferno_Upgrade" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Upgrade" DurationType="OneShot" DurationMin="3.689125" DurationMax="3.689125"/>
+				<Event Id="420194456" Name="Play_UI_ProductionMachine_Item_Drag_Release" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Drag_Release" DurationType="OneShot" DurationMin="0.276875" DurationMax="0.276875"/>
+				<Event Id="1203890115" Name="Play_UI_ProductionMachine_Item_Drag_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Drag_Start" DurationType="OneShot" DurationMin="0.157958" DurationMax="0.157958"/>
+				<Event Id="157107573" Name="Play_UI_ProductionMachine_Item_Locked_Error" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Locked_Error" DurationType="OneShot" DurationMin="0.200396" DurationMax="0.200396"/>
+				<Event Id="3869768984" Name="Play_UI_ProductionMachine_Item_Swipe_Release" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_Release" DurationType="OneShot" DurationMin="0.206771" DurationMax="0.206771"/>
+				<Event Id="2211715970" Name="Play_UI_ProductionMachine_Item_Swipe_SnapTo" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_SnapTo" DurationType="OneShot" DurationMin="0.246333" DurationMax="0.246333"/>
+				<Event Id="100927555" Name="Play_UI_ProductionMachine_Item_Swipe_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_Start" DurationType="OneShot" DurationMin="0.256083" DurationMax="0.256083"/>
+				<Event Id="512665891" Name="Play_UI_ProductionMachine_Item_Tap" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Tap" DurationType="OneShot" DurationMin="0.247604" DurationMax="0.247604"/>
+				<Event Id="2901912157" Name="Play_UI_ProductionMachine_Next_Building_Button_Press" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Next_Building_Button_Press" DurationType="OneShot" DurationMin="1.419771" DurationMax="1.419771"/>
+				<Event Id="794620109" Name="Play_UI_ProductionMachine_Nitro_Close" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Close" DurationType="OneShot" DurationMin="1.073896" DurationMax="1.073896"/>
+				<Event Id="510172711" Name="Play_UI_ProductionMachine_Nitro_Collect" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Collect" DurationType="OneShot" DurationMin="0.660521" DurationMax="0.660521"/>
+				<Event Id="112363585" Name="Play_UI_ProductionMachine_Nitro_Fill_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Fill_Start" DurationType="OneShot" DurationMin="0.592000" DurationMax="0.592000"/>
+				<Event Id="4282682829" Name="Play_UI_ProductionMachine_Nitro_Locked" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Locked" DurationType="OneShot" DurationMin="0.362479" DurationMax="0.362479"/>
+				<Event Id="863561863" Name="Play_UI_ProductionMachine_Nitro_Open" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Open" DurationType="Infinite"/>
+				<Event Id="2647356241" Name="Play_UI_ProductionMachine_Nitro_Upgrade" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Upgrade" DurationType="OneShot" DurationMin="3.709625" DurationMax="3.709625"/>
+				<Event Id="3282862978" Name="Play_UI_ProductionMachine_Oxide_Close" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Close" DurationType="OneShot" DurationMin="1.222958" DurationMax="1.222958"/>
+				<Event Id="3143366452" Name="Play_UI_ProductionMachine_Oxide_Collect" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Collect" DurationType="OneShot" DurationMin="0.660521" DurationMax="0.660521"/>
+				<Event Id="1895734588" Name="Play_UI_ProductionMachine_Oxide_Fill_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Fill_Start" DurationType="OneShot" DurationMin="1.126896" DurationMax="1.126896"/>
+				<Event Id="177421108" Name="Play_UI_ProductionMachine_Oxide_Locked" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Locked" DurationType="OneShot" DurationMin="0.362479" DurationMax="0.362479"/>
+				<Event Id="3021309270" Name="Play_UI_ProductionMachine_Oxide_Open" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Open" DurationType="Infinite"/>
+				<Event Id="1604299030" Name="Play_UI_ProductionMachine_Oxide_Upgrade" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Upgrade" DurationType="OneShot" DurationMin="5.011000" DurationMax="5.011000"/>
+				<Event Id="640269904" Name="Play_UI_ProductionMachine_Resources_Fly_Start" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Resources_Fly_Start" DurationType="OneShot" DurationMin="0.172479" DurationMax="0.172479"/>
+				<Event Id="2480878505" Name="Play_UI_ProductionMachine_SpendGem" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_SpendGem" DurationType="OneShot" DurationMin="0.687813" DurationMax="0.687813"/>
+				<Event Id="1077029980" Name="Play_UI_ProductionMachine_UnlockSlot" ObjectPath="\Events\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_UnlockSlot" DurationType="OneShot" DurationMin="1.534042" DurationMax="1.534042"/>
+				<Event Id="2883668304" Name="Play_UI_Runner_Menu_Close" ObjectPath="\Events\UI\UI_Runner\Play_UI_Runner_Menu_Close" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1823240932" Name="Play_UI_Runner_Menu_Open" ObjectPath="\Events\UI\UI_Runner\Play_UI_Runner_Menu_Open" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2379340345" Name="Player_Crash_Death_Squashed_Footstep" ObjectPath="\Events\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep" DurationType="OneShot" DurationMin="0.449750" DurationMax="0.449750"/>
+				<Event Id="3149532633" Name="Player_Start_Run" ObjectPath="\Events\Player\Player_Start_Run" DurationType="OneShot" DurationMin="1.228312" DurationMax="1.228312"/>
+				<Event Id="281510499" Name="Set_Runner_Phase_Two" ObjectPath="\Events\Music\Mus_Runner\Set_Runner_Phase_Two" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3177230819" Name="Stop_Amb_Caves" ObjectPath="\Events\Ambience\Amb_Caves\Stop_Amb_Caves" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="201392993" Name="Stop_Amb_CocosIsland" ObjectPath="\Events\Ambience\Amb_CocosIsland\Stop_Amb_CocosIsland" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3829988952" Name="Stop_Amb_DinoMIght" ObjectPath="\Events\Ambience\Amb_DinoMight\Stop_Amb_DinoMIght" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2320561860" Name="Stop_Amb_LostCity" ObjectPath="\Events\Ambience\Amb_LostCity\Stop_Amb_LostCity" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1680360429" Name="Stop_Amb_TempleRuins" ObjectPath="\Events\Ambience\Amb_TempleRuins\Stop_Amb_TempleRuins" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="471147317" Name="Stop_Amb_TurtleWoods" ObjectPath="\Events\Ambience\Amb_TurtleWoods\Stop_Amb_TurtleWoods" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1258087929" Name="Stop_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop" ObjectPath="\Events\Bosses\Boss_Scorporilla\Stop_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop" DurationType="OneShot" DurationMin="0.956958" DurationMax="0.956958"/>
+				<Event Id="920203495" Name="Stop_Env_Boulder_Large_Roll" ObjectPath="\Events\Environment\Rolling_Boulders\Stop_Env_Boulder_Large_Roll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2657431275" Name="Stop_Env_Boulder_Small_Roll" ObjectPath="\Events\Environment\Rolling_Boulders\Stop_Env_Boulder_Small_Roll" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3062983721" Name="Stop_Env_Gate_Locked_Alarm_Loop" ObjectPath="\Events\Environment\Gates\Stop_Env_Gate_Locked_Alarm_Loop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2224981419" Name="Stop_Env_MovingWall_Loop" ObjectPath="\Events\Environment\Moving_Walls_and_Platforms\Stop_Env_MovingWall_Loop" DurationType="OneShot" DurationMin="1.395033" DurationMax="1.395033"/>
+				<Event Id="2097352094" Name="Stop_Env_Platform_Loop" ObjectPath="\Events\Environment\Moving_Walls_and_Platforms\Stop_Env_Platform_Loop" DurationType="OneShot" DurationMin="1.395033" DurationMax="1.395033"/>
+				<Event Id="1550838199" Name="Stop_Music_All_Bosses" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_Bosses_General\Stop_Music_All_Bosses" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2174040909" Name="Stop_Music_Boss_Ant" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_NitroAnt\Stop_Music_Boss_Ant" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1761103848" Name="Stop_Music_Boss_Crab" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Crab\Stop_Music_Boss_Crab" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1419783553" Name="Stop_Music_Boss_DingoDile" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_DingoDile\Stop_Music_Boss_DingoDile" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3452498720" Name="Stop_Music_Boss_MutagenNitrusBrio" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_MutagenNitrusBrio\Stop_Music_Boss_MutagenNitrusBrio" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1863220528" Name="Stop_Music_Boss_Scorporilla" ObjectPath="\Events\Music\Mus_Runner\Mus_Bosses\Mus_Scorporilla\Stop_Music_Boss_Scorporilla" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1025803469" Name="Stop_Music_Boss_Spider" ObjectPath="\Events\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Spider\Stop_Music_Boss_Spider" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2138691069" Name="Stop_Music_Cocos_Island" ObjectPath="\Events\Music\Mus_CocosIsland\Stop_Music_Cocos_Island" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4142201181" Name="Stop_Music_DinoMight_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Stop_Music_DinoMight_BattleRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1882768713" Name="Stop_Music_DinoMight_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Stop_Music_DinoMight_ForageRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2134706467" Name="Stop_Music_LostCity_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_BattleRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="213462696" Name="Stop_Music_LostCity_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_ChallengeRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="973468427" Name="Stop_Music_LostCity_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_ForageRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2506287366" Name="Stop_Music_LostCity_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_GemRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="405586108" Name="Stop_Music_TempleRuins_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_BattleRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="915898081" Name="Stop_Music_TempleRuins_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_ChallengeRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2201437200" Name="Stop_Music_TempleRuins_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_ForageRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1706475663" Name="Stop_Music_TempleRuins_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_GemRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2602813049" Name="Stop_Music_Turtle_Woods" ObjectPath="\Events\Music\Mus_Runner\Temporary_Remove\Stop_Music_Turtle_Woods" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1529709500" Name="Stop_Music_TurtleWoods_BattleRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_BattleRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2452201441" Name="Stop_Music_TurtleWoods_ChallengeRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_ChallengeRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3325560592" Name="Stop_Music_TurtleWoods_ForageRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_ForageRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4005308815" Name="Stop_Music_TurtleWoods_GemRun" ObjectPath="\Events\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_GemRun" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1587367759" Name="Stop_Turtle_Idle" ObjectPath="\Events\Enemies\Enemy_Turtle\Stop_Turtle_Idle" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1242989296" Name="UnMute_Master" ObjectPath="\Events\UI\UI_General\UnMute_Master" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1441918971" Name="UnMute_Music" ObjectPath="\Events\UI\UI_General\UnMute_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="141872311" Name="UnMute_SFX" ObjectPath="\Events\UI\UI_General\UnMute_SFX" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="65153703"/>
+				<File Id="71589504"/>
+				<File Id="118916957"/>
+				<File Id="130908067"/>
+				<File Id="150247609"/>
+				<File Id="158107319"/>
+				<File Id="179421260"/>
+				<File Id="190912929"/>
+				<File Id="212507729"/>
+				<File Id="223556618"/>
+				<File Id="230518688"/>
+				<File Id="275412263"/>
+				<File Id="290126592"/>
+				<File Id="305550346"/>
+				<File Id="308808066"/>
+				<File Id="330730970"/>
+				<File Id="422221473"/>
+				<File Id="468134155"/>
+				<File Id="526441603"/>
+				<File Id="593841170"/>
+				<File Id="647250345"/>
+				<File Id="680763191"/>
+				<File Id="765138719"/>
+				<File Id="768763346"/>
+				<File Id="782333408"/>
+				<File Id="859595803"/>
+				<File Id="901664494"/>
+				<File Id="931191246"/>
+				<File Id="1034027503"/>
+			</ReferencedStreamedFiles>
+			<IncludedMemoryFiles>
+				<File Id="70336" Language="SFX">
+					<ShortName>akuaku_pickup.wav</ShortName>
+					<Path>SFX\akuaku_pickup_B473A318.wem</Path>
+				</File>
+				<File Id="899419" Language="SFX">
+					<ShortName>Env_Crate_Nitro_Explosion_2.wav</ShortName>
+					<Path>SFX\Env_Crate_Nitro_Explosion_2_B473A318.wem</Path>
+				</File>
+				<File Id="2891399" Language="SFX">
+					<ShortName>Env_Crate_Mystery_Destroy_Overlay.wav</ShortName>
+					<Path>SFX\Env_Crate_Mystery_Destroy_Overlay_B473A318.wem</Path>
+				</File>
+				<File Id="9215487" Language="SFX">
+					<ShortName>Env_Firetrap_Burst_3.wav</ShortName>
+					<Path>SFX\Env_Firetrap_Burst_3_B473A318.wem</Path>
+				</File>
+				<File Id="10315327" Language="SFX">
+					<ShortName>Player_Pickup_Wumpa_2.wav</ShortName>
+					<Path>SFX\Player_Pickup_Wumpa_2_B473A318.wem</Path>
+				</File>
+				<File Id="19745809" Language="SFX">
+					<ShortName>UI_Overlay_In.wav</ShortName>
+					<Path>SFX\UI_Overlay_In_B473A318.wem</Path>
+				</File>
+				<File Id="22126297" Language="SFX">
+					<ShortName>Player_Death_Hit_4.wav</ShortName>
+					<Path>SFX\Player_Death_Hit_4_B473A318.wem</Path>
+				</File>
+				<File Id="22217484" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Drag_Start.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Drag_Start_B473A318.wem</Path>
+				</File>
+				<File Id="39822775" Language="SFX">
+					<ShortName>UI_BossTallyScreen_Start.wav</ShortName>
+					<Path>SFX\UI_BossTallyScreen_Start_B473A318.wem</Path>
+				</File>
+				<File Id="41607218" Language="SFX">
+					<ShortName>CHAMP_CB_FootV2_Scuff_01.wav</ShortName>
+					<Path>SFX\CHAMP_CB_FootV2_Scuff_01_B473A318.wem</Path>
+				</File>
+				<File Id="52361564" Language="SFX">
+					<ShortName>UI_ProductionMachine_Nitro_Upgrade.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Nitro_Upgrade_B473A318.wem</Path>
+				</File>
+				<File Id="56325917" Language="SFX">
+					<ShortName>player_crash_footstep_02.wav</ShortName>
+					<Path>SFX\player_crash_footstep_02_B473A318.wem</Path>
+				</File>
+				<File Id="64301529" Language="SFX">
+					<ShortName>UI_ProductionMachine_UnlockSlot.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_UnlockSlot_B473A318.wem</Path>
+				</File>
+				<File Id="64503817" Language="SFX">
+					<ShortName>Env_MovingWall_End.wav</ShortName>
+					<Path>SFX\Env_MovingWall_End_B473A318.wem</Path>
+				</File>
+				<File Id="64986887" Language="SFX">
+					<ShortName>Boss_Araknid_Minion_Footstep_01.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Minion_Footstep_01_B473A318.wem</Path>
+				</File>
+				<File Id="84059900" Language="SFX">
+					<ShortName>UI_ProductionMachine_Nitro_Close.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Nitro_Close_B473A318.wem</Path>
+				</File>
+				<File Id="91002360" Language="SFX">
+					<ShortName>fx_crash_b204_throwwumpa_03.wav</ShortName>
+					<Path>SFX\fx_crash_b204_throwwumpa_03_B473A318.wem</Path>
+				</File>
+				<File Id="106871661" Language="SFX">
+					<ShortName>Enemy_Spider_Descend.wav</ShortName>
+					<Path>SFX\Enemy_Spider_Descend_B473A318.wem</Path>
+				</File>
+				<File Id="110477894" Language="SFX">
+					<ShortName>Boss_Ant_Attack.wav</ShortName>
+					<Path>SFX\Boss_Ant_Attack_B473A318.wem</Path>
+				</File>
+				<File Id="119442118" Language="SFX">
+					<ShortName>Env_Crate_Nitro_Explosion_3.wav</ShortName>
+					<Path>SFX\Env_Crate_Nitro_Explosion_3_B473A318.wem</Path>
+				</File>
+				<File Id="121110407" Language="SFX">
+					<ShortName>UI_LevelUp_Start.wav</ShortName>
+					<Path>SFX\UI_LevelUp_Start_B473A318.wem</Path>
+				</File>
+				<File Id="131249361" Language="SFX">
+					<ShortName>Env_Gate_Locked_Alarm_Loop.wav</ShortName>
+					<Path>SFX\Env_Gate_Locked_Alarm_Loop_18FF27E2.wem</Path>
+				</File>
+				<File Id="134151515" Language="SFX">
+					<ShortName>UI_ProductionMachine_Frosty_Open.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Frosty_Open_B473A318.wem</Path>
+				</File>
+				<File Id="136748066" Language="SFX">
+					<ShortName>Player_Crash_Death_Squashed_Footstep_3.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Squashed_Footstep_3_B473A318.wem</Path>
+				</File>
+				<File Id="142247792" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Swipe_Release.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Swipe_Release_B473A318.wem</Path>
+				</File>
+				<File Id="147409864" Language="SFX">
+					<ShortName>UI_Button_Press.wav</ShortName>
+					<Path>SFX\UI_Button_Press_B473A318.wem</Path>
+				</File>
+				<File Id="156467424" Language="SFX">
+					<ShortName>Tutorial_Runner_Obstacle_Slowdown_3.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Obstacle_Slowdown_3_B473A318.wem</Path>
+				</File>
+				<File Id="163198355" Language="SFX">
+					<ShortName>UI_BossTallyScreen_Result.wav</ShortName>
+					<Path>SFX\UI_BossTallyScreen_Result_B473A318.wem</Path>
+				</File>
+				<File Id="164222550" Language="SFX">
+					<ShortName>Player_Crash_Death_Faceplant.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Faceplant_B473A318.wem</Path>
+				</File>
+				<File Id="167762090" Language="SFX">
+					<ShortName>Tutorial_Runner_Obstacle_Slowdown_2.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Obstacle_Slowdown_2_B473A318.wem</Path>
+				</File>
+				<File Id="187966363" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Score_Perfect.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Score_Perfect_B473A318.wem</Path>
+				</File>
+				<File Id="190912929" Language="SFX">
+					<ShortName>Mus_AllLevels_ChallengeGemRun_171BPM_4_4.wav</ShortName>
+					<Path>SFX\Mus_AllLevels_ChallengeGemRun_171BPM_4_4_18FF27E2.wem</Path>
+					<PrefetchSize>1901</PrefetchSize>
+				</File>
+				<File Id="195447941" Language="SFX">
+					<ShortName>Boss_Ant_Shot_Wall_Spawn_Nitro.wav</ShortName>
+					<Path>SFX\Boss_Ant_Shot_Wall_Spawn_Nitro_B473A318.wem</Path>
+				</File>
+				<File Id="195553107" Language="SFX">
+					<ShortName>Player_Crash_Death_Hithead.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Hithead_B473A318.wem</Path>
+				</File>
+				<File Id="203388499" Language="SFX">
+					<ShortName>Player_Death_Hit_3.wav</ShortName>
+					<Path>SFX\Player_Death_Hit_3_B473A318.wem</Path>
+				</File>
+				<File Id="212507729" Language="SFX">
+					<ShortName>Player_Crash_Def_Celebrate.wav</ShortName>
+					<Path>SFX\Player_Crash_Def_Celebrate_B473A318.wem</Path>
+					<PrefetchSize>680</PrefetchSize>
+				</File>
+				<File Id="213152610" Language="SFX">
+					<ShortName>env_crate_destroy_02.wav</ShortName>
+					<Path>SFX\env_crate_destroy_02_B473A318.wem</Path>
+				</File>
+				<File Id="216863766" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Swipe_Start.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Swipe_Start_B473A318.wem</Path>
+				</File>
+				<File Id="221126074" Language="SFX">
+					<ShortName>Player_Crash_Death_Angel.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Angel_B473A318.wem</Path>
+				</File>
+				<File Id="222890898" Language="SFX">
+					<ShortName>Boomberry_Bounce_3.wav</ShortName>
+					<Path>SFX\Boomberry_Bounce_3_B473A318.wem</Path>
+				</File>
+				<File Id="225389924" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Tap.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Tap_B473A318.wem</Path>
+				</File>
+				<File Id="226194160" Language="SFX">
+					<ShortName>Player_Spawn.wav</ShortName>
+					<Path>SFX\Player_Spawn_B473A318.wem</Path>
+				</File>
+				<File Id="226366964" Language="SFX">
+					<ShortName>Boomberry_Bounce_2.wav</ShortName>
+					<Path>SFX\Boomberry_Bounce_2_B473A318.wem</Path>
+				</File>
+				<File Id="229229535" Language="SFX">
+					<ShortName>env_pillar_stone_fall_02.wav</ShortName>
+					<Path>SFX\env_pillar_stone_fall_02_B473A318.wem</Path>
+				</File>
+				<File Id="229958300" Language="SFX">
+					<ShortName>UI_ProductionMachine_Resources_Fly.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Resources_Fly_B473A318.wem</Path>
+				</File>
+				<File Id="233239981" Language="SFX">
+					<ShortName>CHAMP_CB_Foot_Land_01.wav</ShortName>
+					<Path>SFX\CHAMP_CB_Foot_Land_01_B473A318.wem</Path>
+				</File>
+				<File Id="239414598" Language="SFX">
+					<ShortName>Boss_Araknid_Attack_Venom_Bounce.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Attack_Venom_Bounce_B473A318.wem</Path>
+				</File>
+				<File Id="242701818" Language="SFX">
+					<ShortName>win_intro_152bpm.wav</ShortName>
+					<Path>SFX\win_intro_152bpm_18FF27E2.wem</Path>
+				</File>
+				<File Id="247003257" Language="SFX">
+					<ShortName>UI_MissionScreen_Battle_Button.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Battle_Button_B473A318.wem</Path>
+				</File>
+				<File Id="248477413" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Score_Ok.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Score_Ok_B473A318.wem</Path>
+				</File>
+				<File Id="249070552" Language="SFX">
+					<ShortName>Boss_NitrusBrio_AttackThrow.wav</ShortName>
+					<Path>SFX\Boss_NitrusBrio_AttackThrow_B473A318.wem</Path>
+				</File>
+				<File Id="252900222" Language="SFX">
+					<ShortName>UI_ProductionMachine_Nitro_Open.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Nitro_Open_B473A318.wem</Path>
+				</File>
+				<File Id="253273388" Language="SFX">
+					<ShortName>player_crash_jump_01.wav</ShortName>
+					<Path>SFX\player_crash_jump_01_B473A318.wem</Path>
+				</File>
+				<File Id="259721781" Language="SFX">
+					<ShortName>UI_MissionScreen_Error.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Error_B473A318.wem</Path>
+				</File>
+				<File Id="259771382" Language="SFX">
+					<ShortName>Boss_Araknid_Death.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Death_B473A318.wem</Path>
+				</File>
+				<File Id="269676356" Language="SFX">
+					<ShortName>Player_Crash_Death_Squashed_Footstep_2.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Squashed_Footstep_2_B473A318.wem</Path>
+				</File>
+				<File Id="270824893" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Impact_1.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_1_B473A318.wem</Path>
+				</File>
+				<File Id="279010929" Language="SFX">
+					<ShortName>UI_ProductionMachine_Inferno_Fill.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Inferno_Fill_B473A318.wem</Path>
+				</File>
+				<File Id="281566487" Language="SFX">
+					<ShortName>UI_Error.wav</ShortName>
+					<Path>SFX\UI_Error_B473A318.wem</Path>
+				</File>
+				<File Id="288743276" Language="SFX">
+					<ShortName>Player_Weapon_Raygun_Nitro_Ready.wav</ShortName>
+					<Path>SFX\Player_Weapon_Raygun_Nitro_Ready_B473A318.wem</Path>
+				</File>
+				<File Id="290369466" Language="SFX">
+					<ShortName>UI_ProductionMachine_Oxide_Close.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Oxide_Close_B473A318.wem</Path>
+				</File>
+				<File Id="292444737" Language="SFX">
+					<ShortName>Boss_Scorporilla_PlatformPunch.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_PlatformPunch_B473A318.wem</Path>
+				</File>
+				<File Id="293905176" Language="SFX">
+					<ShortName>UI_ProductionMachine_Nitro_Fill.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Nitro_Fill_B473A318.wem</Path>
+				</File>
+				<File Id="294179331" Language="SFX">
+					<ShortName>fx_enemy_patrol_turtle_bounce_01.wav</ShortName>
+					<Path>SFX\fx_enemy_patrol_turtle_bounce_01_B473A318.wem</Path>
+				</File>
+				<File Id="308808066" Language="SFX">
+					<ShortName>intro_crash_fullmix_2020-03-25.wav</ShortName>
+					<Path>SFX\intro_crash_fullmix_2020-03-25_B473A318.wem</Path>
+					<PrefetchSize>1459</PrefetchSize>
+				</File>
+				<File Id="311946015" Language="SFX">
+					<ShortName>Env_Floorswitch.wav</ShortName>
+					<Path>SFX\Env_Floorswitch_B473A318.wem</Path>
+				</File>
+				<File Id="319762088" Language="SFX">
+					<ShortName>Env_Crate_Parts_Destroy_Overlay_2.wav</ShortName>
+					<Path>SFX\Env_Crate_Parts_Destroy_Overlay_2_B473A318.wem</Path>
+				</File>
+				<File Id="327835806" Language="SFX">
+					<ShortName>Env_Crate_Ingredient_Destroy.wav</ShortName>
+					<Path>SFX\Env_Crate_Ingredient_Destroy_B473A318.wem</Path>
+				</File>
+				<File Id="328454243" Language="SFX">
+					<ShortName>Env_Firetrap_Burst_2.wav</ShortName>
+					<Path>SFX\Env_Firetrap_Burst_2_B473A318.wem</Path>
+				</File>
+				<File Id="330730970" Language="SFX">
+					<ShortName>Mus_TempleRuins_BattleRun_130bpm.wav</ShortName>
+					<Path>SFX\Mus_TempleRuins_BattleRun_130bpm_18FF27E2.wem</Path>
+					<PrefetchSize>1551</PrefetchSize>
+				</File>
+				<File Id="335166252" Language="SFX">
+					<ShortName>env_crate_destroy_04.wav</ShortName>
+					<Path>SFX\env_crate_destroy_04_B473A318.wem</Path>
+				</File>
+				<File Id="335655419" Language="SFX">
+					<ShortName>sfx_click.wav</ShortName>
+					<Path>SFX\sfx_click_B473A318.wem</Path>
+				</File>
+				<File Id="342202249" Language="SFX">
+					<ShortName>player_crash_footstep_06.wav</ShortName>
+					<Path>SFX\player_crash_footstep_06_B473A318.wem</Path>
+				</File>
+				<File Id="345460639" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Start_2.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_2_B473A318.wem</Path>
+				</File>
+				<File Id="346656467" Language="SFX">
+					<ShortName>CHAMP_CB_FootV2_Scuff_04.wav</ShortName>
+					<Path>SFX\CHAMP_CB_FootV2_Scuff_04_B473A318.wem</Path>
+				</File>
+				<File Id="360423441" Language="SFX">
+					<ShortName>env_pillar_stone_fall_01.wav</ShortName>
+					<Path>SFX\env_pillar_stone_fall_01_B473A318.wem</Path>
+				</File>
+				<File Id="361160862" Language="SFX">
+					<ShortName>Env_MovingWall_Loop.wav</ShortName>
+					<Path>SFX\Env_MovingWall_Loop_18FF27E2.wem</Path>
+				</File>
+				<File Id="361265350" Language="SFX">
+					<ShortName>Player_Start_Run.wav</ShortName>
+					<Path>SFX\Player_Start_Run_B473A318.wem</Path>
+				</File>
+				<File Id="365080359" Language="SFX">
+					<ShortName>player_crash_jump_high_01.wav</ShortName>
+					<Path>SFX\player_crash_jump_high_01_B473A318.wem</Path>
+				</File>
+				<File Id="388248759" Language="SFX">
+					<ShortName>Tutorial_Runner_Obstacle_Slowdown_4.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Obstacle_Slowdown_4_B473A318.wem</Path>
+				</File>
+				<File Id="389404905" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Start_3.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_3_B473A318.wem</Path>
+				</File>
+				<File Id="400779918" Language="SFX">
+					<ShortName>UI_LevelUp_ContinueButton_Press.wav</ShortName>
+					<Path>SFX\UI_LevelUp_ContinueButton_Press_B473A318.wem</Path>
+				</File>
+				<File Id="405155114" Language="SFX">
+					<ShortName>fx_crash_b204_throwwumpa_01.wav</ShortName>
+					<Path>SFX\fx_crash_b204_throwwumpa_01_B473A318.wem</Path>
+				</File>
+				<File Id="411482538" Language="SFX">
+					<ShortName>Player_Weapon_Serum_Nitro_Throw.wav</ShortName>
+					<Path>SFX\Player_Weapon_Serum_Nitro_Throw_B473A318.wem</Path>
+				</File>
+				<File Id="414031931" Language="SFX">
+					<ShortName>Player_Weapon_Bomb_Nitro_Ready.wav</ShortName>
+					<Path>SFX\Player_Weapon_Bomb_Nitro_Ready_B473A318.wem</Path>
+				</File>
+				<File Id="414873799" Language="SFX">
+					<ShortName>ENV_Hazard_BigBoulder_Bounce_01.wav</ShortName>
+					<Path>SFX\ENV_Hazard_BigBoulder_Bounce_01_B473A318.wem</Path>
+				</File>
+				<File Id="418500873" Language="SFX">
+					<ShortName>Env_Crate_Parts_Destroy_Overlay_1.wav</ShortName>
+					<Path>SFX\Env_Crate_Parts_Destroy_Overlay_1_B473A318.wem</Path>
+				</File>
+				<File Id="419980788" Language="SFX">
+					<ShortName>Player_Crash_Death_Squashed_Footstep_4.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Squashed_Footstep_4_B473A318.wem</Path>
+				</File>
+				<File Id="423261671" Language="SFX">
+					<ShortName>Boss_Araknid_Summon.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Summon_B473A318.wem</Path>
+				</File>
+				<File Id="424522793" Language="SFX">
+					<ShortName>ENV_Hazard_BigBoulder_Bounce_02.wav</ShortName>
+					<Path>SFX\ENV_Hazard_BigBoulder_Bounce_02_B473A318.wem</Path>
+				</File>
+				<File Id="436925411" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Impact_3.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_3_B473A318.wem</Path>
+				</File>
+				<File Id="438979643" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Locked_Error.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Locked_Error_B473A318.wem</Path>
+				</File>
+				<File Id="440087236" Language="SFX">
+					<ShortName>Tutorial_Runner_Boss_Camera_Pullback.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Boss_Camera_Pullback_B473A318.wem</Path>
+				</File>
+				<File Id="466983496" Language="SFX">
+					<ShortName>UI_Dialog_Item_Tooltip_Open.wav</ShortName>
+					<Path>SFX\UI_Dialog_Item_Tooltip_Open_B473A318.wem</Path>
+				</File>
+				<File Id="467147977" Language="SFX">
+					<ShortName>Play_Player_RunEnd.wav</ShortName>
+					<Path>SFX\Play_Player_RunEnd_B473A318.wem</Path>
+				</File>
+				<File Id="467968870" Language="SFX">
+					<ShortName>UI_SpendGem.wav</ShortName>
+					<Path>SFX\UI_SpendGem_B473A318.wem</Path>
+				</File>
+				<File Id="469258145" Language="SFX">
+					<ShortName>Play_Env_RollingDisc_Roll.wav</ShortName>
+					<Path>SFX\Play_Env_RollingDisc_Roll_B473A318.wem</Path>
+				</File>
+				<File Id="471161893" Language="SFX">
+					<ShortName>Boss_Ant_Shot_Wall_Spawn_Frost.wav</ShortName>
+					<Path>SFX\Boss_Ant_Shot_Wall_Spawn_Frost_B473A318.wem</Path>
+				</File>
+				<File Id="471799589" Language="SFX">
+					<ShortName>Boss_Ant_Shot_Bounce_03.wav</ShortName>
+					<Path>SFX\Boss_Ant_Shot_Bounce_03_B473A318.wem</Path>
+				</File>
+				<File Id="479195641" Language="SFX">
+					<ShortName>UI_Notification_Icon_Show.wav</ShortName>
+					<Path>SFX\UI_Notification_Icon_Show_B473A318.wem</Path>
+				</File>
+				<File Id="487324125" Language="SFX">
+					<ShortName>UI_Overlay_Out.wav</ShortName>
+					<Path>SFX\UI_Overlay_Out_B473A318.wem</Path>
+				</File>
+				<File Id="488674929" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Drag_Release.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Drag_Release_B473A318.wem</Path>
+				</File>
+				<File Id="496204089" Language="SFX">
+					<ShortName>env_generic_explosion_01.wav</ShortName>
+					<Path>SFX\env_generic_explosion_01_B473A318.wem</Path>
+				</File>
+				<File Id="506196928" Language="SFX">
+					<ShortName>UI_BossTallyScreen_Gem_Reward.wav</ShortName>
+					<Path>SFX\UI_BossTallyScreen_Gem_Reward_B473A318.wem</Path>
+				</File>
+				<File Id="510695522" Language="SFX">
+					<ShortName>UI_ProductionMachine_Collect.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Collect_B473A318.wem</Path>
+				</File>
+				<File Id="513629621" Language="SFX">
+					<ShortName>env_crate_destroy_03.wav</ShortName>
+					<Path>SFX\env_crate_destroy_03_B473A318.wem</Path>
+				</File>
+				<File Id="521160163" Language="SFX">
+					<ShortName>player_crash_jump_02.wav</ShortName>
+					<Path>SFX\player_crash_jump_02_B473A318.wem</Path>
+				</File>
+				<File Id="523704747" Language="SFX">
+					<ShortName>UI_CloseButton_Press.wav</ShortName>
+					<Path>SFX\UI_CloseButton_Press_B473A318.wem</Path>
+				</File>
+				<File Id="525132606" Language="SFX">
+					<ShortName>win_loop_victory_test_152bpm.wav</ShortName>
+					<Path>SFX\win_loop_victory_test_152bpm_18FF27E2.wem</Path>
+				</File>
+				<File Id="525343190" Language="SFX">
+					<ShortName>milo_runner_gameplay_portal_enter.wav</ShortName>
+					<Path>SFX\milo_runner_gameplay_portal_enter_B473A318.wem</Path>
+				</File>
+				<File Id="526441603" Language="SFX">
+					<ShortName>Mus_TempleRuins_ForageRun_123bpm.wav</ShortName>
+					<Path>SFX\Mus_TempleRuins_ForageRun_123bpm_18FF27E2.wem</Path>
+					<PrefetchSize>1679</PrefetchSize>
+				</File>
+				<File Id="532651243" Language="SFX">
+					<ShortName>env_generic_explosion_02.wav</ShortName>
+					<Path>SFX\env_generic_explosion_02_B473A318.wem</Path>
+				</File>
+				<File Id="548058458" Language="SFX">
+					<ShortName>Boss_Araknid_Attack_Venom_Burst.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Attack_Venom_Burst_B473A318.wem</Path>
+				</File>
+				<File Id="552621271" Language="SFX">
+					<ShortName>UI_Dialog_In.wav</ShortName>
+					<Path>SFX\UI_Dialog_In_B473A318.wem</Path>
+				</File>
+				<File Id="555999722" Language="SFX">
+					<ShortName>Boss_Araknid_Attack_Venom.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Attack_Venom_B473A318.wem</Path>
+				</File>
+				<File Id="561035104" Language="SFX">
+					<ShortName>Player_Pickup_Wumpa_3.wav</ShortName>
+					<Path>SFX\Player_Pickup_Wumpa_3_B473A318.wem</Path>
+				</File>
+				<File Id="561295087" Language="SFX">
+					<ShortName>UI_ProductionMachine_Frosty_Upgrade.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Frosty_Upgrade_B473A318.wem</Path>
+				</File>
+				<File Id="561384869" Language="SFX">
+					<ShortName>Player_Weapon_Raygun_Nitro_Shoot.wav</ShortName>
+					<Path>SFX\Player_Weapon_Raygun_Nitro_Shoot_B473A318.wem</Path>
+				</File>
+				<File Id="568122309" Language="SFX">
+					<ShortName>RewardScreen_Gem.wav</ShortName>
+					<Path>SFX\RewardScreen_Gem_B473A318.wem</Path>
+				</File>
+				<File Id="568693078" Language="SFX">
+					<ShortName>UI_ProductionMachine_Frosty_Fill.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Frosty_Fill_B473A318.wem</Path>
+				</File>
+				<File Id="579023086" Language="SFX">
+					<ShortName>Boss_Ant_Shot_Bounce_01.wav</ShortName>
+					<Path>SFX\Boss_Ant_Shot_Bounce_01_B473A318.wem</Path>
+				</File>
+				<File Id="580904281" Language="SFX">
+					<ShortName>UI_ProductionMachine_Locked.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Locked_B473A318.wem</Path>
+				</File>
+				<File Id="587226729" Language="SFX">
+					<ShortName>Player_Crash_Death_Dazed.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Dazed_B473A318.wem</Path>
+				</File>
+				<File Id="595595546" Language="SFX">
+					<ShortName>Boss_Crab_Attack.wav</ShortName>
+					<Path>SFX\Boss_Crab_Attack_B473A318.wem</Path>
+				</File>
+				<File Id="596031477" Language="SFX">
+					<ShortName>Env_Gate_Open.wav</ShortName>
+					<Path>SFX\Env_Gate_Open_B473A318.wem</Path>
+				</File>
+				<File Id="597533052" Language="SFX">
+					<ShortName>Boomberry_Pickup.wav</ShortName>
+					<Path>SFX\Boomberry_Pickup_B473A318.wem</Path>
+				</File>
+				<File Id="598889596" Language="SFX">
+					<ShortName>Player_Death_Hit_2.wav</ShortName>
+					<Path>SFX\Player_Death_Hit_2_B473A318.wem</Path>
+				</File>
+				<File Id="603721578" Language="SFX">
+					<ShortName>Boomberry_Bounce_1.wav</ShortName>
+					<Path>SFX\Boomberry_Bounce_1_066C8790.wem</Path>
+				</File>
+				<File Id="605887859" Language="SFX">
+					<ShortName>player_crash_footstep_04.wav</ShortName>
+					<Path>SFX\player_crash_footstep_04_B473A318.wem</Path>
+				</File>
+				<File Id="609804005" Language="SFX">
+					<ShortName>Boss_NitrusBrio_AttackChest.wav</ShortName>
+					<Path>SFX\Boss_NitrusBrio_AttackChest_B473A318.wem</Path>
+				</File>
+				<File Id="612467741" Language="SFX">
+					<ShortName>Env_Crate_Checkpoint_Destroy_Overlay_.wav</ShortName>
+					<Path>SFX\Env_Crate_Checkpoint_Destroy_Overlay__B473A318.wem</Path>
+				</File>
+				<File Id="615820310" Language="SFX">
+					<ShortName>CHAMP_CB_Foot_Land_02.wav</ShortName>
+					<Path>SFX\CHAMP_CB_Foot_Land_02_B473A318.wem</Path>
+				</File>
+				<File Id="616142066" Language="SFX">
+					<ShortName>Boss_NitrusBrio_Death.wav</ShortName>
+					<Path>SFX\Boss_NitrusBrio_Death_B473A318.wem</Path>
+				</File>
+				<File Id="618703866" Language="SFX">
+					<ShortName>UI_ProductionMachine_Inferno_Close.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Inferno_Close_B473A318.wem</Path>
+				</File>
+				<File Id="623512511" Language="SFX">
+					<ShortName>Player_Pickup_Wumpa_1.wav</ShortName>
+					<Path>SFX\Player_Pickup_Wumpa_1_B473A318.wem</Path>
+				</File>
+				<File Id="624611457" Language="SFX">
+					<ShortName>UI_BossTallyScreen_Stage_1.wav</ShortName>
+					<Path>SFX\UI_BossTallyScreen_Stage_1_B473A318.wem</Path>
+				</File>
+				<File Id="627026043" Language="SFX">
+					<ShortName>UI_ProductionMachine_Building_Press.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Building_Press_B473A318.wem</Path>
+				</File>
+				<File Id="628553011" Language="SFX">
+					<ShortName>Player_Weapon_Bomb_Nitro_Throw.wav</ShortName>
+					<Path>SFX\Player_Weapon_Bomb_Nitro_Throw_B473A318.wem</Path>
+				</File>
+				<File Id="635378325" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Score_Good.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Score_Good_B473A318.wem</Path>
+				</File>
+				<File Id="637746210" Language="SFX">
+					<ShortName>Play_Env_Crate_Wumpa_Destroy_Overlay.wav</ShortName>
+					<Path>SFX\Play_Env_Crate_Wumpa_Destroy_Overlay_B473A318.wem</Path>
+				</File>
+				<File Id="641333714" Language="SFX">
+					<ShortName>UI_MissionScreen_Panning.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Panning_B473A318.wem</Path>
+				</File>
+				<File Id="642682536" Language="SFX">
+					<ShortName>player_crash_jump_high_02.wav</ShortName>
+					<Path>SFX\player_crash_jump_high_02_B473A318.wem</Path>
+				</File>
+				<File Id="650579400" Language="SFX">
+					<ShortName>fx_enemy_patrol_turtle_flip_01.wav</ShortName>
+					<Path>SFX\fx_enemy_patrol_turtle_flip_01_B473A318.wem</Path>
+				</File>
+				<File Id="658652026" Language="SFX">
+					<ShortName>UI_MissionScreen_Open.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Open_B473A318.wem</Path>
+				</File>
+				<File Id="687617471" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Idle_Start.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Idle_Start_B473A318.wem</Path>
+				</File>
+				<File Id="688344312" Language="SFX">
+					<ShortName>Env_Crate_Nitro_Explosion_1.wav</ShortName>
+					<Path>SFX\Env_Crate_Nitro_Explosion_1_B473A318.wem</Path>
+				</File>
+				<File Id="696548763" Language="SFX">
+					<ShortName>fx_crash_b204_throwwumpa_02.wav</ShortName>
+					<Path>SFX\fx_crash_b204_throwwumpa_02_B473A318.wem</Path>
+				</File>
+				<File Id="699008719" Language="SFX">
+					<ShortName>player_crash_slide_03.wav</ShortName>
+					<Path>SFX\player_crash_slide_03_B473A318.wem</Path>
+				</File>
+				<File Id="701532450" Language="SFX">
+					<ShortName>Env_Firetrap_Burst_1.wav</ShortName>
+					<Path>SFX\Env_Firetrap_Burst_1_B473A318.wem</Path>
+				</File>
+				<File Id="713362062" Language="SFX">
+					<ShortName>Env_Spiketrap_3.wav</ShortName>
+					<Path>SFX\Env_Spiketrap_3_B473A318.wem</Path>
+				</File>
+				<File Id="715066082" Language="SFX">
+					<ShortName>UI_MissionScreen_Boss_Unlock.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Boss_Unlock_B473A318.wem</Path>
+				</File>
+				<File Id="724345441" Language="SFX">
+					<ShortName>Player_Crash_Death_Ashes.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Ashes_B473A318.wem</Path>
+				</File>
+				<File Id="729467780" Language="SFX">
+					<ShortName>UI_ProductionMachine_Next_Building_Button_Press.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Next_Building_Button_Press_B473A318.wem</Path>
+				</File>
+				<File Id="733143691" Language="SFX">
+					<ShortName>env_crate_destroy_01.wav</ShortName>
+					<Path>SFX\env_crate_destroy_01_B473A318.wem</Path>
+				</File>
+				<File Id="738626467" Language="SFX">
+					<ShortName>UI_Dialog_Out.wav</ShortName>
+					<Path>SFX\UI_Dialog_Out_B473A318.wem</Path>
+				</File>
+				<File Id="765266256" Language="SFX">
+					<ShortName>milo_runner_generic_pickup_2.wav</ShortName>
+					<Path>SFX\milo_runner_generic_pickup_2_B473A318.wem</Path>
+				</File>
+				<File Id="773302275" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Idle_End.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Idle_End_B473A318.wem</Path>
+				</File>
+				<File Id="774799952" Language="SFX">
+					<ShortName>UI_MissionScreen_Close.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Close_B473A318.wem</Path>
+				</File>
+				<File Id="795396506" Language="SFX">
+					<ShortName>Boss_Scorporilla_Hit.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_Hit_B473A318.wem</Path>
+				</File>
+				<File Id="799872663" Language="SFX">
+					<ShortName>milo_runner_gameplay_mushroom_jump.wav</ShortName>
+					<Path>SFX\milo_runner_gameplay_mushroom_jump_B473A318.wem</Path>
+				</File>
+				<File Id="828149113" Language="SFX">
+					<ShortName>Player_Death_Hit_1.wav</ShortName>
+					<Path>SFX\Player_Death_Hit_1_B473A318.wem</Path>
+				</File>
+				<File Id="829514799" Language="SFX">
+					<ShortName>Boss_Araknid_Minion_Footstep_02.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Minion_Footstep_02_B473A318.wem</Path>
+				</File>
+				<File Id="830236875" Language="SFX">
+					<ShortName>Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop_18FF27E2.wem</Path>
+				</File>
+				<File Id="857145822" Language="SFX">
+					<ShortName>Boss_Scorporilla_Death.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_Death_B473A318.wem</Path>
+				</File>
+				<File Id="860773780" Language="SFX">
+					<ShortName>player_crash_jump_high_03.wav</ShortName>
+					<Path>SFX\player_crash_jump_high_03_B473A318.wem</Path>
+				</File>
+				<File Id="864194612" Language="SFX">
+					<ShortName>Boss_Araknid_Minion_Footstep_03.wav</ShortName>
+					<Path>SFX\Boss_Araknid_Minion_Footstep_03_B473A318.wem</Path>
+				</File>
+				<File Id="867702924" Language="SFX">
+					<ShortName>wiinsequence_end_152bpm.wav</ShortName>
+					<Path>SFX\wiinsequence_end_152bpm_18FF27E2.wem</Path>
+				</File>
+				<File Id="876509954" Language="SFX">
+					<ShortName>Boss_Ant_Death.wav</ShortName>
+					<Path>SFX\Boss_Ant_Death_B473A318.wem</Path>
+				</File>
+				<File Id="880280356" Language="SFX">
+					<ShortName>Player_Crash_Death_Squashed_Footstep_1.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Squashed_Footstep_1_B473A318.wem</Path>
+				</File>
+				<File Id="888265797" Language="SFX">
+					<ShortName>Env_Spiketrap_2.wav</ShortName>
+					<Path>SFX\Env_Spiketrap_2_B473A318.wem</Path>
+				</File>
+				<File Id="890133087" Language="SFX">
+					<ShortName>Boss_Dingodile_Attack_Fireball.wav</ShortName>
+					<Path>SFX\Boss_Dingodile_Attack_Fireball_B473A318.wem</Path>
+				</File>
+				<File Id="892365864" Language="SFX">
+					<ShortName>Boss_Scorporilla_GroundPunch.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_GroundPunch_B473A318.wem</Path>
+				</File>
+				<File Id="896466663" Language="SFX">
+					<ShortName>UI_ProductionMachine_Inferno_Open.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Inferno_Open_B473A318.wem</Path>
+				</File>
+				<File Id="899757950" Language="SFX">
+					<ShortName>Boss_Dingodile_Attack_Flamethrower.wav</ShortName>
+					<Path>SFX\Boss_Dingodile_Attack_Flamethrower_B473A318.wem</Path>
+				</File>
+				<File Id="903575026" Language="SFX">
+					<ShortName>Boss_Scorporilla_Ground_Smash_Boulder_Trail_End.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_Ground_Smash_Boulder_Trail_End_B473A318.wem</Path>
+				</File>
+				<File Id="907200194" Language="SFX">
+					<ShortName>Boss_NitrusBrio_Intro.wav</ShortName>
+					<Path>SFX\Boss_NitrusBrio_Intro_B473A318.wem</Path>
+				</File>
+				<File Id="908710104" Language="SFX">
+					<ShortName>Boss_Scorporilla_Intro.wav</ShortName>
+					<Path>SFX\Boss_Scorporilla_Intro_B473A318.wem</Path>
+				</File>
+				<File Id="912306267" Language="SFX">
+					<ShortName>UI_ProductionMachine_Item_Swipe_SnapTo.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Item_Swipe_SnapTo_B473A318.wem</Path>
+				</File>
+				<File Id="913065730" Language="SFX">
+					<ShortName>env_generic_explosion_03.wav</ShortName>
+					<Path>SFX\env_generic_explosion_03_B473A318.wem</Path>
+				</File>
+				<File Id="922563022" Language="SFX">
+					<ShortName>Env_Spiketrap_1.wav</ShortName>
+					<Path>SFX\Env_Spiketrap_1_B473A318.wem</Path>
+				</File>
+				<File Id="923317202" Language="SFX">
+					<ShortName>player_crash_footstep_03.wav</ShortName>
+					<Path>SFX\player_crash_footstep_03_B473A318.wem</Path>
+				</File>
+				<File Id="923647132" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Impact_2.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_2_B473A318.wem</Path>
+				</File>
+				<File Id="931829002" Language="SFX">
+					<ShortName>Boss_Dingodile_Death.wav</ShortName>
+					<Path>SFX\Boss_Dingodile_Death_B473A318.wem</Path>
+				</File>
+				<File Id="932481851" Language="SFX">
+					<ShortName>Play_Player_Push_Enemy.wav</ShortName>
+					<Path>SFX\Play_Player_Push_Enemy_B473A318.wem</Path>
+				</File>
+				<File Id="938382255" Language="SFX">
+					<ShortName>Boss_SerumFinisher_Idle_Loop.wav</ShortName>
+					<Path>SFX\Boss_SerumFinisher_Idle_Loop_18FF27E2.wem</Path>
+				</File>
+				<File Id="939725146" Language="SFX">
+					<ShortName>UI_MissionScreen_Button.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_Button_B473A318.wem</Path>
+				</File>
+				<File Id="940381407" Language="SFX">
+					<ShortName>Boss_Dingodile_Intro.wav</ShortName>
+					<Path>SFX\Boss_Dingodile_Intro_B473A318.wem</Path>
+				</File>
+				<File Id="942973398" Language="SFX">
+					<ShortName>player_crash_jump_high_04.wav</ShortName>
+					<Path>SFX\player_crash_jump_high_04_B473A318.wem</Path>
+				</File>
+				<File Id="943684450" Language="SFX">
+					<ShortName>player_crash_footstep_05.wav</ShortName>
+					<Path>SFX\player_crash_footstep_05_B473A318.wem</Path>
+				</File>
+				<File Id="946680959" Language="SFX">
+					<ShortName>fx_enemy_patrol_turtle_impact_01.wav</ShortName>
+					<Path>SFX\fx_enemy_patrol_turtle_impact_01_B473A318.wem</Path>
+				</File>
+				<File Id="949626165" Language="SFX">
+					<ShortName>CHAMP_CB_FootV2_Scuff_02.wav</ShortName>
+					<Path>SFX\CHAMP_CB_FootV2_Scuff_02_B473A318.wem</Path>
+				</File>
+				<File Id="950595004" Language="SFX">
+					<ShortName>UI_Dialog_Item_Tooltip_Close.wav</ShortName>
+					<Path>SFX\UI_Dialog_Item_Tooltip_Close_B473A318.wem</Path>
+				</File>
+				<File Id="955460071" Language="SFX">
+					<ShortName>UI_BossTallyScreen_Unlock.wav</ShortName>
+					<Path>SFX\UI_BossTallyScreen_Unlock_B473A318.wem</Path>
+				</File>
+				<File Id="960345300" Language="SFX">
+					<ShortName>player_crash_slide_01.wav</ShortName>
+					<Path>SFX\player_crash_slide_01_B473A318.wem</Path>
+				</File>
+				<File Id="964762243" Language="SFX">
+					<ShortName>Boss_Camera_Intro.wav</ShortName>
+					<Path>SFX\Boss_Camera_Intro_B473A318.wem</Path>
+				</File>
+				<File Id="971026558" Language="SFX">
+					<ShortName>CHAMP_CB_Foot_Land_03.wav</ShortName>
+					<Path>SFX\CHAMP_CB_Foot_Land_03_B473A318.wem</Path>
+				</File>
+				<File Id="971313009" Language="SFX">
+					<ShortName>Aku_Despawn.wav</ShortName>
+					<Path>SFX\Aku_Despawn_B473A318.wem</Path>
+				</File>
+				<File Id="972042709" Language="SFX">
+					<ShortName>UI_ProductionMachine_Oxide_Open.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Oxide_Open_B473A318.wem</Path>
+				</File>
+				<File Id="975727189" Language="SFX">
+					<ShortName>UI_ProductionMachine_Inferno_Upgrade.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Inferno_Upgrade_B473A318.wem</Path>
+				</File>
+				<File Id="977480834" Language="SFX">
+					<ShortName>Boss_Ant_Shot_Bounce_02.wav</ShortName>
+					<Path>SFX\Boss_Ant_Shot_Bounce_02_B473A318.wem</Path>
+				</File>
+				<File Id="981181128" Language="SFX">
+					<ShortName>UI_ProductionMachine_Frosty_Close.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Frosty_Close_B473A318.wem</Path>
+				</File>
+				<File Id="982345012" Language="SFX">
+					<ShortName>Player_Crash_Death_Freeze.wav</ShortName>
+					<Path>SFX\Player_Crash_Death_Freeze_B473A318.wem</Path>
+				</File>
+				<File Id="986891771" Language="SFX">
+					<ShortName>Boss_Crab_Death.wav</ShortName>
+					<Path>SFX\Boss_Crab_Death_B473A318.wem</Path>
+				</File>
+				<File Id="997006768" Language="SFX">
+					<ShortName>Tutorial_Runner_Boss_Banner.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Boss_Banner_B473A318.wem</Path>
+				</File>
+				<File Id="999307609" Language="SFX">
+					<ShortName>UI_ProductionMachine_Oxide_Fill.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Oxide_Fill_B473A318.wem</Path>
+				</File>
+				<File Id="999674791" Language="SFX">
+					<ShortName>player_crash_footstep_01.wav</ShortName>
+					<Path>SFX\player_crash_footstep_01_B473A318.wem</Path>
+				</File>
+				<File Id="1015625441" Language="SFX">
+					<ShortName>Boss_Dingodile_Hit.wav</ShortName>
+					<Path>SFX\Boss_Dingodile_Hit_B473A318.wem</Path>
+				</File>
+				<File Id="1020345884" Language="SFX">
+					<ShortName>Env_Crate_Parts_Destroy_Overlay_3.wav</ShortName>
+					<Path>SFX\Env_Crate_Parts_Destroy_Overlay_3_B473A318.wem</Path>
+				</File>
+				<File Id="1024425725" Language="SFX">
+					<ShortName>UI_MissionScreen_MiniBoss_Defeated.wav</ShortName>
+					<Path>SFX\UI_MissionScreen_MiniBoss_Defeated_B473A318.wem</Path>
+				</File>
+				<File Id="1030138127" Language="SFX">
+					<ShortName>player_crash_attack_spin_01.wav</ShortName>
+					<Path>SFX\player_crash_attack_spin_01_B473A318.wem</Path>
+				</File>
+				<File Id="1039984503" Language="SFX">
+					<ShortName>UI_ProductionMachine_Oxide_Upgrade.wav</ShortName>
+					<Path>SFX\UI_ProductionMachine_Oxide_Upgrade_B473A318.wem</Path>
+				</File>
+				<File Id="1048356233" Language="SFX">
+					<ShortName>Player_Weapon_Nitro_Serum_Ready.wav</ShortName>
+					<Path>SFX\Player_Weapon_Nitro_Serum_Ready_B473A318.wem</Path>
+				</File>
+				<File Id="1059693190" Language="SFX">
+					<ShortName>player_pickup_01.wav</ShortName>
+					<Path>SFX\player_pickup_01_B473A318.wem</Path>
+				</File>
+				<File Id="1067457709" Language="SFX">
+					<ShortName>Boss_MutantNitrusBrio_Stone_Fall_Start_1.wav</ShortName>
+					<Path>SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_1_B473A318.wem</Path>
+				</File>
+				<File Id="1069873336" Language="SFX">
+					<ShortName>player_crash_slide_02.wav</ShortName>
+					<Path>SFX\player_crash_slide_02_B473A318.wem</Path>
+				</File>
+				<File Id="1070490667" Language="SFX">
+					<ShortName>Tutorial_Runner_Coco_Dialogue.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Coco_Dialogue_B473A318.wem</Path>
+				</File>
+				<File Id="1073344639" Language="SFX">
+					<ShortName>Tutorial_Runner_Obstacle_Slowdown_1.wav</ShortName>
+					<Path>SFX\Tutorial_Runner_Obstacle_Slowdown_1_B473A318.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

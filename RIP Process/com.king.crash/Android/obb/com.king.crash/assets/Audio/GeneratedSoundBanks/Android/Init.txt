@@ -1,0 +1,55 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	890426785	Runner_Music_State			\Default Work Unit\Runner_Music_State	
+	4071417932	Player_State			\Default Work Unit\Player_State	
+
+State	ID	Name	State Group			Notes
+	0	None	Runner_Music_State			
+	1436092825	Running_Phase_Two	Runner_Music_State			
+	1560169506	Boss	Runner_Music_State			
+	1766195600	WinSequence_End	Runner_Music_State			
+	1825376747	Running_Phase_One	Runner_Music_State			
+	3359972429	WinSequence_Victory	Runner_Music_State			
+	0	None	Player_State			
+	2607556080	Menu	Player_State			
+	3863236874	Running	Player_State			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Master Audio Bus\SFX\Ambience	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	753483701	Explosions			\Default Work Unit\Master Audio Bus\SFX\World\Explosions	
+	773989095	Boulders			\Default Work Unit\Master Audio Bus\SFX\World\Boulders	
+	1016865878	Aku			\Default Work Unit\Master Audio Bus\SFX\World\Aku	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\World\Player	
+	1110818777	Ambiences_Runner			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambiences_Runner	
+	1440350250	Bosses			\Default Work Unit\Master Audio Bus\SFX\World\Bosses	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\SFX\World\Weapons	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	1909078698	Ambiences_Runner_Caves			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambiences_Runner_Caves	
+	1955622011	UI_Levelup			\Default Work Unit\Master Audio Bus\SFX\UI\UI_Levelup	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\SFX\World\Enemies	
+	2370464392	Ambiences_Meta			\Default Work Unit\Master Audio Bus\SFX\Ambience\Ambiences_Meta	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\SFX\World\Player\Footsteps	
+	2609808943	World			\Default Work Unit\Master Audio Bus\SFX\World	
+	2685373559	Bosses_Hits			\Default Work Unit\Master Audio Bus\SFX\World\Bosses\Bosses_Hits	
+	3098439042	Crate			\Default Work Unit\Master Audio Bus\SFX\World\Crate	
+	3101296805	UI_ProductionMachines			\Default Work Unit\Master Audio Bus\SFX\UI\UI_ProductionMachines	
+	3117503593	Serum_Finishers			\Default Work Unit\Master Audio Bus\SFX\World\Serum_Finishers	
+	3347221141	Bosses_Other			\Default Work Unit\Master Audio Bus\SFX\World\Bosses\Bosses_Other	
+	3697168200	Player_Pickup_Wumpa			\Default Work Unit\Master Audio Bus\SFX\World\Player\Player_Pickup_Wumpa	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	381664137	FX_Env_Cave			\Default Work Unit\Master Audio Bus\SFX\Auxes\FX_Env_Cave	
+	1267891773	Auxes			\Default Work Unit\Master Audio Bus\SFX\Auxes	
+
+Effect plug-ins	ID	Name	Type				Notes
+	599622739	Wwise_Peak_Limiter_(Custom)	Wwise Peak Limiter			
+	602546716	Room_Large	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

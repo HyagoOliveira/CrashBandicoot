@@ -1,0 +1,529 @@
+Event	ID	Name			Wwise Object Path	Notes
+	386254	Play_UI_ProductionMachine_Inferno_Locked			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Locked	
+	40203751	Play_Player_Jump_Spin			\Player\Play_Player_Jump_Spin	
+	49808135	Play_Aku_Spawn			\Player\Play_Aku_Spawn	
+	76044183	Play_Player_Slam			\Player\Play_Player_Slam	
+	98365066	Play_Music_Boss_MutagenNitrusBrio			\Music\Mus_Runner\Mus_Bosses\Mus_MutagenNitrusBrio\Play_Music_Boss_MutagenNitrusBrio	
+	100927555	Play_UI_ProductionMachine_Item_Swipe_Start			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_Start	
+	107482849	Play_Tutorial_Runner_Coco_Dialogue			\Tutorial_Runner\Play_Tutorial_Runner_Coco_Dialogue	
+	112363585	Play_UI_ProductionMachine_Nitro_Fill_Start			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Fill_Start	
+	141872311	UnMute_SFX			\UI\UI_General\UnMute_SFX	
+	157107573	Play_UI_ProductionMachine_Item_Locked_Error			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Locked_Error	
+	177421108	Play_UI_ProductionMachine_Oxide_Locked			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Locked	
+	201392993	Stop_Amb_CocosIsland			\Ambience\Amb_CocosIsland\Stop_Amb_CocosIsland	
+	213462696	Stop_Music_LostCity_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_ChallengeRun	
+	217016942	Play_Boss_NitrusBrio_Death			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Death	
+	220070639	Play_UI_MissionScreen_Pan			\UI\UI_MissionComputer\Play_UI_MissionScreen_Pan	
+	245510991	Play_Music_Boss_DingoDile			\Music\Mus_Runner\Mus_Bosses\Mus_DingoDile\Play_Music_Boss_DingoDile	
+	281510499	Set_Runner_Phase_Two			\Music\Mus_Runner\Set_Runner_Phase_Two	
+	351014040	Play_Player_Jump_Land			\Player\Play_Player_Jump_Land	
+	367861354	Play_UI_ForageTallyScreen_Collect			\UI\UI_ForageRunTallyScreen\Play_UI_ForageTallyScreen_Collect	
+	369849837	Play_Music_LostCity_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_BattleRun	
+	370310901	Play_Pickup_Fruit			\Player\Play_Pickup_Fruit	
+	373344915	Play_Turtle_Death			\Enemies\Enemy_Turtle\Play_Turtle_Death	
+	378571997	Play_Player_Weapon_Raygun_Ready			\Bosses\Bosses_General\Play_Player_Weapon_Raygun_Ready	
+	384032698	Play_Music_TempleRuins_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_ForageRun	
+	405586108	Stop_Music_TempleRuins_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_BattleRun	
+	417976306	Play_Amb_LostCity			\Ambience\Amb_LostCity\Play_Amb_LostCity	
+	420194456	Play_UI_ProductionMachine_Item_Drag_Release			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Drag_Release	
+	450367630	Play_Tutorial_Runner_Boss_Camera_Pullback			\Tutorial_Runner\Play_Tutorial_Runner_Boss_Camera_Pullback	
+	463889379	Play_Amb_CocosIsland			\Ambience\Amb_CocosIsland\Play_Amb_CocosIsland	
+	471147317	Stop_Amb_TurtleWoods			\Ambience\Amb_TurtleWoods\Stop_Amb_TurtleWoods	
+	474080892	Play_Boss_Dingodile_Death			\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Death	
+	506955182	Play_Boss_Camera_Intro			\Bosses\Bosses_General\Play_Boss_Camera_Intro	
+	510172711	Play_UI_ProductionMachine_Nitro_Collect			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Collect	
+	512665891	Play_UI_ProductionMachine_Item_Tap			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Tap	
+	545968515	Play_Boss_MutantNitrusBrio_Stone_Fall_Impact			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_MutantNitrusBrio_Stone_Fall_Impact	
+	562256996	Play_Player_Jump			\Player\Play_Player_Jump	
+	632450980	Play_Music_LostCity_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_GemRun	
+	640269904	Play_UI_ProductionMachine_Resources_Fly_Start			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Resources_Fly_Start	
+	644891156	Play_Player_Crash_Death_Freeze			\Player\Player_Death_Animations\Play_Player_Crash_Death_Freeze	
+	666101771	Play_Music_DinoMight_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Play_Music_DinoMight_ForageRun	
+	715182504	Play_Env_Floorswitch			\Environment\Traps\Play_Env_Floorswitch	
+	715386380	Play_UI_LevelUp_ContinueButton_Press			\UI\UI_Levelup\Play_UI_LevelUp_ContinueButton_Press	
+	730780803	Play_Music_Boss_Spider			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Spider\Play_Music_Boss_Spider	
+	733222023	Play_Amb_TurtleWoods			\Ambience\Amb_TurtleWoods\Play_Amb_TurtleWoods	
+	748380531	Play_Env_Crate_Checkpoint_Destroy			\Environment\Crates\Play_Env_Crate_Checkpoint_Destroy	
+	756510077	Play_Env_Spiketrap			\Environment\Traps\Play_Env_Spiketrap	
+	794620109	Play_UI_ProductionMachine_Nitro_Close			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Close	
+	798123665	Play_Tutorial_Runner_Obstacle_Slowdown			\Tutorial_Runner\Play_Tutorial_Runner_Obstacle_Slowdown	
+	827924637	Play_Boss_SerumFinisher_Score_Perfect			\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Perfect	
+	832215618	Play_UI_ProductionMachine_Inferno_Fill_Start			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Fill_Start	
+	833143925	Play_Player_Spawn			\Player\Play_Player_Spawn	
+	862780658	Play_Cinematic_Intro			\Intro\Play_Cinematic_Intro	
+	863561863	Play_UI_ProductionMachine_Nitro_Open			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Open	
+	907578286	Cave_FX_Disable			\Environment\Generic\Cave_FX_Disable	
+	915898081	Stop_Music_TempleRuins_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_ChallengeRun	
+	920203495	Stop_Env_Boulder_Large_Roll			\Environment\Rolling_Boulders\Stop_Env_Boulder_Large_Roll	
+	973468427	Stop_Music_LostCity_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_ForageRun	
+	973986035	Play_UI_Error			\UI\UI_General\Play_UI_Error	
+	988941641	Play_Boss_Crab_Attack			\Bosses\MiniBosses\MiniBoss_Crab\Play_Boss_Crab_Attack	
+	1025803469	Stop_Music_Boss_Spider			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Spider\Stop_Music_Boss_Spider	
+	1062450424	Play_UI_ProductionMachine_Frosty_Locked			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Locked	
+	1070769037	Play_Boss_Dingodile_Hit			\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Hit	
+	1076548275	Play_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop	
+	1077029980	Play_UI_ProductionMachine_UnlockSlot			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_UnlockSlot	
+	1105555314	Play_UI_Dialog_Item_Tooltip_Close			\UI\UI_General\Play_UI_Dialog_Item_Tooltip_Close	
+	1105805330	Play_UI_ProductionMachine_Frosty_Upgrade			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Upgrade	
+	1165626265	Play_Boss_SerumFinisher_Score_Good			\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Good	
+	1203890115	Play_UI_ProductionMachine_Item_Drag_Start			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Drag_Start	
+	1227350083	Play_Player_Jump_High			\Player\Play_Player_Jump_High	
+	1231406482	Play_Boss_SerumFinisher_Idle_Loop			\Bosses\Bosses_General\Play_Boss_SerumFinisher_Idle_Loop	
+	1242989296	UnMute_Master			\UI\UI_General\UnMute_Master	
+	1258087929	Stop_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop			\Bosses\Boss_Scorporilla\Stop_Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop	
+	1268914877	Play_Boss_Crab_Death			\Bosses\MiniBosses\MiniBoss_Crab\Play_Boss_Crab_Death	
+	1269964068	Play_Player_Weapon_Serum_Throw			\Bosses\Bosses_General\Play_Player_Weapon_Serum_Throw	
+	1275554094	Play_Music_LostCity_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_ChallengeRun	
+	1290353626	Play_UI_Dialog_Out			\UI\UI_General\Play_UI_Dialog_Out	
+	1305760402	Mute_SFX			\UI\UI_General\Mute_SFX	
+	1324102933	Play_UI_MissionScreen_MiniBoss_Defeated			\UI\UI_MissionComputer\Play_UI_MissionScreen_MiniBoss_Defeated	
+	1346053680	Play_Boss_Araknid_Attack_Venom_Burst			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom_Burst	
+	1349066653	Play_Env_Crate_Secret_Destroy			\Environment\Crates\Play_Env_Crate_Secret_Destroy	
+	1363119964	Play_Aku_Despawn			\Player\Play_Aku_Despawn	
+	1364307906	Play_UI_ProductionMachine_Inferno_Collect			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Collect	
+	1371599375	Play_RewardScreen_Gem			\UI\UI_Runner\Play_RewardScreen_Gem	
+	1383134146	Play_Player_Boomberry_Throw			\Player\Play_Player_Boomberry_Throw	
+	1400782189	Play_Amb_Caves			\Ambience\Amb_Caves\Play_Amb_Caves	
+	1403036453	Play_Player_Push_Enemy			\Player\Play_Player_Push_Enemy	
+	1419783553	Stop_Music_Boss_DingoDile			\Music\Mus_Runner\Mus_Bosses\Mus_DingoDile\Stop_Music_Boss_DingoDile	
+	1441918971	UnMute_Music			\UI\UI_General\UnMute_Music	
+	1466871228	Play_Boomberry_Pickup			\Player\Play_Boomberry_Pickup	
+	1481123359	Play_Amb_TempleRuins			\Ambience\Amb_TempleRuins\Play_Amb_TempleRuins	
+	1487151413	Play_Boss_Scorporilla_Death			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Death	
+	1498985433	Play_Env_Crate_Wumpa_Destroy			\Environment\Crates\Play_Env_Crate_Wumpa_Destroy	
+	1520600372	Play_Boss_Ant_Shot_Wall_Spawn_Nitro			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Wall_Spawn_Nitro	
+	1529709500	Stop_Music_TurtleWoods_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_BattleRun	
+	1550838199	Stop_Music_All_Bosses			\Music\Mus_Runner\Mus_Bosses\Mus_Bosses_General\Stop_Music_All_Bosses	
+	1557024898	Play_Music_TurtleWoods_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_ForageRun	
+	1571514051	Play_UI_MissionScreen_BattleButton_Error			\UI\UI_MissionComputer\Play_UI_MissionScreen_BattleButton_Error	
+	1584006905	Play_Music_LostCity_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Play_Music_LostCity_ForageRun	
+	1587367759	Stop_Turtle_Idle			\Enemies\Enemy_Turtle\Stop_Turtle_Idle	
+	1604299030	Play_UI_ProductionMachine_Oxide_Upgrade			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Upgrade	
+	1611476650	Play_Music_Boss_Crab			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Crab\Play_Music_Boss_Crab	
+	1621813195	Play_Music_TempleRuins_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_ChallengeRun	
+	1623686859	Play_Boss_Araknid_Attack_Venom			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom	
+	1680360429	Stop_Amb_TempleRuins			\Ambience\Amb_TempleRuins\Stop_Amb_TempleRuins	
+	1687205594	Play_UI_MissionScreen_Open			\UI\UI_MissionComputer\Play_UI_MissionScreen_Open	
+	1704647809	Play_Player_Weapon_Serum_Ready			\Bosses\Bosses_General\Play_Player_Weapon_Serum_Ready	
+	1706475663	Stop_Music_TempleRuins_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_GemRun	
+	1724675634	Play_Player_Footstep			\Player\Play_Player_Footstep	
+	1726014132	Play_Boss_NitrusBrio_AttackThrow			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_AttackThrow	
+	1752238254	Play_Boss_NitrusBrio_Intro			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Intro	
+	1761103848	Stop_Music_Boss_Crab			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Crab\Stop_Music_Boss_Crab	
+	1763776574	Play_UI_Notification_Icon_Show			\UI\UI_General\Play_UI_Notification_Icon_Show	
+	1772782408	Play_UI_ProductionMachine_Building_Press			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Building_Press	
+	1819487143	Play_Player_Weapon_Bomb_Ready			\Bosses\Bosses_General\Play_Player_Weapon_Bomb_Ready	
+	1823240932	Play_UI_Runner_Menu_Open			\UI\UI_Runner\Play_UI_Runner_Menu_Open	
+	1827339811	Play_Music_DinoMight_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Play_Music_DinoMight_BattleRun	
+	1831668145	Play_Env_Boulder_Small_Roll			\Environment\Rolling_Boulders\Play_Env_Boulder_Small_Roll	
+	1834645378	Play_Music_Boss_Scorporilla			\Music\Mus_Runner\Mus_Bosses\Mus_Scorporilla\Play_Music_Boss_Scorporilla	
+	1835085974	Play_Player_Death			\Player\Play_Player_Death	
+	1847669309	Play_Turtle_Idle			\Enemies\Enemy_Turtle\Play_Turtle_Idle	
+	1861931408	Play_Boomberry_Bounce			\Player\Play_Boomberry_Bounce	
+	1862023140	Play_UI_MissionScreen_BattleButton_Press			\UI\UI_MissionComputer\Play_UI_MissionScreen_BattleButton_Press	
+	1863220528	Stop_Music_Boss_Scorporilla			\Music\Mus_Runner\Mus_Bosses\Mus_Scorporilla\Stop_Music_Boss_Scorporilla	
+	1865961282	Play_RewardScreen_Powergem			\UI\UI_Runner\Play_RewardScreen_Powergem	
+	1880358329	Play_Player_Crash_Death_Dazed			\Player\Player_Death_Animations\Play_Player_Crash_Death_Dazed	
+	1882768713	Stop_Music_DinoMight_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Stop_Music_DinoMight_ForageRun	
+	1895734588	Play_UI_ProductionMachine_Oxide_Fill_Start			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Fill_Start	
+	1907658867	Play_Music_Cocos_Island			\Music\Mus_CocosIsland\Play_Music_Cocos_Island	
+	1921345084	Play_Boss_Scorporilla_PlatformPunch			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_PlatformPunch	
+	2045173468	Play_Boss_Scorporilla_GroundPunch			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_GroundPunch	
+	2054961544	Play_Boss_Ant_Death			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Death	
+	2097352094	Stop_Env_Platform_Loop			\Environment\Moving_Walls_and_Platforms\Stop_Env_Platform_Loop	
+	2104102148	Play_Env_Pillar_Stone_Fall			\Environment\Traps\Play_Env_Pillar_Stone_Fall	
+	2121821739	Play_Boss_MutantNitrusBrio_Stone_Fall_Start			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_MutantNitrusBrio_Stone_Fall_Start	
+	2134706467	Stop_Music_LostCity_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_BattleRun	
+	2138691069	Stop_Music_Cocos_Island			\Music\Mus_CocosIsland\Stop_Music_Cocos_Island	
+	2144754082	Play_Boss_Ant_Attack			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Attack	
+	2174040909	Stop_Music_Boss_Ant			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_NitroAnt\Stop_Music_Boss_Ant	
+	2183198893	Play_Env_MovingWall_Loop			\Environment\Moving_Walls_and_Platforms\Play_Env_MovingWall_Loop	
+	2201437200	Stop_Music_TempleRuins_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Stop_Music_TempleRuins_ForageRun	
+	2207709228	Play_Tutorial_Runner_Boss_Banner			\Tutorial_Runner\Play_Tutorial_Runner_Boss_Banner	
+	2211715970	Play_UI_ProductionMachine_Item_Swipe_SnapTo			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_SnapTo	
+	2224981419	Stop_Env_MovingWall_Loop			\Environment\Moving_Walls_and_Platforms\Stop_Env_MovingWall_Loop	
+	2243436401	Play_UI_Overlay_In			\UI\UI_General\Play_UI_Overlay_In	
+	2245437846	Play_UI_ProductionMachine_Frosty_Close			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Close	
+	2255405673	Play_Music_TempleRuins_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_GemRun	
+	2320561860	Stop_Amb_LostCity			\Ambience\Amb_LostCity\Stop_Amb_LostCity	
+	2367130114	Play_Music_TempleRuins_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Play_Music_TempleRuins_BattleRun	
+	2379340345	Player_Crash_Death_Squashed_Footstep			\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep	
+	2386816907	Play_Music_Boss_Ant			\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_NitroAnt\Play_Music_Boss_Ant	
+	2397023900	Play_Boss_Araknid_Minion_Footstep			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Minion_Footstep	
+	2425231895	Play_Player_Slide			\Player\Play_Player_Slide	
+	2450743229	Play_UI_MissionScreen_BossUnlock			\UI\UI_MissionComputer\Play_UI_MissionScreen_BossUnlock	
+	2452201441	Stop_Music_TurtleWoods_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_ChallengeRun	
+	2464326587	Play_UI_Button_Press			\UI\UI_General\Play_UI_Button_Press	
+	2473622206	Play_UI_MissionScreen_Close			\UI\UI_MissionComputer\Play_UI_MissionScreen_Close	
+	2480878505	Play_UI_ProductionMachine_SpendGem			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_SpendGem	
+	2484423838	Play_UI_MissionScreen_Button_Press			\UI\UI_MissionComputer\Play_UI_MissionScreen_Button_Press	
+	2495070883	Mute_Master			\UI\UI_General\Mute_Master	
+	2499787892	Play_RewardScreen_HardCurrency			\UI\UI_Runner\Play_RewardScreen_HardCurrency	
+	2502704780	Play_UI_ProductionMachine_Inferno_Open			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Open	
+	2506287366	Stop_Music_LostCity_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Stop_Music_LostCity_GemRun	
+	2511890340	Play_Boss_Araknid_Summon			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Summon	
+	2543680328	Play_Env_Boulder_Large_Impact_Ground			\Environment\Rolling_Boulders\Play_Env_Boulder_Large_Impact_Ground	
+	2544912066	Play_UI_ProductionMachine_Frosty_Open			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Open	
+	2602813049	Stop_Music_Turtle_Woods			\Music\Mus_Runner\Temporary_Remove\Stop_Music_Turtle_Woods	
+	2647356241	Play_UI_ProductionMachine_Nitro_Upgrade			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Upgrade	
+	2657431275	Stop_Env_Boulder_Small_Roll			\Environment\Rolling_Boulders\Stop_Env_Boulder_Small_Roll	
+	2662197353	Play_Env_Boulder_Large_Roll			\Environment\Rolling_Boulders\Play_Env_Boulder_Large_Roll	
+	2677074642	Play_Boss_Ant_Shot_Wall_Spawn_Frost			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Wall_Spawn_Frost	
+	2712357127	Play_Env_Gate_Locked_Alarm_Loop			\Environment\Gates\Play_Env_Gate_Locked_Alarm_Loop	
+	2726739661	Play_UI_LevelUp_Start			\UI\UI_Levelup\Play_UI_LevelUp_Start	
+	2741649490	Mute_Music			\UI\UI_General\Mute_Music	
+	2743686194	Play_Env_Crate_Nitro_Explosion			\Environment\Crates\Play_Env_Crate_Nitro_Explosion	
+	2752609876	Play_Env_Firetrap_Burst			\Environment\Traps\Play_Env_Firetrap_Burst	
+	2754066088	Play_UI_ProductionMachine_Inferno_Close			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Close	
+	2777773008	Play_UI_ProductionMachine_Frosty_Fill_Start			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Fill_Start	
+	2792400172	Play_Boss_SerumFinisher_Score_Ok			\Bosses\Bosses_General\Play_Boss_SerumFinisher_Score_Ok	
+	2817777387	Play_Player_Crash_Death_Ashes			\Player\Player_Death_Animations\Play_Player_Crash_Death_Ashes	
+	2863969317	Play_Player_Weapon_Raygun_Shoot			\Bosses\Bosses_General\Play_Player_Weapon_Raygun_Shoot	
+	2883668304	Play_UI_Runner_Menu_Close			\UI\UI_Runner\Play_UI_Runner_Menu_Close	
+	2901912157	Play_UI_ProductionMachine_Next_Building_Button_Press			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Next_Building_Button_Press	
+	2980057950	Play_Player_RunEnd			\Player\Play_Player_RunEnd	
+	2983650887	Play_Music_Turtle_Woods			\Music\Mus_Runner\Temporary_Remove\Play_Music_Turtle_Woods	
+	3004747408	Play_Env_Platform_Loop			\Environment\Moving_Walls_and_Platforms\Play_Env_Platform_Loop	
+	3018159669	Play_Player_Portal_Enter			\Player\Play_Player_Portal_Enter	
+	3021309270	Play_UI_ProductionMachine_Oxide_Open			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Open	
+	3050066457	Play_UI_CloseButton_Press			\UI\UI_General\Play_UI_CloseButton_Press	
+	3062983721	Stop_Env_Gate_Locked_Alarm_Loop			\Environment\Gates\Stop_Env_Gate_Locked_Alarm_Loop	
+	3101500744	Play_Tutorial_Meta_Coco_Dialogue			\UI\UI_Meta_Tutorial\Play_Tutorial_Meta_Coco_Dialogue	
+	3143366452	Play_UI_ProductionMachine_Oxide_Collect			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Collect	
+	3149532633	Player_Start_Run			\Player\Player_Start_Run	
+	3158970632	Play_UI_MissionScreen_Error			\UI\UI_MissionComputer\Play_UI_MissionScreen_Error	
+	3177230819	Stop_Amb_Caves			\Ambience\Amb_Caves\Stop_Amb_Caves	
+	3189294502	Play_UI_Dialog_Item_Tooltip_Open			\UI\UI_General\Play_UI_Dialog_Item_Tooltip_Open	
+	3229663033	Play_Player_Switch_Lane			\Player\Play_Player_Switch_Lane	
+	3236930213	Play_Boss_Ant_Shot_Bounce_Large			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Bounce_Large	
+	3249199248	Play_Env_Cave_Exit			\Environment\Generic\Play_Env_Cave_Exit	
+	3257044218	Play_Player_Crash_Death_Hithead			\Player\Player_Death_Animations\Play_Player_Crash_Death_Hithead	
+	3263289007	Play_Env_Smasher			\Environment\Traps\Play_Env_Smasher	
+	3277012162	Play_Env_Cave_Enter			\Environment\Generic\Play_Env_Cave_Enter	
+	3282862978	Play_UI_ProductionMachine_Oxide_Close			\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Play_UI_ProductionMachine_Oxide_Close	
+	3325560592	Stop_Music_TurtleWoods_ForageRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_ForageRun	
+	3346296032	Play_Boss_Dingodile_Intro			\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Intro	
+	3357408885	Play_UI_BossTallyScreen_Stage_1			\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Stage_1	
+	3359017887	Play_Enemy_Spider_Grab			\Enemies\Enemy_Spider\Play_Enemy_Spider_Grab	
+	3376380013	Play_Enemy_Spider_Descend			\Enemies\Enemy_Spider\Play_Enemy_Spider_Descend	
+	3410316264	Play_UI_ProductionMachine_Frosty_Collect			\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Play_UI_ProductionMachine_Frosty_Collect	
+	3452498720	Stop_Music_Boss_MutagenNitrusBrio			\Music\Mus_Runner\Mus_Bosses\Mus_MutagenNitrusBrio\Stop_Music_Boss_MutagenNitrusBrio	
+	3491765213	Play_Boss_Scorporilla_Intro			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Intro	
+	3498722770	Play_Boss_Dingodile_Attack_Fireball			\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Attack_Fireball	
+	3523725627	Play_Boss_NitrusBrio_AttackChest			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_AttackChest	
+	3561312058	Play_UI_BossTallyScreen_Result			\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Result	
+	3586602673	Play_Env_Generic_Explosion			\Environment\Generic\Play_Env_Generic_Explosion	
+	3596631069	Play_Player_Crash_Death_Faceplant			\Player\Player_Death_Animations\Play_Player_Crash_Death_Faceplant	
+	3597159933	Play_Boss_Ant_Shot_Bounce_Small			\Bosses\MiniBosses\MiniBoss_Ant\Play_Boss_Ant_Shot_Bounce_Small	
+	3601889523	Play_Music_TurtleWoods_ChallengeRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_ChallengeRun	
+	3613007085	Play_Boss_Araknid_Death			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Death	
+	3615599381	Play_UI_BossTallyScreen_Unlock			\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Unlock	
+	3734369312	Play_Env_Boulder_Small_Impact_Ground			\Environment\Rolling_Boulders\Play_Env_Boulder_Small_Impact_Ground	
+	3753394904	Play_Env_RollingDisc_Roll			\Environment\Rolling_Disc\Play_Env_RollingDisc_Roll	
+	3762652308	Play_Boss_Scorporilla_Hit			\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_Hit	
+	3767040642	Play_Env_Gate_Open			\Environment\Gates\Play_Env_Gate_Open	
+	3786664344	Play_UI_ProductionMachine_Inferno_Upgrade			\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Play_UI_ProductionMachine_Inferno_Upgrade	
+	3829988952	Stop_Amb_DinoMIght			\Ambience\Amb_DinoMight\Stop_Amb_DinoMIght	
+	3869768984	Play_UI_ProductionMachine_Item_Swipe_Release			\UI\UI_ProductionMachines\UI_ProductionMachines_General\Play_UI_ProductionMachine_Item_Swipe_Release	
+	3872611600	Play_UI_Overlay_Out			\UI\UI_General\Play_UI_Overlay_Out	
+	3877197671	Play_UI_Dialog_In			\UI\UI_General\Play_UI_Dialog_In	
+	3881416801	Play_Music_TurtleWoods_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_GemRun	
+	3918800004	Play_UI_BossTallyScreen_Gem_Reward			\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Gem_Reward	
+	3930320082	Play_Amb_DinoMight			\Ambience\Amb_DinoMight\Play_Amb_DinoMight	
+	3935940948	Play_Env_Crate_Destroy			\Environment\Crates\Play_Env_Crate_Destroy	
+	4005308815	Stop_Music_TurtleWoods_GemRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Stop_Music_TurtleWoods_GemRun	
+	4006506062	Play_Boss_Araknid_Attack_Venom_Bounce			\Bosses\MiniBosses\MiniBoss_Araknid\Play_Boss_Araknid_Attack_Venom_Bounce	
+	4023190287	Play_Env_Crate_Parts_Destroy			\Environment\Crates\Play_Env_Crate_Parts_Destroy	
+	4030310079	Play_Boss_Dingodile_Attack_Flamethrower			\Bosses\Boss_Dingodile\Play_Boss_Dingodile_Attack_Flamethrower	
+	4031477642	Play_Music_TurtleWoods_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Play_Music_TurtleWoods_BattleRun	
+	4032966500	Play_Env_Crate_Ingredient_Destroy			\Environment\Crates\Play_Env_Crate_Ingredient_Destroy	
+	4113676111	Play_UI_BossTallyScreen_Start			\UI\UI_BossTallyScreen\Play_UI_BossTallyScreen_Start	
+	4115183042	Play_Player_Weapon_Bomb_Throw			\Bosses\Bosses_General\Play_Player_Weapon_Bomb_Throw	
+	4138868219	Play_Player_Crash_Def_Celebrate			\Player\Player_Idle_Animations\Play_Player_Crash_Def_Celebrate	
+	4142201181	Stop_Music_DinoMight_BattleRun			\Music\Mus_Runner\Mus_WumpaIsland\Mus_DinoMight\Stop_Music_DinoMight_BattleRun	
+	4152225563	Cave_FX_Enable			\Environment\Generic\Cave_FX_Enable	
+	4165140063	Play_Boss_NitrusBrio_Hit			\Bosses\Boss_MutagenNitrusBrio\Play_Boss_NitrusBrio_Hit	
+	4251547580	Play_Player_Crash_Death_Angel			\Player\Player_Death_Animations\Play_Player_Crash_Death_Angel	
+	4282682829	Play_UI_ProductionMachine_Nitro_Locked			\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Play_UI_ProductionMachine_Nitro_Locked	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	344481046	Ice	Material			
+	787898836	Snow	Material			
+	803837735	Sand	Material			
+	1181096339	Wet	Material			
+	1216965916	Stone	Material			
+	2058049674	Wood	Material			
+	2195636714	Dirt	Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	890426785	Runner_Music_State			\Default Work Unit\Runner_Music_State	
+	4071417932	Player_State			\Default Work Unit\Player_State	
+
+State	ID	Name	State Group			Notes
+	0	None	Runner_Music_State			
+	1436092825	Running_Phase_Two	Runner_Music_State			
+	1560169506	Boss	Runner_Music_State			
+	1766195600	WinSequence_End	Runner_Music_State			
+	1825376747	Running_Phase_One	Runner_Music_State			
+	3359972429	WinSequence_Victory	Runner_Music_State			
+	0	None	Player_State			
+	2607556080	Menu	Player_State			
+	3863236874	Running	Player_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1345279936	RTPC_Music_CocosBase_Horizontal			\Default Work Unit\RTPC_Music_CocosBase_Horizontal	
+	4209644878	RTPC_Music_CocosBase_Vertical			\Default Work Unit\RTPC_Music_CocosBase_Vertical	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70336	Aku_Spawn	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\akuaku_pickup_B473A318.wem		\Actor-Mixer Hierarchy\Player\Aku_Spawn		8715
+	899419	Env_Crate_Nitro_Explosion_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Nitro_Explosion_2_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Nitro_Explosion_Overlay\Env_Crate_Nitro_Explosion_2		6652
+	2891399	Env_Crate_Mystery_Destroy_Overlay	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Mystery_Destroy_Overlay_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Mystery_Destroy_Overlay		7096
+	9215487	Env_Firetrap_Burst_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Firetrap_Burst_3_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Firetrap_Burst\Env_Firetrap_Burst_3		6005
+	10315327	Player_Pickup_Wumpa_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Pickup_Wumpa_2_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Pickup_Wumpa\Player_Pickup_Wumpa\Player_Pickup_Wumpa_2		2031
+	19745809	UI_Overlay_In	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Overlay_In_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Overlay_In		5376
+	22126297	Player_Death_Hit_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Death_Hit_4_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Hit\Player_Death_Hit_4		2895
+	22217484	UI_ProductionMachine_Item_Drag_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Drag_Start_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Drag_Start		1972
+	39822775	UI_BossTallyScreen_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_BossTallyScreen_Start_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_BossTallyScreen\UI_BossTallyScreen_Start		17014
+	41607218	CHAMP_CB_FootV2_Scuff_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_FootV2_Scuff_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Switch_Lane\CHAMP_CB_FootV2_Scuff_01		2300
+	52361564	UI_ProductionMachine_Nitro_Upgrade	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Nitro_Upgrade_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Upgrade		22043
+	56325917	player_crash_footstep_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_02		2752
+	64301529	UI_ProductionMachine_UnlockSlot	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_UnlockSlot_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_UnlockSlot		9492
+	64503817	Env_MovingWall_End	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_MovingWall_End_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Moving_Walls_and_Platforms\Env_MovingWall_End		6912
+	64986887	Boss_Araknid_Minion_Footstep_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Minion_Footstep_01_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Minion_Spider_Footstep\Boss_Araknid_Minion_Footstep_01		1283
+	84059900	UI_ProductionMachine_Nitro_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Nitro_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Close		7194
+	91002360	fx_crash_b204_throwwumpa_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_crash_b204_throwwumpa_03_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Throw_Berry\fx_crash_b204_throwwumpa_03		4243
+	106871661	Enemy_Spider_Descend	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Enemy_Spider_Descend_B473A318.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Spider\Enemy_Spider_Descend		3496
+	110477894	Boss_Ant_Attack	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Attack_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Attack		4973
+	119442118	Env_Crate_Nitro_Explosion_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Nitro_Explosion_3_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Nitro_Explosion_Overlay\Env_Crate_Nitro_Explosion_3		6205
+	121110407	UI_LevelUp_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_LevelUp_Start_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_Levelup\UI_LevelUp_Start		24120
+	131249361	Env_Gate_Locked_Alarm_Loop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Gate_Locked_Alarm_Loop_18FF27E2.wem		\Actor-Mixer Hierarchy\Environment\Gates\Env_Gate_Locked_Alarm_Loop		7385
+	134151515	UI_ProductionMachine_Frosty_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Frosty_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\UI_ProductionMachine_Frosty_Open		10260
+	136748066	Player_Crash_Death_Squashed_Footstep_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Squashed_Footstep_3_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep\Player_Crash_Death_Squashed_Footstep_3		2644
+	142247792	UI_ProductionMachine_Item_Swipe_Release	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Swipe_Release_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Swipe_Release		1733
+	147409864	UI_Button_Press	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Button_Press_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Button_Press		2060
+	156467424	Tutorial_Runner_Obstacle_Slowdown_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Obstacle_Slowdown_3_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Obstacle_Slowdown\Tutorial_Runner_Obstacle_Slowdown_3		2991
+	163198355	UI_BossTallyScreen_Result	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_BossTallyScreen_Result_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_BossTallyScreen\UI_BossTallyScreen_Result		10046
+	164222550	Player_Crash_Death_Faceplant	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Faceplant_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Faceplant		9496
+	167762090	Tutorial_Runner_Obstacle_Slowdown_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Obstacle_Slowdown_2_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Obstacle_Slowdown\Tutorial_Runner_Obstacle_Slowdown_2		3623
+	187966363	Boss_SerumFinisher_Score_Perfect	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Score_Perfect_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Score_Perfect		8671
+	190912929	Mus_AllLevels_ChallengeGemRun_171BPM_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_AllLevels_ChallengeGemRun_171BPM_4_4_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_AllLevels_ChallengeGemRun\Mus_AllLevels_ChallengeGemRun\Running_Phase_1\Mus_AllLevels_ChallengeGemRun_171BPM_4_4\Mus_AllLevels_ChallengeGemRun_171BPM_4_4		1901
+	195447941	Boss_Ant_Shot_Wall_Spawn_Nitro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Shot_Wall_Spawn_Nitro_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Shot_Wall_Spawn_Nitro		8173
+	195553107	Player_Crash_Death_Hithead	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Hithead_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Hithead		15940
+	203388499	Player_Death_Hit_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Death_Hit_3_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Hit\Player_Death_Hit_3		7334
+	212507729	Player_Crash_Def_Celebrate	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Def_Celebrate_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Idle_Animations\Player_Crash_Def_Celebrate		680
+	213152610	env_crate_destroy_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_crate_destroy_02_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Destroy\env_crate_destroy_02		9192
+	216863766	UI_ProductionMachine_Item_Swipe_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Swipe_Start_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Swipe_Start		2833
+	221126074	Player_Crash_Death_Angel	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Angel_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Angel		16537
+	222890898	Boomberry_Bounce_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boomberry_Bounce_3_B473A318.wem		\Actor-Mixer Hierarchy\Player\Boomberry_Bounce\Boomberry_Bounce_3		2635
+	225389924	UI_ProductionMachine_Item_Tap	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Tap_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Tap		2541
+	226194160	Player_Spawn	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Spawn_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Spawn		13515
+	226366964	Boomberry_Bounce_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boomberry_Bounce_2_B473A318.wem		\Actor-Mixer Hierarchy\Player\Boomberry_Bounce\Boomberry_Bounce_2		2382
+	229229535	env_pillar_stone_fall_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_pillar_stone_fall_02_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\env_pillar_stone_fall\env_pillar_stone_fall_02		20037
+	229958300	UI_ProductionMachine_Resources_Fly_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Resources_Fly_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Resources_Fly_Start		1272
+	233239981	CHAMP_CB_Foot_Land_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_Foot_Land_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump\Player_Jump\Player_Jump_Land\CHAMP_CB_Foot_Land_01		2915
+	239414598	Boss_Araknid_Attack_Venom_Bounce	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Attack_Venom_Bounce_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Attack_Venom_Bounce		1784
+	242701818	win_intro_152bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\win_intro_152bpm_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WinSequence\Mus_WinSequence\Mus_WinSequence_Victory\win_intro_152bpm\win_intro_152bpm		23704
+	247003257	UI_MissionScreen_Battle_Button	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Battle_Button_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Battle_Button		6897
+	248477413	Boss_SerumFinisher_Score_Ok	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Score_Ok_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Score_Ok		5451
+	249070552	Boss_NitrusBrio_AttackThrow	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_NitrusBrio_AttackThrow_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_NitrusBrio_AttackThrow		19126
+	252900222	UI_ProductionMachine_Nitro_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Nitro_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Open		11361
+	253273388	player_crash_jump_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump\Player_Jump\Player_Jump\blend3\player_crash_jump_01		2971
+	259721781	UI_MissionScreen_Error	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Error_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Error		2176
+	259771382	Boss_Araknid_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Death		15740
+	269676356	Player_Crash_Death_Squashed_Footstep_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Squashed_Footstep_2_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep\Player_Crash_Death_Squashed_Footstep_2		2547
+	270824893	Boss_MutantNitrusBrio_Stone_Fall_Impact_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_1_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Impact\Boss_MutantNitrusBrio_Stone_Fall_Impact_1		4968
+	279010929	UI_ProductionMachine_Inferno_Fill_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Inferno_Fill_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\UI_ProductionMachine_Inferno_Fill_Start		5691
+	281566487	UI_Error	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Error_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Error		2503
+	288743276	Player_Weapon_Raygun_Nitro_Ready	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Raygun_Nitro_Ready_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Raygun_Nitro_Ready		8117
+	290369466	UI_ProductionMachine_Oxide_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Oxide_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\UI_ProductionMachine_Oxide_Close		7338
+	292444737	Play_Boss_Scorporilla_PlatformPunch	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_PlatformPunch_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_PlatformPunch		13933
+	293905176	UI_ProductionMachine_Nitro_Fill_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Nitro_Fill_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Fill_Start		5785
+	294179331	fx_enemy_patrol_turtle_bounce_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_enemy_patrol_turtle_bounce_01_B473A318.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Turtle\Enemy_Turtle_Death\fx_enemy_patrol_turtle_bounce_01		1456
+	308808066	intro_sound	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\intro_crash_fullmix_2020-03-25_B473A318.wem		\Actor-Mixer Hierarchy\Intro\intro_sound		1459
+	311946015	Env_Floorswitch	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Floorswitch_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Floorswitch		3874
+	319762088	Env_Crate_Parts_Destroy_Overlay_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Parts_Destroy_Overlay_2_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Parts_Destroy_Overlay\Env_Crate_Parts_Destroy_Overlay_2		8142
+	327835806	Env_Crate_Ingredient_Destroy_Overlay	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Ingredient_Destroy_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Ingredient_Destroy_Overlay		4812
+	328454243	Env_Firetrap_Burst_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Firetrap_Burst_2_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Firetrap_Burst\Env_Firetrap_Burst_2		5298
+	330730970	Mus_TempleRuins_BattleRun_130bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_TempleRuins_BattleRun_130bpm_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Mus_TempleRuins_BattleRun\Mus_TempleRuins_BattleRun\Running_Phase_1\TempleRuins_BattleRun_Phase_1_130BPM_4_4\Mus_TempleRuins_BattleRun_130bpm		1551
+	335166252	env_crate_destroy_04	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_crate_destroy_04_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Destroy\env_crate_destroy_04		8720
+	335655419	sfx_click	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\sfx_click_B473A318.wem		\Actor-Mixer Hierarchy\UI\Temporary\sfx_click		727
+	342202249	player_crash_footstep_06	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_06_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_06		2742
+	345460639	Boss_MutantNitrusBrio_Stone_Fall_Start_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_2_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Start\Boss_MutantNitrusBrio_Stone_Fall_Start_2		5252
+	346656467	CHAMP_CB_FootV2_Scuff_04	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_FootV2_Scuff_04_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Switch_Lane\CHAMP_CB_FootV2_Scuff_04		2169
+	360423441	env_pillar_stone_fall_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_pillar_stone_fall_01_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\env_pillar_stone_fall\env_pillar_stone_fall_01		23837
+	361160862	Env_MovingWall_Loop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_MovingWall_Loop_18FF27E2.wem		\Actor-Mixer Hierarchy\Environment\Moving_Walls_and_Platforms\Env_MovingWall_Loop		30264
+	361265350	Player_Start_Run	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Start_Run_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Start_Run		7063
+	365080359	player_crash_jump_high_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_high_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump_High\Player_Jump_High\player_crash_jump_high_01		4445
+	388248759	Tutorial_Runner_Obstacle_Slowdown_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Obstacle_Slowdown_4_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Obstacle_Slowdown\Tutorial_Runner_Obstacle_Slowdown_4		3137
+	389404905	Boss_MutantNitrusBrio_Stone_Fall_Start_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_3_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Start\Boss_MutantNitrusBrio_Stone_Fall_Start_3		5617
+	400779918	UI_LevelUp_ContinueButton_Press	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_LevelUp_ContinueButton_Press_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_Levelup\UI_LevelUp_ContinueButton_Press		7082
+	405155114	fx_crash_b204_throwwumpa_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_crash_b204_throwwumpa_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Throw_Berry\fx_crash_b204_throwwumpa_01		3522
+	411482538	Player_Weapon_Serum_Nitro_Throw	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Serum_Nitro_Throw_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Serum_Nitro_Throw		6665
+	414031931	Player_Weapon_Bomb_Nitro_Ready	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Bomb_Nitro_Ready_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Bomb_Nitro_Ready		8003
+	414873799	ENV_Hazard_BigBoulder_Bounce_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\ENV_Hazard_BigBoulder_Bounce_01_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Rolling_Boulders\boulder_impact_small\ENV_Hazard_BigBoulder_Bounce_01		20037
+	418500873	Env_Crate_Parts_Destroy_Overlay_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Parts_Destroy_Overlay_1_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Parts_Destroy_Overlay\Env_Crate_Parts_Destroy_Overlay_1		7275
+	419980788	Player_Crash_Death_Squashed_Footstep_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Squashed_Footstep_4_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep\Player_Crash_Death_Squashed_Footstep_4		3225
+	423261671	Boss_Araknid_Summon	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Summon_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Summon		23354
+	424522793	ENV_Hazard_BigBoulder_Bounce_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\ENV_Hazard_BigBoulder_Bounce_02_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Rolling_Boulders\boulder_impact_small\ENV_Hazard_BigBoulder_Bounce_02		23837
+	436925411	Boss_MutantNitrusBrio_Stone_Fall_Impact_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_3_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Impact\Boss_MutantNitrusBrio_Stone_Fall_Impact_3		3565
+	438979643	UI_ProductionMachine_Item_Locked_Error	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Locked_Error_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Locked_Error		1872
+	440087236	Tutorial_Runner_Boss_Camera_Pullback	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Boss_Camera_Pullback_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Boss_Camera_Pullback		33542
+	466983496	UI_Dialog_Item_Tooltip_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Dialog_Item_Tooltip_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Dialog_Item_Tooltip_Open		1429
+	467147977	Player_RunEnd	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Play_Player_RunEnd_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_RunEnd		5445
+	467968870	UI_ProductionMachine_SpendGem	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_SpendGem_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_SpendGem		4799
+	469258145	Env_RollingDisc_Roll	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Play_Env_RollingDisc_Roll_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Rolling_Disc\Env_RollingDisc_Roll		8905
+	471161893	Boss_Ant_Shot_Wall_Spawn_Frost	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Shot_Wall_Spawn_Frost_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Shot_Wall_Spawn_Frost		15293
+	471799589	Boss_Ant_Shot_Bounce_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Shot_Bounce_03_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Shot_Bounce_Small\Boss_Ant_Shot_Bounce_03		3920
+	479195641	UI_Notification_Icon_Show	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Notification_Icon_Show_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Notification_Icon_Show		4036
+	487324125	UI_Overlay_Out	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Overlay_Out_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Overlay_Out		6092
+	488674929	UI_ProductionMachine_Item_Drag_Release	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Drag_Release_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Drag_Release		2336
+	496204089	env_generic_explosion_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_generic_explosion_01_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Generic\env_generic_explosion\env_generic_explosion_01		13180
+	506196928	UI_BossTallyScreen_Gem_Reward	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_BossTallyScreen_Gem_Reward_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_BossTallyScreen\UI_BossTallyScreen_Gem_Reward		11116
+	510695522	UI_ProductionMachine_Nitro_Collect	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Collect_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Collect		5517
+	513629621	env_crate_destroy_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_crate_destroy_03_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Destroy\env_crate_destroy_03		9990
+	521160163	player_crash_jump_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump\Player_Jump\Player_Jump\blend2\player_crash_jump_02		2729
+	523704747	UI_CloseButton_Press	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_CloseButton_Press_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_CloseButton_Press		2622
+	525132606	win_loop_victory_test_152bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\win_loop_victory_test_152bpm_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WinSequence\Mus_WinSequence\Mus_WinSequence_Victory\win_loop_victory_test_152bpm\win_loop_victory_test_152bpm		100180
+	525343190	Boss_Player_Portal_Enter	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\milo_runner_gameplay_portal_enter_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_Player_Portal_Enter		13873
+	526441603	Mus_TempleRuins_ForageRun_123bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_TempleRuins_ForageRun_123bpm_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Mus_TempleRuins_ForageRun\Mus_TempleRuins_ForageRun\Running_Phase_1\Mus_TempleRuins_ForageRun_123bpm\Mus_TempleRuins_ForageRun_123bpm		1679
+	532651243	env_generic_explosion_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_generic_explosion_02_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Generic\env_generic_explosion\env_generic_explosion_02		12460
+	548058458	Boss_Araknid_Attack_Venom_Burst	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Attack_Venom_Burst_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Attack_Venom_Burst		4327
+	552621271	UI_Dialog_In	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Dialog_In_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Dialog_In		3371
+	555999722	Boss_Araknid_Attack_Venom	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Attack_Venom_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Attack_Venom		17100
+	561035104	Player_Pickup_Wumpa_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Pickup_Wumpa_3_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Pickup_Wumpa\Player_Pickup_Wumpa\Player_Pickup_Wumpa_3		1664
+	561295087	UI_ProductionMachine_Frosty_Upgrade	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Frosty_Upgrade_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\UI_ProductionMachine_Frosty_Upgrade		23780
+	561384869	Player_Weapon_Raygun_Nitro_Shoot	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Raygun_Nitro_Shoot_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Raygun_Nitro_Shoot		8102
+	568122309	RewardScreen_Gem	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\RewardScreen_Gem_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_Runner\RewardScreen_Gem		26563
+	568693078	UI_ProductionMachine_Frosty_Fill_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Frosty_Fill_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\UI_ProductionMachine_Frosty_Fill_Start		5146
+	579023086	Boss_Ant_Shot_Bounce_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Shot_Bounce_01_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Shot_Bounce_Small\Boss_Ant_Shot_Bounce_01		3957
+	580904281	UI_ProductionMachine_Nitro_Locked	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Locked_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\UI_ProductionMachine_Nitro_Locked		3039
+	587226729	Player_Crash_Death_Dazed	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Dazed_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Dazed		20125
+	595595546	Boss_Crab_Attack	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Crab_Attack_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Crab\Boss_Crab_Attack		12661
+	596031477	Env_Gate_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Gate_Open_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Gates\Env_Gate_Open		12629
+	597533052	Boomberry_Pickup	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boomberry_Pickup_B473A318.wem		\Actor-Mixer Hierarchy\Player\Boomberry_Pickup		3938
+	598889596	Player_Death_Hit_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Death_Hit_2_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Hit\Player_Death_Hit_2		3131
+	603721578	Boomberry_Bounce_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boomberry_Bounce_1_066C8790.wem		\Actor-Mixer Hierarchy\Player\Boomberry_Bounce\Boomberry_Bounce_1		2016
+	605887859	player_crash_footstep_04	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_04_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_04		2831
+	609804005	Boss_NitrusBrio_AttackChest	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_NitrusBrio_AttackChest_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_NitrusBrio_AttackChest		16978
+	612467741	Env_Crate_Checkpoint_Destroy_Overlay_	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Checkpoint_Destroy_Overlay__B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Checkpoint_Destroy_Overlay_		6565
+	615820310	CHAMP_CB_Foot_Land_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_Foot_Land_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump\Player_Jump\Player_Jump\blend2\CHAMP_CB_Foot_Land_02		3346
+	616142066	Boss_NitrusBrio_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_NitrusBrio_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_NitrusBrio_Death		26299
+	618703866	UI_ProductionMachine_Inferno_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Inferno_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\UI_ProductionMachine_Inferno_Close		6804
+	623512511	Player_Pickup_Wumpa_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Pickup_Wumpa_1_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Pickup_Wumpa\Player_Pickup_Wumpa\Player_Pickup_Wumpa_1		2072
+	624611457	UI_BossTallyScreen_Stage_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_BossTallyScreen_Stage_1_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_BossTallyScreen\UI_BossTallyScreen_Stage_1		8702
+	627026043	UI_ProductionMachine_Building_Press	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Building_Press_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Building_Press		4393
+	628553011	Player_Weapon_Bomb_Nitro_Throw	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Bomb_Nitro_Throw_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Bomb_Nitro_Throw		6536
+	635378325	Boss_SerumFinisher_Score_Good	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Score_Good_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Score_Good		8911
+	637746210	Env_Crate_Wumpa_Destroy_Overlay	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Play_Env_Crate_Wumpa_Destroy_Overlay_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Wumpa_Destroy_Overlay		7964
+	641333714	UI_MissionScreen_Panning	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Panning_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Panning		7567
+	642682536	player_crash_jump_high_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_high_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump_High\Player_Jump_High\player_crash_jump_high_02		4597
+	650579400	fx_enemy_patrol_turtle_flip_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_enemy_patrol_turtle_flip_01_B473A318.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Turtle\Enemy_Turtle_Death\fx_enemy_patrol_turtle_flip_01		2790
+	658652026	UI_MissionScreen_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Open		15879
+	687617471	Boss_SerumFinisher_Idle_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Idle_Start_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Idle\Boss_SerumFinisher_Idle_Start		5693
+	688344312	Env_Crate_Nitro_Explosion_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Nitro_Explosion_1_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Nitro_Explosion_Overlay\Env_Crate_Nitro_Explosion_1		7261
+	696548763	fx_crash_b204_throwwumpa_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_crash_b204_throwwumpa_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Throw_Berry\fx_crash_b204_throwwumpa_02		3857
+	699008719	player_crash_slide_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_slide_03_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Slide\player_crash_slide_03		5939
+	701532450	Env_Firetrap_Burst_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Firetrap_Burst_1_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Firetrap_Burst\Env_Firetrap_Burst_1		8262
+	713362062	Env_Spiketrap_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Spiketrap_3_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Spiketrap\Env_Spiketrap_3		8991
+	715066082	UI_MissionScreen_Boss_Unlock	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Boss_Unlock_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Boss_Unlock		3711
+	724345441	Player_Crash_Death_Ashes	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Ashes_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Ashes		7754
+	729467780	UI_ProductionMachine_Next_Building_Button_Press	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Next_Building_Button_Press_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Next_Building_Button_Press		9711
+	733143691	env_crate_destroy_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_crate_destroy_01_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Destroy\env_crate_destroy_01		10350
+	738626467	UI_Dialog_Out	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Dialog_Out_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Dialog_Out		2035
+	765266256	Boink	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\milo_runner_generic_pickup_2_B473A318.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Turtle\Enemy_Turtle_Death\Boink		1946
+	773302275	Boss_SerumFinisher_Idle_End	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Idle_End_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Idle_End		2304
+	774799952	UI_MissionScreen_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Close		5563
+	795396506	Boss_Scorporilla_Hit	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_Hit_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Boss_Scorporilla_Hit		7857
+	799872663	Player_Jump_Mushroom	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\milo_runner_gameplay_mushroom_jump_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump_High\Player_Jump_Mushroom		8385
+	828149113	Player_Death_Hit_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Death_Hit_1_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Hit\Player_Death_Hit_1		3818
+	829514799	Boss_Araknid_Minion_Footstep_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Minion_Footstep_02_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Minion_Spider_Footstep\Boss_Araknid_Minion_Footstep_02		1455
+	830236875	Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop_18FF27E2.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Boss_Scorporilla_Ground_Smash_Boulder_Trail_Loop		30441
+	857145822	Boss_Scorporilla_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Boss_Scorporilla_Death		31887
+	860773780	player_crash_jump_high_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_high_03_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump_High\Player_Jump_High\player_crash_jump_high_03		4418
+	864194612	Boss_Araknid_Minion_Footstep_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Araknid_Minion_Footstep_03_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Araknid\Boss_Araknid_Minion_Spider_Footstep\Boss_Araknid_Minion_Footstep_03		1115
+	867702924	wiinsequence_end_152bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\wiinsequence_end_152bpm_18FF27E2.wem		\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WinSequence\Mus_WinSequence\Mus_WinSequence_End\wiinsequence_end_152bpm\wiinsequence_end_152bpm		6069
+	876509954	Boss_Ant_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Death		11842
+	880280356	Player_Crash_Death_Squashed_Footstep_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Squashed_Footstep_1_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Squashed_Footstep\Player_Crash_Death_Squashed_Footstep_1		3686
+	888265797	Env_Spiketrap_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Spiketrap_2_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Spiketrap\Env_Spiketrap_2		8735
+	890133087	Boss_Dingodile_Attack_Fireball	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Dingodile_Attack_Fireball_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Dingodile\Boss_Dingodile_Attack_Fireball		19257
+	892365864	Play_Boss_Scorporilla_GroundPunch	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_GroundPunch_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Play_Boss_Scorporilla_GroundPunch		9297
+	896466663	UI_ProductionMachine_Inferno_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Inferno_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\UI_ProductionMachine_Inferno_Open		9566
+	899757950	Boss_Dingodile_Attack_Flamethrower	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Dingodile_Attack_Flamethrower_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Dingodile\Boss_Dingodile_Attack_Flamethrower		20349
+	903575026	Boss_Scorporilla_Ground_Smash_Boulder_Trail_End	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_Ground_Smash_Boulder_Trail_End_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Boss_Scorporilla_Ground_Smash_Boulder_Trail_End		7359
+	907200194	Boss_NitrusBrio_Intro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_NitrusBrio_Intro_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_NitrusBrio_Intro		24560
+	908710104	Boss_Scorporilla_Intro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Scorporilla_Intro_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Scorporilla\Boss_Scorporilla_Intro		29428
+	912306267	UI_ProductionMachine_Item_Swipe_SnapTo	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Item_Swipe_SnapTo_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachines_General\UI_ProductionMachine_Item_Swipe_SnapTo		2812
+	913065730	env_generic_explosion_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\env_generic_explosion_03_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Generic\env_generic_explosion\env_generic_explosion_03		14668
+	922563022	Env_Spiketrap_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Spiketrap_1_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Traps\Env_Spiketrap\Env_Spiketrap_1		8067
+	923317202	player_crash_footstep_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_03_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_03		2767
+	923647132	Boss_MutantNitrusBrio_Stone_Fall_Impact_2	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Impact_2_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Impact\Boss_MutantNitrusBrio_Stone_Fall_Impact_2		5455
+	931829002	Boss_Dingodile_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Dingodile_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Dingodile\Boss_Dingodile_Death		33892
+	932481851	Player_Push_Enemy	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Play_Player_Push_Enemy_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Push_Enemy		5546
+	938382255	Boss_SerumFinisher_Idle_Loop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_SerumFinisher_Idle_Loop_18FF27E2.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_SerumFinisher_Idle\Boss_SerumFinisher_Idle_Loop		15141
+	939725146	UI_MissionScreen_Button	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_Button_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_Button		2847
+	940381407	Boss_Dingodile_Intro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Dingodile_Intro_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Dingodile\Boss_Dingodile_Intro		27867
+	942973398	player_crash_jump_high_04	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_jump_high_04_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump_High\Player_Jump_High\player_crash_jump_high_04		4513
+	943684450	player_crash_footstep_05	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_05_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_05		2335
+	946680959	fx_enemy_patrol_turtle_impact_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_enemy_patrol_turtle_impact_01_B473A318.wem		\Actor-Mixer Hierarchy\Enemies\Enemy_Turtle\Enemy_Turtle_Death\fx_enemy_patrol_turtle_impact_01		2115
+	949626165	CHAMP_CB_FootV2_Scuff_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_FootV2_Scuff_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Switch_Lane\CHAMP_CB_FootV2_Scuff_02		2942
+	950595004	UI_Dialog_Item_Tooltip_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_Dialog_Item_Tooltip_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_General\UI_Dialog_Item_Tooltip_Close		1600
+	955460071	UI_BossTallyScreen_Unlock	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_BossTallyScreen_Unlock_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_BossTallyScreen\UI_BossTallyScreen_Unlock		6903
+	960345300	player_crash_slide_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_slide_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Slide\player_crash_slide_01		4659
+	964762243	Boss_Camera_Intro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Camera_Intro_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_Camera_Intro		18398
+	971026558	CHAMP_CB_Foot_Land_03	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\CHAMP_CB_Foot_Land_03_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Jump\Player_Jump\Player_Jump\blend3\CHAMP_CB_Foot_Land_03		3126
+	971313009	Aku_Despawn	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Aku_Despawn_B473A318.wem		\Actor-Mixer Hierarchy\Player\Aku_Despawn		10670
+	972042709	UI_ProductionMachine_Oxide_Open	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Oxide_Open_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\UI_ProductionMachine_Oxide_Open		9932
+	975727189	UI_ProductionMachine_Inferno_Upgrade	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Inferno_Upgrade_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\UI_ProductionMachine_Inferno_Upgrade		22241
+	977480834	Boss_Ant_Shot_Bounce_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Ant_Shot_Bounce_02_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Ant\Boss_Ant_Shot_Bounce_Small\Boss_Ant_Shot_Bounce_02		4074
+	981181128	UI_ProductionMachine_Frosty_Close	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Frosty_Close_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\UI_ProductionMachine_Frosty_Close		7037
+	982345012	Player_Crash_Death_Freeze	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Death_Freeze_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Death_Animations\Player_Crash_Death_Freeze		24774
+	986891771	Boss_Crab_Death	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Crab_Death_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\MiniBosses\MiniBoss_Crab\Boss_Crab_Death		13716
+	997006768	Tutorial_Runner_Boss_Banner	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Boss_Banner_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Boss_Banner		18427
+	999307609	UI_ProductionMachine_Oxide_Fill_Start	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Oxide_Fill_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\UI_ProductionMachine_Oxide_Fill_Start		6902
+	999674791	player_crash_footstep_01	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_footstep_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Play_Player_Footstep\Player_Footstep\Player_Footstep\player_footstep_dirt\player_crash_footstep_01		2494
+	1015625441	Boss_Dingodile_Hit	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Dingodile_Hit_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_Dingodile\Boss_Dingodile_Hit		7883
+	1020345884	Env_Crate_Parts_Destroy_Overlay_3	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Env_Crate_Parts_Destroy_Overlay_3_B473A318.wem		\Actor-Mixer Hierarchy\Environment\Crates\Env_Crate_Parts_Destroy_Overlay\Env_Crate_Parts_Destroy_Overlay_3		10051
+	1024425725	UI_MissionScreen_MiniBoss_Defeated	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_MissionScreen_MiniBoss_Defeated_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_MissionComputer\UI_MissionScreen_MiniBoss_Defeated		7317
+	1030138127	Player_Attack_spin	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_attack_spin_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Attack_spin		4904
+	1039984503	UI_ProductionMachine_Oxide_Upgrade	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\UI_ProductionMachine_Oxide_Upgrade_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\UI_ProductionMachine_Oxide_Upgrade		29058
+	1048356233	Player_Weapon_Serum_Nitro_Ready	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Weapon_Nitro_Serum_Ready_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Bosses_General\Player_Weapon_Serum_Nitro_Ready		10913
+	1059693190	Player_Pickup_Wumpa_Pop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_pickup_01_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Pickup_Wumpa\Player_Pickup_Wumpa_Pop		726
+	1067457709	Boss_MutantNitrusBrio_Stone_Fall_Start_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_MutantNitrusBrio_Stone_Fall_Start_1_B473A318.wem		\Actor-Mixer Hierarchy\Bosses\Boss_NitrusBrio\Boss_MutantNitrusBrio_Stone_Fall_Start\Boss_MutantNitrusBrio_Stone_Fall_Start_1		4890
+	1069873336	player_crash_slide_02	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\player_crash_slide_02_B473A318.wem		\Actor-Mixer Hierarchy\Player\Player_Slide\player_crash_slide_02		4833
+	1070490667	Tutorial_Meta_Coco_Dialogue	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Coco_Dialogue_B473A318.wem		\Actor-Mixer Hierarchy\UI\UI_Meta_Tutorial\Tutorial_Meta_Coco_Dialogue		1960
+	1073344639	Tutorial_Runner_Obstacle_Slowdown_1	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Tutorial_Runner_Obstacle_Slowdown_1_B473A318.wem		\Actor-Mixer Hierarchy\Tutorial_Runner\Tutorial_Runner_Obstacle_Slowdown\Tutorial_Runner_Obstacle_Slowdown_1		3524
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	65153703	Amb_ProdMachine_Frosty	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_ProdMachine_Frosty_18FF27E2.wem	65153703.wem	\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Frosty\Amb_ProdMachine_Frosty	
+	71589504	boulder_large_roll_loop	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\ENV_Hazard_BigBoulder_Loop_01_18FF27E2.wem	71589504.wem	\Actor-Mixer Hierarchy\Environment\Rolling_Boulders\boulder_large_roll_loop	
+	118916957	Mus_CocosIsland_BaseLayer_141bpm_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_CocosIsland_BaseLayer_141bpm_18FF27E2.wem	118916957.wem	\Interactive Music Hierarchy\Music\Mus_CocosIsland\Mus_CocosIsland\Mus_CocosIsland_141bpm_4_4\Mus_CocosIsland_BaseLayer_141bpm_4_4	
+	130908067	Amb_ProdMachine_Oxide	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_ProdMachine_Oxide_18FF27E2.wem	130908067.wem	\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Oxide\Amb_ProdMachine_Oxide	
+	150247609	Amb_ProdMachine_Nitro	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_ProdMachine_Nitro_18FF27E2.wem	150247609.wem	\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Nitro\Amb_ProdMachine_Nitro	
+	158107319	Turtle_Woods_Jungle_BattleRun_1_155BPM_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Turtle_Woods_Jungle_1_155BPM_4_4_18FF27E2.wem	158107319.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Mus_TurtleWoods_BattleRun\Mus_TurtleWoods_BattleRun\Running_Phase_1\Turtle_Woods_Jungle_BattleRun_1_155BPM_4_4\Turtle_Woods_Jungle_BattleRun_1_155BPM_4_4	
+	179421260	Music_MiniBoss_Music_4_4_144bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Music_MiniBoss_Music_4_4_144bpm_18FF27E2.wem	179421260.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_MiniBosses\Mus_MiniBoss_Crab\Mus_MiniBoss_Crab\Music_MiniBoss_Music_4_4_144bpm\Music_MiniBoss_Music_4_4_144bpm	
+	190912929	Mus_AllLevels_ChallengeGemRun_171BPM_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_AllLevels_ChallengeGemRun_171BPM_4_4_18FF27E2.wem	190912929.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_AllLevels_ChallengeGemRun\Mus_AllLevels_ChallengeGemRun\Running_Phase_1\Mus_AllLevels_ChallengeGemRun_171BPM_4_4\Mus_AllLevels_ChallengeGemRun_171BPM_4_4	
+	212507729	Player_Crash_Def_Celebrate	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Player_Crash_Def_Celebrate_B473A318.wem	212507729.wem	\Actor-Mixer Hierarchy\Player\Player_Idle_Animations\Player_Crash_Def_Celebrate	
+	223556618	Enemy_Turtle_Idle	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\fx_enemy_patrol_turtle_saw_loop_01_18FF27E2.wem	223556618.wem	\Actor-Mixer Hierarchy\Enemies\Enemy_Turtle\Enemy_Turtle_Idle	
+	230518688	Amb_TurtleWoods	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\amb_jungle_loop_18FF27E2.wem	230518688.wem	\Actor-Mixer Hierarchy\Ambience\Amb_TurtleWoods\Amb_TurtleWoods	
+	275412263	Amb_TempleRuins	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_TempleRuins_18FF27E2.wem	275412263.wem	\Actor-Mixer Hierarchy\Ambience\Amb_TempleRuins\Amb_TempleRuins	
+	290126592	Boss_Platform_Idle	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Boss_Platform_Idle_18FF27E2.wem	290126592.wem	\Actor-Mixer Hierarchy\Bosses\Bosses_General\Boss_Platform_Idle	
+	305550346	Mus_Dingodill_138bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Dingodill_Boss_Loop_18FF27E2.wem	305550346.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_Bosses\Mus_Dingodile\Mus_DingoDile\Mus_DingoDile\Mus_Dingodill_138bpm	
+	308808066	intro_sound	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\intro_crash_fullmix_2020-03-25_B473A318.wem	308808066.wem	\Actor-Mixer Hierarchy\Intro\intro_sound	
+	330730970	Mus_TempleRuins_BattleRun_130bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_TempleRuins_BattleRun_130bpm_18FF27E2.wem	330730970.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Mus_TempleRuins_BattleRun\Mus_TempleRuins_BattleRun\Running_Phase_1\TempleRuins_BattleRun_Phase_1_130BPM_4_4\Mus_TempleRuins_BattleRun_130bpm	
+	422221473	Amb_CocosIsland	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_CocosIsland_18FF27E2.wem	422221473.wem	\Actor-Mixer Hierarchy\Ambience\Amb_CocosIsland\Amb_CocosIsland	
+	468134155	Amb_Caves	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_Caves_18FF27E2.wem	468134155.wem	\Actor-Mixer Hierarchy\Ambience\Amb_Caves\Amb_Caves	
+	526441603	Mus_TempleRuins_ForageRun_123bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_TempleRuins_ForageRun_123bpm_18FF27E2.wem	526441603.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TempleRuins\Mus_TempleRuins_ForageRun\Mus_TempleRuins_ForageRun\Running_Phase_1\Mus_TempleRuins_ForageRun_123bpm\Mus_TempleRuins_ForageRun_123bpm	
+	593841170	Mus_CocosIsland_TikiLayer_141bpm_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_CocosIsland_TikiLayer_141bpm_18FF27E2.wem	593841170.wem	\Interactive Music Hierarchy\Music\Mus_CocosIsland\Mus_CocosIsland\Mus_CocosIsland_141bpm_4_4\Mus_CocosIsland_TikiLayer_141bpm_4_4	
+	647250345	Mus_CocosIsland_WorkshopLayer_141bpm_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_CocosIsland_WorkshopLayer_141bpm_18FF27E2.wem	647250345.wem	\Interactive Music Hierarchy\Music\Mus_CocosIsland\Mus_CocosIsland\Mus_CocosIsland_141bpm_4_4\Mus_CocosIsland_WorkshopLayer_141bpm_4_4	
+	680763191	Amb_LostCity	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_LostCity_18FF27E2.wem	680763191.wem	\Actor-Mixer Hierarchy\Ambience\Amb_LostCity\Amb_LostCity	
+	765138719	Amb_Missionscreen	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_Missionscreen_18FF27E2.wem	765138719.wem	\Actor-Mixer Hierarchy\UI\UI_MissionComputer\Amb_Missionscreen	
+	768763346	Mus_Scorporilla	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Scorporilla_Boss_Loop_18FF27E2.wem	768763346.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_Bosses\Mus_Scorporilla\Mus_Scorporilla\Mus_Scorporilla\Mus_Scorporilla	
+	782333408	Music_Boss_MutantNitrusBrio_4_4_146bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Music_Boss_MutantNitrusBrio_4_4_146bpm_18FF27E2.wem	782333408.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_Bosses\Mus_MutagenNitrusBrio\Mus_MutagenNitrusBrio\Mus_MutagenNitrusBrio\Music_Boss_MutantNitrusBrio_4_4_146bpm	
+	859595803	Mus_LostCity_BattleRun_124bpm	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_LostCity_BattleRun_124bpm_18FF27E2.wem	859595803.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_LostCity\Mus_LostCity_BattleRun\Mus_LostCity_BattleRun\Running_Phase_1\Mus_LostCity_BattleRun_124bpm\Mus_LostCity_BattleRun_124bpm	
+	901664494	Turtle_Woods_Jungle_ForageRun_118BPM_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Turtle_Woods_Jungle_ForageRun_118BPM_4_4_18FF27E2.wem	901664494.wem	\Interactive Music Hierarchy\Music\Mus_Runner\Mus_WumpaIsland\Mus_TurtleWoods\Mus_TurtleWoods_ForageRun\Mus_TurtleWoods_ForageRun\Running_Phase_1\Turtle_Woods_Jungle_ForageRun_118BPM_4_4\Turtle_Woods_Jungle_ForageRun_118BPM_4_4	
+	931191246	Amb_ProdMachine_Inferno	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Amb_ProdMachine_Inferno_18FF27E2.wem	931191246.wem	\Actor-Mixer Hierarchy\UI\UI_ProductionMachines\UI_ProductionMachine_Inferno\Amb_ProdMachine_Inferno	
+	1034027503	Mus_CocosIsland_Caves_141bpm_4_4	C:\Repos\milo-client\milo-client_WwiseProject\.cache\Android\SFX\Mus_CocosIsland_Caves_141bpm_18FF27E2.wem	1034027503.wem	\Interactive Music Hierarchy\Music\Mus_CocosIsland\Mus_CocosIsland\Mus_CocosIsland_141bpm_4_4\Mus_CocosIsland_Caves_141bpm_4_4	
+
