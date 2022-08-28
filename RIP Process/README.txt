@@ -57,7 +57,7 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
  	- Importe para o Unity o modelo completo gerado pelo passo 1
  	- Em Rig desse modelo, é importante selecionar Generic como o type e criar um avatar usando o avatar do modelo do passo 4
  	- Você pode visualizar as animações na aba Animations
- 	- Em Hierarchy, expanda o modelo. Vc verá todas as animações desntro desse arquivo.
+ 	- Em Hierarchy, expanda o modelo. Vc verá todas as animações dentro desse arquivo.
  	- Selecione todas essas animações e aperte Ctrl + D. Elas vão ser copiadas para fora do modelo fbx
  	- Vc pode deletar esse arquivo contento todas as animações
  	- Vc pode usar os arquivos de animações puras dentro dos Animator Controllers
