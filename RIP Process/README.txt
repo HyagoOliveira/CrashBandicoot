@@ -14,7 +14,7 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
  1) Abrindo o AssetStudio
  	- Abra o AssetStudio executando o \AssetStudio\AssetStudioGUI.exe
  	- Selecione File > Load Folder
- 	- Selecione a pasta \com.king.crash\Android\obb\com.king.crash\assets\
+ 	- Selecione a pasta \com.king.crash_[VERSÃO DO JOGO]\assets\
  	- Espere carregar todos os assets
 
  2) Extrair modelo + textures + animations em um único arquivo FBX
@@ -76,3 +76,12 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
  	- O fbx exportado será o modelo + bones + animações que você selecionou
  	- Importe esse arquivo para o Unity
  	- Siga a partir da linha 2 do passo 5 para concluir o processo de importação dessas animações para o Unity
+
+
+ 7) Extraindo animações Crash
+ 	- Vá na coluna Scene Hiearchy e procure por "ani_crash_def_tPose"
+ 	- Selecione o toggle desse GameObject
+ 	- Vá na coluna Asset List
+ 	- Filtre somente por animations em Filter Type > AnimatioClip
+ 	- Procure e selecione sua animação, por exemplo: ani_crash_def_idle (é possivel selecionar mais de uma)
+ 	- Vá em Model > Exported Selected objects (split) + selected animations clips 

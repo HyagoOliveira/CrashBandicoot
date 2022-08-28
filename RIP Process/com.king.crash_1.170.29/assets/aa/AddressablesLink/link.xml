@@ -1,0 +1,1664 @@
+<linker>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitialization" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.Initialization.CacheInitializationData" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceSprite" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.LightingSettings" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.ExposedReference`1[Cinemachine.CinemachineVirtualCameraBase]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AvatarMask" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.Physics2DRaycaster" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Selectable" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.Dropdown" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.UI.AccountMergeConfirmationPopup" preserve="all" />
+    <type fullname="King.Milo.AnimatableOwner" preserve="all" />
+    <type fullname="King.Milo.UI.MiloButtonImageController" preserve="all" />
+    <type fullname="King.Milo.UI.MiloButton" preserve="all" />
+    <type fullname="King.Milo.UI.NavigationTarget" preserve="all" />
+    <type fullname="King.Milo.UI.AccountMergeSelectionPopup" preserve="all" />
+    <type fullname="King.Milo.UI.Bouncer" preserve="all" />
+    <type fullname="King.Milo.UI.RaycastTarget" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableAnimatorShowBehavior" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableAlphaTweener" preserve="all" />
+    <type fullname="King.Milo.UI.LocalizationMiloButtonComponent" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableAnimatorHideBehavior" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableAnimator" preserve="all" />
+    <type fullname="ButtonTab" preserve="all" />
+    <type fullname="King.Milo.WwiseAnimationEventListener" preserve="all" />
+    <type fullname="King.Milo.CharacterDefinition" preserve="all" />
+    <type fullname="King.Milo.UI.NoSpaceTooltip" preserve="all" />
+    <type fullname="King.Milo.GameDatabase" preserve="all" />
+    <type fullname="King.Milo.SoundEngineBank" preserve="all" />
+    <type fullname="King.Milo.UI.DownloadPopup" preserve="all" />
+    <type fullname="King.Milo.SafeAreaDevices" preserve="all" />
+    <type fullname="King.Milo.SoundEngineEvent" preserve="all" />
+    <type fullname="King.Milo.CostumeColorData" preserve="all" />
+    <type fullname="King.Milo.UI.AdjustGridCellSize" preserve="all" />
+    <type fullname="King.Milo.UI.PositionBouncer" preserve="all" />
+    <type fullname="Code.Editor.Audio.SoundEngineBankMultiLoader" preserve="all" />
+    <type fullname="King.Milo.UpdatableSafeArea" preserve="all" />
+    <type fullname="King.Milo.UI.TopBarItem" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatablePositionTweener" preserve="all" />
+    <type fullname="King.Milo.Meta.PositionTooltip" preserve="all" />
+    <type fullname="King.Milo.UI.Screen" preserve="all" />
+    <type fullname="King.Milo.UI.SkewedUIRect" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingSpinner" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableRotationTweener" preserve="all" />
+    <type fullname="King.Milo.UI.ItemScroller" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableScaleTweener" preserve="all" />
+    <type fullname="King.Milo.UI.ToggleButton" preserve="all" />
+    <type fullname="King.Milo.UI.Panel" preserve="all" />
+    <type fullname="King.Milo.UI.RectangularUIGradient" preserve="all" />
+    <type fullname="King.Milo.UI.SettingsScreen" preserve="all" />
+    <type fullname="King.Milo.UI.AdPlayerComponent" preserve="all" />
+    <type fullname="King.Milo.MaskedProfileImage" preserve="all" />
+    <type fullname="King.Milo.UI.ScreenMappingCollection" preserve="all" />
+    <type fullname="King.Milo.CostumeColorChanger" preserve="all" />
+    <type fullname="King.Milo.UI.Spinner" preserve="all" />
+    <type fullname="Sviper.UI.Runtime.SafeArea.RectTransformSafeArea" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingSpinnerPopup" preserve="all" />
+    <type fullname="King.Milo.UI.TransformRotator" preserve="all" />
+    <type fullname="King.Milo.UI.DragRotation" preserve="all" />
+    <type fullname="Code.Game.Services.UIService.UI.Animatables.AnimationClipTweener" preserve="all" />
+    <type fullname="King.Milo.UI.AspectRatioCanvasScaler" preserve="all" />
+    <type fullname="King.Milo.UI.ConfirmPurchasePopup" preserve="all" />
+    <type fullname="King.Milo.UI.SimpleResourceItem" preserve="all" />
+    <type fullname="King.Milo.UI.Shaker" preserve="all" />
+    <type fullname="King.Milo.MakeTargetFollowSize" preserve="all" />
+    <type fullname="King.Milo.Meta.UI.TeamBadgeMappings" preserve="all" />
+    <type fullname="King.Milo.UI.CancelPurchasePopup" preserve="all" />
+    <type fullname="King.Milo.SoundEngineAmbient" preserve="all" />
+    <type fullname="King.Milo.WwiseAudioService" preserve="all" />
+    <type fullname="King.Milo.PopupPrefabCollection" preserve="all" />
+    <type fullname="King.Milo.GraphicsBudgetService" preserve="all" />
+    <type fullname="King.Milo.Runner.GoalConfig" preserve="all" />
+    <type fullname="King.Milo.TallyRewardFlowTestService" preserve="all" />
+    <type fullname="King.Milo.UIService" preserve="all" />
+    <type fullname="King.Milo.StateService" preserve="all" />
+    <type fullname="King.Milo.MiloScalingGroup" preserve="all" />
+    <type fullname="King.Milo.GuidanceService" preserve="all" />
+    <type fullname="King.Milo.TutorialScreenPointer" preserve="all" />
+    <type fullname="King.Milo.UnlockItemIconMapping" preserve="all" />
+    <type fullname="King.Milo.UI.RewardScreenColorSchemeProvider" preserve="all" />
+    <type fullname="King.Milo.UI.Fader" preserve="all" />
+    <type fullname="Sviper.UI.Runtime.SafeArea.UnsafeArea" preserve="all" />
+    <type fullname="King.Milo.TrophyService" preserve="all" />
+    <type fullname="King.Milo.TutorialService" preserve="all" />
+    <type fullname="King.Milo.UI.AnimatableSafeAlphaTweener" preserve="all" />
+    <type fullname="King.Milo.GameEconomyConfigurationService" preserve="all" />
+    <type fullname="King.Milo.UI.SeasonColorSchemeReceiver" preserve="all" />
+    <type fullname="King.Milo.CrossPromotionWidgetService" preserve="all" />
+    <type fullname="King.Milo.UI.InWorldPanelVisibilityCondition" preserve="all" />
+    <type fullname="King.Milo.DefaultGuidanceFactory" preserve="all" />
+    <type fullname="King.Milo.UI.RewardScreenColorScheme" preserve="all" />
+    <type fullname="King.Milo.TabGroup" preserve="all" />
+    <type fullname="King.Milo.UI.LayerVisibilityCondition" preserve="all" />
+    <type fullname="King.Milo.PerformanceTierService" preserve="all" />
+    <type fullname="King.Milo.MetaRevampGuidanceFactory_Phase2" preserve="all" />
+    <type fullname="King.Milo.LocalNotificationService" preserve="all" />
+    <type fullname="King.Milo.PlatformStoreService" preserve="all" />
+    <type fullname="King.Milo.LiveOpService" preserve="all" />
+    <type fullname="King.Milo.RunAvailabilityService" preserve="all" />
+    <type fullname="King.Milo.CompensationService" preserve="all" />
+    <type fullname="King.Milo.TutorialInWorldPointer" preserve="all" />
+    <type fullname="King.Milo.ScreenOverlayService" preserve="all" />
+    <type fullname="King.Milo.ShopPopupService" preserve="all" />
+    <type fullname="King.Milo.DebugService" preserve="all" />
+    <type fullname="King.Milo.UI.RewardScreenColorSchemeReceiver" preserve="all" />
+    <type fullname="King.Milo.TabButton" preserve="all" />
+    <type fullname="King.Milo.CollectionGoalService" preserve="all" />
+    <type fullname="King.Milo.ClientStateService" preserve="all" />
+    <type fullname="King.Milo.DailyQuestPopupService" preserve="all" />
+    <type fullname="King.Milo.TeamRunService" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingSpinnerWithResultImage" preserve="all" />
+    <type fullname="King.Milo.UI.Mover" preserve="all" />
+    <type fullname="King.Milo.ContentLabelDatabase" preserve="all" />
+    <type fullname="King.Milo.UI.SeasonColorSchemeProvider" preserve="all" />
+    <type fullname="King.Milo.UnlockService" preserve="all" />
+    <type fullname="King.Milo.TimerService" preserve="all" />
+    <type fullname="King.Milo.MetaRevampService" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingOverlay" preserve="all" />
+    <type fullname="King.Milo.AnimationLoop" preserve="all" />
+    <type fullname="King.Milo.UnlockScreenService" preserve="all" />
+    <type fullname="King.Milo.TutorialFocus" preserve="all" />
+    <type fullname="King.Milo.GangService" preserve="all" />
+    <type fullname="King.Milo.ConsoleService" preserve="all" />
+    <type fullname="King.Milo.ContentUpdateService" preserve="all" />
+    <type fullname="King.Milo.MetaRevampConfig" preserve="all" />
+    <type fullname="King.Milo.AccountMergeService" preserve="all" />
+    <type fullname="King.Milo.UI.SeasonColorScheme" preserve="all" />
+    <type fullname="King.Milo.LoadingScreenHintCollection" preserve="all" />
+    <type fullname="King.Milo.UI.RadialUIGradient" preserve="all" />
+    <type fullname="King.Milo.UI.InWorldLayer" preserve="all" />
+    <type fullname="King.Milo.UI.InputFilterLayer" preserve="all" />
+    <type fullname="King.Milo.StateDebugService" preserve="all" />
+    <type fullname="King.Milo.DownloadPhases" preserve="all" />
+    <type fullname="King.Milo.UI.TransformSizeBroadcaster" preserve="all" />
+    <type fullname="Code.Game.UI.CrossPromotionWidget" preserve="all" />
+    <type fullname="King.Milo.ActiveObjectAudioEvent" preserve="all" />
+    <type fullname="King.Milo.CharacterVfxSet" preserve="all" />
+    <type fullname="King.Milo.CharacterCostume" preserve="all" />
+    <type fullname="King.Milo.CharacterCostumeSet" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingScreenColorSchemeProvider" preserve="all" />
+    <type fullname="King.Milo.LoadingScreenDataCollection" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingTextAnimator" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingScreen" preserve="all" />
+    <type fullname="King.Milo.LoadingScreenHintScroller" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingScreenColorSchemeReceiver" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingScreenColorScheme" preserve="all" />
+    <type fullname="King.Milo.UI.LoadingSpinnerResponsive" preserve="all" />
+    <type fullname="King.Milo.UI.MiloButtonTextColorController" preserve="all" />
+    <type fullname="King.Milo.StructureInteractionTracker" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.URLButtonController" preserve="all" />
+    <type fullname="King.Milo.LabSoundMappings" preserve="all" />
+    <type fullname="King.Milo.LiveOpSeasonStatusCallout" preserve="all" />
+    <type fullname="King.Milo.UI.ImageFill" preserve="all" />
+    <type fullname="King.Milo.UI.ParticleEffect" preserve="all" />
+    <type fullname="King.Milo.LocaMappedURL" preserve="all" />
+    <type fullname="King.Milo.DoNothingWwiseAnimationEventListener" preserve="all" />
+    <type fullname="Code.Game.MetaBossSettings" preserve="all" />
+    <type fullname="Code.Game.BasicBossAnimator" preserve="all" />
+    <type fullname="King.Milo.UI.MessagePopup" preserve="all" />
+    <type fullname="King.Milo.UI.KingIdPopup" preserve="all" />
+    <type fullname="King.Milo.UI.CharacterSpeechBubble" preserve="all" />
+    <type fullname="King.Milo.UI.MiloProgressBar" preserve="all" />
+    <type fullname="King.Milo.Billboard" preserve="all" />
+    <type fullname="King.Milo.UI.AssetReferencePopup" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.AssetReferenceCostumeSet" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.SerializableDictionary`2[System.String,UnityEngine.Rect]" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ColorData`2/ColorReference[King.Milo.Configuration.CostumeRarity,King.Milo.ImageType]" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ColorData`2/ColorScheme[King.Milo.Configuration.CostumeRarity,King.Milo.ImageType]" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.PerformanceTier" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.SkewedUIRect/Offset" preserve="nothing" serialized="true" />
+    <type fullname="Code.Game.MinMax" preserve="nothing" serialized="true" />
+    <type fullname="Code.Game.Services.UIService.UI.Animatables.AnimationClipTweener/TweenConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.CostumeColorChanger/ColoredImage" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.UI.TeamBadgeMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.ScreenMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.GameplayTag" preserve="nothing" serialized="true" />
+    <type fullname="Code.Game.MetaBossSettings/MetaBossSettingsType" preserve="nothing" serialized="true" />
+    <type fullname="Code.Meta.Tutorial.TutorialFactorySettings" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.DefaultGuidanceFactory/NavigationTargets" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Entry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LoadingScreenHint" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.MetaRevampConfig/ListWrapper" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.MetaRevampService/MetaRevampConfigEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.RunAvailabilityService/RunScreen" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ShopOfferWidgetConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ShopOfferWidgetConfig/CategoryEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ShopOfferWidgetConfig/ResourceEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TabGroup/TabMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRunPlayerProfile" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TierScalingGroup" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TrophyService/Popups" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.AssetReferenceExtentionPrefab" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.PopupSettings" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.RewardScreenColorSchemeProvider/ColorTypeSchemePair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UnlockItemIconMapping/Element" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.CollectedData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.CharacterVfxSet/RigidbodyPrefab" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.CharacterVfxSet/SkeletonPrefab" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.CharacterVfxSet/VfxPrefab" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LoadingScreenData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.UI.LoadingScreenColorSchemeProvider/RunTypeSchemePair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LabSoundMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LocaMappedURL/FallbackEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LocaMappedURL/URLEntry" preserve="nothing" serialized="true" />
+    <type fullname="Code.Game.MetaBossSettings/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.Meta, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.Meta.MissingMaterialsPopup" preserve="all" />
+    <type fullname="King.Milo.UI.OfflineModePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.SoundEventPoster" preserve="all" />
+    <type fullname="King.Milo.Meta.RequiredItem" preserve="all" />
+    <type fullname="King.Milo.Meta.KoreanTos" preserve="all" />
+    <type fullname="King.Milo.Meta.UpgradeSiloPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloFullPopup" preserve="all" />
+    <type fullname="King.Milo.TutorialNotificationEventListener" preserve="all" />
+    <type fullname="King.Milo.Meta.KoreanPrivacyPolicy" preserve="all" />
+    <type fullname="King.Milo.ItemInventoryUpdateListener" preserve="all" />
+    <type fullname="Code.Meta.UI.components.ItemAmounts.ItemAmountItem" preserve="all" />
+    <type fullname="King.Milo.Meta.BonusTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Shop.DescriptionProductDetailItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TooltipRequestListener" preserve="all" />
+    <type fullname="King.Milo.Meta.LockedRunTypeTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Meta.RelicTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Meta.LandTooltipContent" preserve="all" />
+    <type fullname="King.Milo.UI.SimpleTextTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Meta.BonusTooltip" preserve="all" />
+    <type fullname="King.Milo.Meta.IconWithText" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemTooltipContent" preserve="all" />
+    <type fullname="King.Milo.UI.TooltipV2" preserve="all" />
+    <type fullname="King.Milo.Meta.UnlockItemTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemUnlockTooltipContent" preserve="all" />
+    <type fullname="King.Milo.Meta.DraggableImage" preserve="all" />
+    <type fullname="King.Milo.Meta.TooltipContainer" preserve="all" />
+    <type fullname="King.Milo.Meta.FloatingMessage" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopCostumePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamActivityLevelMappings" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamInfoPopup" preserve="all" />
+    <type fullname="King.Milo.Shop.CharacterCostumePreviewItem" preserve="all" />
+    <type fullname="TeamInfoTooltip" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaCrashAnimationController" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamMemberList" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerReportSuccessfulPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.Rotate" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamMemberListItem" preserve="all" />
+    <type fullname="King.Milo.Meta.ReportPlayerPopup" preserve="all" />
+    <type fullname="King.Milo.ButtonErrorHandler" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamToolTip" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamReportSuccessfulPopup" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopPurchaseController" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopPurchaseButton" preserve="all" />
+    <type fullname="King.Milo.Meta.ActivityLevel" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerProfilePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemTooltip" preserve="all" />
+    <type fullname="King.Milo.Meta.CostumeBonusList" preserve="all" />
+    <type fullname="King.Milo.FlexibleGridLayout" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerProfileContent" preserve="all" />
+    <type fullname="King.Milo.Meta.CostumeBonus" preserve="all" />
+    <type fullname="King.Milo.Meta.LeaveTeamPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.ReportTeamPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamMemberInfoTooltip" preserve="all" />
+    <type fullname="King.Milo.Meta.TriggerRewardTrackScreenAnimation" preserve="all" />
+    <type fullname="King.Milo.Meta.DynamicTopBar" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellSurvivalRun" preserve="all" />
+    <type fullname="King.Milo.Meta.ScrollRectTopFade" preserve="all" />
+    <type fullname="King.Milo.Meta.DynamicTopBarItem" preserve="all" />
+    <type fullname="King.Milo.Meta.WeaponCellRequirement" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationLabWidget" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.CountdownText" preserve="all" />
+    <type fullname="King.Milo.Meta.Revamp.RunOverviewScreen" preserve="all" />
+    <type fullname="King.Milo.GangCharacterAnimationContainer" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_IslandView" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeRunView" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunScreenIntroSequencerConfig" preserve="all" />
+    <type fullname="King.Milo.Meta.LandReward" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamRunLandButton" preserve="all" />
+    <type fullname="King.Milo.Meta.DynamicTopBarFlowController" preserve="all" />
+    <type fullname="King.Milo.Meta.NavigationMenu_MetaRevamp_Phase1" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationLoopTracker" preserve="all" />
+    <type fullname="King.Milo.Meta.StructureMissingResourcesPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.RunOverviewRunCell" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeRunScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.JourneyGangShortcut" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamRunPopup" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.CocoUnlockedPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemStreamComponent" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_ForageRunScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenTabContent" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellLab" preserve="all" />
+    <type fullname="King.Milo.SocialButtonNotificationController" preserve="all" />
+    <type fullname="King.Milo.Meta.JourneySlotSelectEffect" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationBossWidget" preserve="all" />
+    <type fullname="Code.Meta.Debug.AdDebugHelper" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenMakeButton" preserve="all" />
+    <type fullname="King.Milo.GeneralNotificationController" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemRequirementView" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellRegularBossWeapons" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputerSeasonTimer" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenWeaponCell" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunPlayerView" preserve="all" />
+    <type fullname="King.Milo.Meta.MaterialEffectAnimator" preserve="all" />
+    <type fullname="King.Milo.Meta.HighestEarnedLandReward" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingProducerSlotLiquid" preserve="all" />
+    <type fullname="King.Milo.Meta.RefreshLayout" preserve="all" />
+    <type fullname="Code.Meta.UI.MetaRevamp.BattleRunView" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputerController" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_ForageLandList" preserve="all" />
+    <type fullname="King.Milo.Meta.MissingResourcesPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.ProgressJourneyCellFactory" preserve="all" />
+    <type fullname="King.Milo.Meta.RewardScreenController" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenCollectPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_TallyScreenBattleRun" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellBossCollectAndStart" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_TallyScreenRewardItem" preserve="all" />
+    <type fullname="King.Milo.Meta.CocosInfoTutorial" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingProducerPurchaseButton" preserve="all" />
+    <type fullname="King.Milo.Meta.InventoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_IslandSelector" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingButtonLock" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunScreenIntroSequencer" preserve="all" />
+    <type fullname="King.Milo.Shop.CostumeBonusesDetailItem" preserve="all" />
+    <type fullname="Code.Meta.UI.MetaRevamp.SurvivalRunView" preserve="all" />
+    <type fullname="King.Milo.Meta.IslandRelicRewards" preserve="all" />
+    <type fullname="King.Milo.GangInfo" preserve="all" />
+    <type fullname="King.Milo.Meta.RewardTrackScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.JourneyGangCharacterCell" preserve="all" />
+    <type fullname="King.Milo.Meta.TimeTrialReward" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_IslandHeaderView" preserve="all" />
+    <type fullname="King.Milo.Meta.JourneyMilestoneCell" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeIslandHeaderView" preserve="all" />
+    <type fullname="King.Milo.Meta.ScrollRectScroller" preserve="all" />
+    <type fullname="King.Milo.Meta.NavigateRunScreenButton" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunScreenContent" preserve="all" />
+    <type fullname="King.Milo.Meta.GangCharacterInfoView" preserve="all" />
+    <type fullname="King.Milo.Meta.RevampedMissionComputerScreen" preserve="all" />
+    <type fullname="King.Milo.ImageContainer" preserve="all" />
+    <type fullname="King.Milo.Meta.MissingWeaponsPopup" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.BossPopup" preserve="all" />
+    <type fullname="King.Milo.ReseedTimerTooltip" preserve="all" />
+    <type fullname="King.Milo.GangCharacter" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputerDefaultContent" preserve="all" />
+    <type fullname="King.Milo.Meta.LayoutGroupAnimationCell" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeReward" preserve="all" />
+    <type fullname="King.Milo.Meta.TimerText" preserve="all" />
+    <type fullname="Code.Meta.UI.components.LockOverlay" preserve="all" />
+    <type fullname="King.Milo.Meta.SpeedupButton" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.TimeTrialsPopup" preserve="all" />
+    <type fullname="King.Milo.CrateItemMeter" preserve="all" />
+    <type fullname="King.Milo.Meta.WeaponRequirement" preserve="all" />
+    <type fullname="King.Milo.Meta.LayoutGroupAnimator" preserve="all" />
+    <type fullname="King.Milo.Meta.JourneyRewardCell" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenChickenCoopWidget" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeRunElement" preserve="all" />
+    <type fullname="King.Milo.Meta.RunScreenFooter" preserve="all" />
+    <type fullname="King.Milo.Meta.BattleButtonView" preserve="all" />
+    <type fullname="King.Milo.Meta.RewardStep" preserve="all" />
+    <type fullname="King.Milo.RarityProductDetailItem" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputerSeasonContent" preserve="all" />
+    <type fullname="King.Milo.Meta.CellSwiper" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerWidget" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellBossCollect" preserve="all" />
+    <type fullname="Code.Meta.UI.Screens.TeamScreen.TeamRunTicketPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.IslandGemRewards" preserve="all" />
+    <type fullname="King.Milo.Meta.RunOverviewView" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerOverview" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenEggsTab" preserve="all" />
+    <type fullname="King.Milo.Meta.RewardScreenUI" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenWeaponsTab" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.GangCharacterView" preserve="all" />
+    <type fullname="King.Milo.Meta.LabButtonNotificationController" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaTutorialStepFactory" preserve="all" />
+    <type fullname="King.Milo.Meta.RewardTrack" preserve="all" />
+    <type fullname="King.Milo.Meta.RefreshableLayout" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevampScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.ProgressJourneyCellSlot" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellBossCollectFuture" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellRegularBossBattle" preserve="all" />
+    <type fullname="King.Milo.Meta.WeaponCellRequirementWidget" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengesRunCard" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingScreenChickenCoopShortcut" preserve="all" />
+    <type fullname="King.Milo.MissionComputerGang" preserve="all" />
+    <type fullname="King.Milo.Meta.RecommendationCellChallengeRun" preserve="all" />
+    <type fullname="King.Milo.Meta.WeaponsTabLabButton" preserve="all" />
+    <type fullname="King.Milo.Meta.RelicButton" preserve="all" />
+    <type fullname="King.Milo.GangCharacterInfo" preserve="all" />
+    <type fullname="King.Milo.Meta.SurvivalRunLandButton" preserve="all" />
+    <type fullname="Code.Meta.UI.MetaRevamp.CollectionRunView" preserve="all" />
+    <type fullname="King.Milo.Meta.OutOfSpacePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.ProgressJourneyView" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputerSeasonPlaceholder" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_ForageLandView" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyScreenForageSequencer" preserve="all" />
+    <type fullname="King.Milo.Meta.LevelPage" preserve="all" />
+    <type fullname="King.Milo.UI.GenericPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.StickersPage" preserve="all" />
+    <type fullname="King.Milo.Meta.CrashlogPage" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerProfileScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerProfilePage" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyItemContainer" preserve="all" />
+    <type fullname="King.Milo.Meta.FlyingEffect" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyScreenForagePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.PlayerProfileHeader" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyUnlockItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyScreenBattleRun" preserve="all" />
+    <type fullname="Code.Meta.UI.components.Tooltips.AutoItemTypeTooltipListener" preserve="all" />
+    <type fullname="King.Milo.Meta.MileageContainer" preserve="all" />
+    <type fullname="MapLandIcon" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamLockedPopup" preserve="all" />
+    <type fullname="King.Milo.ChallengeRelicBehaviour" preserve="all" />
+    <type fullname="King.Milo.Meta.MapScreen" preserve="all" />
+    <type fullname="King.Milo.MapIslandIconStateSwitcher" preserve="all" />
+    <type fullname="King.Milo.Meta.MapLandDetails" preserve="all" />
+    <type fullname="King.Milo.MapIslandIcon" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengeItem" preserve="all" />
+    <type fullname="King.Milo.Meta.MapCalloutController" preserve="all" />
+    <type fullname="King.Milo.Meta.MapIslandGroup" preserve="all" />
+    <type fullname="King.Milo.Meta.ChallengesPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.MapLandStateVisibilitySwitcher" preserve="all" />
+    <type fullname="King.Milo.BossCalloutItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopButtonNotificationController" preserve="all" />
+    <type fullname="King.Milo.ChallengeGemBehaviour" preserve="all" />
+    <type fullname="King.Milo.Meta.LandSelectionScreen" preserve="all" />
+    <type fullname="LandSelectionArrow" preserve="all" />
+    <type fullname="King.Milo.Meta.NavigationMenu" preserve="all" />
+    <type fullname="King.Milo.Shop.DynamicShopItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ItemAmountContentListCell" preserve="all" />
+    <type fullname="King.Milo.Shop.NameProductDetailItem" preserve="all" />
+    <type fullname="King.Milo.Shop.CostumeProductDetailItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ContentListDetailItem" preserve="all" />
+    <type fullname="King.Milo.Shop.CostumeContentListCell" preserve="all" />
+    <type fullname="King.Milo.Shop.IllustrationDetailItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopItemBadge" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopPreviewButton" preserve="all" />
+    <type fullname="King.Milo.TeamSearchGridView" preserve="all" />
+    <type fullname="King.Milo.ScaleTweenOnEvent" preserve="all" />
+    <type fullname="King.Milo.Meta.ReportChatMessagePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamLeaderboardList" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamHeader" preserve="all" />
+    <type fullname="King.Milo.Meta.UI.TeamSeasonMedalMappings" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamLeaderboardListSeparator" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamLeaderboardTop3Item" preserve="all" />
+    <type fullname="King.Milo.ReportChatMessageTooltip" preserve="all" />
+    <type fullname="King.Milo.Meta.SeasonRewardStackSize" preserve="all" />
+    <type fullname="King.Milo.Meta.CreateTeamPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamLeaderboardListItem" preserve="all" />
+    <type fullname="King.Milo.ChatView" preserve="all" />
+    <type fullname="Code.Meta.UI.Screens.TeamScreen.TeamScreenInfo" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamErrorPopup" preserve="all" />
+    <type fullname="King.Milo.TeamLeaderboard" preserve="all" />
+    <type fullname="King.Milo.Meta.TallyScreenTeamRunPopup" preserve="all" />
+    <type fullname="King.Milo.TeamSearchScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamBadge" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamSeasonRewardScreen" preserve="all" />
+    <type fullname="King.Milo.TextBoxErrorHandler" preserve="all" />
+    <type fullname="King.Milo.ChatItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamScreen" preserve="all" />
+    <type fullname="King.Milo.SeasonRewardItem" preserve="all" />
+    <type fullname="King.Meta.UI.Screens.TeamScreen.ChatListView" preserve="all" />
+    <type fullname="King.Milo.Meta.TeamFeed" preserve="all" />
+    <type fullname="SiloCrate" preserve="all" />
+    <type fullname="King.Milo.CoopNestProducerStateObserver" preserve="all" />
+    <type fullname="UpgradeStructureAnimationEffect" preserve="all" />
+    <type fullname="King.Milo.Shop.FreeRotatingOfferCategoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.SunsetBanner" preserve="all" />
+    <type fullname="King.Milo.Meta.TopBar" preserve="all" />
+    <type fullname="King.Milo.Meta.ItemAmountIcon" preserve="all" />
+    <type fullname="King.Milo.Meta.Lab" preserve="all" />
+    <type fullname="King.Milo.RotateByImageFill" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.CoopProducerStateObserver" preserve="all" />
+    <type fullname="MissionBoard" preserve="all" />
+    <type fullname="King.Milo.UI.WelcomePackagePopup" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloItemPanelController" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.CompensationScreenPopup" preserve="all" />
+    <type fullname="King.Milo.DescriptionRarityProductDetailItem" preserve="all" />
+    <type fullname="King.Milo.Meta.HudWidgetContainer" preserve="all" />
+    <type fullname="King.Milo.Shop.HcSubscriptionProductItem" preserve="all" />
+    <type fullname="King.Milo.MultiverseDisturbanceScreen" preserve="all" />
+    <type fullname="King.Milo.Shop.RotatingOfferCategoryItem" preserve="all" />
+    <type fullname="King.Milo.SiloCrateNotificationController" preserve="all" />
+    <type fullname="King.Milo.Meta.LabScreen" preserve="all" />
+    <type fullname="King.Milo.Shop.SpecialOffersCategoryItem" preserve="all" />
+    <type fullname="King.Milo.TeamRunTicketGiftScreen" preserve="all" />
+    <type fullname="King.Milo.CraftingHeadButton" preserve="all" />
+    <type fullname="King.Milo.Meta.LabListItem" preserve="all" />
+    <type fullname="King.Milo.Meta.UI.MapIslands" preserve="all" />
+    <type fullname="King.Milo.Meta.InteractableObject" preserve="all" />
+    <type fullname="LandButton" preserve="all" />
+    <type fullname="King.Milo.Meta.RefundPolicyController" preserve="all" />
+    <type fullname="King.Milo.Meta.ExtensionEffectHandler" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaFlowSettings" preserve="all" />
+    <type fullname="King.Milo.Shop.HardCurrencyShopCategorySlotShopCategoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TutorialBannerPanel" preserve="all" />
+    <type fullname="Silo" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingHeadTooltip" preserve="all" />
+    <type fullname="King.Milo.Shop.ActiveHcSubscriptionItem" preserve="all" />
+    <type fullname="King.Milo.Shop.PurchasedProductStateItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TrophyBuilding" preserve="all" />
+    <type fullname="King.Milo.Meta.ProducerContentContainer" preserve="all" />
+    <type fullname="King.Milo.UI.RateTheAppPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.LabPager" preserve="all" />
+    <type fullname="King.Milo.Shop.MiloButtonProductStateItem" preserve="all" />
+    <type fullname="King.Milo.Shop.InvalidShopProductItem" preserve="all" />
+    <type fullname="King.Milo.Meta.LevelUpScreenController" preserve="all" />
+    <type fullname="King.Milo.Meta.UpgradeableStructureLevel" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaScene" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopItemBuilder" preserve="all" />
+    <type fullname="King.Milo.Shop.PurchaseConfirmationItem" preserve="all" />
+    <type fullname="King.Milo.Meta.LevelUpRewardItem" preserve="all" />
+    <type fullname="King.Milo.Meta.UpgradeableStructurePopupEffect" preserve="all" />
+    <type fullname="King.Milo.Shop.CostumeShopItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopPurchaseCountItem" preserve="all" />
+    <type fullname="IslandTitle" preserve="all" />
+    <type fullname="King.Milo.Meta.NotificationsPanel" preserve="all" />
+    <type fullname="King.Milo.Shop.ItemPackShopItem" preserve="all" />
+    <type fullname="King.Milo.Meta.TrophyBuildingPopupEffect" preserve="all" />
+    <type fullname="King.Milo.Meta.UINavigationEffect" preserve="all" />
+    <type fullname="King.Milo.Shop.TeamRunTicketShopCategoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloItemController" preserve="all" />
+    <type fullname="King.Milo.CameraStateHandler" preserve="all" />
+    <type fullname="King.Milo.Shop.CurrencyShopItem" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloLamp" preserve="all" />
+    <type fullname="King.Milo.UI.ServiceLayerPopup" preserve="all" />
+    <type fullname="King.Milo.AdDebugScreen" preserve="all" />
+    <type fullname="King.Milo.Shop.HcSubscriptionsCategoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.UpgradeableStructure" preserve="all" />
+    <type fullname="ProfilePicture" preserve="all" />
+    <type fullname="King.Milo.Shop.AdShopCategoryItem" preserve="all" />
+    <type fullname="King.Milo.Meta.SiloItemContextMenuController" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaCharacterCostumeController" preserve="all" />
+    <type fullname="CameraRectBoundaries" preserve="all" />
+    <type fullname="King.Milo.Meta.LabProducerStateObserver" preserve="all" />
+    <type fullname="King.Milo.Meta.MapPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.UnstableNetworkIcon" preserve="all" />
+    <type fullname="King.Milo.Shop.DynamicShopProductContainer" preserve="all" />
+    <type fullname="King.Milo.Meta.ChickenAnimationController" preserve="all" />
+    <type fullname="King.Milo.Meta.AnimatorTriggerEffect" preserve="all" />
+    <type fullname="King.Milo.LabNotificationController" preserve="all" />
+    <type fullname="King.Milo.Meta.SceneInteractables" preserve="all" />
+    <type fullname="King.Milo.Meta.PopupEffect" preserve="all" />
+    <type fullname="King.Milo.Meta.LabProducer" preserve="all" />
+    <type fullname="King.Milo.Meta.MissionComputer" preserve="all" />
+    <type fullname="King.Milo.Meta.BaseCameraController" preserve="all" />
+    <type fullname="King.Milo.UI.SurveyPopup" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopTimerItem" preserve="all" />
+    <type fullname="King.Milo.Meta.LegacyAnimationEffect" preserve="all" />
+    <type fullname="King.Milo.Meta.VendingMachine" preserve="all" />
+    <type fullname="King.Milo.UpgradeButton" preserve="all" />
+    <type fullname="Code.Meta.UI.Screens.UnlockScreen" preserve="all" />
+    <type fullname="King.Milo.ExtendableStructure" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingHead" preserve="all" />
+    <type fullname="King.Milo.Meta.CraftingHeadScreen" preserve="all" />
+    <type fullname="Code.Meta.UI.Screens.TeamScreen.SeasonExpireTeamRankWidget" preserve="all" />
+    <type fullname="King.Milo.Meta.SeasonExpireRewardPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.BossImage" preserve="all" />
+    <type fullname="King.Milo.Shop.MainItemTypeDetailItem" preserve="all" />
+    <type fullname="King.Milo.Shop.ItemAmountDetailItem" preserve="all" />
+    <type fullname="Code.Shop.ShopOfferPopup" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopOfferWidget" preserve="all" />
+    <type fullname="Code.Meta.UI.CostumeBonuses.CostumeBonusListCell" preserve="all" />
+    <type fullname="Code.Meta.UI.components.ItemAmountList" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.TrophyIntroPopup" preserve="all" />
+    <type fullname="Code.Meta.UI.Popups.ConfirmPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.StructureLockedPopup" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopProductPopup" preserve="all" />
+    <type fullname="King.Milo.BossWidget" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.TrophyPopup" preserve="all" />
+    <type fullname="Code.Meta.UI.Controller.Popups.TrophyBuildingLockedPopup" preserve="all" />
+    <type fullname="King.Milo.Meta.WidgetStateVisibilitySwitcher" preserve="all" />
+    <type fullname="King.Milo.Shop.JoinTeamNotificationController" preserve="all" />
+    <type fullname="King.Milo.Shop.SeasonGangNotificationController" preserve="all" />
+    <type fullname="King.Milo.Shop.TeamRunNotificationController" preserve="all" />
+    <type fullname="Code.Meta.Shop.UI.Common.ShopAdsWidget" preserve="all" />
+    <type fullname="King.Milo.Shop.ShopWidget" preserve="all" />
+    <type fullname="King.Milo.Shop.CrossPromotionExtensionWidget" preserve="all" />
+    <type fullname="King.Milo.Meta.RevampSceneInteractables" preserve="all" />
+    <type fullname="King.Milo.Meta.MetaRevamp_LevelUpScreen" preserve="all" />
+    <type fullname="King.Milo.Meta.GyroLook" preserve="all" />
+    <type fullname="Code.Meta.UI.MetaRevamp.HomeBase.BaseCamera" preserve="all" />
+    <type fullname="Code.Meta.UI.MetaRevamp.HomeBase.RevampCameraStateHandler" preserve="all" />
+    <type fullname="King.Milo.Meta.LockedRunTypeTooltipContent/TextTuple" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.TallyScreenBattleRun/ElementIconMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.TooltipRequestListener/Prefabs" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.ErrorMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ReportPlayerPopup/ReportOption" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ReportTeamPopup/ReportOption" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.TeamActivityLevelMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ChallengeRunView/SharedAsset" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenCollectPopup/Layout" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot/BuyState" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot/DoneState" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot/IdleState" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot/InProgressState" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.CraftingScreenProducerSlot/LockedState" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ItemStreamComponent/SoundConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ItemStreamComponent/SoundEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.MaterialEffectProperty" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.MissionComputerSeasonPlaceholder/ContentEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.RecommendationLoopTracker/LoopStepContainer" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ContentContainer" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.MapIslandIconStateStateVisibilitySwitcherMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.LandSelectionScreen/TypeIslandGroupPair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.LandStateVisibilitySwitcherMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.ContentListDetailItem/ItemCategoryOverride" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.ContentListDetailItem/ItemTypeOverride" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.ContentListDetailItem/Prefabs" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.ShopItemBadge/TweenConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ReportChatMessagePopup/ReportOption" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.UI.TeamSeasonMedalMapping" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.ProducerStateObserverPair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.TopBar/ItemEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.TrophyBuilding/ActiveObjectsPerLevel" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.UI.Island" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.VendingMachine/NotificationPrefabs" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.ShopItemBuilder/Prefabs" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Shop.SlotShopCategoryItem/Slot" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Meta.WidgetStateVisibilitySwitcherMapping" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
+    <type fullname="TMPro.TMP_SubMeshUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_ColorGradient" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.TMP_Dropdown" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Sprite" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Crystal.SafeArea" preserve="all" />
+    <type fullname="Crystal.SafeAreaDemo" preserve="all" />
+    <type fullname="King.Milo.QuestTaskList" preserve="all" />
+    <type fullname="King.Milo.DailyQuestsWidget" preserve="all" />
+    <type fullname="King.Milo.QuestTaskUI" preserve="all" />
+    <type fullname="King.Milo.DailyQuestsPopup" preserve="all" />
+    <type fullname="King.Milo.QuestTaskUIWithProgress" preserve="all" />
+    <type fullname="King.Milo.RewardList" preserve="all" />
+    <type fullname="King.Milo.DailyQuestComeBackPopup" preserve="all" />
+    <type fullname="King.Milo.UI.Reward" preserve="all" />
+  </assembly>
+  <assembly fullname="King.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Localization.Components.LocalizationTextMeshProUGUIComponent" preserve="all" />
+    <type fullname="King.Localization.LocalizationLanguageSO" preserve="all" />
+    <type fullname="King.Localization.LocalizationLanguage/Translation" preserve="nothing" serialized="true" />
+    <type fullname="King.Localization.LocalizationLanguage/TranslationBundle" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.CharacterController" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="King.Milo.Runner, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.Runner.ElementBerryProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDebugAbilities" preserve="all" />
+    <type fullname="King.Milo.Runner.MagnetAbility" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerPhysicsController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerAudioController" preserve="all" />
+    <type fullname="King.Milo.Runner.CircumferenceRotation" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDamageController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerBossController" preserve="all" />
+    <type fullname="King.Milo.Runner.BoomberryProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.ElementEffectSender" preserve="all" />
+    <type fullname="King.Milo.Runner.RunningMaterialController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerStartRunController" preserve="all" />
+    <type fullname="King.Milo.Runner.SelfDestruct" preserve="all" />
+    <type fullname="King.Milo.Runner.TornadoAbility" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDebugSpeedUp" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerEndRunController" preserve="all" />
+    <type fullname="King.Milo.Runner.WumpOmatic" preserve="all" />
+    <type fullname="King.Milo.Runner.ObstacleDeathAnimation" preserve="all" />
+    <type fullname="King.Milo.Runner.Spin" preserve="all" />
+    <type fullname="King.Milo.Runner.AkuAkuMaskAnimationListener" preserve="all" />
+    <type fullname="King.Milo.Runner.Invulnerability" preserve="all" />
+    <type fullname="King.Milo.Runner.InteractorProxy" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerCollision" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerCostumeController" preserve="all" />
+    <type fullname="King.Milo.Runner.AbilityPickup" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerAnimationEventsListener" preserve="all" />
+    <type fullname="King.Milo.Runner.RunningMaterialPresets" preserve="all" />
+    <type fullname="King.Milo.Runner.AkuAkuMaskAbility" preserve="all" />
+    <type fullname="King.Milo.Runner.Slam" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerEvents" preserve="all" />
+    <type fullname="King.Milo.Runner.AkuAkuMask" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerBossWeapon" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerForwardSpeed" preserve="all" />
+    <type fullname="King.Milo.Runner.Player" preserve="all" />
+    <type fullname="King.Milo.Runner.TriggerEnter" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerRunController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.Tornado" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerForceField" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerAbilityController" preserve="all" />
+    <type fullname="King.Milo.Runner.GroundedEffect" preserve="all" />
+    <type fullname="King.Milo.Runner.BlobShadow" preserve="all" />
+    <type fullname="King.Milo.Runner.CollectableMagnet" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDeathAvoidanceController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerVfxController" preserve="all" />
+    <type fullname="King.Milo.Runner.BoomberryAbility" preserve="all" />
+    <type fullname="King.Milo.Runner.DelayedJointMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDebugAkuController" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDeathAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.ExtraDizzyInvulnerability" preserve="all" />
+    <type fullname="King.Milo.Runner.Slide" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerAudioBankController" preserve="all" />
+    <type fullname="King.Milo.Runner.ProjectileWithDistanceTransformation" preserve="all" />
+    <type fullname="Code.Runner.RoadObjectData" preserve="all" />
+    <type fullname="King.Milo.Runner.CollisionBreakingObstacles" preserve="all" />
+    <type fullname="King.Milo.Runner.ObjectLifeTime" preserve="all" />
+    <type fullname="King.Milo.Runner.Boss" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerDistanceTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.BossSplatSprites" preserve="all" />
+    <type fullname="King.Milo.Runner.AntMinibossController" preserve="all" />
+    <type fullname="King.Milo.Runner.ColliderTriggerProxy" preserve="all" />
+    <type fullname="King.Milo.Runner.ObstacleFragilityMap" preserve="all" />
+    <type fullname="King.Milo.Runner.AntMinibossAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.BreakObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.BossEnding" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerTimelineActivationEvent" preserve="all" />
+    <type fullname="King.Milo.Runner.CollectedItemUIView" preserve="all" />
+    <type fullname="Code.Runner.UI.Controllers.TeamRunReviveScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.GoalBannerView" preserve="all" />
+    <type fullname="King.Milo.Runner.PauseQuitConfirmationScreen" preserve="all" />
+    <type fullname="King.Milo.Runner.BossReviveScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.DeathScreenConfirmationUIController" preserve="all" />
+    <type fullname="Code.Runner.UI.TeamRunReviveScreenPositionBonus" preserve="all" />
+    <type fullname="King.Milo.Runner.SerumFinisherUI" preserve="all" />
+    <type fullname="Code.Runner.UI.EGP.BossEgpItemsController" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialArrow" preserve="all" />
+    <type fullname="King.Milo.Runner.PauseScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.BossFinisherUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.LowMemoryWarningUi" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTimeScaleSpeedup" preserve="all" />
+    <type fullname="King.Milo.Runner.SerializedRunScene" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerCostumeView" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.RunCameraController" preserve="all" />
+    <type fullname="King.Milo.CameraLayerCulling" preserve="all" />
+    <type fullname="King.Milo.Runner.KeyboardInput" preserve="all" />
+    <type fullname="King.Milo.Runner.CollectionReviveScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.TouchInput" preserve="all" />
+    <type fullname="King.Milo.Runner.InfoTextUI" preserve="all" />
+    <type fullname="King.Milo.Runner.CheckpointText" preserve="all" />
+    <type fullname="King.Milo.Runner.BossNameplateView" preserve="all" />
+    <type fullname="Code.Runner.UI.Controllers.BossInstantRespawnReviveScreenUIController" preserve="all" />
+    <type fullname="Code.Runner.UI.Controllers.CountdownUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.DeathScreenCompleteLossUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.TimeTrialUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.IngredientIndicatorItemView" preserve="all" />
+    <type fullname="King.Milo.PlayerSpawner" preserve="all" />
+    <type fullname="King.Milo.Runner.ItemUICounter" preserve="all" />
+    <type fullname="Code.Runner.UI.EGP.ForageEgpItemsController" preserve="all" />
+    <type fullname="King.Milo.Runner.BoosterUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.RotateByTime" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialGuidanceView" preserve="all" />
+    <type fullname="King.Milo.Runner.RunStartView" preserve="all" />
+    <type fullname="Code.Runner.UI.Controllers.CountdownUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueController" preserve="all" />
+    <type fullname="Code.Runner.UI.EGP.CostStepHandler" preserve="all" />
+    <type fullname="King.Milo.DeathScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.AnimateUIPickup" preserve="all" />
+    <type fullname="King.Milo.Runner.GoalItemView" preserve="all" />
+    <type fullname="King.Milo.Runner.UiPlayInEditor" preserve="all" />
+    <type fullname="King.Milo.Runner.GoalManager" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialGemPopupView" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialGuidanceController" preserve="all" />
+    <type fullname="Code.Runner.UI.Controllers.ReviveScreenUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialFinger" preserve="all" />
+    <type fullname="King.Milo.Runner.CrashPointsIncreasePanel" preserve="all" />
+    <type fullname="King.Milo.Runner.IngredientIndicatorUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.CaveTransitionController" preserve="all" />
+    <type fullname="King.Milo.Runner.TeamRunIntroScreen" preserve="all" />
+    <type fullname="King.Milo.Runner.AiBotRunnerSkillSettings" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TeamRunScene" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.RuntimeHexProcessor" preserve="all" />
+    <type fullname="King.Milo.Runner.UI.TeamRunPodiumTooltip" preserve="all" />
+    <type fullname="King.Milo.Runner.ScreenFadeController" preserve="all" />
+    <type fullname="King.Milo.Runner.PodiumCharacter" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TeamRunStreamingSettings" preserve="all" />
+    <type fullname="King.Milo.Runner.TeamRunUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.TeamRunOutroScreen" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialInputController" preserve="all" />
+    <type fullname="King.Milo.Runner.UI.TeamRunPlayerInfoPanel" preserve="all" />
+    <type fullname="King.Milo.Runner.UI.TeamRunTeamBadgePanel" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.BattleRunScene" preserve="all" />
+    <type fullname="King.Milo.Runner.FtueRunnerTutorialController" preserve="all" />
+    <type fullname="King.Milo.Runner.LevelElementals" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TutorialPGZeroController" preserve="all" />
+    <type fullname="King.Milo.Runner.FlippableObject" preserve="all" />
+    <type fullname="King.Milo.Runner.CameraTransition" preserve="all" />
+    <type fullname="King.Milo.Runner.ObstacleDeathPitTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.SpawnObjectAnimationEvent" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TrackGameplaySequence" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.FirstRunTutorialScene" preserve="all" />
+    <type fullname="King.Milo.Runner.BossCameraSwap" preserve="all" />
+    <type fullname="King.Milo.Runner.NonReactingObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.NeoCortexTutorialController" preserve="all" />
+    <type fullname="King.Milo.Runner.InAirObstacleDeathAnimation" preserve="all" />
+    <type fullname="King.Milo.Runner.RTPCHeightDifference" preserve="all" />
+    <type fullname="King.Milo.Runner.PlatformMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.PillarCollision" preserve="all" />
+    <type fullname="King.Milo.Runner.PillarPhysics" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.CollectionRunScene" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueView" preserve="all" />
+    <type fullname="King.Milo.Runner.EvenHorizontalSplitLayoutGroup" preserve="all" />
+    <type fullname="King.Milo.Runner.KoalaKongBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCocoBossParameters" preserve="all" />
+    <type fullname="Code.Runner.NeoCortexBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrosOxideBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.MrCrumbBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.IronCrateParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.DarkSpyroParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.PinstripeBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.ThornThingParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.GnastyGnorcParameters" preserve="all" />
+    <type fullname="Code.Runner.RoboNeoCortexBossParameters" preserve="all" />
+    <type fullname="Code.Runner.DingodileBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.PirateSharkParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.ZombotBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.PyroMinibossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.NinaCortexBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.UkaUkaBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.GrumblerParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.AntMinibossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.LoloMinibossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCrashBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.LabAssistantParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.MiniMissileRobotParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.PinkElephantParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.RokkoMinibossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.ElectroLabAssistantParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.NTranceBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.TheNoidBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.GearyParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.WawaMinibossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.AraknidBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.BossHealthUIView" preserve="all" />
+    <type fullname="King.Milo.Runner.CrabMinibossParameters" preserve="all" />
+    <type fullname="Code.Runner.ScorporillaBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.TinyTigerBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.DrNGinBossParameters" preserve="all" />
+    <type fullname="Code.Runner.NitrusBrioBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.NTropyBossParameters" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerSplineTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.FrozenCrateAddon" preserve="all" />
+    <type fullname="King.Milo.Runner.PatrollingOnTrack" preserve="all" />
+    <type fullname="King.Milo.Runner.JumpingCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.ObstacleKillTriggerCollider" preserve="all" />
+    <type fullname="King.Milo.Runner.TriggerStay" preserve="all" />
+    <type fullname="King.Milo.Runner.IllusionBlock" preserve="all" />
+    <type fullname="King.Milo.Runner.SnowballObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.FloatingLog" preserve="all" />
+    <type fullname="King.Milo.Runner.AudioTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.ElementEffectSpawner" preserve="all" />
+    <type fullname="King.Milo.Runner.TimeChangeTriggerable" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayVfxAnimationEventListener" preserve="all" />
+    <type fullname="King.Milo.Runner.CollisionMeshGridConfig" preserve="all" />
+    <type fullname="King.Milo.Runner.InvisbleCheckpointTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.ToggleButtonObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.ToggledObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.SnakeTailObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.RunningMaterial" preserve="all" />
+    <type fullname="King.Milo.Runner.MovingWall" preserve="all" />
+    <type fullname="King.Milo.Runner.CinemachinePathOffsetGizmo" preserve="all" />
+    <type fullname="King.Milo.Runner.BreakableCollectable" preserve="all" />
+    <type fullname="King.Milo.Runner.ChildSerializer" preserve="all" />
+    <type fullname="King.Milo.Runner.MovementLandedVFX" preserve="all" />
+    <type fullname="King.Milo.Runner.SinkingLog" preserve="all" />
+    <type fullname="King.Milo.Runner.MovementLandedAudio" preserve="all" />
+    <type fullname="King.Milo.Runner.Follower" preserve="all" />
+    <type fullname="King.Milo.Runner.AnimatorTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.CircumferenceDynamicRotation" preserve="all" />
+    <type fullname="King.Milo.Runner.BossBoulderStopper" preserve="all" />
+    <type fullname="King.Milo.Runner.TimerPauseCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.FlamingBowl" preserve="all" />
+    <type fullname="King.Milo.Runner.DebugEditorPreviewAnimation" preserve="all" />
+    <type fullname="King.Milo.Runner.ForceJump" preserve="all" />
+    <type fullname="King.Milo.Runner.TikiHead" preserve="all" />
+    <type fullname="King.Milo.Runner.Crate" preserve="all" />
+    <type fullname="King.Milo.Runner.PressingMachine" preserve="all" />
+    <type fullname="King.Milo.Runner.CrumblingPlatform" preserve="all" />
+    <type fullname="King.Milo.Runner.DebugTriggerableCollisionPoint" preserve="all" />
+    <type fullname="King.Milo.Runner.InbetweenLaneOverride" preserve="all" />
+    <type fullname="King.Milo.Runner.ObstacleCollisionResponse" preserve="all" />
+    <type fullname="King.Milo.Runner.MovementAlongSplinePhysics" preserve="all" />
+    <type fullname="King.Milo.Runner.PlayerBossWeaponProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.CutsceneAnimState" preserve="all" />
+    <type fullname="King.Milo.Runner.RunAnimationBehaviour" preserve="all" />
+    <type fullname="King.Milo.Runner.IdleAnimationBehaviour" preserve="all" />
+    <type fullname="King.Milo.Runner.RigidbodyGravityScale" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialDialogueGate" preserve="all" />
+    <type fullname="King.Milo.Runner.TeamRunLeaderboardView" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueAsset" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialSection" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueCharacterAsset" preserve="all" />
+    <type fullname="King.Milo.Runner.TeamRunLeaderboardItem" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialDeathAvoidanceGate" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TeamRunTrackDefinition" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TrackWorldHexSequence" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TrackWorldData" preserve="all" />
+    <type fullname="King.Milo.Runner.ElementalMinibossAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.LaneMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.SimpleSplineProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.PyroMinibossController" preserve="all" />
+    <type fullname="King.Milo.Runner.MrCrumbAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.MrCrumbController" preserve="all" />
+    <type fullname="King.Milo.Runner.MummyAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.BreakEnemy" preserve="all" />
+    <type fullname="King.Milo.Runner.BossHealth" preserve="all" />
+    <type fullname="King.Milo.Runner.MummyController" preserve="all" />
+    <type fullname="King.Milo.Runner.BossObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.MrCrumbDuplicationAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.BossEndRun" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCrashController" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCrashAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCocoController" preserve="all" />
+    <type fullname="King.Milo.Runner.FakeCocoAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NeoCortexEnergyBlast" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrusBrioController" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrusBrioAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrusBrioFallingProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.PooledVfxPlayOnGet" preserve="all" />
+    <type fullname="King.Milo.Runner.GearyController" preserve="all" />
+    <type fullname="King.Milo.Runner.GearyAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.BlobSplatVfxTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.ElectroLabAssistantAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.LabAssistantAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.LabAssistantBlobController" preserve="all" />
+    <type fullname="King.Milo.Runner.LabAssistantController" preserve="all" />
+    <type fullname="King.Milo.Runner.BlobAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.ElectroLabAssistantController" preserve="all" />
+    <type fullname="King.Milo.Runner.JumpableEnemyController" preserve="all" />
+    <type fullname="King.Milo.Runner.BossPlayerDistanceTracker" preserve="all" />
+    <type fullname="King.Milo.Runner.ZombotController" preserve="all" />
+    <type fullname="King.Milo.Runner.ColliderSpawningProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.ZombotAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.RokkoMinibossController" preserve="all" />
+    <type fullname="King.Milo.Runner.AntMinibossProjectileAudio" preserve="all" />
+    <type fullname="King.Milo.Runner.WawaMinibossController" preserve="all" />
+    <type fullname="King.Milo.Runner.NinaCortexController" preserve="all" />
+    <type fullname="King.Milo.Runner.NinaCortexAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.BossAttackTriggerEffect" preserve="all" />
+    <type fullname="King.Milo.Runner.NTranceAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NTranceController" preserve="all" />
+    <type fullname="King.Milo.Runner.LoloMinibossController" preserve="all" />
+    <type fullname="King.Milo.Runner.DoctorNGinMechAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NeoCortexLaserBeam" preserve="all" />
+    <type fullname="King.Milo.Runner.DoctorNGinMechController" preserve="all" />
+    <type fullname="King.Milo.Runner.KoalaKongAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.KoalaKongController" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueClipPlayable" preserve="all" />
+    <type fullname="King.Milo.Runner.NeoCortexController" preserve="all" />
+    <type fullname="King.Milo.Runner.DialogueTrack" preserve="all" />
+    <type fullname="King.Milo.Runner.NeoCortexAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.UkaUkaAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.UkaUkaProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.UkaUkaController" preserve="all" />
+    <type fullname="King.Milo.Runner.ThornThingAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.ThornThingController" preserve="all" />
+    <type fullname="King.Milo.Runner.MiniMissileRobotController" preserve="all" />
+    <type fullname="King.Milo.Runner.MiniMissileRobotAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.CrabMinibossMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.CrabMinibossAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.PinkElephantAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.PinkElephantController" preserve="all" />
+    <type fullname="King.Milo.Runner.TriggerableExplosive" preserve="all" />
+    <type fullname="King.Milo.Runner.DropDownEnemyMoving" preserve="all" />
+    <type fullname="King.Milo.Runner.SpiderMinibossMovement" preserve="all" />
+    <type fullname="King.Milo.Runner.DropDownSpiderAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.SpiderMinibossAnimator" preserve="all" />
+    <type fullname="King.Milo.Runner.SpiderMinibossProjectileAudio" preserve="all" />
+    <type fullname="King.Milo.Runner.IronCrateAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.IronCrateController" preserve="all" />
+    <type fullname="King.Milo.Runner.PirateSharkController" preserve="all" />
+    <type fullname="King.Milo.Runner.PirateSharkAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.PirateSharkSwordProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.GrumblerController" preserve="all" />
+    <type fullname="King.Milo.Runner.GrumblerMiniController" preserve="all" />
+    <type fullname="King.Milo.Runner.GrumblerMiniAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.GrumblerAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.GnastyGnorcController" preserve="all" />
+    <type fullname="King.Milo.Runner.GnastyGnorcAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrosOxideAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NitrosOxideController" preserve="all" />
+    <type fullname="King.Milo.Runner.DarkSpyroAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.DarkSpyroController" preserve="all" />
+    <type fullname="King.Milo.Runner.DingodileController" preserve="all" />
+    <type fullname="King.Milo.Runner.DingodileAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.DingodileFireballProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.RoboNeoCortexController" preserve="all" />
+    <type fullname="King.Milo.Runner.RoboNeoCortexAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.ScorporillaAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.ScorporillaController" preserve="all" />
+    <type fullname="King.Milo.Runner.ScorporillaShockwaveProjectile" preserve="all" />
+    <type fullname="King.Milo.Runner.NTropyAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NTropyController" preserve="all" />
+    <type fullname="King.Milo.Runner.PinstripeAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.PinstripeController" preserve="all" />
+    <type fullname="King.Milo.Runner.TinyTigerAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.TinyTigerController" preserve="all" />
+    <type fullname="King.Milo.Runner.LevelSelectScene" preserve="all" />
+    <type fullname="King.Milo.Runner.LevelSelectUIController" preserve="all" />
+    <type fullname="King.Milo.Runner.LevelSelectUIButton" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.MiloMakerLevelSelectController" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.BattleRunTrackDefinition" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.TrackTheme" preserve="all" />
+    <type fullname="King.Milo.Runner.SolidObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.CheckpointCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.HoveringEffect" preserve="all" />
+    <type fullname="King.Milo.Runner.BossSelectorForceField" preserve="all" />
+    <type fullname="King.Milo.Deformation" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.BoosterSpawner" preserve="all" />
+    <type fullname="King.Milo.Runner.LevelPostProcessManager" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.CollectionRunTrackDefinition" preserve="all" />
+    <type fullname="King.Milo.Runner.MovingWallButton" preserve="all" />
+    <type fullname="King.Milo.Runner.GreatGate" preserve="all" />
+    <type fullname="King.Milo.Runner.LightningFlashController" preserve="all" />
+    <type fullname="King.Milo.Runner.FallingIcicle" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.ChunkLibrary" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.MiloMakerLibrary" preserve="all" />
+    <type fullname="King.Milo.Runner.BoosterDefinition" preserve="all" />
+    <type fullname="King.Milo.Runner.TriggerableCollectable" preserve="all" />
+    <type fullname="King.Milo.Runner.ExtendStreamingDistanceTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.EndRunTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.DeformableComponentsContainer" preserve="all" />
+    <type fullname="King.Milo.Runner.BreakableTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.RollingCylinderLaneTraveller" preserve="all" />
+    <type fullname="King.Milo.Runner.ScrubberAnimatorControllerDropDown" preserve="all" />
+    <type fullname="King.Milo.Runner.NitroDestroyerCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.CapsuleCollisionBreakingObstacles" preserve="all" />
+    <type fullname="King.Milo.Runner.VenusFlyTrapAnimationController" preserve="all" />
+    <type fullname="King.Milo.Runner.TNTCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.FlyingFishAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.NitroCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.RollingCylinder" preserve="all" />
+    <type fullname="King.Milo.Runner.TriggeredAnimationPreviewer" preserve="all" />
+    <type fullname="King.Milo.Runner.TurtleAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.LocalOffset" preserve="all" />
+    <type fullname="King.Milo.Runner.SpikyRollerShort" preserve="all" />
+    <type fullname="King.Milo.Runner.SpikyRollerTall" preserve="all" />
+    <type fullname="King.Milo.Runner.FlyingFishController" preserve="all" />
+    <type fullname="King.Milo.Runner.BlobAnimatorControllerSideStep" preserve="all" />
+    <type fullname="King.Milo.Runner.EnergyBlast" preserve="all" />
+    <type fullname="King.Milo.Runner.SpearTrapObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.PatrollingSeal" preserve="all" />
+    <type fullname="King.Milo.Runner.LilyPad" preserve="all" />
+    <type fullname="King.Milo.Runner.AnimationClipTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.DropDownEnemy" preserve="all" />
+    <type fullname="King.Milo.Runner.RollingDisc" preserve="all" />
+    <type fullname="King.Milo.Runner.VenusFlyTrapController" preserve="all" />
+    <type fullname="King.Milo.Runner.ScrubberDeathController" preserve="all" />
+    <type fullname="King.Milo.Runner.ScrubberAnimatorControllerPatrolling" preserve="all" />
+    <type fullname="King.Milo.Runner.SnakeObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.PatrollingSealAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.CaveTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.FallingBoneRibs" preserve="all" />
+    <type fullname="King.Milo.Runner.MovementGroundedVFX" preserve="all" />
+    <type fullname="King.Milo.Runner.BossSelector" preserve="all" />
+    <type fullname="King.Milo.Runner.PenguinAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.Geyser" preserve="all" />
+    <type fullname="King.Milo.Runner.FireBlaster" preserve="all" />
+    <type fullname="King.Milo.Runner.HomeSign" preserve="all" />
+    <type fullname="King.Milo.Runner.IceWalls" preserve="all" />
+    <type fullname="King.Milo.Runner.PatrollingAlongSpline" preserve="all" />
+    <type fullname="King.Milo.Runner.PenguinController" preserve="all" />
+    <type fullname="King.Milo.Runner.SewerWater" preserve="all" />
+    <type fullname="King.Milo.Runner.ScrubberDropDownDebugBreakGizmo" preserve="all" />
+    <type fullname="King.Milo.Runner.SlidingSealAnimatorController" preserve="all" />
+    <type fullname="King.Milo.Runner.InvisibleUnlockCrate" preserve="all" />
+    <type fullname="King.Milo.Runner.BossAttackTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.ScrubberAnimatorControllerOnTrack" preserve="all" />
+    <type fullname="King.Milo.Runner.SectionTrigger" preserve="all" />
+    <type fullname="King.Milo.Runner.BlobSideStep" preserve="all" />
+    <type fullname="King.Milo.Runner.PatrollingAcrossSpline" preserve="all" />
+    <type fullname="King.Milo.Runner.ShaderPrewarmCollectionContainer" preserve="all" />
+    <type fullname="Code.Runner.Serialization.Runtime.SceneLightEnvironment" preserve="all" />
+    <type fullname="Code.Runner.Serialization.Runtime.GlobalLevelData" preserve="all" />
+    <type fullname="King.Milo.Runner.HexagonDataLibrary" preserve="all" />
+    <type fullname="King.Milo.Runner.RotatingObstacle" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialLostCityCollectionRun" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialTrackingHook" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialSpawnController" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialEventTracker" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialCollectionRun" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialFirstCollectionRun" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialSecondCollectionRun" preserve="all" />
+    <type fullname="King.Milo.Runner.BossParametersDirectInjection" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialIntro" preserve="all" />
+    <type fullname="King.Milo.Runner.TutorialBossIntro" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialBattleRun" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialBattleRunTwo" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialBattleRunThree" preserve="all" />
+    <type fullname="King.Milo.Runner.RunnerTutorialBattleRunBoss" preserve="all" />
+    <type fullname="King.Milo.Runner.AkuAkuMask/MaskOffsetData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PlayerAbilityBoosters" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PlayerAttachmentPoints" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PlayerDebugAbilities/DebugAbility" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.RunningMaterialPreset" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SkeletonVisual" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ObstacleFragilityMap/HitboxAbilityFragility" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ObstacleFragilityMap/HitboxAbilityFragilityDictionary" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SplatSpriteColor" preserve="nothing" serialized="true" />
+    <type fullname="Code.Runner.UI.EGP.CostStepHandler/CostStep" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.AnimatedElementController" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.FinisherResultData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PauseScreenUIController/Collection" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PauseScreenUIController/Footer" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PauseScreenUIController/Header" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PauseScreenUIController/Indicators" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.RunStartView/ColoredGemObject" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.RunStartView/StartRunGemInfo" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SerializedRunScene/StreamingSettingsForTier" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TimeTrialUIView/RelicInfo" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TimeTrialUIView/RelicLocation" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TutorialGemPopupView/FailedChallengeInfo" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TutorialGemPopupView/GemInfo" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.AssetReferenceMiloMakerLibrary" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.AssetReferenceTrackDefinition" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.AssetReferenceTrackTheme" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.RandomizedRunScene/StreamingTier" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.RuntimeHexProcessor/HexTypeSetupData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.LanePart" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SpawnObjectAnimationEvent/PrefabTransform" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.GameplayLevelMode" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.ObstacleWithVfx" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackGameplaySequence/EntitySerializedProperty" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackGameplaySequence/GameplayEntity" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackGameplaySequence/GameplayEntityGroup" preserve="nothing" serialized="true" />
+    <type fullname="Code.Runner.DingodileBossParameters/DingodileAttacks" preserve="nothing" serialized="true" />
+    <type fullname="Code.Runner.NitrusBrioBossParameters/NitrusBrioAttacks" preserve="nothing" serialized="true" />
+    <type fullname="Code.Runner.RoboNeoCortexBossParameters/RobotNeoCortexAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.AraknidBossParameters/AraknidAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.AraknidBossParameters/AraknidSummonAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.CrateSpawn" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.CrateWave" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.DarkSpyroParameters/DarkSpyroAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ElectroLabAssistantParameters/ElectroLabAssistantAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ElementalMaskParameters/ElementalMaskAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.FakeBossParameters/FakeBossAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.GearyParameters/GearyAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.GnastyGnorcParameters/GnastyGnorcAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.GrumblerParameters/GrumblerAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.GrumblerParameters/GrumblerSummonWave" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.GrumblerParameters/GrumblerWavePattern" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.KoalaKongBossParameters/NTranceAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.LabAssistantParameters/LabAssistantCrateWaves" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.MrCrumbBossParameters/MrCrumbsAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.NTranceBossParameters/NTranceAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.NTropyBossParameters/NTranceAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.NinaCortexBossParameters/NinaCortexAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.NitrosOxideBossParameters/NitrosOxideAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeBossParameters/PinstripeAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeBossParameters/PinstripeBarrelWaves" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeBossParameters/PinstripeBombWaves" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeBossParameters/PinstripeTommyGunWaves" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/BarrelsSpawn" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/BarrelsWave" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/BombSpawn" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/BombWave" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/TommyGunSpawn" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PinstripeController/TommyGunWave" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PirateSharkParameters/PirateSharkAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PirateSharkParameters/PirateSharkThrowPattern" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SpiderMinibossMovement/SummonAttack" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SpiderMinibossMovement/SummonData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ThornThingParameters/ThornThingAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TinyTigerBossParameters/TinyTigerAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.UkaUkaBossParameters/UkaUkaAttacks" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ElementEffectSpawner/ElementAddonConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.IllusionBlock/VisualColliderGroup" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.DialogueAsset/Dialogue" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.HexSegmentDefinition" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.MrCrumbClone" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.FakeCocoAnimatorController/DrumSticksPair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SerumProp" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.NinaFist" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.DialogueClipBehaviour" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.UkaUkaController/LaserData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.LaserBeamData" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.SequenceGroup" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.WeightedGameplaySequence" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.LevelPostProcessManager/LevelPostProcessSetting" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackTheme/DirectObstacleReference" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackTheme/RoadPieces" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.TrackTheme/AddressableObstacleReference" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.LightningFlashController/VolumePairs" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.ChunkLibraryRuntimeRule" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.AssetReferenceChunkLibrary" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.ChunkLibraryPopulateRule" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.MiloMakerLibrary/ChunkLibraryIdReference" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.MiloMakerLibrary/TrackDefinitionIdReference" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.MiloMakerLibrary/TrackThemeIdReference" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.RandomizedDifficultyGenerator/DifficultyConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.RandomizedDifficultyGenerator/DifficultyPoint" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.TeamRuns.RandomizedDifficultyGenerator/DifficultySettings" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.FishWaypoint" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.HomeSign/PrefabParentPair" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.PenguinMovement" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SpearConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.SpearObjectsConfig" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.HexagonDataLibrary/SplineToHexagonDataOnSpline" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.ShaderPrewarmCollectionContainer/TierVariantCollection" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TutorialSection/Obstacle" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.TutorialSection/ObstacleStep" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.CollectionRunTutorialIdElements" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.ActivationTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalReceiver" preserve="all" />
+    <type fullname="UnityEngine.Timeline.AnimationPlayableAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalAsset" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalEmitter" preserve="all" />
+    <type fullname="UnityEngine.Timeline.SignalTrack" preserve="all" />
+    <type fullname="UnityEngine.Timeline.MarkerList" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Timeline.SignalReceiver/EventKeyValue" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Performance.TierDetectionModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Performance.TierDetectionModule.Base" preserve="all" />
+    <type fullname="King.Performance.TierDetectionModule.PerformanceTierDetector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all" />
+    <type fullname="Cinemachine.CinemachineComposer" preserve="all" />
+    <type fullname="Cinemachine.NoiseSettings" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBasicMultiChannelPerlin" preserve="all" />
+    <type fullname="Cinemachine.CinemachinePipeline" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBlenderSettings" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Cinemachine.CinemachineTransposer" preserve="all" />
+    <type fullname="Cinemachine.CinemachineDollyCart" preserve="all" />
+    <type fullname="Cinemachine.CinemachineSmoothPath" preserve="all" />
+    <type fullname="CinemachineTrack" preserve="all" />
+    <type fullname="CinemachineShot" preserve="all" />
+    <type fullname="Cinemachine.CinemachineStateDrivenCamera" preserve="all" />
+    <type fullname="Cinemachine.CinemachineBrain/VcamActivatedEvent" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineVirtualCameraBase/TransitionParams" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.LensSettings" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineBrain/BrainEvent" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachinePathBase/Appearance" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineSmoothPath/Waypoint" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineStateDrivenCamera/Instruction" preserve="nothing" serialized="true" />
+    <type fullname="Cinemachine.CinemachineStateDrivenCamera/ParentHash" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.LevelTools.Data, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Code.Runner.LevelTools.Data.LevelObjectType" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.HexagonSound" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.HexagonType" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.HexTileMeta" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.MultiSplineObject" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.MultiSplineLaneData" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.TileHeightRuntime" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Data.HexTileMeta/Curve" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.Runner.RunningMaterialType" preserve="nothing" serialized="true" />
+    <type fullname="Code.Runner.LevelTools.Data.HexagonData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+  </assembly>
+  <assembly fullname="King.Milo.Customization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.Customization.RunButtonPurchaseCostumeReminder" preserve="all" />
+    <type fullname="King.Milo.Customization.CustomizationCostumeItem" preserve="all" />
+    <type fullname="King.Milo.Customization.CostumeBonusView" preserve="all" />
+    <type fullname="King.Milo.Customization.PurchaseCostumeButton" preserve="all" />
+    <type fullname="King.Milo.Customization.CustomizationScreen" preserve="all" />
+    <type fullname="King.Milo.Customization.PurchaseCostumeReminderPopup" preserve="all" />
+  </assembly>
+  <assembly fullname="LeanTouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Lean.Touch.LeanTouch" preserve="all" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.MonoBehaviour, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkEvent" preserve="all" />
+    <type fullname="AkGameObj" preserve="all" />
+    <type fullname="AkInitializer" preserve="all" />
+    <type fullname="AkAudioListener" preserve="all" />
+    <type fullname="AkAmbientLargeModePositioner" preserve="all" />
+    <type fullname="AkGameObjListenerList" preserve="nothing" serialized="true" />
+    <type fullname="AkGameObjPositionOffsetData" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
+    <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.FloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.LayerMaskParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.NoInterpCubemapParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.NoInterpTextureParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.Vector2Parameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Rendering.Common.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Rendering.VolumeBlending.AdditionalCameraData" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.FogPrimaryComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.FogSecondaryComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.MainLightComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.SkyComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.ReflectionsComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.EnvironmentLightComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.CameraComponent" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.QualityLevelSettingsComponent" preserve="all" />
+    <type fullname="King.Rendering.ShaderPrewarmCollection" preserve="all" />
+    <type fullname="King.Rendering.VolumeBlending.InterpBoolParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.SphericalHarmonics" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.QuaternionParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.RenderingLayerMaskParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.SphericalHarmonicsParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.SphericalHarmonicsParameter/SphericalHarmonicsLayer" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.UVTransformParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.LayerCullingDistanceParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.VolumeBlending.QualityClampedFloatParameter" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.ShaderPrewarmCollection/ShaderVariantEntry" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.LevelTools.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Code.Runner.LevelTools.Runtime.LevelStyleMeta" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Runtime.RoadPartsConfigurator" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Runtime.StartGroupPlacement" preserve="all" />
+    <type fullname="Code.Runner.LevelTools.Runtime.RoadPartsConfigurator/PitObject" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MultiSplines.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MultiSpline" preserve="all" />
+    <type fullname="MultiSpline/DataRemapIndex" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/Spline" preserve="nothing" serialized="true" />
+    <type fullname="MathFunctions/AABB" preserve="nothing" serialized="true" />
+    <type fullname="MathFunctions/OOBB" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/Curve" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/CurveParamData" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/DataIndex" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/DataSequence" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/Point" preserve="nothing" serialized="true" />
+    <type fullname="MultiSplineRuntimeDataManaged" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/Junction" preserve="nothing" serialized="true" />
+    <type fullname="MultiSpline/T" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Rendering.Utility.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Rendering.InstancedPropertyData" preserve="all" />
+    <type fullname="King.Rendering.InstancedPropertyData/PropertyData" preserve="nothing" serialized="true" />
+    <type fullname="King.Rendering.InstancedPropertyData/PropertyType" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.GeometryProcessing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.CombinedLODGroup" preserve="all" />
+  </assembly>
+  <assembly fullname="King.Serialization.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Code.Serialization.Package.Runtime.LowEndInstancesRemover" preserve="all" />
+    <type fullname="Code.Serialization.Runtime.LevelStreamingSettings" preserve="all" />
+    <type fullname="Code.Serialization.Package.Runtime.SerializationFlagsRequest" preserve="all" />
+    <type fullname="Code.Serialization.Package.Runtime.ArtificialStreamingBounds" preserve="all" />
+    <type fullname="Code.Serialization.Runtime.AssetReferenceSerializedLevel" preserve="nothing" serialized="true" />
+    <type fullname="Code.Serialization.Runtime.LevelStreamingSettings/GroupConfig" preserve="nothing" serialized="true" />
+    <type fullname="Code.Serialization.Runtime.StreamingSystemsConfig" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Crash.Rendering.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.ShadowMaskUpdateTrigger" preserve="all" />
+    <type fullname="King.Milo.Rendering.ForwardLightCharactersComponent" preserve="all" />
+    <type fullname="King.Milo.Rendering.RimLightComponent" preserve="all" />
+    <type fullname="King.Milo.Rendering.RimLightCharactersComponent" preserve="all" />
+    <type fullname="King.Milo.Rendering.RendererSortingOrder" preserve="all" />
+    <type fullname="King.Milo.Rendering.QualityLevelSettingsExtComponent" preserve="all" />
+    <type fullname="King.Milo.Rendering.HorizonCurvatureComponent" preserve="all" />
+  </assembly>
+  <assembly fullname="king.profilemanager.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.ProfileManager.Runtime.ProfileCondition" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ProfileManagerInitializer" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.IntScalingGroupValueUi" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.Profile" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ProfileManagerSceneConfiguration" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.GeneralScalingGroup" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ScalingGroupUi" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.FloatScalingGroupValueUi" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.EnumScalingGroupValueUi" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ProfileManagerController" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ProfileManagerConfiguration" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.BooleanScalingGroupValueUi" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ProfileManagerUpdater" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.ScalingGroupValueUiFactory" preserve="all" />
+    <type fullname="King.ProfileManager.Runtime.BoolScalingGroupValue" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.FloatScalingGroupValue" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.MsaaQualityScalingGroupValue" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.ProfileCondition/SystemInfoConditions" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.ProfileTypeScalingGroupValue" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.SystemInfoCondition" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.TargetFpsScalingGroupValue" preserve="nothing" serialized="true" />
+    <type fullname="King.ProfileManager.Runtime.VSyncScalingGroupValue" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="KingConsole, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.KingConsole.BuildInfo" preserve="all" />
+    <type fullname="King.KingConsole.DeviceConsoleUI" preserve="all" />
+    <type fullname="King.KingConsole.CommandToggleUI" preserve="all" />
+    <type fullname="King.KingConsole.DeviceLogUI" preserve="all" />
+    <type fullname="King.KingConsole.CommandDropdownUI" preserve="all" />
+    <type fullname="King.KingConsole.CommandGroupUI" preserve="all" />
+    <type fullname="King.KingConsole.CommandSliderUI" preserve="all" />
+    <type fullname="King.KingConsole.CommandLabelUI" preserve="all" />
+    <type fullname="King.KingConsole.SafeArea" preserve="all" />
+    <type fullname="King.KingConsole.CommandButtonUI" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Entities.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Entities.ConvertToEntity" preserve="all" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.API, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkMacSettings" preserve="all" />
+    <type fullname="AkWindowsSettings" preserve="all" />
+    <type fullname="AkiOSSettings" preserve="all" />
+    <type fullname="AkAndroidSettings" preserve="all" />
+    <type fullname="AkAndroidSettings/PlatformAdvancedSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonAdvancedSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonCommSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonOutputSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonOutputSettings/ChannelConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonUserSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkCommonUserSettings/SpatialAudioSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkWindowsSettings/PlatformAdvancedSettings" preserve="nothing" serialized="true" />
+    <type fullname="AkiOSSettings/PlatformAdvancedSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.AkWwiseAddressablesInitializationSettings" preserve="all" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.InitBankHolder" preserve="all" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.WwiseAddressableSoundBank" preserve="all" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.WwiseStreamingMediaAsset" preserve="all" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.WwiseSoundBankAsset" preserve="all" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.AssetReferenceWwiseBankData" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.LocalizedStreamingMediaList" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.WwiseBankPerPlatformEntry" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.AssetReferenceStreamingMedia" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.StreamingMediaList" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Unity.WwiseAddressables.Hash" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.LiveOps, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.LiveOp.MiloLiveOpFactory" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.TextAlignmentOverrideToggle" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Foreshadowing.StandardSeasonForeshadowingScreen" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.SeasonPassButtonController" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.LiveOpSeasonHeader" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.LiveOpSeasonScreenCommonComponents" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.LiveOpSeasonDescription" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Foreshadowing.ForshadowingLiveOpConfig" preserve="all" />
+    <type fullname="King.Milo.Season.SeasonPassRewardPanel" preserve="all" />
+    <type fullname="Code.LiveOps.SeasonLiveop.scenes.StandardSeasonRewardsScreen" preserve="all" />
+    <type fullname="King.Milo.Season.RewardItemAmount" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.StandardSeasonCooldownScreen" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.SeasonLiveOpConfig" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.SeasonPassRewardScreen" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.SeasonScreenMapping" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.SeasonRewards" preserve="all" />
+    <type fullname="King.Milo.Season.SeasonTeamRewardPanel" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.LiveOpDynamicPrefabSpawner" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.SeasonContentWidget" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.SeasonPassWidget" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.CompleteSeasonNotificationController" preserve="all" />
+    <type fullname="King.Milo.StandardSeasonPassContentTab" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.StandardSeasonOverviewTab" preserve="all" />
+    <type fullname="King.Milo.Season.SeasonPassProgressBar" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.SeasonPassTierCompletedNotificationController" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.StandardSeasonScreen" preserve="all" />
+    <type fullname="King.Milo.Season.SeasonPassScrollRect" preserve="all" />
+    <type fullname="King.Milo.MultiRewardIcon" preserve="all" />
+    <type fullname="King.Milo.Season.ButtonTooltip" preserve="all" />
+    <type fullname="King.Milo.SeasonPassProgressBarTier" preserve="all" />
+    <type fullname="King.Milo.Season.TextTooltip" preserve="all" />
+    <type fullname="King.Milo.LiveOps.Season.MissionCompletableButtonNotificationController" preserve="all" />
+    <type fullname="King.Milo.DragonsOrderLiveOpConfig" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.SeasonContentLiveOpConfig" preserve="all" />
+    <type fullname="King.Milo.LiveOps.InformationLiveOp.InformationLiveOpConfig" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.WeeklyLeagueCooldownScreen" preserve="all" />
+    <type fullname="King.Milo.LiveOps.SeasonContent.WeeklyLeagueScreen" preserve="all" />
+    <type fullname="King.Milo.LiveOps.UI.TextAlignmentOverrideToggle/StateEntry" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LiveOps.Season.Narrative" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.LiveOps.Season.SeasonSoundMappings" preserve="nothing" serialized="true" />
+    <type fullname="King.Milo.DragonsOrderSoundMappings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.KingConsoleExternal, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.UICollapsible" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.Timeline, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AkTimelineEventPlayable" preserve="all" />
+    <type fullname="AkTimelineEventTrack" preserve="all" />
+  </assembly>
+  <assembly fullname="AK.Wwise.Unity.API.WwiseTypes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="WwiseStateGroupReference" preserve="all" />
+    <type fullname="WwiseSwitchReference" preserve="all" />
+    <type fullname="WwiseSwitchGroupReference" preserve="all" />
+    <type fullname="WwiseEventReference" preserve="all" />
+    <type fullname="WwiseStateReference" preserve="all" />
+    <type fullname="WwiseBankReference" preserve="all" />
+    <type fullname="AK.Wwise.Event" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Bank" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.Switch" preserve="nothing" serialized="true" />
+    <type fullname="AK.Wwise.State" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="King.Milo.TeamRuns, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="King.Milo.TeamRuns.BattleRunsBossSelector" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.BotCollisionHint" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.MinibossStartAttackTrigger" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.MinibossCameraTrigger" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.RandomizedRunCheckpointCrate" preserve="all" />
+    <type fullname="King.Milo.TeamRuns.BotCommandTrigger" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Mathematics">
+    <type fullname="Unity.Mathematics.float3" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.float4x4" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Mathematics.int4" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
