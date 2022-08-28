@@ -51,18 +51,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Inventory Status",
+                    "name": "Pause Menu",
                     "type": "Button",
-                    "id": "4f86dc93-18a4-48c6-99ae-434362311035",
+                    "id": "48658bac-2f20-4a68-8830-38c77e5030c0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Pause Menu",
+                    "name": "Inventory Status",
                     "type": "Button",
-                    "id": "48658bac-2f20-4a68-8830-38c77e5030c0",
+                    "id": "4f86dc93-18a4-48c6-99ae-434362311035",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -380,19 +380,8 @@
                 },
                 {
                     "name": "",
-                    "id": "5436d875-f739-48ee-b6ea-1ac7dc7ce0b2",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Inventory Status",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "e343e0f0-01d8-4acf-bd49-6b215c01254e",
-                    "path": "<Keyboard>/p",
+                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
@@ -408,6 +397,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Pause Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5436d875-f739-48ee-b6ea-1ac7dc7ce0b2",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Inventory Status",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6300ac38-a3a6-4c1c-abf7-5cb6a361b05a",
+                    "path": "<Keyboard>/alt",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Inventory Status",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
