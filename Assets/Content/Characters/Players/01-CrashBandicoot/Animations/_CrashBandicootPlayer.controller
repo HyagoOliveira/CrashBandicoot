@@ -17,7 +17,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 0.75
   m_HasExitTime: 0
@@ -42,7 +42,7 @@ BlendTree:
     m_DirectBlendParameter: idleIndex
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d69a7007268275c4b8f535d4ab387cce, type: 2}
+    m_Motion: {fileID: 7400000, guid: 0a0817e9dcc564b429bd544cb3d79bb0, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
