@@ -84,7 +84,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_fontAsset
     value: 
-    objectReference: {fileID: 11400000, guid: 4751e38794bbe0342bf0e1bb7081c507, type: 2}
+    objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_sharedMaterial
     value: 
