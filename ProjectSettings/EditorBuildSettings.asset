@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/01-Screens/Disclaimer.unity
     guid: 0025db33c8f12d949a4762b73bd82ab6
   - enabled: 1
+    path: Assets/Scenes/01-Screens/Loading.unity
+    guid: 1f57fdefc786e804890a7df7c1219f7d
+  - enabled: 1
     path: Assets/Scenes/00-Debug/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
