@@ -84,7 +84,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_fontAsset
     value: 
-    objectReference: {fileID: 0}
+    objectReference: {fileID: 11400000, guid: 64acb67e6e1c17b4abff6f1c51b6fd0c, type: 2}
   - target: {fileID: 0}
     propertyPath: m_sharedMaterial
     value: 
@@ -123,7 +123,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_enableVertexGradient
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_colorMode
@@ -196,7 +196,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_fontColorGradientPreset
     value: 
-    objectReference: {fileID: 0}
+    objectReference: {fileID: 11400000, guid: 2073d2b1b65e104479e4bf72ddcecaed, type: 2}
   - target: {fileID: 0}
     propertyPath: m_spriteAsset
     value: 
@@ -391,7 +391,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_hasFontAssetChanged
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_baseMaterial
