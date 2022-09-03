@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6126490040572635567}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Tongue__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5804345097143115898}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Neck__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3238792878084138678}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipBot0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3525955027074832389}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeBotLid1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6152317023591629440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon1__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3577761615574536216}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Ear__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291078540073941916}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane1__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5253329584099909133}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeTopLid1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1723830680824926085}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Nose__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4322258495364605196}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Knee__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5527260853617234367}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon0__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7057992170919903930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Leg__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -388,7 +388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 909295972139722433}
   - component: {fileID: 3506805382803589097}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CrashBandicoot_LoadingScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,7 +437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3306573171249694498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipCorner__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1913890321607419011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_PupilRivet__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -499,7 +499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7460953718550684187}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeTopLid2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5352291564007760687}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Pinky__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7937738278058029813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Middle__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2278904951729441248}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Forehead2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 350506008855479948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Index__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7729709829049907121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2378865294181082225}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeTopLid0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +719,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4470628530150658158}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon1__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6051407207719346417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Fringe__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1879661476696994267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Tongue__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -812,7 +812,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6844804191814196851}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon0__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -843,7 +843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020654611543543085}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Forehead2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -874,7 +874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3010702621598792558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Middle__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -905,7 +905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2524524248727676764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Arm__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,7 +940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8917587778441640935}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon0__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5757793048418488866}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Leg__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1003,7 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 940694199139094549}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Thumb__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8445204123359779310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Ear__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1065,7 +1065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2297574503840405323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_TeethBot__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,7 +1096,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6129149938555966170}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Arm__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4626589462338630461}
   - component: {fileID: 4032501369326577172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: crash_geo_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,7 +1351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759548757729149096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Pinky__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1383,7 +1383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5763324558908963478}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Nose__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1415,7 +1415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4579841566946687762}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Hips__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1449,7 +1449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2571819024502947810}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1481,7 +1481,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 662448305275125206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeBlinkTop__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1515,7 +1515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 129154776328641517}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeBlinkTop__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8995224758553708297}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_FringeBig__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1581,7 +1581,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6885920781685659716}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Pinky__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1613,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8994821663350090186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Pinky__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2655949735581202548}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeTopLid1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1676,7 +1676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6296014796878771197}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Eyebrows__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1710,7 +1710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5256680889642329610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Ear__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1742,7 +1742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427664527484668825}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Tongue__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2719674167538945863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Eye__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1805,7 +1805,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8346459005017397324}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Clavicle__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,7 +1837,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 316266645988417449}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Ear__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2530420622161991902}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_SpineTwist1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1899,7 +1899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6712902497033175198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeBotLid1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1930,7 +1930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8878108658812526071}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Middle__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,7 +1961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1385161723284641387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_FringeBig__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1993,7 +1993,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 667757927549588758}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeBotLid2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2024,7 +2024,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 129808832319522939}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Thumb__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2055,7 +2055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8177034581508688711}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Arm__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,7 +2091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2263930397758031830}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon0__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2122,7 +2122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1954338929532916075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon0__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2153,7 +2153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1668388114650322583}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipTop1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2184,7 +2184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 650077670937228148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Nose__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,7 +2216,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2975159058350736766}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeBotLid0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2247,7 +2247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6283188686153691123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon1__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2278,7 +2278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7620714801508191864}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Forehead0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2309,7 +2309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5393029458297602744}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Eyebrow2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2340,7 +2340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2815132493247577626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeblinkMaster__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2371,7 +2371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7059409223391019226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2402,7 +2402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3372462983918954723}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Elbow__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2433,7 +2433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 59608331520323363}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Weapon__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2464,7 +2464,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8041634149706834356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Ear__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2496,7 +2496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2369513240911136354}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Middle__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2528,7 +2528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4035932585434327285}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Leg__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2563,7 +2563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1581259899817027975}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Ear__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2595,7 +2595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8089622990352929827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Eye__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2626,7 +2626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2842444564898214255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon0__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2657,7 +2657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5667124517763689682}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane3__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2689,7 +2689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 376520150372799964}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Spine__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2722,7 +2722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5195665688701842394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Knee__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2754,7 +2754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4982029073809515278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon0__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2785,7 +2785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7479043104622323487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Ear__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2817,7 +2817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4247494563653182717}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Leg__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2852,7 +2852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4452981360287847884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Leg__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2888,7 +2888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3035669359616596355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Index__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2919,7 +2919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8917754546612652880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2950,7 +2950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2547076476852857717}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Thumb__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2982,7 +2982,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6830278747777496025}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipTop0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3013,7 +3013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2512706175760410460}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipBot1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3044,7 +3044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1965158365997031893}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3075,7 +3075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1417855183367484915}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_SpineTwist0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3106,7 +3106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5697687710161458265}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_FringeBig__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3138,7 +3138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6198029654981315466}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipTop0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3169,7 +3169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1322423409859334767}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LegRibbon1__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3200,7 +3200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8606841203295872555}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Forehead1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3231,7 +3231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8630787276498431227}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Eyebrow1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,7 +3262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6751344236300460827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Thumb__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3294,7 +3294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7316276166261325046}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon0__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3325,7 +3325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4837013082338095670}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Index__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3357,7 +3357,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2106254568085696533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Pinky__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3388,7 +3388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8518244085357574208}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Forehead1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3419,7 +3419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3273667746630953962}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Arm__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3455,7 +3455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5025010787889796242}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Thumb__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3487,7 +3487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8121659104543846510}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon1__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3518,7 +3518,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8073900462472338472}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Elbow__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3549,7 +3549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7194727552818018764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon1__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3580,7 +3580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1184706708032227704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_PupilRivet__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3611,7 +3611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5094972839421863445}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3642,7 +3642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1288239960344555708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Weapon__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3673,7 +3673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1558501967213241077}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Index__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3705,7 +3705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1112860047273414380}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Arm__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3740,7 +3740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5017524643086069833}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Clavicle__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3772,7 +3772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6606543717296947957}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipBot0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3803,7 +3803,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277043388205146470}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipCorner__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3834,7 +3834,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 957768252836956638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeBlinkBot__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3868,7 +3868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7764171663395450602}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipBot2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3899,7 +3899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1944218158880316604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Nose__SKN_4_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3930,7 +3930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979605757293388593}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Jaw__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3971,7 +3971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2974953037909291545}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Middle__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4003,7 +4003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2204533086590997728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Leg__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4035,7 +4035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6305211530233823135}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_TeethTop__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4066,7 +4066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6494197473920094294}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Spine__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4099,7 +4099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5675659409876569479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Pinky__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4131,7 +4131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 555393471367784728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Index__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,7 +4163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2442969633693090497}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4194,7 +4194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3283228246449951418}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Arm__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4230,7 +4230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4859083163253702116}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Fringe__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4262,7 +4262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7149813157341447259}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4293,7 +4293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1785525009467457219}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Jaw__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4324,7 +4324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6178941046385162971}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Leg__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4356,7 +4356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4054152500321819011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Forehead0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4387,7 +4387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4173643148759767824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_LipTop__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4418,7 +4418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7721288842159285997}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Eyebrow1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4449,7 +4449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2197550740642638312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Eyebrow2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4480,7 +4480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838901019923553880}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipBot1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4511,7 +4511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1064085789307168516}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane3__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4542,7 +4542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4031904201229207750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipBot2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4573,7 +4573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2014943094344679192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeTopLid0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4604,7 +4604,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 263945038483352417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Thumb__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4636,7 +4636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3306562288320750141}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Ear__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4668,7 +4668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5880433648612341454}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Index__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4699,7 +4699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 896981593757042275}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Mane2__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4730,7 +4730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8660503023344868232}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Eyebrow0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4761,7 +4761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521282096582881120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipTop2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4792,7 +4792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4447182780346351767}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_ArmRibbon0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4823,7 +4823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7028732130345235318}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeblinkMaster__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4854,7 +4854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6072892268768515764}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon1__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4885,7 +4885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4192521310556672485}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_ArmRibbon1__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4916,7 +4916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3468815818850425602}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_LipTop1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4947,7 +4947,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4991604191627122964}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Root__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4979,7 +4979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3929002859313674497}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Eyebrow0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5010,7 +5010,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1999538295984897652}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_EyeBotLid0__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5041,7 +5041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9004116539108105134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LipTop2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5072,7 +5072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3767376153477770066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Spine__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5106,7 +5106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2771460620769797629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_LipBot__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5137,7 +5137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4440809418774733023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Nose__SKN_2_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5169,7 +5169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4040220059548242540}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeBlinkBot__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5203,7 +5203,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7082490152334355430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Leg__SKN_4_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5234,7 +5234,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9176911688463921285}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Middle__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5266,7 +5266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7902724613563704610}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_FringeBig__SKN_3_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5297,7 +5297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 403854404539321229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeBotLid2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5328,7 +5328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2602665683224107529}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_LegRibbon1__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5359,7 +5359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1449078759974507205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Eyebrows__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5393,7 +5393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1983874251917945191}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_Leg__SKN_4_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5424,7 +5424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5100759027322877302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Rt_EyeTopLid2__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5455,7 +5455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6489510745211870997}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lf_Leg__SKN_1_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5491,7 +5491,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3297191345327858236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ct_Head__SKN_0_JNT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
