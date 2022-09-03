@@ -157,6 +157,11 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4738655212365719393, guid: f05a4d37071862f48b733b6dc74f421f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5931405160298958343, guid: f05a4d37071862f48b733b6dc74f421f,
         type: 3}
       propertyPath: m_Name
@@ -269,6 +274,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f05a4d37071862f48b733b6dc74f421f, type: 3}
+--- !u!1 &762632868063525122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5931405160298958343, guid: f05a4d37071862f48b733b6dc74f421f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6396799344502077189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6467476475605260583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762632868063525122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4dd498507bbf04faa47280cfc102ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneManager: {fileID: 11400000, guid: 16cd474f72927d344868658e00685c1e, type: 2}
+  transition: {fileID: 11400000, guid: a1a6c649e47469b40b238eea01405f8b, type: 2}
+  scene: Assets/Scenes/02-Menus/MainMenu.unity
+  time: 4
+  loadOnStart: 1
 --- !u!224 &2477009176917270407 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8837722337596287106, guid: f05a4d37071862f48b733b6dc74f421f,
