@@ -17,5 +17,14 @@
     "com.unity.modules.screencapture": "1.0.0",
     "com.unity.modules.terrain": "1.0.0",
     "com.unity.modules.ui": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Action Code",
+      "url": "http://165.232.132.59:4873",
+      "scopes": [
+        "com.actioncode"
+      ]
+    }
+  ]
 }
