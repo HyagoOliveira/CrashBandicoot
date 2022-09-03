@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c603504f78262a4488de1372e5ffb985, type: 3}
+  m_Name: SceneTransition-Default
+  m_EditorClassIdentifier: 
+  timeBeforeLoading: 0
+  timeAfterLoading: 1
+  loadingScene: Assets/Scenes/01-Screens/Loading.unity
+  screenFaderPrefab: {fileID: 2460180113386738936, guid: ce2dd2f07a356e64c9af0430cf00a351,
+    type: 3}
