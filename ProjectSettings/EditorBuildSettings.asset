@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/02-Menus/MainMenu.unity
     guid: d28ff403c694dd1488cf7f38ce5487fd
   - enabled: 1
-    path: Assets/Scenes/00-Debug/SampleScene.unity
+    path: Assets/Scenes/00-Debug/DemoScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
-    com.actioncode.scene-management: {fileID: 11400000, guid: 16cd474f72927d344868658e00685c1e,
+    com.actioncode.scene-management: {fileID: 11400000, guid: 7f174c86a2d1eb146bc416d07887f96d,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: f068c10948692d14fac889b24df0a1c8,
       type: 2}

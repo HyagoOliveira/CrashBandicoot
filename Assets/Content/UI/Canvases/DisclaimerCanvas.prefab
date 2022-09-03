@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4dd498507bbf04faa47280cfc102ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneManager: {fileID: 11400000, guid: 16cd474f72927d344868658e00685c1e, type: 2}
+  sceneManager: {fileID: 11400000, guid: 7f174c86a2d1eb146bc416d07887f96d, type: 2}
   transition: {fileID: 11400000, guid: a1a6c649e47469b40b238eea01405f8b, type: 2}
   scene: Assets/Scenes/02-Menus/MainMenu.unity
   time: 4

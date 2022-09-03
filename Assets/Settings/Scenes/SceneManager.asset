@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca845426aa6d2514c86750d83caf160c, type: 3}
   m_Name: SceneManager
   m_EditorClassIdentifier: 
-  defaultTransition: {fileID: 0}
+  defaultTransition: {fileID: 11400000, guid: 90c72810a82a0f046a024c19f1d05f3f, type: 2}
