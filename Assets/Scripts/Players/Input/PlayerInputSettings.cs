@@ -6,7 +6,7 @@ using static UnityEngine.InputSystem.InputAction;
 
 namespace CrashBandicoot.Players
 {
-    [CreateAssetMenu(fileName = "PlayerInputSettings", menuName = Constants.Path.Player + "Input Settings", order = 110)]
+    [CreateAssetMenu(fileName = "PlayerInputSettings", menuName = Global.SettingsPath.PLAYERS + "Input Settings", order = 110)]
     public sealed class PlayerInputSettings : ScriptableObject
     {
         public event Action<Vector2> OnMove;

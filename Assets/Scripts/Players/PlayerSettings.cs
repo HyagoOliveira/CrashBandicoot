@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace CrashBandicoot.Players
 {
-    [CreateAssetMenu(fileName = "PlayerSettings", menuName = Constants.Path.Player + "Settings", order = 110)]
+    [CreateAssetMenu(fileName = "PlayerSettings", menuName = Global.SettingsPath.PLAYERS + "Settings", order = 110)]
     public sealed class PlayerSettings : ScriptableObject
     {
         [SerializeField, Tooltip("The first Player to be spawned.")]
         private PlayerName first = PlayerName.CrashBandicoot;
         [SerializeField, Tooltip("The Players prefabs.")]
-        private GameObject[] prefabs;
+        private Player[] prefabs;
 
         /// <summary>
         /// Action fired when a Player is spawned.
@@ -55,6 +55,7 @@ namespace CrashBandicoot.Players
             var enabledPlayer = FindObjectOfType<Player>(includeInactive: false);
             var hasNoPlayerEnabled = enabledPlayer == null;
             if (hasNoPlayerEnabled) Spawn(first, Vector3.zero, Quaternion.identity);
+            else HandleSpawn();
         }
 
         /// <summary>
@@ -178,7 +179,7 @@ namespace CrashBandicoot.Players
 
             foreach (var prefab in prefabs)
             {
-                var prefabPlayerName = prefab.GetComponent<Player>().Name;
+                var prefabPlayerName = prefab.Name;
                 var hasScenePlayer = scenePlayers.TryGetValue(prefabPlayerName, out Player player);
 
                 if (!hasScenePlayer)

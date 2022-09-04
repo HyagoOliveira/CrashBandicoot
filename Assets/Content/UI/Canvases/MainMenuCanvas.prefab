@@ -124,7 +124,7 @@ PrefabInstance:
     - target: {fileID: 1436828699190824894, guid: 665833290822b1246b91388f81ed105a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: DemoScene
+      value: CharacterController
       objectReference: {fileID: 0}
     - target: {fileID: 1436828699190824894, guid: 665833290822b1246b91388f81ed105a,
         type: 3}

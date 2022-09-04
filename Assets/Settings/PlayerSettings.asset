@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a8c2224b3134c74abdb7a52e3eff075, type: 3}
   m_Name: PlayerSettings
   m_EditorClassIdentifier: 
+  first: 0
+  prefabs:
+  - {fileID: 1740635096144380271, guid: 1026832cb453e254cbf7ece1d0879ec8, type: 3}
+  - {fileID: 1768268269391593517, guid: 0103caff93e84224ca23a629d6b4efe2, type: 3}
