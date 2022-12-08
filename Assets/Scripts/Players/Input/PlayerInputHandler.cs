@@ -1,4 +1,5 @@
 using UnityEngine;
+using CrashBandicoot.Physicss;
 
 namespace CrashBandicoot.Players
 {
@@ -6,9 +7,13 @@ namespace CrashBandicoot.Players
     /// Handles inputs from <see cref="PlayerInputSettings"/>.
     /// </summary>
     [DisallowMultipleComponent]
+    [RequireComponent(typeof(CharacterMotor))]
     public sealed class PlayerInputHandler : MonoBehaviour
     {
         [SerializeField] private PlayerInputSettings settings;
+        [SerializeField] private CharacterMotor motor;
+
+        private void Reset() => motor = GetComponent<CharacterMotor>();
 
         private void OnEnable()
         {
@@ -30,7 +35,7 @@ namespace CrashBandicoot.Players
             settings.OnInventoryStatus -= HandleInventoryStatus;
         }
 
-        private void HandleMove(Vector2 input) => print(input);
+        private void HandleMove(Vector2 input) => motor.Move(input);
         private void HandleSpin(bool isButtonDown) => print($"Spin: {isButtonDown}");
         private void HandleJump(bool isButtonDown) => print($"Jump: {isButtonDown}");
         private void HandleCrounch(bool isButtonDown) => print($"Crouch: {isButtonDown}");
