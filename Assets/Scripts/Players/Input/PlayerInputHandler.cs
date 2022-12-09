@@ -35,7 +35,7 @@ namespace CrashBandicoot.Players
             settings.OnInventoryStatus -= HandleInventoryStatus;
         }
 
-        private void HandleMove(Vector2 input) => motor.Move(input);
+        private void HandleMove(Vector2 input) => motor.MoveInput = input;
         private void HandleSpin(bool isButtonDown) => print($"Spin: {isButtonDown}");
         private void HandleJump(bool isButtonDown) => print($"Jump: {isButtonDown}");
         private void HandleCrounch(bool isButtonDown) => print($"Crouch: {isButtonDown}");

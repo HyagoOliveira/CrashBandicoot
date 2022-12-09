@@ -9,8 +9,8 @@ namespace CrashBandicoot.Physicss
         [SerializeField] private CharacterController controller;
         [SerializeField, Min(0f)] private float speed = 4f;
 
+        public Vector2 MoveInput { get; set; }
         public Vector3 Velocity { get; private set; }
-
         public Vector3 Direction { get; private set; }
 
         private Transform currentCamera;
@@ -32,19 +32,12 @@ namespace CrashBandicoot.Physicss
             UpdateRotation();
         }
 
-        public void Move(Vector2 direction)
-        {
-            var absoluteMagnitude = Mathf.Abs(direction.sqrMagnitude);
-            var isMoving = absoluteMagnitude > 0F;
-            movingDirection = isMoving ?
-                GetDirectionRelativeFromCamera(direction) :
-                Vector3.zero;
-        }
-
         public bool HasVelocity() => Mathf.Abs(Velocity.sqrMagnitude) > 0f;
 
         private void UpdateMovement()
         {
+            UpdateMovingDirection();
+
             Velocity = speed * Time.deltaTime * movingDirection;
             controller.Move(Velocity);
         }
@@ -55,11 +48,20 @@ namespace CrashBandicoot.Physicss
             transform.LookAt(Direction);
         }
 
-        private Vector3 GetDirectionRelativeFromCamera(Vector2 input)
+        private void UpdateMovingDirection()
         {
-            var cameraRight = currentCamera.right;
-            var forward = Vector3.Cross(cameraRight, Vector3.up);
-            return cameraRight * input.x + forward * input.y;
+            var absoluteMagnitude = Mathf.Abs(MoveInput.sqrMagnitude);
+            var isMoving = absoluteMagnitude > 0F;
+            movingDirection = isMoving ?
+                GetMoveInputDirectionRelativeToCamera() :
+                Vector3.zero;
+        }
+
+        private Vector3 GetMoveInputDirectionRelativeToCamera()
+        {
+            var right = currentCamera.right;
+            var forward = Vector3.Cross(right, Vector3.up);
+            return right * MoveInput.x + forward * MoveInput.y;
         }
     }
 }
