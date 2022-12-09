@@ -60,6 +60,7 @@ namespace CrashBandicoot.Physicss
         private Vector3 GetMoveInputDirectionRelativeToCamera()
         {
             var right = currentCamera.right;
+            right.y = 0f;
             var forward = Vector3.Cross(right, Vector3.up);
             return right * MoveInput.x + forward * MoveInput.y;
         }
