@@ -7,14 +7,18 @@ namespace CrashBandicoot.Physicss
     public sealed class CharacterMotor : MonoBehaviour
     {
         [SerializeField] private CharacterController controller;
-        [SerializeField, Min(0f)] private float horizontalSpeed = 4f;
+
+        [field: SerializeField, Min(0f)]
+        public float MoveSpeed { get; set; } = 4f;
 
         [field: SerializeField]
         public float Gravity { get; set; } = -9.8F;
 
+        public float VerticalSpeed { get; set; }
+
         public bool IsGrounded { get; private set; }
+        public bool IsAirborne => !IsGrounded;
         public bool IsMoveInputting { get; private set; }
-        public bool HasVelocity { get; private set; }
 
         public Vector2 MoveInput { get; private set; }
         public Vector3 Speed { get; private set; }
@@ -22,7 +26,7 @@ namespace CrashBandicoot.Physicss
         public Vector3 Direction { get; private set; }
 
         private Transform currentCamera;
-        private Vector3 movingDirection;
+        private Vector3 moveDirection;
 
         private void Reset() => controller = GetComponent<CharacterController>();
         private void Start() => currentCamera = Camera.main.transform;
@@ -33,7 +37,7 @@ namespace CrashBandicoot.Physicss
             UpdateRotation();
         }
 
-        public void SetMovementInput(Vector2 input)
+        public void SetMoveInput(Vector2 input)
         {
             MoveInput = input;
             IsMoveInputting = Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
@@ -42,32 +46,41 @@ namespace CrashBandicoot.Physicss
         private void UpdateMovement()
         {
             UpdateMovingDirection();
-            UpdateVerticalSpeed();
+            AddGravityIntoVerticalSpeed();
 
-            Speed = horizontalSpeed * movingDirection + Vector3.up * Gravity;
+            Speed = MoveSpeed * moveDirection + Vector3.up * VerticalSpeed;
             Velocity = Speed * Time.deltaTime;
 
             controller.Move(Velocity);
 
             IsGrounded = controller.isGrounded;
-            HasVelocity = Mathf.Abs(Velocity.sqrMagnitude) > 0f;
         }
 
         private void UpdateRotation()
         {
-            Direction = transform.position + movingDirection;
+            Direction = transform.position + moveDirection;
             transform.LookAt(Direction);
         }
 
         private void UpdateMovingDirection()
         {
-            movingDirection = IsMoveInputting ?
+            moveDirection = IsMoveInputting ?
                 GetMoveInputDirectionRelativeToCamera() :
                 Vector3.zero;
         }
 
-        private void UpdateVerticalSpeed()
+        private void AddGravityIntoVerticalSpeed()
         {
+            const float maxVerticalSpeed = -25F;
+
+            if (IsGrounded && VerticalSpeed < 0F)
+            {
+                VerticalSpeed = Gravity;
+                return;
+            }
+
+            VerticalSpeed += Gravity * Time.deltaTime;
+            if (VerticalSpeed < maxVerticalSpeed) VerticalSpeed = maxVerticalSpeed;
         }
 
         private Vector3 GetMoveInputDirectionRelativeToCamera()
