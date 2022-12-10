@@ -5,12 +5,13 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
@@ -20,32 +21,32 @@ PrefabInstance:
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.98868877
+      value: 0.99129546
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.1499818
+      value: 0.13165641
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.0000000085283025
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.0000000011326651
       objectReference: {fileID: 0}
     - target: {fileID: 7934676119272975970, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc,
         type: 3}
@@ -88,6 +89,7 @@ PrefabInstance:
       value: LevelCamera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 34c6e05b764a6f34bb55ac3c7be9f8cc, type: 3}
 --- !u!1 &892745273279616811 stripped
 GameObject:
