@@ -13,9 +13,10 @@ namespace CrashBandicoot.Physicss
         public float Gravity { get; set; } = -9.8F;
 
         public bool IsGrounded { get; private set; }
+        public bool IsMoveInputting { get; private set; }
         public bool HasVelocity { get; private set; }
 
-        public Vector2 MoveInput { get; set; }
+        public Vector2 MoveInput { get; private set; }
         public Vector3 Speed { get; private set; }
         public Vector3 Velocity { get; private set; }
         public Vector3 Direction { get; private set; }
@@ -32,7 +33,11 @@ namespace CrashBandicoot.Physicss
             UpdateRotation();
         }
 
-        public bool IsMoveInputting() => Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
+        public void SetMovementInput(Vector2 input)
+        {
+            MoveInput = input;
+            IsMoveInputting = Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
+        }
 
         private void UpdateMovement()
         {
@@ -56,7 +61,7 @@ namespace CrashBandicoot.Physicss
 
         private void UpdateMovingDirection()
         {
-            movingDirection = IsMoveInputting() ?
+            movingDirection = IsMoveInputting ?
                 GetMoveInputDirectionRelativeToCamera() :
                 Vector3.zero;
         }
