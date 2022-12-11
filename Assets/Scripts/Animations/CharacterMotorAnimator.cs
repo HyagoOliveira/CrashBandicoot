@@ -6,7 +6,7 @@ namespace CrashBandicoot.Animators
     [DisallowMultipleComponent]
     [RequireComponent(typeof(Animator))]
     [RequireComponent(typeof(CharacterMotor))]
-    public sealed class CharacterMotorAnimatior : MonoBehaviour
+    public sealed class CharacterMotorAnimator : MonoBehaviour
     {
         [SerializeField] private Animator animator;
         [SerializeField] private CharacterMotor motor;
