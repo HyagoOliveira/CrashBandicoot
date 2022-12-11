@@ -129,7 +129,8 @@ namespace CrashBandicoot.Physicss
             var right = currentCamera.right;
             right.y = 0f;
             var forward = Vector3.Cross(right, Vector3.up);
-            return right * MoveInput.x + forward * MoveInput.y;
+            // do not normalize if player should walk according with move input.
+            return (right * MoveInput.x + forward * MoveInput.y).normalized;
         }
     }
 }
