@@ -2,6 +2,7 @@
     "name": "CrashBandicoot",
     "rootNamespace": "CrashBandicoot",
     "references": [
+        "GUID:4eb5edba304c8a249b4e3a5c573563a4",
         "GUID:75469ad4d38634e559750d17036d5f7c",
         "GUID:4307f53044263cf4b835bd812fc161a4"
     ],
