@@ -108,7 +108,7 @@ namespace CrashBandicoot.Physicss
 
         private bool RaycastGround()
         {
-            // This values works for CharacterController.SlopeLimit = 45F
+            // This value works for CharacterController.SlopeLimit = 45F
             const float distance = 0.2F;
             const float maxDistance = distance * 2F;
 
