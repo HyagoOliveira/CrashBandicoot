@@ -29,7 +29,7 @@ namespace CrashBandicoot.Players
 
         private void UpdateAnimationAccordingWithSlopeInclination()
         {
-            if (motor.GroundHit.collider != null)
+            if (motor.IsOverSlope())
             {
                 var dot = Vector3.Dot(motor.GroundHit.normal, transform.forward);
                 var isRunningUpwardSlope = dot < 0F;

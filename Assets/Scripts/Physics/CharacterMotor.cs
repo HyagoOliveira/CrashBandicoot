@@ -57,6 +57,13 @@ namespace CrashBandicoot.Physicss
             IsMoveInputting = Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
         }
 
+        public bool IsOverSlope()
+        {
+            if (GroundHit.collider == null) return false;
+            var floorAngle = Vector3.Angle(GroundHit.normal, Vector3.up);
+            return floorAngle > 0F;
+        }
+
         private void UpdateMovement()
         {
             UpdateMovingDirection();
