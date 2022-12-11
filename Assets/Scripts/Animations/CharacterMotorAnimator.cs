@@ -32,6 +32,24 @@ namespace CrashBandicoot.Animators
 
         public void Respawn() => animator.SetTrigger(respawn);
 
+        public void ResetRunningSlope()
+        {
+            const float normalSlopeIndex = 0f;
+            SetRunningSlopeIndex(normalSlopeIndex);
+        }
+
+        public void SetRunningSlopeUpwards()
+        {
+            const float upSlopeIndex = 1f;
+            SetRunningSlopeIndex(upSlopeIndex);
+        }
+
+        public void SetRunningSlopeDownwards()
+        {
+            const float downSlopeIndex = -1f;
+            SetRunningSlopeIndex(downSlopeIndex);
+        }
+
         private void SetIsGrounded(bool value) => animator.SetBool(isGrounded, value);
         private void SetIsAirborne(bool value) => animator.SetBool(isAirborne, value);
         private void SetIsMoveInputting(bool value) => animator.SetBool(isMoveInputting, value);
