@@ -27,7 +27,6 @@ namespace CrashBandicoot.Physicss
         public Vector2 MoveInput { get; private set; }
         public Vector3 Speed { get; private set; }
         public Vector3 Velocity { get; private set; }
-        public Vector3 Direction { get; private set; }
 
         public RaycastHit GroundHit => groundHit;
 
@@ -73,8 +72,8 @@ namespace CrashBandicoot.Physicss
 
         private void UpdateRotation()
         {
-            Direction = transform.position + moveDirection;
-            transform.LookAt(Direction);
+            var direction = transform.position + moveDirection;
+            transform.LookAt(direction);
         }
 
         private void UpdateGroundCollision()
