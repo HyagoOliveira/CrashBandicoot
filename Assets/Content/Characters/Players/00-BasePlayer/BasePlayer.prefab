@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3955403908559378766}
   - component: {fileID: 7053787582145736024}
   - component: {fileID: 6604689825903534606}
+  - component: {fileID: 7745384231218167180}
   m_Layer: 3
   m_Name: BasePlayer
   m_TagString: Untagged
@@ -117,6 +118,20 @@ MonoBehaviour:
   controller: {fileID: 1389836696848036208}
   <MoveSpeed>k__BackingField: 4
   <Gravity>k__BackingField: -9.8
+--- !u!114 &7745384231218167180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660935207412238266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2165669635b1232478a2b5b4b63e95b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 4287152246809011809}
+  motor: {fileID: 6604689825903534606}
 --- !u!1001 &733719272116019642
 PrefabInstance:
   m_ObjectHideFlags: 0
