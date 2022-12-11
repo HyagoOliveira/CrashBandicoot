@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.actioncode.animator-states": "1.0.0",
     "com.actioncode.scene-management": "2.0.0",
     "com.unity.animation.rigging": "1.1.1",
     "com.unity.cinemachine": "2.8.9",

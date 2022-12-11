@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.actioncode.animator-states": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://165.232.132.59:4873"
+    },
     "com.actioncode.attributes": {
       "version": "2.1.0",
       "depth": 1,
