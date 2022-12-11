@@ -1,7 +1,7 @@
 using UnityEngine;
 using CrashBandicoot.Physicss;
 
-namespace CrashBandicoot.Animators
+namespace CrashBandicoot.Animations
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(Animator))]
