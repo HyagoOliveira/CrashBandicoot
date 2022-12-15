@@ -14,7 +14,7 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
  1) Abrindo o AssetStudio
  	- Abra o AssetStudio executando o \AssetStudio\AssetStudioGUI.exe
  	- Selecione File > Load Folder
- 	- Selecione a pasta \com.king.crash_[VERSÃO_DO_JOGO]\assets\
+ 	- Selecione a pasta \com.king.crash_1.170.29\assets\
  	- Espere carregar todos os assets
 
   2) Extraindo modelo em T-Pose
