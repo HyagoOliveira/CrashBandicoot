@@ -57,7 +57,7 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
  		- Procure por 'ani_' + nome do modelo + '_def_' + nome da animação
  			- Ex: 'ani_crash_def_idle'
  	 	- Vá na coluna Search Hierarchy
- 	 	- Procure pelo nome da animação na coluna Scene Hierarchy
+ 	 	- Procure pelo nome da animação na coluna Scene Hierarchy ou por 'prefab_crash_def_tPose'
  		- Selecione o GO clicando no seu toggle
  		- Volte na aba Asset List e selecione uma ou mais animações
 		- Vá em Model > Exported Selected objects (split) + selected animations clips
