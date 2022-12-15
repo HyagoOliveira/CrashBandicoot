@@ -53,12 +53,11 @@ Para qualquer jogo feito em Unity, o processo ideal de extração e importação
 3) Extraindo Animation Clips
 	- Dentro do Asset Studio:
 		- Vá na coluna Asset List
- 		- Filtre somente por animações em Filter Type > AnimationClips
- 		- Copie o nome da animação e procure na coluna Scene Hierarchy
+ 		- Filtre somente por animações em Filter Type > AnimationClips 		
  		- Procure por 'ani_' + nome do modelo + '_def_' + nome da animação
  			- Ex: 'ani_crash_def_idle'
  	 	- Vá na coluna Search Hierarchy
- 		- Procure pelo mesmo nome do passo anterior
+ 	 	- Procure pelo nome da animação na coluna Scene Hierarchy
  		- Selecione o GO clicando no seu toggle
  		- Volte na aba Asset List e selecione uma ou mais animações
 		- Vá em Model > Exported Selected objects (split) + selected animations clips
