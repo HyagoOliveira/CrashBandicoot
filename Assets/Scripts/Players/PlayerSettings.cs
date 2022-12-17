@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CrashBandicoot.Players
@@ -100,12 +101,14 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public void Switch(PlayerName name)
         {
-            if (!IsAbleToSwitchFor(name, out Player nextPlayer)) return;
+            if (!IsAbleToSwitchFor(name)) return;
+        
+            Current.Disable();
             
-            Current.Switch(nextPlayer);
-
             lastName = currentName;
             currentName = name;
+
+            Current.Switch(Last);
 
             OnPlayerSwitched?.Invoke();
         }
@@ -138,21 +141,9 @@ namespace CrashBandicoot.Players
         /// <returns></returns>
         public PlayerName GetNextPlayerName()
         {
-            //TODO improve this part using a proper Indexed Dictionary collection.
-            var index = -1;
-            var names = new PlayerName[players.Count];
-            players.Keys.CopyTo(names, index: 0);
-            for (int i = 0; i < names.Length; i++)
-            {
-                if (currentName == names[i])
-                {
-                    index = i;
-                    break;
-                }
-            }
-
-            if (++index >= names.Length) index = 0;
-            return names[index];
+            var index = Current.Index;
+            if (++index >= players.Count) index = 0;
+            return players.Keys.ElementAt(index);
         }
 
         /// <summary>
@@ -161,9 +152,9 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player name trying to switch.</param>
         /// <param name="player">The Player if available.</param>
         /// <returns>Whether is possible to switch for the given player.</returns>
-        public bool IsAbleToSwitchFor(PlayerName name, out Player player)
+        public bool IsAbleToSwitchFor(PlayerName name)
         {
-            var hasPlayer = Contains(name, out player);
+            var hasPlayer = Contains(name, out Player player);
             return hasPlayer && player.IsAbleToSwitch();
         }
         
@@ -178,6 +169,7 @@ namespace CrashBandicoot.Players
 
         private void InstantiatePrefabs()
         {
+            var index = 0;
             var instances = GetScenePlayerInstances();
             players = new Dictionary<PlayerName, Player>(prefabs.Length);
 
@@ -198,6 +190,7 @@ namespace CrashBandicoot.Players
                     player.gameObject.SetActive(false);
                 }
 
+                player.Index = index++;
                 players.Add(player.Name, player);
             }
         }

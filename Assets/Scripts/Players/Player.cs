@@ -18,6 +18,8 @@ namespace CrashBandicoot.Players
         /// Whether the player is currently enabled.
         /// </summary>
         public bool Enabled => gameObject.activeInHierarchy;
+        
+        public int Index { get; internal set; }
 
         /// <summary>
         /// Places the player at the given position and rotation.
@@ -35,6 +37,7 @@ namespace CrashBandicoot.Players
             var rotation = nextPlayer.transform.rotation;
 
             Place(position, rotation);
+            Enable();
         }
 
         /// <summary>
@@ -59,8 +62,7 @@ namespace CrashBandicoot.Players
         /// Checks if is able to switch.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitch () => !Enabled;
-        //TODO && check if spawn animation is finished
+        public bool IsAbleToSwitch () => !Enabled; //TODO && check if spawn animation has finished.
 
         /// <summary>
         /// Checks if the given player is equals to this.
