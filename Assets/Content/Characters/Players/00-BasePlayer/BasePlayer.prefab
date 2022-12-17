@@ -117,6 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: d19268dcfbccc884ea461fb3bd9fd743, type: 2}
+  playerSettings: {fileID: 11400000, guid: 502256aecaa050043bcef9b77471761f, type: 2}
   motor: {fileID: 6604689825903534606}
 --- !u!114 &6604689825903534606
 MonoBehaviour:
