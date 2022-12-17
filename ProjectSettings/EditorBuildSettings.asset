@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/02-Menus/MainMenu.unity
     guid: d28ff403c694dd1488cf7f38ce5487fd
   - enabled: 0
-    path: Assets/Scenes/00-Debug/DemoScene.unity
+    path: Assets/Scenes/00-Debug/DemoScene/DemoScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/00-Debug/CharacterController/CharacterController.unity
