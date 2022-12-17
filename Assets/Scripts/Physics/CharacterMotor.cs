@@ -26,6 +26,7 @@ namespace CrashBandicoot.Physicss
         public bool IsGrounded { get; private set; }
         public bool IsAirborne => !IsGrounded;
         public bool IsMoveInputting { get; private set; }
+        public bool CanMove { get; set; }
 
         public Vector2 MoveInput { get; private set; }
         public Vector3 Speed { get; private set; }
@@ -61,6 +62,8 @@ namespace CrashBandicoot.Physicss
 
         public void SetMoveInput(Vector2 input)
         {
+            if (!CanMove) return;
+            
             MoveInput = input;
             IsMoveInputting = Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
         }
