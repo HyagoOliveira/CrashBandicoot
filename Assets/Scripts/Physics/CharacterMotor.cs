@@ -60,6 +60,8 @@ namespace CrashBandicoot.Physicss
             UpdateAnimations();
         }
 
+        void OnDisable () => SetMoveInput(Vector2.zero);
+
         public void SetMoveInput(Vector2 input)
         {
             if (!CanMove) return;
