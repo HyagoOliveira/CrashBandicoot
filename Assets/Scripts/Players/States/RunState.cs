@@ -1,23 +1,10 @@
 using UnityEngine;
-using ActionCode.AnimatorStates;
-using CrashBandicoot.Physicss;
 
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
-    [RequireComponent(typeof(CharacterMotor))]
-    [RequireComponent(typeof(PlayerAnimator))]
-    public sealed class RunState : AbstractMonoBehaviourState
+    public sealed class RunState : AbstractState
     {
-        [SerializeField] private CharacterMotor motor;
-        [SerializeField] private PlayerAnimator animator;
-
-        private void Reset()
-        {
-            motor = GetComponent<CharacterMotor>();
-            animator = GetComponent<PlayerAnimator>();
-        }
-
         protected override void UpdateState()
         {
             base.UpdateState();
