@@ -1,13 +1,16 @@
 using System;
+using CrashBandicoot.Players;
 using UnityEngine;
 
 namespace CrashBandicoot.Physicss
 {
     [DisallowMultipleComponent]
+    [RequireComponent(typeof(PlayerAnimator))]
     [RequireComponent(typeof(CharacterController))]
     public sealed class CharacterMotor : MonoBehaviour
     {
         [SerializeField] private CharacterController controller;
+        [SerializeField] private PlayerAnimator animator;
         [SerializeField] private LayerMask collision;
 
         [field: SerializeField, Min(0f)]
@@ -36,7 +39,11 @@ namespace CrashBandicoot.Physicss
         private bool isGroundCollision;
         private bool wasGroundCollision;
 
-        private void Reset() => controller = GetComponent<CharacterController>();
+        private void Reset ()
+        {
+            controller = GetComponent<CharacterController>();
+            animator = GetComponent<PlayerAnimator>();
+        }
 
         private void Start()
         {
@@ -49,6 +56,7 @@ namespace CrashBandicoot.Physicss
             UpdateMovement();
             UpdateRotation();
             UpdateGroundCollision();
+            UpdateAnimations();
         }
 
         public void SetMoveInput(Vector2 input)
@@ -97,6 +105,13 @@ namespace CrashBandicoot.Physicss
             moveDirection = IsMoveInputting ?
                 GetMoveInputDirectionRelativeToCamera() :
                 Vector3.zero;
+        }
+
+        private void UpdateAnimations ()
+        {
+            animator.SetIsGrounded(IsGrounded);
+            animator.SetIsAirborne(IsAirborne);
+            animator.SetIsMoveInputting(IsMoveInputting);
         }
 
         private void AddGravityIntoVerticalSpeed()
