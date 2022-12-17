@@ -15,6 +15,7 @@ namespace CrashBandicoot.Players
         public event Action<bool> OnSpin;
         public event Action<bool> OnJump;
         public event Action<bool> OnCrouch;
+        public event Action<bool> OnSwitch;
         public event Action<bool> OnPauseMenu;
         public event Action<bool> OnInventoryStatus;
 
@@ -46,6 +47,7 @@ namespace CrashBandicoot.Players
             BindButtonAction(actions.Spin, HandleSpin);
             BindButtonAction(actions.Jump, HandleJump);
             BindButtonAction(actions.Crouch, HandleCrouch);
+            BindButtonAction(actions.Switch, HandleSwitch);
             BindButtonAction(actions.PauseMenu, HandlePauseMenu);
             BindButtonAction(actions.InventoryStatus, HandleInventoryStatus);
         }
@@ -58,6 +60,7 @@ namespace CrashBandicoot.Players
             UnbindButtonAction(actions.Spin, HandleSpin);
             UnbindButtonAction(actions.Jump, HandleJump);
             UnbindButtonAction(actions.Crouch, HandleCrouch);
+            UnbindButtonAction(actions.Switch, HandleSwitch);
             UnbindButtonAction(actions.PauseMenu, HandlePauseMenu);
             UnbindButtonAction(actions.InventoryStatus, HandleInventoryStatus);
         }
@@ -68,6 +71,7 @@ namespace CrashBandicoot.Players
         private void HandleSpin(bool isButtonDown) => OnSpin?.Invoke(isButtonDown);
         private void HandleJump(bool isButtonDown) => OnJump?.Invoke(isButtonDown);
         private void HandleCrouch(bool isButtonDown) => OnCrouch?.Invoke(isButtonDown);
+        private void HandleSwitch(bool isButtonDown) => OnSwitch?.Invoke(isButtonDown);
         private void HandlePauseMenu(bool isButtonDown) => OnPauseMenu?.Invoke(isButtonDown);
         private void HandleInventoryStatus(bool isButtonDown) => OnInventoryStatus?.Invoke(isButtonDown);
 

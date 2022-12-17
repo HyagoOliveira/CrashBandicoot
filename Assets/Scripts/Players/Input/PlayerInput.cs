@@ -75,6 +75,15 @@ namespace CrashBandicoot.Players
                     ""initialStateCheck"": false
                 },
                 {
+                    ""name"": ""Switch"",
+                    ""type"": ""Button"",
+                    ""id"": ""91e160ad-f692-4c40-a4e0-b08e0aa5a01c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
                     ""name"": ""Pause Menu"",
                     ""type"": ""Button"",
                     ""id"": ""48658bac-2f20-4a68-8830-38c77e5030c0"",
@@ -454,6 +463,28 @@ namespace CrashBandicoot.Players
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Inventory Status"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8892b820-3f38-4f78-bd45-ec7470cc896e"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Switch"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c89d8d20-4fe5-4c9f-88ad-e70b5f9048df"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Switch"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1046,6 +1077,7 @@ namespace CrashBandicoot.Players
             m_Player_Spin = m_Player.FindAction("Spin", throwIfNotFound: true);
             m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
             m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
+            m_Player_Switch = m_Player.FindAction("Switch", throwIfNotFound: true);
             m_Player_PauseMenu = m_Player.FindAction("Pause Menu", throwIfNotFound: true);
             m_Player_InventoryStatus = m_Player.FindAction("Inventory Status", throwIfNotFound: true);
             // UI
@@ -1124,6 +1156,7 @@ namespace CrashBandicoot.Players
         private readonly InputAction m_Player_Spin;
         private readonly InputAction m_Player_Jump;
         private readonly InputAction m_Player_Crouch;
+        private readonly InputAction m_Player_Switch;
         private readonly InputAction m_Player_PauseMenu;
         private readonly InputAction m_Player_InventoryStatus;
         public struct PlayerActions
@@ -1135,6 +1168,7 @@ namespace CrashBandicoot.Players
             public InputAction @Spin => m_Wrapper.m_Player_Spin;
             public InputAction @Jump => m_Wrapper.m_Player_Jump;
             public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
+            public InputAction @Switch => m_Wrapper.m_Player_Switch;
             public InputAction @PauseMenu => m_Wrapper.m_Player_PauseMenu;
             public InputAction @InventoryStatus => m_Wrapper.m_Player_InventoryStatus;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
@@ -1161,6 +1195,9 @@ namespace CrashBandicoot.Players
                     @Crouch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
                     @Crouch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
                     @Crouch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCrouch;
+                    @Switch.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwitch;
+                    @Switch.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwitch;
+                    @Switch.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSwitch;
                     @PauseMenu.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPauseMenu;
                     @PauseMenu.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPauseMenu;
                     @PauseMenu.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnPauseMenu;
@@ -1186,6 +1223,9 @@ namespace CrashBandicoot.Players
                     @Crouch.started += instance.OnCrouch;
                     @Crouch.performed += instance.OnCrouch;
                     @Crouch.canceled += instance.OnCrouch;
+                    @Switch.started += instance.OnSwitch;
+                    @Switch.performed += instance.OnSwitch;
+                    @Switch.canceled += instance.OnSwitch;
                     @PauseMenu.started += instance.OnPauseMenu;
                     @PauseMenu.performed += instance.OnPauseMenu;
                     @PauseMenu.canceled += instance.OnPauseMenu;
@@ -1353,6 +1393,7 @@ namespace CrashBandicoot.Players
             void OnSpin(InputAction.CallbackContext context);
             void OnJump(InputAction.CallbackContext context);
             void OnCrouch(InputAction.CallbackContext context);
+            void OnSwitch(InputAction.CallbackContext context);
             void OnPauseMenu(InputAction.CallbackContext context);
             void OnInventoryStatus(InputAction.CallbackContext context);
         }

@@ -51,6 +51,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Switch",
+                    "type": "Button",
+                    "id": "91e160ad-f692-4c40-a4e0-b08e0aa5a01c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Pause Menu",
                     "type": "Button",
                     "id": "48658bac-2f20-4a68-8830-38c77e5030c0",
@@ -430,6 +439,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Inventory Status",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8892b820-3f38-4f78-bd45-ec7470cc896e",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c89d8d20-4fe5-4c9f-88ad-e70b5f9048df",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Switch",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
