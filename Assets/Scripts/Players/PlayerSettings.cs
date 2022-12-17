@@ -15,20 +15,22 @@ namespace CrashBandicoot.Players
         /// <summary>
         /// Action fired when a Player is spawned.
         /// </summary>
-        public event Action<Player> OnPlayerSpawn;
+        public event Action OnPlayerSpawned;
+        
+        /// <summary>
+        /// Action fired when a Player is despawned.
+        /// </summary>
+        public event Action OnPlayerDeSpawned;
 
         /// <summary>
         /// Action fired when a Player is switched.
-        /// <para>
-        /// Check for <see cref="Current"/> and <see cref="Last"/>.
-        /// </para>
         /// </summary>
-        public event Action OnPlayerSwitch;
+        public event Action OnPlayerSwitched;
 
         /// <summary>
         /// Action fired when a Player dies.
         /// </summary>
-        public event Action<Player> OnPlayerDied;
+        public event Action OnPlayerDied;
 
         /// <summary>
         /// The last active Player.
@@ -51,10 +53,17 @@ namespace CrashBandicoot.Players
         /// </summary>
         public void Spawn()
         {
-            var enabledPlayer = FindObjectOfType<Player>(includeInactive: false);
-            var hasNoPlayerEnabled = enabledPlayer == null;
-            if (hasNoPlayerEnabled) Spawn(first, Vector3.zero, Quaternion.identity);
-            else HandleSpawn();
+            var playerName = first;
+            var place = GetSpawnPlace();
+            var isPlayerEnabledInScene = TryGetFirstPlayerEnabled(out Player player);
+
+            if (isPlayerEnabledInScene)
+            {
+                playerName = player.Name;
+                place = (player.transform.position, player.transform.rotation);
+            }
+            
+            Spawn(playerName, position: place.Item1, rotation: place.Item2);
         }
 
         /// <summary>
@@ -71,16 +80,13 @@ namespace CrashBandicoot.Players
             Current.Enable();
             Current.Place(position, rotation);
 
-            HandleSpawn();
+            OnPlayerSpawned?.Invoke();
         }
 
         /// <summary>
-        /// UnSpawns the current Player.
+        /// DeSpawns the current Player.
         /// </summary>
-        public void UnSpawn()
-        {
-            //TODO
-        }
+        public void DeSpawn() => OnPlayerDeSpawned?.Invoke();
 
         /// <summary>
         /// Switches into the next Player.
@@ -94,24 +100,23 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public void Switch(PlayerName name)
         {
-            if (IsAbleToSwitchFor(name, out Player nextPlayer))
-            {
-                Current.Switch(nextPlayer);
+            if (!IsAbleToSwitchFor(name, out Player nextPlayer)) return;
+            
+            Current.Switch(nextPlayer);
 
-                lastName = currentName;
-                currentName = name;
+            lastName = currentName;
+            currentName = name;
 
-                HandleSwitch();
-            }
+            OnPlayerSwitched?.Invoke();
         }
 
         /// <summary>
-        /// Destroys the given player.
+        /// Kills the given player.
         /// </summary>
-        /// <param name="name">The Player to destroy.</param>
-        public void Destroy(PlayerName name)
+        /// <param name="name">The Player to kill.</param>
+        public void Kill(PlayerName name)
         {
-            OnPlayerDied?.Invoke(players[name]);
+            OnPlayerDied?.Invoke();
             players[name].Destroy();
             players[name] = null;
         }
@@ -151,15 +156,6 @@ namespace CrashBandicoot.Players
         }
 
         /// <summary>
-        /// Checks if contains the given player and references it back.
-        /// </summary>
-        /// <param name="name">The Player name trying to get.</param>
-        /// <param name="player">The Player if available.</param>
-        /// <returns>Whether contains the player.</returns>
-        public bool Contains(PlayerName name, out Player player) =>
-            players.TryGetValue(name, out player);
-
-        /// <summary>
         /// Checks if is able to switch into the given player.
         /// </summary>
         /// <param name="name">The Player name trying to switch.</param>
@@ -170,21 +166,33 @@ namespace CrashBandicoot.Players
             var hasPlayer = Contains(name, out player);
             return hasPlayer && player.IsAbleToSwitch();
         }
+        
+        /// <summary>
+        /// Checks if contains the given player and references it back.
+        /// </summary>
+        /// <param name="name">The Player name trying to get.</param>
+        /// <param name="player">The Player if available.</param>
+        /// <returns>Whether contains the player.</returns>
+        public bool Contains(PlayerName name, out Player player) =>
+            players.TryGetValue(name, out player);
 
         private void InstantiatePrefabs()
         {
-            var scenePlayers = GetScenePlayers();
+            var instances = GetScenePlayerInstances();
             players = new Dictionary<PlayerName, Player>(prefabs.Length);
 
             foreach (var prefab in prefabs)
             {
-                var prefabPlayerName = prefab.Name;
-                var hasScenePlayer = scenePlayers.TryGetValue(prefabPlayerName, out Player player);
+                var prefabName = prefab.Name;
+                var hasPlayerInstanceInScene = instances.TryGetValue(prefabName, out Player player);
 
-                if (!hasScenePlayer)
+                if (!hasPlayerInstanceInScene)
                 {
-                    var instance = Instantiate(prefab, position: Vector3.zero, rotation: Quaternion.identity);
-                    player = instance.GetComponent<Player>();
+                    player = Instantiate(
+                        prefab, 
+                        position: Vector3.zero,
+                        rotation: Quaternion.identity
+                    );
 
                     player.gameObject.name = prefab.name;
                     player.gameObject.SetActive(false);
@@ -194,20 +202,36 @@ namespace CrashBandicoot.Players
             }
         }
 
-        private Dictionary<PlayerName, Player> GetScenePlayers()
+        private bool TryGetFirstPlayerEnabled (out Player enabledPlayer)
         {
-            var scenePlayers = new Dictionary<PlayerName, Player>();
+            foreach (var player in players.Values)
+            {
+                if (!player.Enabled) continue;
+                
+                enabledPlayer = player;
+                return true;
+            }
+
+            enabledPlayer = null;
+            return false;
+        }
+
+        private static (Vector3, Quaternion) GetSpawnPlace ()
+        {
+            //TODO Add default SpawnPlace GameObject in each level and use it.
+            return (Vector3.zero, Quaternion.identity);
+        }
+        
+        private static Dictionary<PlayerName, Player> GetScenePlayerInstances()
+        {
+            var instances = new Dictionary<PlayerName, Player>();
 
             foreach (var player in FindObjectsOfType<Player>(includeInactive: true))
             {
-                scenePlayers.Add(player.Name, player);
+                instances.Add(player.Name, player);
             }
 
-            return scenePlayers;
+            return instances;
         }
-
-        private void HandleSpawn() => OnPlayerSpawn?.Invoke(Current);
-
-        private void HandleSwitch() => OnPlayerSwitch?.Invoke();
     }
 }

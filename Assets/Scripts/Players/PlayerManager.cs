@@ -9,6 +9,7 @@ namespace CrashBandicoot.Players
     {
         [SerializeField] private PlayerSettings settings;
         [SerializeField] private PlayerInputSettings inputSettings;
+        [SerializeField] private float timeToSpawnPlayers = 0.1f;
 
         private void Awake()
         {
@@ -18,7 +19,7 @@ namespace CrashBandicoot.Players
 
         private IEnumerator Start()
         {
-            yield return new WaitForSeconds(0.1F);
+            yield return new WaitForSeconds(timeToSpawnPlayers);
             settings.Spawn();
         }
 

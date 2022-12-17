@@ -16,17 +16,17 @@ namespace CrashBandicoot.Players
 
         private void AddListeners()
         {
-            settings.OnPlayerSpawn += HandleOnPlayerSpawn;
-            settings.OnPlayerSwitch += HandleOnPlayerSwitch;
+            settings.OnPlayerSpawned += HandleOnPlayerSpawned;
+            settings.OnPlayerSwitched += HandleOnPlayerSwitched;
         }
 
         private void RemoveListeners()
         {
-            settings.OnPlayerSpawn -= HandleOnPlayerSpawn;
-            settings.OnPlayerSwitch -= HandleOnPlayerSwitch;
+            settings.OnPlayerSpawned -= HandleOnPlayerSpawned;
+            settings.OnPlayerSwitched -= HandleOnPlayerSwitched;
         }
 
-        private void HandleOnPlayerSpawn(Player player) => SwitchCameraTo(player);
-        private void HandleOnPlayerSwitch() => SwitchCameraTo(settings.Current);
+        private void HandleOnPlayerSpawned() => SwitchCameraTo(settings.Current);
+        private void HandleOnPlayerSwitched() => SwitchCameraTo(settings.Current);
     }
 }
