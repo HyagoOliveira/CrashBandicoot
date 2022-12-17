@@ -20,16 +20,15 @@ namespace CrashBandicoot.Players
         /// <summary>
         /// Action fired when a Player is switched.
         /// <para>
-        /// <b>First param</b>: Current Player.<br/>
-        /// <b>Second param</b>: Last Player.
+        /// Check for <see cref="Current"/> and <see cref="Last"/>.
         /// </para>
         /// </summary>
-        public event Action<Player, Player> OnPlayerSwitch;
+        public event Action OnPlayerSwitch;
 
         /// <summary>
         /// Action fired when a Player dies.
         /// </summary>
-        public event Action<Player> OnPlayerDestroyed;
+        public event Action<Player> OnPlayerDied;
 
         /// <summary>
         /// The last active Player.
@@ -112,7 +111,7 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to destroy.</param>
         public void Destroy(PlayerName name)
         {
-            OnPlayerDestroyed?.Invoke(players[name]);
+            OnPlayerDied?.Invoke(players[name]);
             players[name].Destroy();
             players[name] = null;
         }
@@ -209,6 +208,6 @@ namespace CrashBandicoot.Players
 
         private void HandleSpawn() => OnPlayerSpawn?.Invoke(Current);
 
-        private void HandleSwitch() => OnPlayerSwitch?.Invoke(Current, Last);
+        private void HandleSwitch() => OnPlayerSwitch?.Invoke();
     }
 }

@@ -27,6 +27,6 @@ namespace CrashBandicoot.Players
         }
 
         private void HandleOnPlayerSpawn(Player player) => SwitchCameraTo(player);
-        private void HandleOnPlayerSwitch(Player player, Player _) => SwitchCameraTo(player);
+        private void HandleOnPlayerSwitch() => SwitchCameraTo(settings.Current);
     }
 }
