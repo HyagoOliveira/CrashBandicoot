@@ -1,13 +1,18 @@
 using System;
 using UnityEngine;
+using ActionCode.AnimatorStates;
 
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
+    [RequireComponent(typeof(AnimatorStateMachine))]
     public sealed class Player : MonoBehaviour, IEnable, IDisable, IEquatable<Player>
     {
         [SerializeField, Tooltip("The player identifier.")]
         private PlayerName id = PlayerName.None;
+        
+        [field: SerializeField]
+        public AnimatorStateMachine StateMachine { get; private set; }
 
         /// <summary>
         /// The player identifier name.
@@ -20,6 +25,11 @@ namespace CrashBandicoot.Players
         public bool Enabled => gameObject.activeInHierarchy;
         
         public int Index { get; internal set; }
+
+        void Reset ()
+        {
+            StateMachine = GetComponent<AnimatorStateMachine>();
+        }
 
         /// <summary>
         /// Places the player at the given position and rotation.

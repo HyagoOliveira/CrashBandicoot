@@ -105,6 +105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: -1
+  <StateMachine>k__BackingField: {fileID: 4773723495254980474}
 --- !u!114 &2033104369485180538
 MonoBehaviour:
   m_ObjectHideFlags: 0
