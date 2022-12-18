@@ -1,28 +1,17 @@
 using UnityEngine;
+using CrashBandicoot.Physicss;
 
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
-    [RequireComponent(typeof(Animator))]
-    public sealed class PlayerAnimator : MonoBehaviour
+    public sealed class PlayerAnimator : CharacterAnimator
     {
-        [SerializeField] private Animator animator;
-
         private readonly int spawn = Animator.StringToHash("Spawn");
         private readonly int unSpawn = Animator.StringToHash("UnSpawn");
-        private readonly int isGrounded = Animator.StringToHash("IsGrounded");
-        private readonly int isAirborne = Animator.StringToHash("IsAirborne");
-        private readonly int isMoveInputting = Animator.StringToHash("IsMoveInputting");
         private readonly int runningSlopeIndex = Animator.StringToHash("RunningSlopeIndex");
-        
-        private void Reset() => animator = GetComponent<Animator>();
         
         public void Spawn() => animator.SetTrigger(spawn);
         public void UnSpawn() => animator.SetTrigger(unSpawn);
-
-        public void SetIsGrounded(bool value) => animator.SetBool(isGrounded, value);
-        public void SetIsAirborne(bool value) => animator.SetBool(isAirborne, value);
-        public void SetIsMoveInputting(bool value) => animator.SetBool(isMoveInputting, value);
         
         public void ResetRunningSlope()
         {

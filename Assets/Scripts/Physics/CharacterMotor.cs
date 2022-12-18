@@ -5,12 +5,12 @@ using UnityEngine;
 namespace CrashBandicoot.Physicss
 {
     [DisallowMultipleComponent]
-    [RequireComponent(typeof(PlayerAnimator))]
+    [RequireComponent(typeof(CharacterAnimator))]
     [RequireComponent(typeof(CharacterController))]
     public sealed class CharacterMotor : MonoBehaviour
     {
         [SerializeField] private CharacterController controller;
-        [SerializeField] private PlayerAnimator animator;
+        [SerializeField] private CharacterAnimator animator;
         [SerializeField] private LayerMask collision;
 
         [field: SerializeField, Min(0f)]
