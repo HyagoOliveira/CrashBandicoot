@@ -1,6 +1,6 @@
 using UnityEngine;
 using ActionCode.AnimatorStates;
-using CrashBandicoot.Physicss;
+using CrashBandicoot.Characters;
 
 namespace CrashBandicoot.Players
 {

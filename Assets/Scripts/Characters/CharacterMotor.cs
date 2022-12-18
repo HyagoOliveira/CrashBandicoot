@@ -1,8 +1,8 @@
 using System;
-using CrashBandicoot.Players;
 using UnityEngine;
+using CrashBandicoot.Players;
 
-namespace CrashBandicoot.Physicss
+namespace CrashBandicoot.Characters
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(CharacterAnimator))]
@@ -43,7 +43,7 @@ namespace CrashBandicoot.Physicss
         private void Reset ()
         {
             controller = GetComponent<CharacterController>();
-            animator = GetComponent<PlayerAnimator>();
+            animator = GetComponent<CharacterAnimator>();
         }
 
         private void Start()
