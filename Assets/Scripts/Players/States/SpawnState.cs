@@ -3,8 +3,10 @@ using UnityEngine;
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
-    public sealed class SpawnState : AbstractState 
+    public sealed class SpawnState : AbstractState
     {
+        public void Trigger () => animator.Spawn();
+
         protected override void EnterState ()
         {
             base.EnterState();
