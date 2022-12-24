@@ -39,6 +39,15 @@ namespace CrashBandicoot.Players
             UnbindActions();
         }
 
+        internal void ResetAxes ()
+        {
+            actions.Move.Disable();
+            actions.Look.Disable();
+            
+            actions.Move.Enable();
+            actions.Look.Enable();
+        }
+
         private void BindActions()
         {
             BindAxisAction(actions.Move, HandleMove);
