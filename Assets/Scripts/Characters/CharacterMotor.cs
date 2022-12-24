@@ -25,6 +25,7 @@ namespace CrashBandicoot.Characters
 
         public bool IsGrounded { get; private set; }
         public bool IsAirborne => !IsGrounded;
+        public bool IsFalling => IsAirborne && VerticalSpeed < 0F;
         public bool IsMoveInputting { get; private set; }
         public bool CanMove { get; set; }
 
@@ -74,6 +75,8 @@ namespace CrashBandicoot.Characters
             IsMoveInputting = false;
         }
 
+        public void Jump () => VerticalSpeed = 10f;
+
         public bool IsOverSlope()
         {
             if (GroundHit.collider == null) return false;
@@ -120,6 +123,7 @@ namespace CrashBandicoot.Characters
         {
             animator.SetIsGrounded(IsGrounded);
             animator.SetIsAirborne(IsAirborne);
+            animator.SetIsFalling(IsFalling);
             animator.SetIsMoveInputting(IsMoveInputting);
         }
 
