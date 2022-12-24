@@ -14,6 +14,8 @@ namespace CrashBandicoot.Players
         private PlayerName first = PlayerName.CrashBandicoot;
         [SerializeField, Tooltip("The time (in seconds) to wait until Players can move from Spawn animation.")]
         private float minSpawnTime = 0.5F;
+        [SerializeField, Tooltip("The time (in seconds) to wait until Players can switch again.")]
+        private float minSwitchTime = 2F;
         [SerializeField, Tooltip("The Players prefabs.")]
         private Player[] prefabs;
 
@@ -49,6 +51,7 @@ namespace CrashBandicoot.Players
 
         private PlayerName lastName;
         private PlayerName currentName;
+        private float lastSwitchTime;
         private Dictionary<PlayerName, Player> players;
 
         internal void Initialize () => InstantiatePrefabs();
@@ -108,8 +111,14 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public async void Switch(PlayerName name)
         {
-            var canSwitch = Current.IsAbleToSwitchOut() && IsAbleToSwitchFor(name);
-            if (canSwitch) await AwaitableCoroutine.Run(SwitchRoutine(name));
+            var canSwitch = 
+                HasSwitchTime() && 
+                Current.IsAbleToSwitchOut() && 
+                IsAbleToSwitchFor(name);
+            if (!canSwitch) return;
+
+            lastSwitchTime = GetTime();
+            await AwaitableCoroutine.Run(SwitchRoutine(name));
         }
 
         /// <summary>
@@ -165,6 +174,8 @@ namespace CrashBandicoot.Players
         /// <returns>Whether contains the player.</returns>
         public bool Contains(PlayerName name, out Player player) =>
             players.TryGetValue(name, out player);
+
+        private bool HasSwitchTime () => GetTime() - lastSwitchTime > minSwitchTime;
         
         private void FinishSpawn()
         {
@@ -236,6 +247,8 @@ namespace CrashBandicoot.Players
             
             OnPlayerSwitched?.Invoke();
         }
+
+        private static float GetTime () => Time.timeSinceLevelLoad;
 
         private static (Vector3, Quaternion) GetSpawnPlace ()
         {
