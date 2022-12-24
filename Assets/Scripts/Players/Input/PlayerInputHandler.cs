@@ -13,6 +13,9 @@ namespace CrashBandicoot.Players
         [SerializeField] private PlayerInputSettings settings;
         [SerializeField] private PlayerSettings playerSettings;
         [SerializeField] private CharacterMotor motor;
+        
+        [Header("States")]
+        [SerializeField] private JumpState jumpState;
 
         private void Reset() => motor = GetComponent<CharacterMotor>();
 
@@ -40,7 +43,13 @@ namespace CrashBandicoot.Players
 
         private void HandleMove(Vector2 input) => motor.SetMoveInput(input);
         private void HandleSpin(bool isButtonDown) => print($"Spin: {isButtonDown}");
-        private void HandleJump (bool isButtonDown) => motor.Jump();
+
+        private void HandleJump (bool isButtonDown)
+        {
+            if (isButtonDown) jumpState.Press();
+            else jumpState.Release();
+        }
+
         private void HandleCrounch(bool isButtonDown) => print($"Crouch: {isButtonDown}");
 
         private void HandleSwitch (bool isButtonDown)

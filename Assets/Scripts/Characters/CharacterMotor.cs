@@ -75,7 +75,7 @@ namespace CrashBandicoot.Characters
             IsMoveInputting = false;
         }
 
-        public void Jump () => VerticalSpeed = 10f;
+        public void StopVerticalSpeed () => VerticalSpeed = 0f;
 
         public bool IsOverSlope()
         {

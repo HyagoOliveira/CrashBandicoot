@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7227880654501046360}
   - component: {fileID: 4568729404820862663}
   - component: {fileID: 1386834920186721630}
+  - component: {fileID: 924394018474860124}
   - component: {fileID: 6807253051264923215}
   m_Layer: 3
   m_Name: BasePlayer
@@ -137,6 +138,7 @@ MonoBehaviour:
   settings: {fileID: 11400000, guid: d19268dcfbccc884ea461fb3bd9fd743, type: 2}
   playerSettings: {fileID: 11400000, guid: 502256aecaa050043bcef9b77471761f, type: 2}
   motor: {fileID: 6604689825903534606}
+  jumpState: {fileID: 924394018474860124}
 --- !u!114 &6604689825903534606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +157,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   <MoveSpeed>k__BackingField: 4
-  <Gravity>k__BackingField: -9.8
+  <Gravity>k__BackingField: -16
 --- !u!114 &7227880654501046360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,6 +200,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
+--- !u!114 &924394018474860124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660935207412238266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbf5cbb177d74552a4504be519d60f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor: {fileID: 6604689825903534606}
+  animator: {fileID: 2033104369485180538}
+  fallState: {fileID: 6807253051264923215}
+  airJumps: 1
+  maximumHeight: 2
+  timeApex: 0.5
 --- !u!114 &6807253051264923215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
+  fallGroundAirFrames: 30
+  fallBufferFrames: 30
 --- !u!1001 &733719272116019642
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,10 +8,12 @@ namespace CrashBandicoot.Players
     {
         private readonly int spawn = Animator.StringToHash("Spawn");
         private readonly int unSpawn = Animator.StringToHash("UnSpawn");
+        private readonly int jump = Animator.StringToHash("Jump");
         private readonly int runningSlopeIndex = Animator.StringToHash("RunningSlopeIndex");
         
         public void Spawn() => animator.SetTrigger(spawn);
         public void UnSpawn() => animator.SetTrigger(unSpawn);
+        public void Jump() => animator.SetTrigger(jump);
         
         public void ResetRunningSlope()
         {
