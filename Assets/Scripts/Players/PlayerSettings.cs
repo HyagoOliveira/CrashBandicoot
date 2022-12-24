@@ -1,8 +1,9 @@
 using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
+using ActionCode.AwaitableCoroutines;
 
 namespace CrashBandicoot.Players
 {
@@ -25,7 +26,7 @@ namespace CrashBandicoot.Players
         public event Action OnPlayerUnSpawned;
 
         /// <summary>
-        /// Action fired when a Player is switched.
+        /// Action fired when Players are switched, after the Spawn animation is finished.
         /// </summary>
         public event Action OnPlayerSwitched;
 
@@ -103,10 +104,10 @@ namespace CrashBandicoot.Players
         /// Switches into the given player if available.
         /// </summary>
         /// <param name="name">The Player to switch.</param>
-        public void Switch(PlayerName name)
+        public async void Switch(PlayerName name)
         {
             var canSwitch = Current.IsAbleToSwitchOut() && IsAbleToSwitchFor(name);
-            if (canSwitch) Current.StartCoroutine(SwitchRoutine(name));
+            if (canSwitch) await AwaitableCoroutine.Run(SwitchRoutine(name));
         }
 
         /// <summary>
@@ -216,6 +217,7 @@ namespace CrashBandicoot.Players
         private IEnumerator SwitchRoutine (PlayerName name)
         {
             UnSpawn();
+
             yield return new WaitForEndOfFrame(); // Waits to enter in UnSpawn State.
             yield return Current.StateMachine.GetBehaviourState<UnSpawnState>().WaitWhileIsExecuting();
             
@@ -226,7 +228,10 @@ namespace CrashBandicoot.Players
 
             Current.SwitchPlace(Last);
             FinishSpawn();
-
+            
+            yield return new WaitForEndOfFrame(); // Waits to enter in Spawn State.
+            yield return Current.StateMachine.GetBehaviourState<SpawnState>().WaitWhileIsExecuting();
+            
             OnPlayerSwitched?.Invoke();
         }
 
