@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
 using ActionCode.AnimatorStates;
+using CrashBandicoot.Characters;
 
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
+    [RequireComponent(typeof(CharacterMotor))]
     [RequireComponent(typeof(AnimatorStateMachine))]
     public sealed class Player : MonoBehaviour, IEnable, IDisable, IEquatable<Player>
     {
@@ -12,8 +14,11 @@ namespace CrashBandicoot.Players
         private PlayerName id = PlayerName.None;
         
         [field: SerializeField]
+        public CharacterMotor Motor { get; private set; }
+        
+        [field: SerializeField]
         public AnimatorStateMachine StateMachine { get; private set; }
-
+        
         /// <summary>
         /// The player identifier name.
         /// </summary>
@@ -28,6 +33,7 @@ namespace CrashBandicoot.Players
 
         void Reset ()
         {
+            Motor = GetComponent<CharacterMotor>();
             StateMachine = GetComponent<AnimatorStateMachine>();
         }
 
@@ -36,18 +42,18 @@ namespace CrashBandicoot.Players
         /// </summary>
         /// <param name="position">World position.</param>
         /// <param name="rotation">World rotation.</param>
-        public void Place(Vector3 position, Quaternion rotation)
-        {
+        public void Place(Vector3 position, Quaternion rotation) =>
             transform.SetPositionAndRotation(position, rotation);
-        }
 
-        public void Switch(Player nextPlayer)
+        /// <summary>
+        /// Switches the place between the given player.
+        /// </summary>
+        /// <param name="nextPlayer">The player to switch for.</param>
+        public void SwitchPlace(Player nextPlayer)
         {
             var position = nextPlayer.transform.position;
             var rotation = nextPlayer.transform.rotation;
-
             Place(position, rotation);
-            Enable();
         }
 
         /// <summary>
@@ -69,10 +75,16 @@ namespace CrashBandicoot.Players
         }
 
         /// <summary>
-        /// Checks if is able to switch.
+        /// Checks if is able to switch from.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitch () => !Enabled; //TODO && check if spawn animation has finished.
+        public bool IsAbleToSwitchOut () => Motor.IsGrounded && Enabled;
+
+        /// <summary>
+        /// Checks if is able to switch into.
+        /// </summary>
+        /// <returns></returns>
+        public bool IsAbleToSwitchIn () => !Enabled;
 
         /// <summary>
         /// Checks if the given player is equals to this.

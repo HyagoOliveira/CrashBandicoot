@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -19,9 +20,9 @@ namespace CrashBandicoot.Players
         public event Action OnPlayerSpawned;
         
         /// <summary>
-        /// Action fired when a Player is despawned.
+        /// Action fired when a Player is unspawned.
         /// </summary>
-        public event Action OnPlayerDeSpawned;
+        public event Action OnPlayerUnSpawned;
 
         /// <summary>
         /// Action fired when a Player is switched.
@@ -47,7 +48,7 @@ namespace CrashBandicoot.Players
         private PlayerName currentName;
         private Dictionary<PlayerName, Player> players;
 
-        internal void Initialize() => InstantiatePrefabs();
+        internal void Initialize () => InstantiatePrefabs();
 
         /// <summary>
         /// Spawns the first Player only if no other one is enabled.
@@ -56,19 +57,19 @@ namespace CrashBandicoot.Players
         {
             var playerName = first;
             var place = GetSpawnPlace();
-            var isPlayerEnabledInScene = TryGetFirstPlayerEnabled(out Player player);
+            var isPlayerEnabledInScene = TryGetFirstPlayerEnabled(out Player scenePlayer);
 
             if (isPlayerEnabledInScene)
             {
-                playerName = player.Name;
-                place = (player.transform.position, player.transform.rotation);
+                playerName = scenePlayer.Name;
+                place = (scenePlayer.transform.position, scenePlayer.transform.rotation);
             }
             
             Spawn(playerName, position: place.Item1, rotation: place.Item2);
         }
 
         /// <summary>
-        /// Spawns the given Player using the position and rotation.
+        /// Spawns the given Player using the given position and rotation.
         /// </summary>
         /// <param name="player">The Player to spawn.</param>
         /// <param name="position">The world position to spawn.</param>
@@ -78,16 +79,19 @@ namespace CrashBandicoot.Players
             lastName = PlayerName.None;
             currentName = player;
 
-            Current.Enable();
             Current.Place(position, rotation);
 
-            OnPlayerSpawned?.Invoke();
+            FinishSpawn();
         }
 
         /// <summary>
-        /// DeSpawns the current Player.
+        /// Unspawns the current Player.
         /// </summary>
-        public void DeSpawn() => OnPlayerDeSpawned?.Invoke();
+        public void UnSpawn ()
+        {
+            Current.StateMachine.GetBehaviourState<UnSpawnState>().Trigger();
+            OnPlayerUnSpawned?.Invoke();
+        }
 
         /// <summary>
         /// Switches into the next Player.
@@ -101,16 +105,8 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public void Switch(PlayerName name)
         {
-            if (!IsAbleToSwitchFor(name)) return;
-        
-            Current.Disable();
-            
-            lastName = currentName;
-            currentName = name;
-
-            Current.Switch(Last);
-
-            OnPlayerSwitched?.Invoke();
+            var canSwitch = Current.IsAbleToSwitchOut() && IsAbleToSwitchFor(name);
+            if (canSwitch) Current.StartCoroutine(SwitchRoutine(name));
         }
 
         /// <summary>
@@ -155,7 +151,7 @@ namespace CrashBandicoot.Players
         public bool IsAbleToSwitchFor(PlayerName name)
         {
             var hasPlayer = Contains(name, out Player player);
-            return hasPlayer && player.IsAbleToSwitch();
+            return hasPlayer && player.IsAbleToSwitchIn();
         }
         
         /// <summary>
@@ -166,6 +162,14 @@ namespace CrashBandicoot.Players
         /// <returns>Whether contains the player.</returns>
         public bool Contains(PlayerName name, out Player player) =>
             players.TryGetValue(name, out player);
+        
+        private void FinishSpawn()
+        {
+            Current.Enable();
+            Current.StateMachine.GetBehaviourState<SpawnState>().Trigger();
+
+            OnPlayerSpawned?.Invoke();
+        }
 
         private void InstantiatePrefabs()
         {
@@ -207,6 +211,23 @@ namespace CrashBandicoot.Players
 
             enabledPlayer = null;
             return false;
+        }
+
+        private IEnumerator SwitchRoutine (PlayerName name)
+        {
+            UnSpawn();
+            yield return new WaitForEndOfFrame(); // Waits to enter in UnSpawn State.
+            yield return Current.StateMachine.GetBehaviourState<UnSpawnState>().WaitWhileIsExecuting();
+            
+            Current.Disable();
+            
+            lastName = currentName;
+            currentName = name;
+
+            Current.SwitchPlace(Last);
+            FinishSpawn();
+
+            OnPlayerSwitched?.Invoke();
         }
 
         private static (Vector3, Quaternion) GetSpawnPlace ()

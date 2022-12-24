@@ -14,19 +14,9 @@ namespace CrashBandicoot.Players
         protected abstract void FindCamera();
         protected abstract void SwitchCameraTo(Player player);
 
-        private void AddListeners()
-        {
-            settings.OnPlayerSpawned += HandleOnPlayerSpawned;
-            settings.OnPlayerSwitched += HandleOnPlayerSwitched;
-        }
-
-        private void RemoveListeners()
-        {
-            settings.OnPlayerSpawned -= HandleOnPlayerSpawned;
-            settings.OnPlayerSwitched -= HandleOnPlayerSwitched;
-        }
+        private void AddListeners() => settings.OnPlayerSpawned += HandleOnPlayerSpawned;
+        private void RemoveListeners() => settings.OnPlayerSpawned -= HandleOnPlayerSpawned;
 
         private void HandleOnPlayerSpawned() => SwitchCameraTo(settings.Current);
-        private void HandleOnPlayerSwitched() => SwitchCameraTo(settings.Current);
     }
 }
