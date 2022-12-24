@@ -2,6 +2,7 @@
   "dependencies": {
     "com.actioncode.animator-states": "1.2.0",
     "com.actioncode.scene-management": "2.0.0",
+    "com.actioncode.awaitable-coroutines": "1.0.0",
     "com.unity.animation.rigging": "1.1.1",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.ide.rider": "3.0.17",
