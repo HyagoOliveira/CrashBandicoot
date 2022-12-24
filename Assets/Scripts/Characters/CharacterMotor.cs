@@ -64,10 +64,14 @@ namespace CrashBandicoot.Characters
 
         public void SetMoveInput(Vector2 input)
         {
-            if (!CanMove) return;
-            
-            MoveInput = input;
+            MoveInput = CanMove ? input : Vector2.zero;
             IsMoveInputting = Mathf.Abs(MoveInput.sqrMagnitude) > 0F;
+        }
+
+        public void StopMoveInput ()
+        {
+            MoveInput = Vector2.zero;
+            IsMoveInputting = false;
         }
 
         public bool IsOverSlope()
