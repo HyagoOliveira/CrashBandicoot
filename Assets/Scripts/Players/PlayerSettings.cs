@@ -48,13 +48,19 @@ namespace CrashBandicoot.Players
         /// The current active Player.
         /// </summary>
         public Player Current => players[currentName];
+        
+        public bool IsAbleToSwitch { get; private set; }
 
         private PlayerName lastName;
         private PlayerName currentName;
-        private float lastSwitchTime;
+        private float lastSpawnTime;
         private Dictionary<PlayerName, Player> players;
 
-        internal void Initialize () => InstantiatePrefabs();
+        internal void Initialize ()
+        {
+            lastSpawnTime = 0f;
+            InstantiatePrefabs();
+        }
 
         /// <summary>
         /// Spawns the first Player only if no other one is enabled.
@@ -111,13 +117,14 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public async void Switch(PlayerName name)
         {
-            var canSwitch = 
+            var isAbleToSwitch = 
+                IsAbleToSwitch &&
                 HasSwitchTime() && 
                 Current.IsAbleToSwitchOut() && 
                 IsAbleToSwitchFor(name);
-            if (!canSwitch) return;
+            if (!isAbleToSwitch) return;
 
-            lastSwitchTime = GetTime();
+            IsAbleToSwitch = false;
             await AwaitableCoroutine.Run(SwitchRoutine(name));
         }
 
@@ -175,12 +182,14 @@ namespace CrashBandicoot.Players
         public bool Contains(PlayerName name, out Player player) =>
             players.TryGetValue(name, out player);
 
-        private bool HasSwitchTime () => GetTime() - lastSwitchTime > minSwitchTime;
+        private bool HasSwitchTime () => GetTime() - lastSpawnTime > minSwitchTime;
         
         private void FinishSpawn()
         {
             Current.Enable();
             Current.StateMachine.GetBehaviourState<SpawnState>().Trigger();
+            lastSpawnTime = GetTime();
+            IsAbleToSwitch = true;
 
             OnPlayerSpawned?.Invoke();
         }
