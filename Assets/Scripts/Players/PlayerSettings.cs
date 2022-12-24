@@ -12,6 +12,8 @@ namespace CrashBandicoot.Players
     {
         [SerializeField, Tooltip("The first Player to be spawned.")]
         private PlayerName first = PlayerName.CrashBandicoot;
+        [SerializeField, Tooltip("The time (in seconds) to wait until Players can move from Spawn animation.")]
+        private float minSpawnTime = 0.5F;
         [SerializeField, Tooltip("The Players prefabs.")]
         private Player[] prefabs;
 
@@ -229,8 +231,8 @@ namespace CrashBandicoot.Players
             Current.SwitchPlace(Last);
             FinishSpawn();
             
-            yield return new WaitForEndOfFrame(); // Waits to enter in Spawn State.
-            yield return Current.StateMachine.GetBehaviourState<SpawnState>().WaitWhileIsExecuting();
+            yield return new WaitForSeconds(minSpawnTime);
+            Current.Motor.CanMove = true;
             
             OnPlayerSwitched?.Invoke();
         }
