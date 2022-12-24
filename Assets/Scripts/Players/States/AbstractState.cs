@@ -1,6 +1,7 @@
 using UnityEngine;
 using ActionCode.AnimatorStates;
 using CrashBandicoot.Characters;
+using System.Collections;
 
 namespace CrashBandicoot.Players
 {
@@ -16,5 +17,7 @@ namespace CrashBandicoot.Players
 			motor = GetComponent<CharacterMotor>();
 			animator = GetComponent<PlayerAnimator>();
 		}
+
+		public IEnumerator WaitWhileIsExecuting () => new WaitWhile(() => IsExecuting);
 	}
 }
