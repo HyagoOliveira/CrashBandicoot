@@ -25,6 +25,7 @@ namespace CrashBandicoot.Characters
 
         public bool IsGrounded { get; private set; }
         public bool IsAirborne => !IsGrounded;
+        public bool IsRaising => IsAirborne && VerticalSpeed > 0F;
         public bool IsFalling => IsAirborne && VerticalSpeed < 0F;
         public bool IsMoveInputting { get; private set; }
         public bool CanMove { get; set; }

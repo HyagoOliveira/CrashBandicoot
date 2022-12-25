@@ -43,13 +43,7 @@ namespace CrashBandicoot.Players
 
         private void HandleMove(Vector2 input) => motor.SetMoveInput(input);
         private void HandleSpin(bool isButtonDown) => print($"Spin: {isButtonDown}");
-
-        private void HandleJump (bool isButtonDown)
-        {
-            if (isButtonDown) jumpState.Press();
-            else jumpState.Release();
-        }
-
+        private void HandleJump (bool isButtonDown) => jumpState.UpdateInput(isButtonDown);
         private void HandleCrounch(bool isButtonDown) => print($"Crouch: {isButtonDown}");
 
         private void HandleSwitch (bool isButtonDown)

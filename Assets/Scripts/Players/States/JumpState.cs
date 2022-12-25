@@ -17,9 +17,13 @@ namespace CrashBandicoot.Players
         public float maximumHeight = 4f;
         [Tooltip("The time (in seconds) to reach the maximum jump height."), Min(0.01f)]
         public float timeApex = 0.5f;
+        [SerializeField]
+        [Tooltip("Activate Forward Jump when height is at this percent."), Range(0F, 100F)] 
+        private float forwardJumpPercentage = 60F;
 
         public int CurrentAirJumps { get; private set; }
-        public bool WasGroundedJump { get; private set; }
+        
+        private float jumpGroundHeight;
 
         protected override void Reset ()
         {
@@ -27,52 +31,69 @@ namespace CrashBandicoot.Players
             fallState = GetComponent<FallState>();
         }
 
+        private void OnEnable () => motor.OnLand += HandleLanded;
+        private void OnDisable () => motor.OnLand -= HandleLanded;
+
         private void OnValidate()
         {
             var gravity = GetCurrentGravity();
             motor.Gravity = gravity * -1F;
         }
 
-        public void Press ()
+        protected override void UpdateState ()
+        {
+            base.UpdateState();
+            CheckJumpForwardTrigger();
+        }
+
+        public void UpdateInput (bool isButtonDown)
+        {
+            if (isButtonDown) Activate();
+            else Release();
+        }
+
+        private void Activate ()
         {
             if (!CanJump()) return;
             
-            animator.Jump();
-
-            WasGroundedJump = motor.IsGrounded;
-
             var isAirJump = motor.IsAirborne && !fallState.WasJump;
             if (isAirJump) CurrentAirJumps++;
 
+            jumpGroundHeight = transform.position.y;
+
             UpdateVerticalAxis();
+            animator.Jump();
         }
 
-        public void Release () => ExitState();
-
-        /// <summary>
-        /// Returns whether any jump can be executed.
-        /// </summary>
-        /// <returns>Whether any jump can be executed.</returns>
-        public bool CanJump() =>
-            IsJumpAvailable() ||
-            fallState.WasFallingBufferJump && 
-            IsGroundJumpAvailable();
-
-        protected override void ExitState()
+        private void Release () => StopRisingVerticalSpeed();
+        
+        private void UpdateVerticalAxis()
         {
-            base.ExitState();
-            
-            WasGroundedJump = false;
-            CurrentAirJumps = 0;
-            
-            var isRising = motor.VerticalSpeed > 0f;
-            if (isRising) motor.StopVerticalSpeed();
+            var gravity = GetCurrentGravity();
+            motor.VerticalSpeed = gravity * timeApex;
+            motor.Gravity = gravity * -1F;
         }
 
-        private bool IsJumpAvailable() =>
-            IsGroundJumpAvailable() ||
+        private void StopRisingVerticalSpeed ()
+        {
+            if (motor.IsRaising) motor.StopVerticalSpeed();
+        }
+
+        private void CheckJumpForwardTrigger ()
+        {
+            var trigger = motor.IsRaising && motor.IsMoveInputting && HasReachMaxHeight();
+            if (trigger) animator.JumpForward();
+        }
+
+        private bool CanJump () =>
+            IsJumpAvailable(); /*||
+            fallState.WasFallingBufferJump && 
+            IsGroundJumpAvailable();*/
+
+        private bool IsJumpAvailable () =>
+            IsGroundJumpAvailable(); /*||
             IsAirJumpAvailable() ||
-            fallState.IsJumpAvailable();
+            fallState.IsJumpAvailable();*/
 
         private bool IsGroundJumpAvailable() => motor.IsGrounded;
 
@@ -82,12 +103,17 @@ namespace CrashBandicoot.Players
             return motor.IsAirborne && hasAvailableJumps;
         }
 
-        private void UpdateVerticalAxis()
+        private bool HasReachMaxHeight () =>  GetCurrentHeight() > GetForwardJumpHeight();
+
+        private void HandleLanded ()
         {
-            var gravity = GetCurrentGravity();
-            motor.VerticalSpeed = gravity * timeApex;
-            motor.Gravity = gravity * -1F;
+            CurrentAirJumps = 0;
+            jumpGroundHeight = 0F;
         }
+        
+        private float GetForwardJumpHeight() => maximumHeight * forwardJumpPercentage * 0.01F;
+
+        private float GetCurrentHeight () => transform.position.y - jumpGroundHeight;
 
         private float GetCurrentGravity()
         {
