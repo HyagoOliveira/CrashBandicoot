@@ -109,7 +109,7 @@ namespace CrashBandicoot.Characters
             wasGroundCollision = isGroundCollision;
             isGroundCollision = RaycastGround();
 
-            var hasLanded = wasGroundCollision != isGroundCollision && IsGrounded;
+            var hasLanded = !wasGroundCollision && isGroundCollision;
             if (hasLanded) OnLand?.Invoke();
         }
 
