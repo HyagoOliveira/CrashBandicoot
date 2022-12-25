@@ -20,6 +20,7 @@ namespace CrashBandicoot.Characters
         public float Gravity { get; set; } = -9.8F;
 
         public event Action OnLand;
+        public event Action OnFallen;
 
         public float VerticalSpeed { get; set; }
 
@@ -110,7 +111,19 @@ namespace CrashBandicoot.Characters
             isGroundCollision = RaycastGround();
 
             var hasLanded = !wasGroundCollision && isGroundCollision;
-            if (hasLanded) OnLand?.Invoke();
+            if (hasLanded)
+            {
+                VerticalSpeed = Gravity;
+                OnLand?.Invoke();
+                return;
+            }
+
+            var hasFallenFromGround = wasGroundCollision && !isGroundCollision && VerticalSpeed < 0F;
+            if (hasFallenFromGround)
+            {
+                VerticalSpeed = 0F;
+                OnFallen?.Invoke();
+            }
         }
 
         private void UpdateMovingDirection()
@@ -131,13 +144,6 @@ namespace CrashBandicoot.Characters
         private void AddGravityIntoVerticalSpeed()
         {
             const float maxVerticalSpeed = -25F;
-
-            if (IsGrounded && VerticalSpeed < 0F)
-            {
-                VerticalSpeed = Gravity;
-                return;
-            }
-
             VerticalSpeed += Gravity * Time.deltaTime;
             if (VerticalSpeed < maxVerticalSpeed) VerticalSpeed = maxVerticalSpeed;
         }
