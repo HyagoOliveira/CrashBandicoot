@@ -215,9 +215,10 @@ MonoBehaviour:
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
   fallState: {fileID: 6807253051264923215}
-  airJumps: 1
+  airJumps: 0
   maximumHeight: 2
   timeApex: 0.5
+  forwardJumpPercentage: 60
 --- !u!114 &6807253051264923215
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -91,8 +91,8 @@ namespace CrashBandicoot.Players
             IsGroundJumpAvailable();*/
 
         private bool IsJumpAvailable () =>
-            IsGroundJumpAvailable(); /*||
-            IsAirJumpAvailable() ||
+            IsGroundJumpAvailable()||
+            IsAirJumpAvailable();/* ||
             fallState.IsJumpAvailable();*/
 
         private bool IsGroundJumpAvailable() => motor.IsGrounded;
