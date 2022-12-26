@@ -17,23 +17,16 @@ namespace CrashBandicoot.Players
         private int lastFrame;
         private int lastBufferFrame;
 
-        protected override void EnterState ()
+        void OnEnable ()
         {
-            base.EnterState();
-            WasFallingFromGround = motor.IsGrounded;
-            lastFrame = Time.frameCount;
+            motor.OnLand += HandleLanded;
+            motor.OnFallen += HandleFallen;
         }
 
-        protected override void ExitState ()
+        void OnDisable ()
         {
-            base.ExitState();
-            CheckFallingBuffer();
-
-            WasJump = false;
-            WasFallingFromGround = false;
-
-            lastFrame = 0;
-            lastBufferFrame = 0;
+            motor.OnLand -= HandleLanded;
+            motor.OnFallen -= HandleFallen;
         }
         
         public bool IsJumpAvailable ()
@@ -57,6 +50,23 @@ namespace CrashBandicoot.Players
         {
             var elapsedFrames = Time.frameCount - lastBufferFrame;
             WasFallingBufferJump = elapsedFrames <= fallBufferFrames;
+        }
+        
+        private void HandleFallen ()
+        {
+            WasFallingFromGround = motor.IsGrounded;
+            lastFrame = Time.frameCount;
+        }
+
+        private void HandleLanded ()
+        {
+            CheckFallingBuffer();
+
+            WasJump = false;
+            WasFallingFromGround = false;
+
+            lastFrame = 0;
+            lastBufferFrame = 0;
         }
     }
 }
