@@ -12,7 +12,7 @@ namespace CrashBandicoot.Players
 
         public bool WasJump { get; private set; }
         public bool WasFallingFromGround { get; private set; }
-        public bool WasFallingBufferJump { get; private set; }
+        public bool WasBufferJumpRegistered { get; private set; }
         
         private int lastFrame;
         private int lastBufferFrame;
@@ -39,34 +39,46 @@ namespace CrashBandicoot.Players
             if (isAvailable) WasJump = true;
             return isAvailable;
         }
+        
+        internal void TryRegisterBufferJump ()
+        {
+            if (!IsExecuting) return;
+            
+            lastBufferFrame = GetFrames();
+            WasBufferJumpRegistered = true;
+        }
+        
+        internal bool IsBufferJumpAvailable()
+        {
+            if (!WasBufferJumpRegistered) return false;
+            
+            var elapsedFrames = GetFrames() - lastBufferFrame;
+
+            lastBufferFrame = 0;
+            WasBufferJumpRegistered = false;
+
+            return elapsedFrames <= fallBufferFrames;
+        }
 
         private bool IsInFallJumpWindow()
         {
-            var elapsedFrames = Time.frameCount - lastFrame;
+            var elapsedFrames = GetFrames() - lastFrame;
             return elapsedFrames <= fallGroundAirFrames;
-        }
-        
-        private void CheckFallingBuffer()
-        {
-            var elapsedFrames = Time.frameCount - lastBufferFrame;
-            WasFallingBufferJump = elapsedFrames <= fallBufferFrames;
         }
         
         private void HandleFallen ()
         {
             WasFallingFromGround = motor.IsGrounded;
-            lastFrame = Time.frameCount;
+            lastFrame = GetFrames();
         }
 
         private void HandleLanded ()
         {
-            CheckFallingBuffer();
-
+            lastFrame = 0;
             WasJump = false;
             WasFallingFromGround = false;
-
-            lastFrame = 0;
-            lastBufferFrame = 0;
         }
+
+        private static int GetFrames () => Time.frameCount;
     }
 }

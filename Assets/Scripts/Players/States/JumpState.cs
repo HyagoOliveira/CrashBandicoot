@@ -54,8 +54,18 @@ namespace CrashBandicoot.Players
 
         private void Activate ()
         {
-            if (!CanJump()) return;
-            
+            if (!IsJumpAvailable())
+            {
+                fallState.TryRegisterBufferJump();
+                return;
+            }
+            Jump();
+        }
+
+        private void Release () => StopRisingVerticalSpeed();
+
+        private void Jump ()
+        {
             var isAirJump = motor.IsAirborne && !fallState.WasJump;
             if (isAirJump) CurrentAirJumps++;
 
@@ -64,8 +74,6 @@ namespace CrashBandicoot.Players
             UpdateVerticalAxis();
             animator.Jump();
         }
-
-        private void Release () => StopRisingVerticalSpeed();
         
         private void UpdateVerticalAxis()
         {
@@ -84,11 +92,6 @@ namespace CrashBandicoot.Players
             var trigger = motor.IsRaising && motor.IsMoveInputting && HasReachMaxHeight();
             if (trigger) animator.JumpForward();
         }
-
-        private bool CanJump () =>
-            IsJumpAvailable(); /*||
-            fallState.WasFallingBufferJump && 
-            IsGroundJumpAvailable();*/
 
         private bool IsJumpAvailable () =>
             IsGroundJumpAvailable() ||
@@ -109,6 +112,8 @@ namespace CrashBandicoot.Players
         {
             CurrentAirJumps = 0;
             jumpGroundHeight = 0F;
+
+            if (fallState.IsBufferJumpAvailable()) Jump();
         }
         
         private float GetForwardJumpHeight() => maximumHeight * forwardJumpPercentage * 0.01F;
