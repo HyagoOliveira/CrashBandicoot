@@ -11,6 +11,7 @@ namespace CrashBandicoot.Players
         private readonly int jump = Animator.StringToHash("Jump");
         private readonly int jumpForward = Animator.StringToHash("JumpForward");
         private readonly int runningSlopeIndex = Animator.StringToHash("RunningSlopeIndex");
+        private readonly int spinning = Animator.StringToHash("Spinning");
         
         public void Spawn() => animator.SetTrigger(spawn);
         public void UnSpawn() => animator.SetTrigger(unSpawn);
@@ -36,5 +37,7 @@ namespace CrashBandicoot.Players
         }
 
         private void SetRunningSlopeIndex(float value) => animator.SetFloat(runningSlopeIndex, value);
+
+        public void SetSpinning(bool value) => animator.SetBool(spinning, value);
     }
 }
