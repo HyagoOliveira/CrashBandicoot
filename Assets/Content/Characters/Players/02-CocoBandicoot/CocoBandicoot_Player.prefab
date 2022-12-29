@@ -1031,10 +1031,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: CocoBandicoot_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7151831842342080343, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: spinVFX
+      value: 
+      objectReference: {fileID: 8944069212787870019}
     - target: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
@@ -1198,6 +1203,12 @@ PrefabInstance:
 --- !u!4 &8598610989250434041 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
+    type: 3}
+  m_PrefabInstance: {fileID: 8133182473840866322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8944069212787870019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a2f9bf6dde24804186360642cbff00c,
     type: 3}
   m_PrefabInstance: {fileID: 8133182473840866322}
   m_PrefabAsset: {fileID: 0}

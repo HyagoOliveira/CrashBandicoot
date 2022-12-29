@@ -7,18 +7,22 @@ namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(CharacterMotor))]
+    [RequireComponent(typeof(PlayerAnimator))]
     [RequireComponent(typeof(AnimatorStateMachine))]
     public sealed class Player : MonoBehaviour, IEnable, IDisable, IEquatable<Player>
     {
         [SerializeField, Tooltip("The player identifier.")]
         private PlayerName id = PlayerName.None;
-        
+
         [field: SerializeField]
         public CharacterMotor Motor { get; private set; }
-        
+
+        [field: SerializeField]
+        public PlayerAnimator Animator { get; private set; }
+
         [field: SerializeField]
         public AnimatorStateMachine StateMachine { get; private set; }
-        
+
         /// <summary>
         /// The player identifier name.
         /// </summary>
@@ -28,12 +32,13 @@ namespace CrashBandicoot.Players
         /// Whether the player is currently enabled.
         /// </summary>
         public bool Enabled => gameObject.activeInHierarchy;
-        
+
         public int Index { get; internal set; }
 
-        void Reset ()
+        void Reset()
         {
             Motor = GetComponent<CharacterMotor>();
+            Animator = GetComponent<PlayerAnimator>();
             StateMachine = GetComponent<AnimatorStateMachine>();
         }
 
@@ -78,13 +83,13 @@ namespace CrashBandicoot.Players
         /// Checks if is able to switch from.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitchOut () => Motor.IsGrounded && Enabled;
+        public bool IsAbleToSwitchOut() => Motor.IsGrounded && Enabled && !Animator.IsSpinning();
 
         /// <summary>
         /// Checks if is able to switch into.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitchIn () => !Enabled;
+        public bool IsAbleToSwitchIn() => !Enabled;
 
         /// <summary>
         /// Checks if the given player is equals to this.

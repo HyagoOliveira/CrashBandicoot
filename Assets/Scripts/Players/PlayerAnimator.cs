@@ -12,12 +12,14 @@ namespace CrashBandicoot.Players
         private readonly int jumpForward = Animator.StringToHash("JumpForward");
         private readonly int runningSlopeIndex = Animator.StringToHash("RunningSlopeIndex");
         private readonly int spinning = Animator.StringToHash("Spinning");
-        
+
+        private const int spinningLayerIndex = 1;
+
         public void Spawn() => animator.SetTrigger(spawn);
         public void UnSpawn() => animator.SetTrigger(unSpawn);
         public void Jump() => animator.SetTrigger(jump);
         public void JumpForward() => animator.SetTrigger(jumpForward);
-        
+
         public void ResetRunningSlope()
         {
             const float normalSlopeIndex = 0f;
@@ -36,8 +38,12 @@ namespace CrashBandicoot.Players
             SetRunningSlopeIndex(downSlopeIndex);
         }
 
+        public void SetSpinning(bool value) => animator.SetBool(spinning, value);
+
+        public bool IsSpinning() => IsState(spinning, spinningLayerIndex);
+
         private void SetRunningSlopeIndex(float value) => animator.SetFloat(runningSlopeIndex, value);
 
-        public void SetSpinning(bool value) => animator.SetBool(spinning, value);
+        private bool IsState(int id, int layer = 0) => animator.GetCurrentAnimatorStateInfo(layer).shortNameHash == id;
     }
 }

@@ -23,7 +23,7 @@ namespace CrashBandicoot.Players
         /// Action fired when a Player is spawned.
         /// </summary>
         public event Action OnPlayerSpawned;
-        
+
         /// <summary>
         /// Action fired when a Player is unspawned.
         /// </summary>
@@ -48,7 +48,7 @@ namespace CrashBandicoot.Players
         /// The current active Player.
         /// </summary>
         public Player Current => players[currentName];
-        
+
         public bool IsAbleToSwitch { get; private set; }
 
         private PlayerName lastName;
@@ -56,7 +56,7 @@ namespace CrashBandicoot.Players
         private float lastSpawnTime;
         private Dictionary<PlayerName, Player> players;
 
-        internal void Initialize ()
+        internal void Initialize()
         {
             lastSpawnTime = 0f;
             InstantiatePrefabs();
@@ -76,7 +76,7 @@ namespace CrashBandicoot.Players
                 playerName = scenePlayer.Name;
                 place = (scenePlayer.transform.position, scenePlayer.transform.rotation);
             }
-            
+
             Spawn(playerName, position: place.Item1, rotation: place.Item2);
         }
 
@@ -99,7 +99,7 @@ namespace CrashBandicoot.Players
         /// <summary>
         /// Unspawns the current Player.
         /// </summary>
-        public void UnSpawn ()
+        public void UnSpawn()
         {
             Current.StateMachine.GetBehaviourState<UnSpawnState>().Trigger();
             OnPlayerUnSpawned?.Invoke();
@@ -117,10 +117,10 @@ namespace CrashBandicoot.Players
         /// <param name="name">The Player to switch.</param>
         public async void Switch(PlayerName name)
         {
-            var isAbleToSwitch = 
+            var isAbleToSwitch =
                 IsAbleToSwitch &&
-                HasSwitchTime() && 
-                Current.IsAbleToSwitchOut() && 
+                HasSwitchTime() &&
+                Current.IsAbleToSwitchOut() &&
                 IsAbleToSwitchFor(name);
             if (!isAbleToSwitch) return;
 
@@ -172,7 +172,7 @@ namespace CrashBandicoot.Players
             var hasPlayer = Contains(name, out Player player);
             return hasPlayer && player.IsAbleToSwitchIn();
         }
-        
+
         /// <summary>
         /// Checks if contains the given player and references it back.
         /// </summary>
@@ -182,8 +182,8 @@ namespace CrashBandicoot.Players
         public bool Contains(PlayerName name, out Player player) =>
             players.TryGetValue(name, out player);
 
-        private bool HasSwitchTime () => GetTime() - lastSpawnTime > minSwitchTime;
-        
+        private bool HasSwitchTime() => GetTime() - lastSpawnTime > minSwitchTime;
+
         private void FinishSpawn()
         {
             Current.Enable();
@@ -208,7 +208,7 @@ namespace CrashBandicoot.Players
                 if (!hasPlayerInstanceInScene)
                 {
                     player = Instantiate(
-                        prefab, 
+                        prefab,
                         position: Vector3.zero,
                         rotation: Quaternion.identity
                     );
@@ -222,12 +222,12 @@ namespace CrashBandicoot.Players
             }
         }
 
-        private bool TryGetFirstPlayerEnabled (out Player enabledPlayer)
+        private bool TryGetFirstPlayerEnabled(out Player enabledPlayer)
         {
             foreach (var player in players.Values)
             {
                 if (!player.Enabled) continue;
-                
+
                 enabledPlayer = player;
                 return true;
             }
@@ -236,35 +236,35 @@ namespace CrashBandicoot.Players
             return false;
         }
 
-        private IEnumerator SwitchRoutine (PlayerName name)
+        private IEnumerator SwitchRoutine(PlayerName name)
         {
             UnSpawn();
 
             yield return new WaitForEndOfFrame(); // Waits to enter in UnSpawn State.
             yield return Current.StateMachine.GetBehaviourState<UnSpawnState>().WaitWhileIsExecuting();
-            
+
             Current.Disable();
-            
+
             lastName = currentName;
             currentName = name;
 
             Current.SwitchPlace(Last);
             FinishSpawn();
-            
+
             yield return new WaitForSeconds(minSpawnTime);
             Current.Motor.CanMove = true;
-            
+
             OnPlayerSwitched?.Invoke();
         }
 
-        private static float GetTime () => Time.timeSinceLevelLoad;
+        private static float GetTime() => Time.timeSinceLevelLoad;
 
-        private static (Vector3, Quaternion) GetSpawnPlace ()
+        private static (Vector3, Quaternion) GetSpawnPlace()
         {
             //TODO Add default SpawnPlace GameObject in each level and use it.
             return (Vector3.zero, Quaternion.identity);
         }
-        
+
         private static Dictionary<PlayerName, Player> GetScenePlayerInstances()
         {
             var instances = new Dictionary<PlayerName, Player>();

@@ -82,6 +82,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 259787337095951232}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1106648442000805585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c0423970d461664ca53336ed3701529,
+    type: 3}
+  m_PrefabInstance: {fileID: 259787337095951232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3369695826667116577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +121,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrashBandicoot_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7151831842342080343, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: spinVFX
+      value: 
+      objectReference: {fileID: 1106648442000805585}
     - target: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: m_RootOrder

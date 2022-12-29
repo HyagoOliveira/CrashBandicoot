@@ -596,7 +596,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7058024032919653584}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 8520748032275836528}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -1506,6 +1507,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stateName: UnSpawnState
+--- !u!114 &8520748032275836528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361f04bfcb4e95e47905f47ff5b88cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateName: SpinState
 --- !u!1107 &8530279483858888023
 AnimatorStateMachine:
   serializedVersion: 6
