@@ -11,7 +11,7 @@
 /[Mm]emoryCaptures/
 /[Uu]serSettings/
 
-/RIP Process/Assets
+/RIP Process/com.king.crash_**
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
