@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.actioncode.animator-states": {
-      "version": "1.2.0",
+      "version": "file:C:/Users/hyago/Documents/Game Development/Unity Projects/_Packages/ActionCode/AnimatorStates",
       "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "http://165.232.132.59:4873"
+      "source": "local",
+      "dependencies": {}
     },
     "com.actioncode.attributes": {
       "version": "2.1.0",

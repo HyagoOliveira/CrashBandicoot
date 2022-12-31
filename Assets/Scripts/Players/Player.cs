@@ -83,7 +83,10 @@ namespace CrashBandicoot.Players
         /// Checks if is able to switch from.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitchOut() => Motor.IsGrounded && Enabled && !Animator.IsSpinning();
+        public bool IsAbleToSwitchOut() =>
+            Motor.IsGrounded &&
+            Enabled &&
+            !StateMachine.IsExecuting<SpinState>();
 
         /// <summary>
         /// Checks if is able to switch into.

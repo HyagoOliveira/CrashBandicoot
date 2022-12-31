@@ -35,7 +35,11 @@ namespace CrashBandicoot.Players
             Invoke(nameof(Disable), time);
         }
 
-        private bool CanSpin() => !IsExecuting && !IsCooldown();
+        private bool CanSpin() =>
+            !IsExecuting &&
+            !IsCooldown() &&
+            !StateMachine.IsExecuting<SpawnState>() &&
+            !StateMachine.IsExecuting<UnSpawnState>();
 
         private bool IsCooldown()
         {

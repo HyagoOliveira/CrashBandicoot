@@ -101,7 +101,7 @@ namespace CrashBandicoot.Players
         /// </summary>
         public void UnSpawn()
         {
-            Current.StateMachine.GetBehaviourState<UnSpawnState>().Trigger();
+            Current.StateMachine.GetState<UnSpawnState>().Trigger();
             OnPlayerUnSpawned?.Invoke();
         }
 
@@ -187,7 +187,7 @@ namespace CrashBandicoot.Players
         private void FinishSpawn()
         {
             Current.Enable();
-            Current.StateMachine.GetBehaviourState<SpawnState>().Trigger();
+            Current.StateMachine.GetState<SpawnState>().Trigger();
             lastSpawnTime = GetTime();
             IsAbleToSwitch = true;
 
@@ -241,7 +241,7 @@ namespace CrashBandicoot.Players
             UnSpawn();
 
             yield return new WaitForEndOfFrame(); // Waits to enter in UnSpawn State.
-            yield return Current.StateMachine.GetBehaviourState<UnSpawnState>().WaitWhileIsExecuting();
+            yield return Current.StateMachine.GetState<UnSpawnState>().WaitWhileIsExecuting();
 
             Current.Disable();
 

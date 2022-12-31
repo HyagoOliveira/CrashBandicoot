@@ -13,23 +13,23 @@ namespace CrashBandicoot.Players
         public bool WasJump { get; private set; }
         public bool WasFallingFromGround { get; private set; }
         public bool WasBufferJumpRegistered { get; private set; }
-        
+
         private int lastFrame;
         private int lastBufferFrame;
 
-        void OnEnable ()
+        void OnEnable()
         {
             motor.OnLand += HandleLanded;
             motor.OnFallen += HandleFallen;
         }
 
-        void OnDisable ()
+        void OnDisable()
         {
             motor.OnLand -= HandleLanded;
             motor.OnFallen -= HandleFallen;
         }
-        
-        public bool IsJumpAvailable ()
+
+        public bool IsJumpAvailable()
         {
             var isAvailable =
                 !WasJump &&
@@ -39,19 +39,19 @@ namespace CrashBandicoot.Players
             if (isAvailable) WasJump = true;
             return isAvailable;
         }
-        
-        internal void TryRegisterBufferJump ()
+
+        internal void TryRegisterBufferJump()
         {
             if (!IsExecuting) return;
-            
+
             lastBufferFrame = GetFrames();
             WasBufferJumpRegistered = true;
         }
-        
+
         internal bool IsBufferJumpAvailable()
         {
             if (!WasBufferJumpRegistered) return false;
-            
+
             var elapsedFrames = GetFrames() - lastBufferFrame;
 
             lastBufferFrame = 0;
@@ -65,20 +65,18 @@ namespace CrashBandicoot.Players
             var elapsedFrames = GetFrames() - lastFrame;
             return elapsedFrames <= fallGroundAirFrames;
         }
-        
-        private void HandleFallen ()
+
+        private void HandleFallen()
         {
             WasFallingFromGround = motor.IsGrounded;
             lastFrame = GetFrames();
         }
 
-        private void HandleLanded ()
+        private void HandleLanded()
         {
             lastFrame = 0;
             WasJump = false;
             WasFallingFromGround = false;
         }
-
-        private static int GetFrames () => Time.frameCount;
     }
 }
