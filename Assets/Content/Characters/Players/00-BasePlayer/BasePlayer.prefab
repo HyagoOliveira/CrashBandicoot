@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1389836696848036208}
   - component: {fileID: 3955403908559378766}
   - component: {fileID: 2033104369485180538}
+  - component: {fileID: 8488664873070137940}
   - component: {fileID: 7053787582145736024}
   - component: {fileID: 6604689825903534606}
   - component: {fileID: 7227880654501046360}
@@ -133,6 +134,7 @@ MonoBehaviour:
   <Motor>k__BackingField: {fileID: 6604689825903534606}
   <Animator>k__BackingField: {fileID: 2033104369485180538}
   <StateMachine>k__BackingField: {fileID: 4773723495254980474}
+  <CostumeManager>k__BackingField: {fileID: 8488664873070137940}
 --- !u!114 &2033104369485180538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,6 +148,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 4287152246809011809}
+--- !u!114 &8488664873070137940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660935207412238266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14ab12457a81b24b849b645cdedf74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 4287152246809011809}
+  playerAnimator: {fileID: 2033104369485180538}
+  stateMachine: {fileID: 4773723495254980474}
+  defaultCostume: {fileID: 0}
+  costumes: []
 --- !u!114 &7053787582145736024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,7 +215,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
 --- !u!114 &4568729404820862663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
 --- !u!114 &1386834920186721630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +243,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
 --- !u!114 &924394018474860124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +257,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
   fallState: {fileID: 6807253051264923215}
   airJumps: 0
   maximumHeight: 2
@@ -261,7 +276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
   fallGroundAirFrames: 30
   fallBufferFrames: 30
 --- !u!114 &7151831842342080343
@@ -278,7 +292,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motor: {fileID: 6604689825903534606}
   animator: {fileID: 2033104369485180538}
-  stateMachine: {fileID: 4773723495254980474}
   time: 0.5
   cooldown: 0.1
   spinVFX: {fileID: 0}
