@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.actioncode.animator-states": "file:C:/Users/hyago/Documents/Game Development/Unity Projects/_Packages/ActionCode/AnimatorStates",
+    "com.actioncode.audio": "1.1.0",
     "com.actioncode.awaitable-coroutines": "1.0.0",
     "com.actioncode.scene-management": "2.0.0",
     "com.unity.animation.rigging": "1.1.1",
