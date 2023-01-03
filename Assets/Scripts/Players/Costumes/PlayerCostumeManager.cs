@@ -16,6 +16,8 @@ namespace CrashBandicoot.Players
 
         private void Reset()
         {
+            rootBone = transform.root.Find("Ct_Root__SKN_0_JNT/Ct_Hips__SKN_0_JNT");
+
             playerAnimator = GetComponentInParent<PlayerAnimator>();
             costumes = GetComponentsInChildren<PlayerCostume>(includeInactive: true);
         }

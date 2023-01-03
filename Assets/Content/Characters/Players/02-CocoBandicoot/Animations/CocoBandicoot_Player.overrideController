@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: CocoBandicootPlayer
+  m_Name: CocoBandicoot_Player
   m_Controller: {fileID: 9100000, guid: 94a1ffa8fb8a4764b886b8e9ba639825, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 036b977a82d75ef4d81066feacdcc15f, type: 2}

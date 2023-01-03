@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: db293d9b07cfa9042a0508a2875f5d11
 ModelImporter:
-  serializedVersion: 21202
+  serializedVersion: 22103
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -75,6 +75,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -105,8 +106,10 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
