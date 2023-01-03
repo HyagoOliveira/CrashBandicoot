@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5319560212701233256}
   - component: {fileID: 4516592356803104855}
   m_Layer: 3
-  m_Name: Bones
+  m_Name: Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +97,6 @@ MonoBehaviour:
   playSpawnAnimation: 0
   playerAnimator: {fileID: 2033104369485180538}
   costumes: []
-  defaultModelLOD: {fileID: 0}
 --- !u!1 &2393952681387748584
 GameObject:
   m_ObjectHideFlags: 0
