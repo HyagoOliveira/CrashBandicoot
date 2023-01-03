@@ -9,7 +9,6 @@ namespace CrashBandicoot.Players
     [RequireComponent(typeof(CharacterMotor))]
     [RequireComponent(typeof(PlayerAnimator))]
     [RequireComponent(typeof(AnimatorStateMachine))]
-    [RequireComponent(typeof(PlayerCostumeManager))]
     public sealed class Player : MonoBehaviour, IEnable, IDisable, IEquatable<Player>
     {
         [SerializeField, Tooltip("The player identifier.")]
@@ -44,7 +43,7 @@ namespace CrashBandicoot.Players
             Motor = GetComponent<CharacterMotor>();
             Animator = GetComponent<PlayerAnimator>();
             StateMachine = GetComponent<AnimatorStateMachine>();
-            CostumeManager = GetComponent<PlayerCostumeManager>();
+            CostumeManager = GetComponentInChildren<PlayerCostumeManager>();
         }
 
         /// <summary>

@@ -5,7 +5,10 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class PlayerCostume : MonoBehaviour
     {
-        [field: SerializeField] public Avatar Avatar { get; private set; }
+        public SkinnedMeshRenderer[] meshRenderers;
+
+        private void Reset() =>
+            meshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
 
         internal void Enable() => gameObject.SetActive(true);
         internal void Disable() => gameObject.SetActive(false);
