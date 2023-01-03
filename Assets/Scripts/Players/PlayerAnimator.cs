@@ -7,6 +7,7 @@ namespace CrashBandicoot.Players
     public sealed class PlayerAnimator : CharacterAnimator
     {
         private readonly int spawn = Animator.StringToHash("Spawn");
+        private readonly int respawn = Animator.StringToHash("Respawn");
         private readonly int unSpawn = Animator.StringToHash("UnSpawn");
         private readonly int jump = Animator.StringToHash("Jump");
         private readonly int jumpForward = Animator.StringToHash("JumpForward");
@@ -16,6 +17,7 @@ namespace CrashBandicoot.Players
         private const int spinningLayerIndex = 1;
 
         public void Spawn() => animator.SetTrigger(spawn);
+        public void Respawn() => animator.SetTrigger(respawn);
         public void UnSpawn() => animator.SetTrigger(unSpawn);
         public void Jump() => animator.SetTrigger(jump);
         public void JumpForward() => animator.SetTrigger(jumpForward);

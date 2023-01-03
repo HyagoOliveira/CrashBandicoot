@@ -7,7 +7,7 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class PlayerCostumeManager : MonoBehaviour
     {
-        [SerializeField] private bool playSpawnAnimation;
+        [SerializeField] private bool playRespawnAnimation = true;
         [SerializeField] private PlayerAnimator playerAnimator;
         [SerializeField] private Transform rootBone;
         [SerializeField] private PlayerCostume[] costumes;
@@ -40,7 +40,7 @@ namespace CrashBandicoot.Players
             DisableAllCostumes();
             costume.Enable();
 
-            if (playSpawnAnimation) playerAnimator.Spawn();
+            if (playRespawnAnimation) playerAnimator.Respawn();
         }
 
         private void DisableAllCostumes()

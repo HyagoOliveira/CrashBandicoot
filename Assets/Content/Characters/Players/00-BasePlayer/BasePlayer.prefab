@@ -44,8 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f14ab12457a81b24b849b645cdedf74e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playSpawnAnimation: 0
+  playSpawnAnimation: 1
   playerAnimator: {fileID: 2033104369485180538}
+  rootBone: {fileID: 0}
   costumes: []
 --- !u!1 &5660935207412238266
 GameObject:
