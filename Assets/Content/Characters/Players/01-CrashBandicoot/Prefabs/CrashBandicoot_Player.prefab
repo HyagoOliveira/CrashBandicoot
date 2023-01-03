@@ -126,6 +126,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrashBandicoot_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: defaultCostume
+      value: 
+      objectReference: {fileID: 8028433138720100292}
+    - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: costumes.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: costumes.Array.data[0]
+      value: 
+      objectReference: {fileID: 4678316154081425942}
     - target: {fileID: 7151831842342080343, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: spinVFX
@@ -203,18 +218,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
+    - targetCorrespondingSourceObject: {fileID: 5369105891915432725, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 3764887246209979970}
-    - targetCorrespondingSourceObject: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
+    - targetCorrespondingSourceObject: {fileID: 5369105891915432725, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7127864466690819931}
   m_SourcePrefab: {fileID: 100100000, guid: 879f587edff8f6e439fc9211976ad668, type: 3}
---- !u!4 &5807197435445009750 stripped
+--- !u!4 &7224184867524680500 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
+  m_CorrespondingSourceObject: {fileID: 5369105891915432725, guid: 879f587edff8f6e439fc9211976ad668,
     type: 3}
   m_PrefabInstance: {fileID: 3369695826667116577}
   m_PrefabAsset: {fileID: 0}
@@ -224,7 +239,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 5807197435445009750}
+    m_TransformParent: {fileID: 7224184867524680500}
     m_Modifications:
     - target: {fileID: -9206669154889835940, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
@@ -249,12 +264,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
@@ -274,7 +289,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e3148cd6a7a3f0743a8a413372b79e08,
         type: 3}
@@ -1169,25 +1184,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f4a640d7e4a6fe49bf7ef3ab0b99536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Avatar>k__BackingField: {fileID: 9000000, guid: e3148cd6a7a3f0743a8a413372b79e08,
-    type: 3}
 --- !u!1001 &7305396644294500528
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 5807197435445009750}
+    m_TransformParent: {fileID: 7224184867524680500}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
         type: 3}
@@ -1207,7 +1220,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
         type: 3}
@@ -1272,5 +1285,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f4a640d7e4a6fe49bf7ef3ab0b99536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Avatar>k__BackingField: {fileID: 9000000, guid: 1c8f8622fb1e41441b72b3b483d0afb7,
-    type: 3}
