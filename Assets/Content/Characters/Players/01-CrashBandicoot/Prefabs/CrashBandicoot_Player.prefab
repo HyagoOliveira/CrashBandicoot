@@ -849,7 +849,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6812309781152101396}
-  - {fileID: 292815655688918123}
   m_Father: {fileID: 5807197435445009750}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3065,6 +3064,7 @@ Transform:
   - {fileID: 7223027303527144154}
   - {fileID: 6626716765921668091}
   - {fileID: 6414939279128864755}
+  - {fileID: 292815655688918123}
   m_Father: {fileID: 2612456756149261842}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5680,7 +5680,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 2
-    m_TransformParent: {fileID: 2612456756149261842}
+    m_TransformParent: {fileID: 6812309781152101396}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7c0423970d461664ca53336ed3701529,
         type: 3}
@@ -5695,12 +5695,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 7c0423970d461664ca53336ed3701529,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.06802717
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c0423970d461664ca53336ed3701529,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0019637903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7c0423970d461664ca53336ed3701529,
         type: 3}
@@ -5815,6 +5815,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CrashBandicoot_Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: rootBone
+      value: 
+      objectReference: {fileID: 6812309781152101396}
     - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: defaultCostume
