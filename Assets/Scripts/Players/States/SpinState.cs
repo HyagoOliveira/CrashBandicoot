@@ -1,4 +1,5 @@
 using UnityEngine;
+using CrashBandicoot.Characters;
 
 namespace CrashBandicoot.Players
 {
@@ -12,7 +13,7 @@ namespace CrashBandicoot.Players
         [SerializeField]
         private GameObject spinVFX;
 
-        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private CharacterAudioSources audioSource;
         [SerializeField] private AudioClip spinAttack;
 
         private float lastTime;
@@ -21,7 +22,7 @@ namespace CrashBandicoot.Players
         {
             base.EnterState();
             spinVFX.SetActive(true);
-            audioSource.PlayOneShot(spinAttack);
+            audioSource.PlayOnChest(spinAttack);
         }
 
         protected override void ExitState()
