@@ -12,12 +12,16 @@ namespace CrashBandicoot.Players
         [SerializeField]
         private GameObject spinVFX;
 
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip spinAttack;
+
         private float lastTime;
 
         protected override void EnterState()
         {
             base.EnterState();
             spinVFX.SetActive(true);
+            audioSource.PlayOneShot(spinAttack);
         }
 
         protected override void ExitState()
