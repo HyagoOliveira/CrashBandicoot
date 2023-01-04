@@ -355,6 +355,7 @@ MonoBehaviour:
   player: {fileID: 3955403908559378766}
   fallGroundAirFrames: 30
   fallBufferFrames: 30
+  landSound: {fileID: 8300000, guid: d752a5cdda136944ebb41c05b52050c3, type: 3}
 --- !u!114 &7151831842342080343
 MonoBehaviour:
   m_ObjectHideFlags: 0
