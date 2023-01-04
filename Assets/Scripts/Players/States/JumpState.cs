@@ -31,13 +31,13 @@ namespace CrashBandicoot.Players
             fallState = GetComponent<FallState>();
         }
 
-        private void OnEnable () => motor.OnLand += HandleLanded;
-        private void OnDisable () => motor.OnLand -= HandleLanded;
+        private void OnEnable () => Motor.OnLand += HandleLanded;
+        private void OnDisable () => Motor.OnLand -= HandleLanded;
 
         private void OnValidate()
         {
             var gravity = GetCurrentGravity();
-            motor.Gravity = gravity * -1F;
+            Motor.Gravity = gravity * -1F;
         }
 
         protected override void UpdateState ()
@@ -66,31 +66,31 @@ namespace CrashBandicoot.Players
 
         private void Jump ()
         {
-            var isAirJump = motor.IsAirborne && !fallState.WasJump;
+            var isAirJump = Motor.IsAirborne && !fallState.WasJump;
             if (isAirJump) CurrentAirJumps++;
 
             jumpGroundHeight = transform.position.y;
 
             UpdateVerticalAxis();
-            animator.Jump();
+            Animator.Jump();
         }
         
         private void UpdateVerticalAxis()
         {
             var gravity = GetCurrentGravity();
-            motor.VerticalSpeed = gravity * timeApex;
-            motor.Gravity = gravity * -1F;
+            Motor.VerticalSpeed = gravity * timeApex;
+            Motor.Gravity = gravity * -1F;
         }
 
         private void StopRisingVerticalSpeed ()
         {
-            if (motor.IsRaising) motor.StopVerticalSpeed();
+            if (Motor.IsRaising) Motor.StopVerticalSpeed();
         }
 
         private void CheckJumpForwardTrigger ()
         {
-            var trigger = motor.IsRaising && motor.IsMoveInputting && HasReachMaxHeight();
-            if (trigger) animator.JumpForward();
+            var trigger = Motor.IsRaising && Motor.IsMoveInputting && HasReachMaxHeight();
+            if (trigger) Animator.JumpForward();
         }
 
         private bool IsJumpAvailable () =>
@@ -98,12 +98,12 @@ namespace CrashBandicoot.Players
             IsAirJumpAvailable() ||
             fallState.IsJumpAvailable();
 
-        private bool IsGroundJumpAvailable() => motor.IsGrounded;
+        private bool IsGroundJumpAvailable() => Motor.IsGrounded;
 
         private bool IsAirJumpAvailable()
         {
             var hasAvailableJumps = CurrentAirJumps < airJumps;
-            return motor.IsAirborne && hasAvailableJumps;
+            return Motor.IsAirborne && hasAvailableJumps;
         }
 
         private bool HasReachMaxHeight () =>  GetCurrentHeight() > GetForwardJumpHeight();

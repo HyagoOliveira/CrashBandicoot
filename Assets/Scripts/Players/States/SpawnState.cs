@@ -5,19 +5,19 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class SpawnState : AbstractState
     {
-        public void Trigger() => animator.Spawn();
+        public void Trigger() => Animator.Spawn();
 
         protected override void EnterState()
         {
             base.EnterState();
-            motor.CanMove = false;
-            motor.StopMoveInput();
+            Motor.CanMove = false;
+            Motor.StopMoveInput();
         }
 
         protected override void ExitState()
         {
             base.ExitState();
-            motor.CanMove = true;
+            Motor.CanMove = true;
         }
     }
 }

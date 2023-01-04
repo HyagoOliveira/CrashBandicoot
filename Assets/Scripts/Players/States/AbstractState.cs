@@ -3,18 +3,18 @@ using CrashBandicoot.Characters;
 
 namespace CrashBandicoot.Players
 {
-    [RequireComponent(typeof(CharacterMotor))]
-    [RequireComponent(typeof(PlayerAnimator))]
+    [RequireComponent(typeof(Player))]
     public abstract class AbstractState : ActionCode.AnimatorStates.AbstractState
     {
-        [SerializeField] protected CharacterMotor motor;
-        [SerializeField] protected PlayerAnimator animator;
+        [SerializeField] protected Player player;
+
+        protected CharacterMotor Motor => player.Motor;
+        protected PlayerAnimator Animator => player.Animator;
 
         protected override void Reset()
         {
             base.Reset();
-            motor = GetComponent<CharacterMotor>();
-            animator = GetComponent<PlayerAnimator>();
+            player = GetComponent<Player>();
         }
     }
 }

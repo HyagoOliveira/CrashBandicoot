@@ -11,21 +11,21 @@ namespace CrashBandicoot.Players
             UpdateAnimationAccordingWithSlopeInclination();
         }
 
-        protected override void ExitState() => animator.ResetRunningSlope();
+        protected override void ExitState() => Animator.ResetRunningSlope();
 
         private void UpdateAnimationAccordingWithSlopeInclination()
         {
-            if (motor.IsOverSlope())
+            if (Motor.IsOverSlope())
             {
-                var dot = Vector3.Dot(motor.GroundHit.normal, transform.forward);
+                var dot = Vector3.Dot(Motor.GroundHit.normal, transform.forward);
                 var isRunningUpwardSlope = dot < 0F;
                 var isRunningDownwardSlope = dot > 0F;
 
-                if (isRunningUpwardSlope) animator.SetRunningSlopeUpwards();
-                else if (isRunningDownwardSlope) animator.SetRunningSlopeDownwards();
-                else animator.ResetRunningSlope();
+                if (isRunningUpwardSlope) Animator.SetRunningSlopeUpwards();
+                else if (isRunningDownwardSlope) Animator.SetRunningSlopeDownwards();
+                else Animator.ResetRunningSlope();
             }
-            else animator.ResetRunningSlope();
+            else Animator.ResetRunningSlope();
         }
     }
 }

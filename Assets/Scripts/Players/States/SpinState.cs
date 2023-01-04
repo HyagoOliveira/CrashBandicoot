@@ -3,7 +3,6 @@ using UnityEngine;
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
-    [RequireComponent(typeof(PlayerStructure))]
     public sealed class SpinState : AbstractState
     {
         [SerializeField, Tooltip("The Spin time (in seconds)."), Min(0F)]
@@ -11,22 +10,15 @@ namespace CrashBandicoot.Players
         [SerializeField, Tooltip("The Cooldown time (in seconds)."), Min(0F)]
         private float cooldown = 0.5F;
         [SerializeField] private GameObject spinVFX;
-        [SerializeField] private PlayerStructure structure;
         [SerializeField] private AudioClip spinAttack;
 
         private float lastTime;
-
-        protected override void Reset()
-        {
-            base.Reset();
-            structure = GetComponent<PlayerStructure>();
-        }
 
         protected override void EnterState()
         {
             base.EnterState();
             spinVFX.SetActive(true);
-            structure.PlayOnChest(spinAttack);
+            //structure.PlayOnChest(spinAttack);
         }
 
         protected override void ExitState()
@@ -56,12 +48,12 @@ namespace CrashBandicoot.Players
             return elapsedTime <= cooldown;
         }
 
-        private void Enable() => animator.SetSpinning(true);
+        private void Enable() => Animator.SetSpinning(true);
 
         private void Disable()
         {
             lastTime = GetTime();
-            animator.SetSpinning(false);
+            Animator.SetSpinning(false);
         }
     }
 }

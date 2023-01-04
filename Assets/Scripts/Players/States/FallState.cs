@@ -19,14 +19,14 @@ namespace CrashBandicoot.Players
 
         void OnEnable()
         {
-            motor.OnLand += HandleLanded;
-            motor.OnFallen += HandleFallen;
+            Motor.OnLand += HandleLanded;
+            Motor.OnFallen += HandleFallen;
         }
 
         void OnDisable()
         {
-            motor.OnLand -= HandleLanded;
-            motor.OnFallen -= HandleFallen;
+            Motor.OnLand -= HandleLanded;
+            Motor.OnFallen -= HandleFallen;
         }
 
         public bool IsJumpAvailable()
@@ -68,7 +68,7 @@ namespace CrashBandicoot.Players
 
         private void HandleFallen()
         {
-            WasFallingFromGround = motor.IsGrounded;
+            WasFallingFromGround = Motor.IsGrounded;
             lastFrame = GetFrames();
         }
 
