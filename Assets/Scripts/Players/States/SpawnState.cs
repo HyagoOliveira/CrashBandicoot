@@ -5,6 +5,8 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class SpawnState : AbstractState
     {
+        [SerializeField] private AudioClip portalExit;
+
         public void Trigger() => Animator.Spawn();
 
         protected override void EnterState()
@@ -12,6 +14,7 @@ namespace CrashBandicoot.Players
             base.EnterState();
             Motor.CanMove = false;
             Motor.StopMoveInput();
+            player.LimbManager.Chest.Play(portalExit);
         }
 
         protected override void ExitState()

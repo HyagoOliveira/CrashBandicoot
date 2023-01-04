@@ -294,6 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3955403908559378766}
+  portalEnter: {fileID: 8300000, guid: eee7fb70316e4884096a469aaa59f2e9, type: 3}
 --- !u!114 &4568729404820862663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3955403908559378766}
+  portalExit: {fileID: 8300000, guid: 7b55364d55e74d7459033a69316a5bca, type: 3}
 --- !u!114 &1386834920186721630
 MonoBehaviour:
   m_ObjectHideFlags: 0
