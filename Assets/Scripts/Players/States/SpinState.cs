@@ -18,7 +18,7 @@ namespace CrashBandicoot.Players
         {
             base.EnterState();
             spinVFX.SetActive(true);
-            //structure.PlayOnChest(spinAttack);
+            player.LimbManager.Chest.Play(spinAttack);
         }
 
         protected override void ExitState()

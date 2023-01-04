@@ -8,17 +8,14 @@ namespace CrashBandicoot.Players
     public sealed class PlayerCostumeManager : MonoBehaviour
     {
         [SerializeField] private bool playRespawnAnimation = true;
-        [SerializeField] private PlayerAnimator playerAnimator;
-        [SerializeField] private Transform rootBone;
+        [SerializeField] private Player player;
         [SerializeField] private PlayerCostume[] costumes;
 
         public PlayerCostume DefaultCostume => costumes[0];
 
         private void Reset()
         {
-            rootBone = transform.root.Find("Ct_Root__SKN_0_JNT/Ct_Hips__SKN_0_JNT");
-
-            playerAnimator = GetComponentInParent<PlayerAnimator>();
+            player = GetComponentInParent<Player>();
             costumes = GetComponentsInChildren<PlayerCostume>(includeInactive: true);
         }
 
@@ -42,7 +39,7 @@ namespace CrashBandicoot.Players
             DisableAllCostumes();
             costume.Enable();
 
-            if (playRespawnAnimation) playerAnimator.Respawn();
+            if (playRespawnAnimation) player.Animator.Respawn();
         }
 
         private void DisableAllCostumes()
@@ -69,10 +66,10 @@ namespace CrashBandicoot.Players
 
         private void UpdateCostumesMeshes()
         {
-            var bones = ConvertToDictionary(rootBone);
+            var bones = ConvertToDictionary(player.LimbManager.RootBone);
             foreach (var costume in costumes)
             {
-                costume.UpdateSkinnedMeshBones(rootBone, bones);
+                costume.UpdateSkinnedMeshBones(player.LimbManager.RootBone, bones);
             }
         }
 

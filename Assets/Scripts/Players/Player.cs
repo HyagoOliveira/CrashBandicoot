@@ -24,6 +24,9 @@ namespace CrashBandicoot.Players
         public AnimatorStateMachine StateMachine { get; private set; }
 
         [field: SerializeField]
+        public PlayerLimbManager LimbManager { get; private set; }
+
+        [field: SerializeField]
         public PlayerCostumeManager CostumeManager { get; private set; }
 
         /// <summary>
@@ -43,6 +46,7 @@ namespace CrashBandicoot.Players
             Motor = GetComponent<CharacterMotor>();
             Animator = GetComponent<PlayerAnimator>();
             StateMachine = GetComponent<AnimatorStateMachine>();
+            LimbManager = GetComponentInChildren<PlayerLimbManager>();
             CostumeManager = GetComponentInChildren<PlayerCostumeManager>();
         }
 
