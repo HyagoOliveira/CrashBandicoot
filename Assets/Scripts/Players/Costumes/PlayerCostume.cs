@@ -31,7 +31,8 @@ namespace CrashBandicoot.Players
             for (int i = 0; i < mesh.bones.Length; i++)
             {
                 var boneName = mesh.bones[i].name;
-                newBones[i] = bones[boneName];
+                if (bones.ContainsKey(boneName))
+                    newBones[i] = bones[boneName];
             }
 
             return newBones;
