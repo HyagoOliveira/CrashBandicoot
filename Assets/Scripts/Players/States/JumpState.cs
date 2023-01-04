@@ -9,7 +9,7 @@ namespace CrashBandicoot.Players
     [RequireComponent(typeof(FallState))]
     public class JumpState : AbstractState
     {
-        [SerializeField] 
+        [SerializeField]
         private FallState fallState;
         [Tooltip("The number of jumps in the air."), Min(0)]
         public int airJumps = 0;
@@ -18,21 +18,25 @@ namespace CrashBandicoot.Players
         [Tooltip("The time (in seconds) to reach the maximum jump height."), Min(0.01f)]
         public float timeApex = 0.5f;
         [SerializeField]
-        [Tooltip("Activate Forward Jump when height is at this percent."), Range(0F, 100F)] 
+        [Tooltip("Activate Forward Jump when height is at this percent."), Range(0F, 100F)]
         private float forwardJumpPercentage = 60F;
 
+        [Header("Audio Clips")]
+        [SerializeField] private AudioClip jumpSound;
+        [SerializeField] private AudioClip jumpForwardSound;
+
         public int CurrentAirJumps { get; private set; }
-        
+
         private float jumpGroundHeight;
 
-        protected override void Reset ()
+        protected override void Reset()
         {
             base.Reset();
             fallState = GetComponent<FallState>();
         }
 
-        private void OnEnable () => Motor.OnLand += HandleLanded;
-        private void OnDisable () => Motor.OnLand -= HandleLanded;
+        private void OnEnable() => Motor.OnLand += HandleLanded;
+        private void OnDisable() => Motor.OnLand -= HandleLanded;
 
         private void OnValidate()
         {
@@ -40,19 +44,25 @@ namespace CrashBandicoot.Players
             Motor.Gravity = gravity * -1F;
         }
 
-        protected override void UpdateState ()
+        protected override void EnterState()
+        {
+            base.EnterState();
+            player.LimbManager.RightFoot.Play(jumpSound);
+        }
+
+        protected override void UpdateState()
         {
             base.UpdateState();
             CheckJumpForwardTrigger();
         }
 
-        public void UpdateInput (bool isButtonDown)
+        public void UpdateInput(bool isButtonDown)
         {
             if (isButtonDown) Activate();
             else Release();
         }
 
-        private void Activate ()
+        private void Activate()
         {
             if (!IsJumpAvailable())
             {
@@ -62,9 +72,9 @@ namespace CrashBandicoot.Players
             Jump();
         }
 
-        private void Release () => StopRisingVerticalSpeed();
+        private void Release() => StopRisingVerticalSpeed();
 
-        private void Jump ()
+        private void Jump()
         {
             var isAirJump = Motor.IsAirborne && !fallState.WasJump;
             if (isAirJump) CurrentAirJumps++;
@@ -74,7 +84,7 @@ namespace CrashBandicoot.Players
             UpdateVerticalAxis();
             Animator.Jump();
         }
-        
+
         private void UpdateVerticalAxis()
         {
             var gravity = GetCurrentGravity();
@@ -82,18 +92,22 @@ namespace CrashBandicoot.Players
             Motor.Gravity = gravity * -1F;
         }
 
-        private void StopRisingVerticalSpeed ()
+        private void StopRisingVerticalSpeed()
         {
             if (Motor.IsRaising) Motor.StopVerticalSpeed();
         }
 
-        private void CheckJumpForwardTrigger ()
+        private void CheckJumpForwardTrigger()
         {
             var trigger = Motor.IsRaising && Motor.IsMoveInputting && HasReachMaxHeight();
-            if (trigger) Animator.JumpForward();
+            if (trigger)
+            {
+                Animator.JumpForward();
+                player.LimbManager.Chest.Play(jumpForwardSound);
+            }
         }
 
-        private bool IsJumpAvailable () =>
+        private bool IsJumpAvailable() =>
             IsGroundJumpAvailable() ||
             IsAirJumpAvailable() ||
             fallState.IsJumpAvailable();
@@ -106,19 +120,19 @@ namespace CrashBandicoot.Players
             return Motor.IsAirborne && hasAvailableJumps;
         }
 
-        private bool HasReachMaxHeight () =>  GetCurrentHeight() > GetForwardJumpHeight();
+        private bool HasReachMaxHeight() => GetCurrentHeight() > GetForwardJumpHeight();
 
-        private void HandleLanded ()
+        private void HandleLanded()
         {
             CurrentAirJumps = 0;
             jumpGroundHeight = 0F;
 
             if (fallState.IsBufferJumpAvailable()) Jump();
         }
-        
+
         private float GetForwardJumpHeight() => maximumHeight * forwardJumpPercentage * 0.01F;
 
-        private float GetCurrentHeight () => transform.position.y - jumpGroundHeight;
+        private float GetCurrentHeight() => transform.position.y - jumpGroundHeight;
 
         private float GetCurrentGravity()
         {

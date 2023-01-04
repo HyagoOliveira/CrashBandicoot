@@ -5794,6 +5794,16 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 924394018474860124, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c06fbb4256c9fd74c859e39e2141036e, type: 3}
+    - target: {fileID: 924394018474860124, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: jumpForwardSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5419a08d33345af46b414d2e65f6689f, type: 3}
     - target: {fileID: 1152939535953817454, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: <Head>k__BackingField
