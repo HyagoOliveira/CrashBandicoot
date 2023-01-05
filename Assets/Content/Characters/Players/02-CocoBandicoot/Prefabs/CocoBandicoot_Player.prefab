@@ -14658,17 +14658,32 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.539
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
@@ -14678,22 +14693,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.11196484
+      value: 0.39771652
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00000002981804
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9937122
+      value: 0.91750836
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000026464156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
@@ -14703,17 +14718,27 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 133.129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_Name
       value: CocoBandicoot_Spin
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
