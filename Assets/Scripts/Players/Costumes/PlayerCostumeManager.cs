@@ -66,16 +66,16 @@ namespace CrashBandicoot.Players
 
         private void UpdateCostumesMeshes()
         {
-            var bones = ConvertToDictionary(player.LimbManager.RootBone);
+            var bones = ConvertToDictionary(player.LimbManager.transform);
             foreach (var costume in costumes)
             {
                 costume.UpdateSkinnedMeshBones(player.LimbManager.RootBone, bones);
             }
         }
 
-        private static Dictionary<string, Transform> ConvertToDictionary(Transform root)
+        private static Dictionary<string, Transform> ConvertToDictionary(Transform transform)
         {
-            var children = root.GetComponentsInChildren<Transform>();
+            var children = transform.GetComponentsInChildren<Transform>();
             var dictionary = new Dictionary<string, Transform>(children.Length);
 
             foreach (var bone in children)
