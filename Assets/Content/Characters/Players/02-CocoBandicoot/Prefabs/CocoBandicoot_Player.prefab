@@ -14755,6 +14755,128 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 560242060707838292}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &654971982365415536
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 7272373479127800438}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_Name
+      value: CocoBandicoot_Fake
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: bfbc2f2fab0e16342bbffa83b8488f9a, type: 3}
+--- !u!1 &420950628885620001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 654971982365415536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3886668123788082643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420950628885620001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f4a640d7e4a6fe49bf7ef3ab0b99536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderers:
+  - {fileID: 4169321027514068319}
+  - {fileID: 8234577949463661378}
+  - {fileID: 652812367298130935}
+--- !u!137 &652812367298130935 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -9216145017466246265, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 654971982365415536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1052809808102834075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 654971982365415536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &4169321027514068319 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5707596821502380753, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 654971982365415536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &8234577949463661378 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -337219631927094478, guid: bfbc2f2fab0e16342bbffa83b8488f9a,
+    type: 3}
+  m_PrefabInstance: {fileID: 654971982365415536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3345695662744394083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14837,7 +14959,7 @@ PrefabInstance:
     - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: costumes.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
@@ -14849,6 +14971,11 @@ PrefabInstance:
       propertyPath: costumes.Array.data[1]
       value: 
       objectReference: {fileID: 9091508276180748998}
+    - target: {fileID: 5803075853456876818, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: costumes.Array.data[2]
+      value: 
+      objectReference: {fileID: 3886668123788082643}
     - target: {fileID: 7151831842342080343, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: spinVFX
@@ -14923,6 +15050,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 219364692049932588}
+    - targetCorrespondingSourceObject: {fileID: 5369105891915432725, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1052809808102834075}
   m_SourcePrefab: {fileID: 100100000, guid: 879f587edff8f6e439fc9211976ad668, type: 3}
 --- !u!4 &4944693619365693143 stripped
 Transform:
