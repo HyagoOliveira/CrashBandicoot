@@ -48,7 +48,7 @@ namespace CrashBandicoot.Players
         protected override void EnterState()
         {
             base.EnterState();
-            player.LimbManager.RightFoot.Play(jumpSound);
+            player.LimbManager.Bottom.Play(jumpSound);
         }
 
         protected override void UpdateState()

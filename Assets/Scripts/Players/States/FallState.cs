@@ -79,7 +79,7 @@ namespace CrashBandicoot.Players
             lastFrame = 0;
             WasJump = false;
             WasFallingFromGround = false;
-            player.LimbManager.RightFoot.Play(landSound);
+            player.LimbManager.Bottom.Play(landSound);
         }
     }
 }

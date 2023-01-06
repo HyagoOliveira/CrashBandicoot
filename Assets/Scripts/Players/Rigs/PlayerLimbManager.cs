@@ -5,25 +5,15 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class PlayerLimbManager : MonoBehaviour
     {
-        [field: SerializeField] public Transform RootBone { get; private set; }
         [field: SerializeField] public PlayerLimb Head { get; private set; }
         [field: SerializeField] public PlayerLimb Chest { get; private set; }
-        [field: SerializeField] public PlayerLimb LeftFoot { get; private set; }
-        [field: SerializeField] public PlayerLimb RightFoot { get; private set; }
+        [field: SerializeField] public PlayerLimb Bottom { get; private set; }
 
         private void Reset()
         {
-            const string root = "Ct_Hips__SKN_0_JNT";
-            const string head = "Ct_Head__SKN_0_JNT";
-            const string chest = "Ct_Spine__SKN_2_JNT";
-            const string leftFoot = "Lf_Leg__SKN_3_JNT";
-            const string rightFoot = "Rt_Leg__SKN_3_JNT";
-
-            RootBone = FindChildRecursively(transform, root);
-            Head = GetOrCreate<PlayerLimb>(head);
-            Chest = GetOrCreate<PlayerLimb>(chest);
-            LeftFoot = GetOrCreate<PlayerLimb>(leftFoot);
-            RightFoot = GetOrCreate<PlayerLimb>(rightFoot);
+            Head = GetOrCreate<PlayerLimb>("Head");
+            Chest = GetOrCreate<PlayerLimb>("Chest");
+            Bottom = GetOrCreate<PlayerLimb>("Bottom");
         }
 
         private T GetOrCreate<T>(string name) where T : Component
@@ -31,14 +21,11 @@ namespace CrashBandicoot.Players
             var child = FindChildRecursively(transform, name);
             if (child == null)
             {
-                Debug.LogErrorFormat("'{0}' was not found,");
+                Debug.LogErrorFormat("'{0}' was not found", name);
                 return null;
             }
 
-            var component = child.GetComponent<T>() ??
-                child.gameObject.AddComponent<T>();
-
-            return component;
+            return child.GetComponent<T>() ?? child.gameObject.AddComponent<T>();
         }
 
         private static Transform FindChildRecursively(Transform parent, string childName)
