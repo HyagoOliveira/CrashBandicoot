@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.actioncode.animator-states": {
-      "version": "file:D:/UnityProjects/_Packages/ActionCode/AnimatorStates",
+      "version": "file:/Users/hyago/UnityProjects/_Packages/ActionCode/AnimatorStates",
       "depth": 0,
       "source": "local",
       "dependencies": {}
@@ -14,7 +14,7 @@
       "url": "http://165.232.132.59:4873"
     },
     "com.actioncode.audio": {
-      "version": "file:D:/UnityProjects/_Packages/ActionCode/Audio",
+      "version": "file:/Users/hyago/UnityProjects/_Packages/ActionCode/Audio",
       "depth": 0,
       "source": "local",
       "dependencies": {
