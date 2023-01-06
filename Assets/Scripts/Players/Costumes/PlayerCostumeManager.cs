@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections.Generic;
 
 namespace CrashBandicoot.Players
 {
@@ -18,8 +17,6 @@ namespace CrashBandicoot.Players
             player = GetComponentInParent<Player>();
             costumes = GetComponentsInChildren<PlayerCostume>(includeInactive: true);
         }
-
-        private void Start() => UpdateCostumesMeshes();
 
         //TODO delete later
         private void Update() => DebugCostumesUsingNumpad();
@@ -62,28 +59,6 @@ namespace CrashBandicoot.Players
             else if (Keyboard.current.numpad7Key.wasPressedThisFrame) SetCostume(7);
             else if (Keyboard.current.numpad8Key.wasPressedThisFrame) SetCostume(8);
             else if (Keyboard.current.numpad9Key.wasPressedThisFrame) SetCostume(9);
-        }
-
-        private void UpdateCostumesMeshes()
-        {
-            var bones = ConvertToDictionary(player.LimbManager.transform);
-            foreach (var costume in costumes)
-            {
-                costume.UpdateSkinnedMeshBones(player.LimbManager.RootBone, bones);
-            }
-        }
-
-        private static Dictionary<string, Transform> ConvertToDictionary(Transform transform)
-        {
-            var children = transform.GetComponentsInChildren<Transform>();
-            var dictionary = new Dictionary<string, Transform>(children.Length);
-
-            foreach (var bone in children)
-            {
-                dictionary.Add(bone.name, bone);
-            }
-
-            return dictionary;
         }
     }
 }
