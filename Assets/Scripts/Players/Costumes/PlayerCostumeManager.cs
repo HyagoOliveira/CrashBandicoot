@@ -19,7 +19,7 @@ namespace CrashBandicoot.Players
             costumes = GetComponentsInChildren<PlayerCostume>(includeInactive: true);
         }
 
-        private void Start () => SetDefaultCostume();
+        private void Awake () => InitializeDefaultCostume();
 
         //TODO delete later
         private void Update() => DebugCostumesUsingNumpad();
@@ -36,7 +36,7 @@ namespace CrashBandicoot.Players
 
         public void SetCostume(PlayerCostume costume)
         {
-            CurrentCostume?.Disable();
+            CurrentCostume.Disable();
             
             CurrentCostume = costume;
             costume.Enable(player.transform);
@@ -57,6 +57,13 @@ namespace CrashBandicoot.Players
             else if (Keyboard.current.numpad7Key.wasPressedThisFrame) SetCostume(7);
             else if (Keyboard.current.numpad8Key.wasPressedThisFrame) SetCostume(8);
             else if (Keyboard.current.numpad9Key.wasPressedThisFrame) SetCostume(9);
+        }
+
+        private void InitializeDefaultCostume ()
+        {
+            CurrentCostume = DefaultCostume;
+            CurrentCostume.Enable(player.transform);
+            player.StateMachine.Rebind();
         }
     }
 }
