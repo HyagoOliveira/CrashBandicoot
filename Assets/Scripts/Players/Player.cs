@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using ActionCode.AnimatorStates;
-using CrashBandicoot.Characters;
+using ActionCode.Characters;
 
 namespace CrashBandicoot.Players
 {

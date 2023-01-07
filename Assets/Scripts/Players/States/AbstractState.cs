@@ -1,5 +1,5 @@
 using UnityEngine;
-using CrashBandicoot.Characters;
+using ActionCode.Characters;
 
 namespace CrashBandicoot.Players
 {

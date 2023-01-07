@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
-using CrashBandicoot.Players;
 
-namespace CrashBandicoot.Characters
+namespace ActionCode.Characters
 {
     [DisallowMultipleComponent]
     [RequireComponent(typeof(CharacterAnimator))]
