@@ -5,12 +5,22 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class PlayerCostume : MonoBehaviour
     {
-        public SkinnedMeshRenderer[] meshRenderers;
+        [SerializeField] Transform rootSKN;
 
-        private void Reset() =>
-            meshRenderers = GetComponentsInChildren<SkinnedMeshRenderer>();
+        private void Reset () => rootSKN = transform.Find("Ct_Root__SKN_0_JNT");
 
-        internal void Enable() => gameObject.SetActive(true);
-        internal void Disable() => gameObject.SetActive(false);
+        internal void Enable (Transform root)
+        {
+            rootSKN.SetParent(root);
+            rootSKN.SetAsFirstSibling();
+            
+            gameObject.SetActive(true);  
+        }
+
+        internal void Disable ()
+        {
+            rootSKN.SetParent(transform);
+            gameObject.SetActive(false);  
+        } 
     }
 }

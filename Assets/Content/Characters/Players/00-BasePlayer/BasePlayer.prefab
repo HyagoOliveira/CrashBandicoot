@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playRespawnAnimation: 1
+  animator: {fileID: 4287152246809011809}
   player: {fileID: 3955403908559378766}
   costumes: []
 --- !u!1 &3251808426771768215

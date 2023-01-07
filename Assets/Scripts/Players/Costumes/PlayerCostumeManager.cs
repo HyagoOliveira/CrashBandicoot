@@ -6,9 +6,10 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     public sealed class PlayerCostumeManager : MonoBehaviour
     {
-        [SerializeField] private bool playRespawnAnimation = true;
         [SerializeField] private Player player;
         [SerializeField] private PlayerCostume[] costumes;
+        
+        public PlayerCostume CurrentCostume { get; private set; }
 
         public PlayerCostume DefaultCostume => costumes[0];
 
@@ -17,6 +18,8 @@ namespace CrashBandicoot.Players
             player = GetComponentInParent<Player>();
             costumes = GetComponentsInChildren<PlayerCostume>(includeInactive: true);
         }
+
+        private void Start () => SetDefaultCostume();
 
         //TODO delete later
         private void Update() => DebugCostumesUsingNumpad();
@@ -33,18 +36,13 @@ namespace CrashBandicoot.Players
 
         public void SetCostume(PlayerCostume costume)
         {
-            DisableAllCostumes();
-            costume.Enable();
+            CurrentCostume?.Disable();
+            
+            CurrentCostume = costume;
+            costume.Enable(player.transform);
 
-            if (playRespawnAnimation) player.Animator.Respawn();
-        }
-
-        private void DisableAllCostumes()
-        {
-            foreach (var costume in costumes)
-            {
-                costume.Disable();
-            }
+            player.StateMachine.Rebind();
+            player.Animator.Respawn();
         }
 
         private void DebugCostumesUsingNumpad()
