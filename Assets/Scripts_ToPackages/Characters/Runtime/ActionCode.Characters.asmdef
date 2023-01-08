@@ -1,7 +1,9 @@
 {
     "name": "ActionCode.Characters",
     "rootNamespace": "ActionCode.Characters",
-    "references": [],
+    "references": [
+        "GUID:f59d7605d4cbf89469c7b6e0071577a6"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
