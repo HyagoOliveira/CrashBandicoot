@@ -9,21 +9,20 @@ namespace CrashBandicoot.Players
         private float time = 0.5F;
         [SerializeField, Tooltip("The Cooldown time (in seconds)."), Min(0F)]
         private float cooldown = 0.5F;
-        [SerializeField] private GameObject spinVFX;
 
         private float lastTime;
 
         protected override void EnterState()
         {
             base.EnterState();
-            spinVFX.SetActive(true);
             player.SoundEffects.PlaySpin();
+            player.VisualEffects.Spin.SetActive(true);
         }
 
         protected override void ExitState()
         {
             base.ExitState();
-            spinVFX.SetActive(false);
+            player.VisualEffects.Spin.SetActive(false);
         }
 
         public void UpdateInput(bool isButtonDown)
