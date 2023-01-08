@@ -10,7 +10,12 @@ namespace ActionCode.Characters
     {
         [field: SerializeField] public CharacterLimb Head { get; private set; }
         [field: SerializeField] public CharacterLimb Chest { get; private set; }
+        [field: SerializeField] public CharacterLimb LeftHand { get; private set; }
+        [field: SerializeField] public CharacterLimb RightHand { get; private set; }
         [field: SerializeField] public CharacterLimb Bottom { get; private set; }
+        [field: SerializeField] public CharacterLimb LeftFoot { get; private set; }
+        [field: SerializeField] public CharacterLimb RightFoot { get; private set; }
+        [field: SerializeField] public CharacterLimb Custom { get; private set; }
 
         private void Reset()
         {
