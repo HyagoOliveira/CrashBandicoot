@@ -665,6 +665,7 @@ MonoBehaviour:
   <Motor>k__BackingField: {fileID: 6604689825903534606}
   <Animator>k__BackingField: {fileID: 2033104369485180538}
   <StateMachine>k__BackingField: {fileID: 4773723495254980474}
+  <SoundEffects>k__BackingField: {fileID: 9176414500531545626}
   <LimbManager>k__BackingField: {fileID: 1152939535953817454}
   <CostumeManager>k__BackingField: {fileID: 5803075853456876818}
 --- !u!114 &2033104369485180538

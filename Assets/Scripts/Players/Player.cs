@@ -8,6 +8,7 @@ namespace CrashBandicoot.Players
     [DisallowMultipleComponent]
     [RequireComponent(typeof(CharacterMotor))]
     [RequireComponent(typeof(PlayerAnimator))]
+    [RequireComponent(typeof(PlayerSoundEffects))]
     [RequireComponent(typeof(AnimatorStateMachine))]
     public sealed class Player : MonoBehaviour, IEnable, IDisable, IEquatable<Player>
     {
@@ -22,6 +23,9 @@ namespace CrashBandicoot.Players
 
         [field: SerializeField]
         public AnimatorStateMachine StateMachine { get; private set; }
+        
+        [field: SerializeField]
+        public PlayerSoundEffects SoundEffects { get; private set; }
 
         [field: SerializeField]
         public CharacterLimbManager LimbManager { get; private set; }
@@ -46,6 +50,7 @@ namespace CrashBandicoot.Players
             Motor = GetComponent<CharacterMotor>();
             Animator = GetComponent<PlayerAnimator>();
             StateMachine = GetComponent<AnimatorStateMachine>();
+            SoundEffects = GetComponent<PlayerSoundEffects>();
             LimbManager = GetComponentInChildren<CharacterLimbManager>();
             CostumeManager = GetComponentInChildren<PlayerCostumeManager>();
         }
