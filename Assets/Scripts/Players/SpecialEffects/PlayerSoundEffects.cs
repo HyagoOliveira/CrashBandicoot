@@ -1,4 +1,5 @@
 using UnityEngine;
+using ActionCode.Audio;
 using ActionCode.Characters;
 
 namespace CrashBandicoot.Players
@@ -15,6 +16,7 @@ namespace CrashBandicoot.Players
         [SerializeField] private AudioClip jumpForward;
         [SerializeField] private AudioClip land;
         [SerializeField] private AudioClip spin;
+        [SerializeField] private AudioDictionary footsteps;
         
         private void Reset () => limbManager = GetComponentInChildren<CharacterLimbManager>();
         
@@ -24,5 +26,9 @@ namespace CrashBandicoot.Players
         public void PlayJumpForward() => limbManager.Bottom.Play(jumpForward);
         public void PlayLand() => limbManager.Bottom.Play(land);
         public void PlaySpin() => limbManager.Chest.Play(spin);
+        
+        // Functions called from Animation clips.
+        public void PlayLeftFootstep() => limbManager.LeftFoot.Play(footsteps.GetRandomClip());
+        public void PlayRightFootstep() => limbManager.RightFoot.Play(footsteps.GetRandomClip());
     }
 }
