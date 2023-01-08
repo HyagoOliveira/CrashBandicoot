@@ -10,7 +10,6 @@ namespace CrashBandicoot.Players
         [SerializeField, Tooltip("The Cooldown time (in seconds)."), Min(0F)]
         private float cooldown = 0.5F;
         [SerializeField] private GameObject spinVFX;
-        [SerializeField] private AudioClip spinAttack;
 
         private float lastTime;
 
@@ -18,7 +17,7 @@ namespace CrashBandicoot.Players
         {
             base.EnterState();
             spinVFX.SetActive(true);
-            player.LimbManager.Chest.Play(spinAttack);
+            player.SoundEffects.PlaySpin();
         }
 
         protected override void ExitState()

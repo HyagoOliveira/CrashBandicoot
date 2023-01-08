@@ -21,10 +21,6 @@ namespace CrashBandicoot.Players
         [Tooltip("Activate Forward Jump when height is at this percent."), Range(0F, 100F)]
         private float forwardJumpPercentage = 60F;
 
-        [Header("SEF")]
-        [SerializeField] private AudioClip jumpSound;
-        [SerializeField] private AudioClip jumpForwardSound;
-
         public int CurrentAirJumps { get; private set; }
 
         private float jumpGroundHeight;
@@ -48,7 +44,7 @@ namespace CrashBandicoot.Players
         protected override void EnterState()
         {
             base.EnterState();
-            player.LimbManager.Bottom.Play(jumpSound);
+            player.SoundEffects.PlayJump();
         }
 
         protected override void UpdateState()
@@ -110,7 +106,7 @@ namespace CrashBandicoot.Players
             {
                 hasJumpedForward = true;
                 Animator.JumpForward();
-                player.LimbManager.Chest.Play(jumpForwardSound);
+                player.SoundEffects.PlayJumpForward();
             }
         }
 

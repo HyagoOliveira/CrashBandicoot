@@ -10,8 +10,6 @@ namespace CrashBandicoot.Players
         [Tooltip("The time (in frames) to still performs a jump before touching the ground."), Min(0)]
         public int fallBufferFrames = 30;
 
-        [SerializeField] private AudioClip landSound;
-
         public bool WasJump { get; private set; }
         public bool WasFallingFromGround { get; private set; }
         public bool WasBufferJumpRegistered { get; private set; }
@@ -79,7 +77,7 @@ namespace CrashBandicoot.Players
             lastFrame = 0;
             WasJump = false;
             WasFallingFromGround = false;
-            player.LimbManager.Bottom.Play(landSound);
+            player.SoundEffects.PlayLand();
         }
     }
 }
