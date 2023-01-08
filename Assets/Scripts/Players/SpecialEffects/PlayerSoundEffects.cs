@@ -1,13 +1,13 @@
 using UnityEngine;
 using ActionCode.Audio;
-using ActionCode.Characters;
 
 namespace CrashBandicoot.Players
 {
     [DisallowMultipleComponent]
+    [RequireComponent(typeof(Player))]
     public sealed class PlayerSoundEffects : MonoBehaviour 
     {
-        [SerializeField] private CharacterLimbManager limbManager;
+        [SerializeField] private Player player;
         
         [Header("Audio Clips")]
         [SerializeField] private AudioClip spawn;
@@ -18,17 +18,26 @@ namespace CrashBandicoot.Players
         [SerializeField] private AudioClip spin;
         [SerializeField] private AudioDictionary footsteps;
         
-        private void Reset () => limbManager = GetComponentInChildren<CharacterLimbManager>();
+        private void Reset () => player = GetComponent<Player>();
         
-        public void PlaySpawn() => limbManager.Chest.Play(spawn);
-        public void PlayUnspawn() => limbManager.Chest.Play(unspawn);
-        public void PlayJump() => limbManager.Bottom.Play(jump);
-        public void PlayJumpForward() => limbManager.Bottom.Play(jumpForward);
-        public void PlayLand() => limbManager.Bottom.Play(land);
-        public void PlaySpin() => limbManager.Chest.Play(spin);
+        public void PlaySpawn() => player.LimbManager.Chest.Play(spawn);
+        public void PlayUnspawn() => player.LimbManager.Chest.Play(unspawn);
+        public void PlayJump() => player.LimbManager.Bottom.Play(jump);
+        public void PlayJumpForward() => player.LimbManager.Bottom.Play(jumpForward);
+        public void PlayLand() => player.LimbManager.Bottom.Play(land);
+        public void PlaySpin() => player.LimbManager.Chest.Play(spin);
         
         // Functions called from Animation clips.
-        public void PlayLeftFootstep() => limbManager.LeftFoot.Play(footsteps.GetRandomClip());
-        public void PlayRightFootstep() => limbManager.RightFoot.Play(footsteps.GetRandomClip());
+        public void PlayLeftFootstep ()
+        {
+            if (!player.IsSpinning)
+                player.LimbManager.LeftFoot.Play(footsteps.GetRandomClip());
+        }
+
+        public void PlayRightFootstep ()
+        {
+            if (!player.IsSpinning)
+                player.LimbManager.RightFoot.Play(footsteps.GetRandomClip());
+        }
     }
 }
