@@ -212,10 +212,11 @@
       }
     },
     "com.yasirkula.ingamedebugconsole": {
-      "version": "file:/Users/hyago/UnityProjects/_Packages/Forks/UnityIngameDebugConsole",
+      "version": "1.5.8-0",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://165.232.132.59:4873"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
