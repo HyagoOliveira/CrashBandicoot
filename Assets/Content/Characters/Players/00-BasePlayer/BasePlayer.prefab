@@ -694,6 +694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limbManager: {fileID: 1152939535953817454}
+  spawn: {fileID: 8300000, guid: 7b55364d55e74d7459033a69316a5bca, type: 3}
+  unspawn: {fileID: 8300000, guid: eee7fb70316e4884096a469aaa59f2e9, type: 3}
   jump: {fileID: 8300000, guid: c06fbb4256c9fd74c859e39e2141036e, type: 3}
   jumpForward: {fileID: 8300000, guid: 5419a08d33345af46b414d2e65f6689f, type: 3}
   land: {fileID: 8300000, guid: d752a5cdda136944ebb41c05b52050c3, type: 3}
@@ -793,8 +795,6 @@ MonoBehaviour:
   maximumHeight: 2
   timeApex: 0.5
   forwardJumpPercentage: 60
-  jumpSound: {fileID: 0}
-  jumpForwardSound: {fileID: 0}
 --- !u!114 &6807253051264923215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,7 +810,6 @@ MonoBehaviour:
   player: {fileID: 3955403908559378766}
   fallGroundAirFrames: 30
   fallBufferFrames: 30
-  landSound: {fileID: 8300000, guid: d752a5cdda136944ebb41c05b52050c3, type: 3}
 --- !u!114 &7151831842342080343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,4 +826,3 @@ MonoBehaviour:
   time: 0.5
   cooldown: 0.1
   spinVFX: {fileID: 0}
-  spinAttack: {fileID: 8300000, guid: e01435c19e74ab34f9e33be60b2b3699, type: 3}
