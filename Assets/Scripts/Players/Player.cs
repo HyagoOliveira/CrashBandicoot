@@ -26,6 +26,9 @@ namespace CrashBandicoot.Players
         
         [field: SerializeField]
         public PlayerSoundEffects SoundEffects { get; private set; }
+        
+        [field: SerializeField]
+        public PlayerVisualEffects VisualEffects { get; private set; }
 
         [field: SerializeField]
         public CharacterLimbManager LimbManager { get; private set; }
@@ -51,6 +54,7 @@ namespace CrashBandicoot.Players
             Animator = GetComponent<PlayerAnimator>();
             StateMachine = GetComponent<AnimatorStateMachine>();
             SoundEffects = GetComponent<PlayerSoundEffects>();
+            VisualEffects = GetComponent<PlayerVisualEffects>();
             LimbManager = GetComponentInChildren<CharacterLimbManager>();
             CostumeManager = GetComponentInChildren<PlayerCostumeManager>();
         }
