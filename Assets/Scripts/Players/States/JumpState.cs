@@ -44,13 +44,15 @@ namespace CrashBandicoot.Players
         protected override void EnterState()
         {
             base.EnterState();
-            player.SoundEffects.PlayJump();
+            if (!player.IsSpinning)
+                player.SoundEffects.PlayJump();
         }
 
         protected override void UpdateState()
         {
             base.UpdateState();
-            CheckJumpForwardTrigger();
+            if (!player.IsSpinning)
+                CheckJumpForwardTrigger();
         }
 
         public void UpdateInput(bool isButtonDown)

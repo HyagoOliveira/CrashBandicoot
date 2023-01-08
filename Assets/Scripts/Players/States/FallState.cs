@@ -77,7 +77,9 @@ namespace CrashBandicoot.Players
             lastFrame = 0;
             WasJump = false;
             WasFallingFromGround = false;
-            player.SoundEffects.PlayLand();
+
+            if (!player.IsSpinning)
+                player.SoundEffects.PlayLand();
         }
     }
 }

@@ -46,6 +46,11 @@ namespace CrashBandicoot.Players
         /// </summary>
         public bool Enabled => gameObject.activeInHierarchy;
 
+        /// <summary>
+        /// Whether the player is currently spinning.
+        /// </summary>
+        public bool IsSpinning => StateMachine.IsExecuting<SpinState>();
+
         public int Index { get; internal set; }
 
         void Reset()
@@ -100,10 +105,7 @@ namespace CrashBandicoot.Players
         /// Checks if is able to switch from.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitchOut() =>
-            Motor.IsGrounded &&
-            Enabled &&
-            !StateMachine.IsExecuting<SpinState>();
+        public bool IsAbleToSwitchOut () => Motor.IsGrounded && Enabled && !IsSpinning;
 
         /// <summary>
         /// Checks if is able to switch into.
