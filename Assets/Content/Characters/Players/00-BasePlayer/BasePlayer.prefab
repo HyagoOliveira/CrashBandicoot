@@ -546,6 +546,7 @@ GameObject:
   - component: {fileID: 3955403908559378766}
   - component: {fileID: 2033104369485180538}
   - component: {fileID: 9176414500531545626}
+  - component: {fileID: 2159634780573183586}
   - component: {fileID: 7053787582145736024}
   - component: {fileID: 6604689825903534606}
   - component: {fileID: 7227880654501046360}
@@ -700,6 +701,20 @@ MonoBehaviour:
   jumpForward: {fileID: 8300000, guid: 5419a08d33345af46b414d2e65f6689f, type: 3}
   land: {fileID: 8300000, guid: d752a5cdda136944ebb41c05b52050c3, type: 3}
   spin: {fileID: 8300000, guid: e01435c19e74ab34f9e33be60b2b3699, type: 3}
+--- !u!114 &2159634780573183586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660935207412238266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1c1f6ade0844c0e887d77e6af21c63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  limbManager: {fileID: 1152939535953817454}
+  spin: {fileID: 0}
 --- !u!114 &7053787582145736024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,7 +764,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3955403908559378766}
-  portalEnter: {fileID: 8300000, guid: eee7fb70316e4884096a469aaa59f2e9, type: 3}
 --- !u!114 &4568729404820862663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -763,7 +777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3955403908559378766}
-  portalExit: {fileID: 8300000, guid: 7b55364d55e74d7459033a69316a5bca, type: 3}
 --- !u!114 &1386834920186721630
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -8615,6 +8615,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2a2f9bf6dde24804186360642cbff00c,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2a2f9bf6dde24804186360642cbff00c,
         type: 3}
       propertyPath: m_Name
@@ -8755,6 +8760,16 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2159634780573183586, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: spin
+      value: 
+      objectReference: {fileID: 794613748361069573}
+    - target: {fileID: 2159634780573183586, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: <Spin>k__BackingField
+      value: 
+      objectReference: {fileID: 794613748361069573}
     - target: {fileID: 3955403908559378766, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: id
