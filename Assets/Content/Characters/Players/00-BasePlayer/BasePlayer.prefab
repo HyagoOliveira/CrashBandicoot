@@ -574,6 +574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 9006640387661550822}
   - {fileID: 7706038142295285684}
   - {fileID: 5369105891915432725}
   m_Father: {fileID: 0}
@@ -715,7 +716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   limbManager: {fileID: 1152939535953817454}
-  <Spin>k__BackingField: {fileID: 0}
+  <Spin>k__BackingField: {fileID: 6546523272182943429}
 --- !u!114 &7053787582145736024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,3 +840,51 @@ MonoBehaviour:
   player: {fileID: 3955403908559378766}
   time: 0.5
   cooldown: 0.1
+--- !u!1 &6546523272182943429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9006640387661550822}
+  - component: {fileID: 5775863659123016943}
+  m_Layer: 3
+  m_Name: SpinEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9006640387661550822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546523272182943429}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9103146816334873975}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &5775863659123016943
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6546523272182943429}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: d3bcf4fd6f9274ee59a664f5f20cadcb, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: d3bcf4fd6f9274ee59a664f5f20cadcb, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

@@ -1516,7 +1516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5982235177853720610
 Transform:
   m_ObjectHideFlags: 0
@@ -1529,7 +1529,7 @@ Transform:
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5807197435445009750}
+  m_Father: {fileID: 5926054547576114375}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 216.044, z: 0}
 --- !u!33 &5043238778396296742
@@ -8375,11 +8375,6 @@ PrefabInstance:
       propertyPath: spin
       value: 
       objectReference: {fileID: 1627701745789759039}
-    - target: {fileID: 2159634780573183586, guid: 879f587edff8f6e439fc9211976ad668,
-        type: 3}
-      propertyPath: <Spin>k__BackingField
-      value: 
-      objectReference: {fileID: 1627701745789759039}
     - target: {fileID: 2923521603373056097, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: head
@@ -8518,7 +8513,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2923521603373056097, guid: 879f587edff8f6e439fc9211976ad668, type: 3}
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
+    - targetCorrespondingSourceObject: {fileID: 9006640387661550822, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5982235177853720610}
@@ -8545,9 +8540,9 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 3369695826667116577}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &5807197435445009750 stripped
+--- !u!4 &5926054547576114375 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 9103146816334873975, guid: 879f587edff8f6e439fc9211976ad668,
+  m_CorrespondingSourceObject: {fileID: 9006640387661550822, guid: 879f587edff8f6e439fc9211976ad668,
     type: 3}
   m_PrefabInstance: {fileID: 3369695826667116577}
   m_PrefabAsset: {fileID: 0}
