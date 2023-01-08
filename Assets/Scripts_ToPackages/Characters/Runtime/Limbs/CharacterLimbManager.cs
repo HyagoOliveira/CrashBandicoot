@@ -1,19 +1,22 @@
 using UnityEngine;
 
-namespace CrashBandicoot.Players
+namespace ActionCode.Characters
 {
+    /// <summary>
+    /// Manager for <see cref="CharacterLimb"/>.
+    /// </summary>
     [DisallowMultipleComponent]
-    public sealed class PlayerLimbManager : MonoBehaviour
+    public sealed class CharacterLimbManager : MonoBehaviour
     {
-        [field: SerializeField] public PlayerLimb Head { get; private set; }
-        [field: SerializeField] public PlayerLimb Chest { get; private set; }
-        [field: SerializeField] public PlayerLimb Bottom { get; private set; }
+        [field: SerializeField] public CharacterLimb Head { get; private set; }
+        [field: SerializeField] public CharacterLimb Chest { get; private set; }
+        [field: SerializeField] public CharacterLimb Bottom { get; private set; }
 
         private void Reset()
         {
-            Head = GetOrCreate<PlayerLimb>("Head");
-            Chest = GetOrCreate<PlayerLimb>("Chest");
-            Bottom = GetOrCreate<PlayerLimb>("Bottom");
+            Head = GetOrCreate<CharacterLimb>("Head");
+            Chest = GetOrCreate<CharacterLimb>("Chest");
+            Bottom = GetOrCreate<CharacterLimb>("Bottom");
         }
 
         private T GetOrCreate<T>(string name) where T : Component
