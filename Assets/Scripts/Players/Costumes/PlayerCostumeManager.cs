@@ -36,6 +36,8 @@ namespace CrashBandicoot.Players
 
         public void SetCostume(PlayerCostume costume)
         {
+            if (player.IsSpinning) return;
+
             CurrentCostume.Disable();
             SetCurrentCostume(costume);
             player.Animator.Respawn();
