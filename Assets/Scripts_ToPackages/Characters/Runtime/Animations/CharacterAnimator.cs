@@ -19,5 +19,11 @@ namespace ActionCode.Characters
         public void SetIsAirborne(bool value) => animator.SetBool(isAirborne, value);
         public void SetIsFalling(bool value) => animator.SetBool(isFalling, value);
         public void SetIsMoveInputting(bool value) => animator.SetBool(isMoveInputting, value);
+        
+        /// <summary>
+        /// Sets the animator playback speed.
+        /// </summary>
+        /// <param name="speed">The new animator speed. 1 is the normal speed.</param>
+        public void SetPlaybackSpeed (float speed) => animator.speed = speed;
     }
 }
