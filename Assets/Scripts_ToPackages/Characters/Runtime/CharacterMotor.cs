@@ -39,7 +39,6 @@ namespace ActionCode.Characters
         private Transform currentCamera;
         private Vector3 moveDirection;
         private RaycastHit groundHit;
-        private bool isGroundCollision;
         private bool wasGroundCollision;
 
         private void Reset ()
@@ -51,7 +50,7 @@ namespace ActionCode.Characters
         private void Start()
         {
             currentCamera = Camera.main.transform;
-            isGroundCollision = RaycastGround();
+            IsGrounded = RaycastGround();
         }
 
         private void Update()
@@ -92,8 +91,6 @@ namespace ActionCode.Characters
             Velocity = Speed * Time.deltaTime;
 
             controller.Move(Velocity);
-
-            IsGrounded = controller.isGrounded;
         }
 
         private void UpdateRotation()
@@ -104,10 +101,10 @@ namespace ActionCode.Characters
 
         private void UpdateGroundCollision()
         {
-            wasGroundCollision = isGroundCollision;
-            isGroundCollision = RaycastGround();
+            wasGroundCollision = IsGrounded;
+            IsGrounded = RaycastGround();
 
-            var hasLanded = !wasGroundCollision && isGroundCollision;
+            var hasLanded = !wasGroundCollision && IsGrounded;
             if (hasLanded)
             {
                 VerticalSpeed = Gravity;
@@ -115,7 +112,7 @@ namespace ActionCode.Characters
                 return;
             }
 
-            var hasFallenFromGround = wasGroundCollision && !isGroundCollision && VerticalSpeed < 0F;
+            var hasFallenFromGround = wasGroundCollision && !IsGrounded && VerticalSpeed < 0F;
             if (hasFallenFromGround)
             {
                 VerticalSpeed = 0F;
@@ -148,10 +145,10 @@ namespace ActionCode.Characters
         private bool RaycastGround()
         {
             // This value works for CharacterController.SlopeLimit = 45F
-            const float distance = 0.2F;
-            const float maxDistance = distance * 2F;
+            const float skin = 0.2F;
+            const float maxDistance = skin + 0.1F;
 
-            var origin = transform.position + Vector3.up * distance;
+            var origin = transform.position + Vector3.up * skin;
 
             return Physics.Raycast(
                 origin,
