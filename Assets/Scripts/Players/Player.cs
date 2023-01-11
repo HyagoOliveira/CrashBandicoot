@@ -53,7 +53,7 @@ namespace CrashBandicoot.Players
 
         public int Index { get; internal set; }
 
-        void Reset()
+        private void Reset()
         {
             Motor = GetComponent<CharacterMotor>();
             Animator = GetComponent<PlayerAnimator>();
