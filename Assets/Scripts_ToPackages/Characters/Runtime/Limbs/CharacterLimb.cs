@@ -15,5 +15,8 @@ namespace ActionCode.Characters
         private void Reset() => audioSource = GetComponent<AudioSource>();
 
         public void Play (AudioClip clip) => audioSource.PlayOneShot(clip);
+
+        public void Pause () => audioSource.Pause();
+        public void Resume () => audioSource.UnPause();
     }
 }

@@ -2,7 +2,8 @@
     "name": "ActionCode.Characters",
     "rootNamespace": "ActionCode.Characters",
     "references": [
-        "GUID:f59d7605d4cbf89469c7b6e0071577a6"
+        "GUID:f59d7605d4cbf89469c7b6e0071577a6",
+        "GUID:9038eb8394d01e245b10f54fa73de77f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

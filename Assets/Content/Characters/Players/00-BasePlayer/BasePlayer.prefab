@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b70b36724766764d84fa1f8135b0499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   <Head>k__BackingField: {fileID: 3423267592804480553}
   <Chest>k__BackingField: {fileID: 6102192907595511884}
   <LeftHand>k__BackingField: {fileID: 0}
