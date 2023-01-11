@@ -952,6 +952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: -1
+  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   <Motor>k__BackingField: {fileID: 6604689825903534606}
   <Animator>k__BackingField: {fileID: 2033104369485180538}
   <StateMachine>k__BackingField: {fileID: 4773723495254980474}
@@ -1027,6 +1028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: d19268dcfbccc884ea461fb3bd9fd743, type: 2}
   playerSettings: {fileID: 11400000, guid: 502256aecaa050043bcef9b77471761f, type: 2}
+  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   motor: {fileID: 6604689825903534606}
   jumpState: {fileID: 924394018474860124}
   spinState: {fileID: 7151831842342080343}

@@ -1,5 +1,6 @@
 using UnityEngine;
 using ActionCode.Characters;
+using ActionCode.PauseSystem;
 
 namespace CrashBandicoot.Players
 {
@@ -12,6 +13,7 @@ namespace CrashBandicoot.Players
     {
         [SerializeField] private PlayerInputSettings settings;
         [SerializeField] private PlayerSettings playerSettings;
+        [SerializeField] private PauseSettings pauseSettings;
         [SerializeField] private CharacterMotor motor;
 
         [Header("States")]
@@ -52,7 +54,11 @@ namespace CrashBandicoot.Players
             if (isButtonDown) playerSettings.Switch();
         }
 
-        private void HandlePauseMenu(bool isButtonDown) => print($"PauseMenu: {isButtonDown}");
+        private void HandlePauseMenu (bool isButtonDown)
+        {
+            if (isButtonDown) pauseSettings.Toggle();
+        }
+        
         private void HandleInventoryStatus(bool isButtonDown) => print($"Inventory Status: {isButtonDown}");
     }
 }
