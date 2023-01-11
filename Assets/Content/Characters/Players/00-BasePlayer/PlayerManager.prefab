@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &593680345129830423
 MonoBehaviour:
@@ -46,3 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: 502256aecaa050043bcef9b77471761f, type: 2}
   inputSettings: {fileID: 11400000, guid: d19268dcfbccc884ea461fb3bd9fd743, type: 2}
+  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
+  timeToSpawnPlayers: 0.1

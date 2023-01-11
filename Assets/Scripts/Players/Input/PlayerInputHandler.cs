@@ -1,6 +1,5 @@
 using UnityEngine;
 using ActionCode.Characters;
-using ActionCode.PauseSystem;
 
 namespace CrashBandicoot.Players
 {
@@ -13,7 +12,6 @@ namespace CrashBandicoot.Players
     {
         [SerializeField] private PlayerInputSettings settings;
         [SerializeField] private PlayerSettings playerSettings;
-        [SerializeField] private PauseSettings pauseSettings;
         [SerializeField] private CharacterMotor motor;
 
         [Header("States")]
@@ -29,7 +27,6 @@ namespace CrashBandicoot.Players
             settings.OnJump += HandleJump;
             settings.OnCrouch += HandleCrounch;
             settings.OnSwitch += HandleSwitch;
-            settings.OnPauseMenu += HandlePauseMenu;
             settings.OnInventoryStatus += HandleInventoryStatus;
         }
 
@@ -40,7 +37,6 @@ namespace CrashBandicoot.Players
             settings.OnJump -= HandleJump;
             settings.OnCrouch -= HandleCrounch;
             settings.OnSwitch -= HandleSwitch;
-            settings.OnPauseMenu -= HandlePauseMenu;
             settings.OnInventoryStatus -= HandleInventoryStatus;
         }
 
@@ -52,11 +48,6 @@ namespace CrashBandicoot.Players
         private void HandleSwitch(bool isButtonDown)
         {
             if (isButtonDown) playerSettings.Switch();
-        }
-
-        private void HandlePauseMenu (bool isButtonDown)
-        {
-            if (isButtonDown) pauseSettings.Toggle();
         }
         
         private void HandleInventoryStatus(bool isButtonDown) => print($"Inventory Status: {isButtonDown}");

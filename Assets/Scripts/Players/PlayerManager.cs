@@ -1,4 +1,5 @@
 using System.Collections;
+using ActionCode.PauseSystem;
 using UnityEngine;
 
 namespace CrashBandicoot.Players
@@ -9,6 +10,7 @@ namespace CrashBandicoot.Players
     {
         [SerializeField] private PlayerSettings settings;
         [SerializeField] private PlayerInputSettings inputSettings;
+        [SerializeField] private PauseSettings pauseSettings;
         [SerializeField] private float timeToSpawnPlayers = 0.1f;
 
         private void Awake()
@@ -26,15 +28,22 @@ namespace CrashBandicoot.Players
         private void OnEnable ()
         {
             inputSettings.EnableActions();
+            inputSettings.OnPauseMenu += HandlePauseMenu;
             settings.OnPlayerSwitched += HandlePlayerSwitched;
         }
 
         private void OnDisable ()
         {
             inputSettings.DisableActions();
+            inputSettings.OnPauseMenu -= HandlePauseMenu;
             settings.OnPlayerSwitched -= HandlePlayerSwitched;
         }
 
         private void HandlePlayerSwitched () => inputSettings.ResetAxes();
+        
+        private void HandlePauseMenu (bool isButtonDown)
+        {
+            if (isButtonDown) pauseSettings.Toggle();
+        }
     }
 }
