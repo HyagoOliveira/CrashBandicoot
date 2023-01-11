@@ -32,6 +32,7 @@ namespace CrashBandicoot.Players
 	    {
 		    player.Motor.enabled = false;
 		    player.Animator.enabled = false;
+		    player.InputHandler.enabled = false;
 		    player.Animator.SetPlaybackSpeed(0f);
 	    }
 
@@ -39,6 +40,7 @@ namespace CrashBandicoot.Players
 	    {
 		    player.Motor.enabled = true;
 		    player.Animator.enabled = true;
+		    player.InputHandler.enabled = true;
 		    player.Animator.SetPlaybackSpeed(1f);
 	    }
 
