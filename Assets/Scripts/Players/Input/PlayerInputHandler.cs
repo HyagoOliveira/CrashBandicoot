@@ -38,6 +38,8 @@ namespace CrashBandicoot.Players
             settings.OnCrouch -= HandleCrounch;
             settings.OnSwitch -= HandleSwitch;
             settings.OnInventoryStatus -= HandleInventoryStatus;
+
+            HandleMove(Vector2.zero);
         }
 
         private void HandleMove(Vector2 input) => motor.SetMoveInput(input);
