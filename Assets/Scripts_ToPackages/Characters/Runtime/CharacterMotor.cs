@@ -62,8 +62,6 @@ namespace ActionCode.Characters
             UpdateAnimations();
         }
 
-        void OnDisable () => SetMoveInput(Vector2.zero);
-
         public void SetMoveInput(Vector2 input)
         {
             MoveInput = CanMove ? input : Vector2.zero;
