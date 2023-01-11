@@ -958,6 +958,7 @@ MonoBehaviour:
   <StateMachine>k__BackingField: {fileID: 4773723495254980474}
   <SoundEffects>k__BackingField: {fileID: 9176414500531545626}
   <VisualEffects>k__BackingField: {fileID: 2159634780573183586}
+  <InputHandler>k__BackingField: {fileID: 7053787582145736024}
   <LimbManager>k__BackingField: {fileID: 1152939535953817454}
   <CostumeManager>k__BackingField: {fileID: 5803075853456876818}
 --- !u!114 &2033104369485180538
@@ -1028,7 +1029,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   player: {fileID: 3955403908559378766}
-  inputHandler: {fileID: 7053787582145736024}
 --- !u!114 &7053787582145736024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1043,7 +1043,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings: {fileID: 11400000, guid: d19268dcfbccc884ea461fb3bd9fd743, type: 2}
   playerSettings: {fileID: 11400000, guid: 502256aecaa050043bcef9b77471761f, type: 2}
-  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   motor: {fileID: 6604689825903534606}
   jumpState: {fileID: 924394018474860124}
   spinState: {fileID: 7151831842342080343}
