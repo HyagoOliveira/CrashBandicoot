@@ -43,7 +43,10 @@ namespace CrashBandicoot.Players
         
         private void HandlePauseMenu (bool isButtonDown)
         {
-            if (isButtonDown) pauseSettings.Toggle();
+            if (!isButtonDown) return;
+
+            pauseSettings.Toggle();
+            inputSettings.ResetAxes();
         }
     }
 }
