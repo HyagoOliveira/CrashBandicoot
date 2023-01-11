@@ -835,6 +835,7 @@ GameObject:
   - component: {fileID: 2033104369485180538}
   - component: {fileID: 9176414500531545626}
   - component: {fileID: 2159634780573183586}
+  - component: {fileID: 1877733634171003633}
   - component: {fileID: 7053787582145736024}
   - component: {fileID: 6604689825903534606}
   - component: {fileID: 7227880654501046360}
@@ -952,7 +953,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: -1
-  pauseSettings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
   <Motor>k__BackingField: {fileID: 6604689825903534606}
   <Animator>k__BackingField: {fileID: 2033104369485180538}
   <StateMachine>k__BackingField: {fileID: 4773723495254980474}
@@ -1014,6 +1014,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   limbManager: {fileID: 1152939535953817454}
   <Spin>k__BackingField: {fileID: 6546523272182943429}
+--- !u!114 &1877733634171003633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5660935207412238266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d486903973c43988967dad66639a84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: 6e6d477eafac046bf841dc795d054dca, type: 2}
+  player: {fileID: 3955403908559378766}
+  inputHandler: {fileID: 7053787582145736024}
 --- !u!114 &7053787582145736024
 MonoBehaviour:
   m_ObjectHideFlags: 0
