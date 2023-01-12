@@ -414,7 +414,7 @@ namespace CrashBandicoot.Players
                 {
                     ""name"": """",
                     ""id"": ""e343e0f0-01d8-4acf-bd49-6b215c01254e"",
-                    ""path"": ""<Keyboard>/enter"",
+                    ""path"": ""<Keyboard>/p"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
