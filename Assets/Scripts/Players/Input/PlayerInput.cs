@@ -160,17 +160,6 @@ namespace CrashBandicoot.Players
                 },
                 {
                     ""name"": """",
-                    ""id"": ""05f6913d-c316-48b2-a6bb-e225f14c7960"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": "";Keyboard&Mouse"",
-                    ""action"": ""Spin"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""c7fcaff6-07c9-4a60-a6b1-43b4daaffd41"",
                     ""path"": ""<Keyboard>/z"",
                     ""interactions"": """",
