@@ -35,15 +35,15 @@ namespace CrashBandicoot.Players
 
         internal void DisableActions()
         {
-            actions.Disable();
             UnbindActions();
+            actions.Disable();
         }
 
-        internal void ResetAxes ()
+        internal void ResetAxes()
         {
             actions.Move.Disable();
             actions.Look.Disable();
-            
+
             actions.Move.Enable();
             actions.Look.Enable();
         }
@@ -77,12 +77,12 @@ namespace CrashBandicoot.Players
         private void HandleMove(CallbackContext ctx) => OnMove?.Invoke(ctx.ReadValue<Vector2>());
         private void HandleLook(CallbackContext ctx) => OnLook?.Invoke(ctx.ReadValue<Vector2>());
 
-        private void HandleSpin(bool isButtonDown) => OnSpin?.Invoke(isButtonDown);
-        private void HandleJump(bool isButtonDown) => OnJump?.Invoke(isButtonDown);
-        private void HandleCrouch(bool isButtonDown) => OnCrouch?.Invoke(isButtonDown);
-        private void HandleSwitch(bool isButtonDown) => OnSwitch?.Invoke(isButtonDown);
-        private void HandlePauseMenu(bool isButtonDown) => OnPauseMenu?.Invoke(isButtonDown);
-        private void HandleInventoryStatus(bool isButtonDown) => OnInventoryStatus?.Invoke(isButtonDown);
+        private void HandleSpin(CallbackContext ctx) => OnSpin?.Invoke(ctx.ReadValueAsButton());
+        private void HandleJump(CallbackContext ctx) => OnJump?.Invoke(ctx.ReadValueAsButton());
+        private void HandleCrouch(CallbackContext ctx) => OnCrouch?.Invoke(ctx.ReadValueAsButton());
+        private void HandleSwitch(CallbackContext ctx) => OnSwitch?.Invoke(ctx.ReadValueAsButton());
+        private void HandlePauseMenu(CallbackContext ctx) => OnPauseMenu?.Invoke(ctx.ReadValueAsButton());
+        private void HandleInventoryStatus(CallbackContext ctx) => OnInventoryStatus?.Invoke(ctx.ReadValueAsButton());
 
         private static void BindAxisAction(InputAction axis, Action<CallbackContext> handler)
         {
@@ -98,16 +98,16 @@ namespace CrashBandicoot.Players
             axis.canceled -= handler;
         }
 
-        private static void BindButtonAction(InputAction button, Action<bool> handler)
+        private static void BindButtonAction(InputAction button, Action<CallbackContext> handler)
         {
-            button.started += (_) => handler.Invoke(true);
-            button.canceled += (_) => handler.Invoke(false);
+            button.started += handler;
+            button.canceled += handler;
         }
 
-        private static void UnbindButtonAction(InputAction button, Action<bool> handler)
+        private static void UnbindButtonAction(InputAction button, Action<CallbackContext> handler)
         {
-            button.started -= (_) => handler.Invoke(true);
-            button.canceled -= (_) => handler.Invoke(false);
+            button.started -= handler;
+            button.canceled -= handler;
         }
     }
 }
