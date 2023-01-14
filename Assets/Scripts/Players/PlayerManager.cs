@@ -25,23 +25,23 @@ namespace CrashBandicoot.Players
             settings.Spawn();
         }
 
-        private void OnEnable ()
+        private void OnEnable()
         {
             inputSettings.EnableActions();
             inputSettings.OnPauseMenu += HandlePauseMenu;
             settings.OnPlayerSwitched += HandlePlayerSwitched;
         }
 
-        private void OnDisable ()
+        private void OnDisable()
         {
             inputSettings.DisableActions();
             inputSettings.OnPauseMenu -= HandlePauseMenu;
             settings.OnPlayerSwitched -= HandlePlayerSwitched;
         }
 
-        private void HandlePlayerSwitched () => inputSettings.ResetAxes();
-        
-        private void HandlePauseMenu (bool isButtonDown)
+        private void HandlePlayerSwitched() => inputSettings.ResetAxes();
+
+        private void HandlePauseMenu(bool isButtonDown)
         {
             if (!isButtonDown) return;
 
