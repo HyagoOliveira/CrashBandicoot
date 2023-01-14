@@ -13,6 +13,10 @@ namespace CrashBandicoot.UI
         [SerializeField] private PlayerSettings playerSettings;
         [SerializeField] private DebugLogManager logManager;
 
+        private PlayerManager playerManager;
+
+        private void Awake() => playerManager = FindObjectOfType<PlayerManager>();
+
         private void OnEnable()
         {
             logManager.OnLogWindowShown += HandleLogWindowShown;
@@ -27,14 +31,16 @@ namespace CrashBandicoot.UI
 
         private void HandleLogWindowShown()
         {
+            playerManager.enabled = false;
             SetPlayerStateMachineGUIEnable(false);
             pauseSettings.Pause();
         }
 
         private void HandleLogWindowHidden()
         {
-            SetPlayerStateMachineGUIEnable(true);
             pauseSettings.Resume();
+            playerManager.enabled = true;
+            SetPlayerStateMachineGUIEnable(true);
         }
 
         private void SetPlayerStateMachineGUIEnable(bool enabled)
