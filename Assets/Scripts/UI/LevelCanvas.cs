@@ -1,28 +1,47 @@
 using UnityEngine;
 using IngameDebugConsole;
 using ActionCode.PauseSystem;
+using CrashBandicoot.Players;
+using ActionCode.AnimatorStates;
 
 namespace CrashBandicoot.UI
 {
     [DisallowMultipleComponent]
     public sealed class LevelCanvas : MonoBehaviour
     {
-	    [SerializeField] private PauseSettings pauseSettings;
-	    [SerializeField] private DebugLogManager logManager;
+        [SerializeField] private PauseSettings pauseSettings;
+        [SerializeField] private PlayerSettings playerSettings;
+        [SerializeField] private DebugLogManager logManager;
 
-        private void OnEnable ()
+        private void OnEnable()
         {
             logManager.OnLogWindowShown += HandleLogWindowShown;
             logManager.OnLogWindowHidden += HandleLogWindowHidden;
         }
-        
-        private void OnDisable ()
+
+        private void OnDisable()
         {
             logManager.OnLogWindowShown -= HandleLogWindowShown;
             logManager.OnLogWindowHidden -= HandleLogWindowHidden;
         }
 
-        private void HandleLogWindowShown () => pauseSettings.Pause();
-        private void HandleLogWindowHidden () => pauseSettings.Resume();
+        private void HandleLogWindowShown()
+        {
+            SetPlayerStateMachineGUIEnable(false);
+            pauseSettings.Pause();
+        }
+
+        private void HandleLogWindowHidden()
+        {
+            SetPlayerStateMachineGUIEnable(true);
+            pauseSettings.Resume();
+        }
+
+        private void SetPlayerStateMachineGUIEnable(bool enabled)
+        {
+            var hasStateMachineGUI = playerSettings.Current.
+                TryGetComponent(out AnimatorStateMachineGUI stateMachineGUI);
+            if (hasStateMachineGUI) stateMachineGUI.enabled = enabled;
+        }
     }
 }
