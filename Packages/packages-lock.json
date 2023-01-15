@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "com.actioncode.animator-states": {
-      "version": "file:D:/UnityProjects/_Packages/ActionCode/AnimatorStates",
+      "version": "2.0.0",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://165.232.132.59:4873"
     },
     "com.actioncode.attributes": {
       "version": "2.1.0",
