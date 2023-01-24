@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.actioncode.animator-states": "2.0.0",
-    "com.actioncode.audio": "file:D:/UnityProjects/_Packages/ActionCode/Audio",
+    "com.actioncode.audio": "2.0.0",
     "com.actioncode.awaitable-coroutines": "1.0.0",
     "com.actioncode.pause-system": "1.1.0",
     "com.actioncode.scene-management": "2.0.0",

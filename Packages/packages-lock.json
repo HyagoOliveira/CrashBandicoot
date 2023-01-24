@@ -15,12 +15,13 @@
       "url": "http://165.232.132.59:4873"
     },
     "com.actioncode.audio": {
-      "version": "file:D:/UnityProjects/_Packages/ActionCode/Audio",
+      "version": "2.0.0",
       "depth": 0,
-      "source": "local",
+      "source": "registry",
       "dependencies": {
         "com.unity.textmeshpro": "1.0.0"
-      }
+      },
+      "url": "http://165.232.132.59:4873"
     },
     "com.actioncode.awaitable-coroutines": {
       "version": "1.0.0",
