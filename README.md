@@ -2,4 +2,4 @@
 
 Crash Bandicoot project create on Unity and using assets from Crash on the Run mobile game.
 
-https://youtu.be/KxQM4NJK1VU
+https://www.youtube.com/watch?v=KxQM4NJK1VU&ab_channel=NostGames
