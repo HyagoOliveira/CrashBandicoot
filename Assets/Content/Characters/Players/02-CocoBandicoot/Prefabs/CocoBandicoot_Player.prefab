@@ -8765,6 +8765,12 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3955403908559378766, guid: 879f587edff8f6e439fc9211976ad668,
+        type: 3}
+      propertyPath: <Selector>k__BackingField
+      value: 
+      objectReference: {fileID: 21300000, guid: ccc9af43975c9b64bac3ea27e88075e7,
+        type: 3}
     - target: {fileID: 4287152246809011809, guid: 879f587edff8f6e439fc9211976ad668,
         type: 3}
       propertyPath: m_Controller
