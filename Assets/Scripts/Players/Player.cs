@@ -17,6 +17,9 @@ namespace CrashBandicoot.Players
         private PlayerName id = PlayerName.None;
 
         [field: SerializeField]
+        public Sprite Selector { get; private set; }
+
+        [field: SerializeField]
         public CharacterMotor Motor { get; private set; }
 
         [field: SerializeField]
@@ -24,13 +27,13 @@ namespace CrashBandicoot.Players
 
         [field: SerializeField]
         public AnimatorStateMachine StateMachine { get; private set; }
-        
+
         [field: SerializeField]
         public PlayerSoundEffects SoundEffects { get; private set; }
-        
+
         [field: SerializeField]
         public PlayerVisualEffects VisualEffects { get; private set; }
-        
+
         [field: SerializeField]
         public PlayerInputHandler InputHandler { get; private set; }
 
@@ -110,7 +113,7 @@ namespace CrashBandicoot.Players
         /// Checks if is able to switch from.
         /// </summary>
         /// <returns></returns>
-        public bool IsAbleToSwitchOut () => Motor.IsGrounded && Enabled && !IsSpinning;
+        public bool IsAbleToSwitchOut() => Motor.IsGrounded && Enabled && !IsSpinning;
 
         /// <summary>
         /// Checks if is able to switch into.
