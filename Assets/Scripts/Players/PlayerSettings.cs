@@ -88,8 +88,10 @@ namespace CrashBandicoot.Players
         /// <param name="rotation">The world rotation to spawn.</param>
         public void Spawn(PlayerName player, Vector3 position, Quaternion rotation)
         {
-            lastName = PlayerName.None;
             currentName = player;
+            lastName = currentName == PlayerName.CrashBandicoot ?
+                PlayerName.CocoBancicoot :
+                PlayerName.CrashBandicoot;
 
             Current.Place(position, rotation);
 
