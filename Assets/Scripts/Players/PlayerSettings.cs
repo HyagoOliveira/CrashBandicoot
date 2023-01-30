@@ -40,6 +40,16 @@ namespace CrashBandicoot.Players
         public event Action OnPlayerDied;
 
         /// <summary>
+        /// Action fired when the Switch cooldown time has finished.
+        /// </summary>
+        public event Action OnSwitchCooldownFinished;
+
+        /// <summary>
+        /// Action fired when the Switch cooldown time is updated.
+        /// </summary>
+        public event Action<float> OnSwitchCooldownUpdated;
+
+        /// <summary>
         /// The last active Player.
         /// </summary>
         public Player Last => players[lastName];
@@ -53,13 +63,13 @@ namespace CrashBandicoot.Players
 
         private PlayerName lastName;
         private PlayerName currentName;
-        private float lastSpawnTime;
+        private bool hasSwitchCooldown;
         private Dictionary<PlayerName, Player> players;
 
         internal void Initialize()
         {
-            lastSpawnTime = 0f;
             InstantiatePrefabs();
+            hasSwitchCooldown = true;
         }
 
         /// <summary>
@@ -121,13 +131,14 @@ namespace CrashBandicoot.Players
         {
             var isAbleToSwitch =
                 IsAbleToSwitch &&
-                HasSwitchTime() &&
+                hasSwitchCooldown &&
                 Current.IsAbleToSwitchOut() &&
                 IsAbleToSwitchFor(name);
             if (!isAbleToSwitch) return;
 
             IsAbleToSwitch = false;
             await AwaitableCoroutine.Run(SwitchRoutine(name));
+            await AwaitableCoroutine.Run(SwitchCooldownRoutine());
         }
 
         /// <summary>
@@ -184,13 +195,10 @@ namespace CrashBandicoot.Players
         public bool Contains(PlayerName name, out Player player) =>
             players.TryGetValue(name, out player);
 
-        private bool HasSwitchTime() => GetTime() - lastSpawnTime > minSwitchTime;
-
         private void FinishSpawn()
         {
             Current.Enable();
             Current.StateMachine.GetState<SpawnState>().Trigger();
-            lastSpawnTime = GetTime();
             IsAbleToSwitch = true;
 
             OnPlayerSpawned?.Invoke();
@@ -241,6 +249,7 @@ namespace CrashBandicoot.Players
         private IEnumerator SwitchRoutine(PlayerName name)
         {
             UnSpawn();
+            OnSwitchCooldownUpdated?.Invoke(0F);
 
             yield return new WaitForEndOfFrame(); // Waits to enter in UnSpawn State.
             yield return Current.StateMachine.GetState<UnSpawnState>().WaitWhileIsExecuting();
@@ -259,7 +268,26 @@ namespace CrashBandicoot.Players
             OnPlayerSwitched?.Invoke();
         }
 
-        private static float GetTime() => Time.timeSinceLevelLoad;
+        private IEnumerator SwitchCooldownRoutine()
+        {
+            var cooldownTime = 0F;
+            hasSwitchCooldown = false;
+
+            while (true)
+            {
+                var normalized = cooldownTime / minSwitchTime;
+                OnSwitchCooldownUpdated?.Invoke(normalized);
+
+                yield return new WaitForEndOfFrame();
+                cooldownTime += Time.deltaTime;
+
+                var hasFinished = cooldownTime >= minSwitchTime;
+                if (hasFinished) break;
+            }
+
+            hasSwitchCooldown = true;
+            OnSwitchCooldownFinished?.Invoke();
+        }
 
         private static (Vector3, Quaternion) GetSpawnPlace()
         {
