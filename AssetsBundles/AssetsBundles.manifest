@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1728471022
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: environment.playground-greybox
+      Dependencies: {}
